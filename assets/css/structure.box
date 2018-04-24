@@ -1,7 +1,6 @@
 <info>
 	type= library;
-	encrypt= 1;
-	encrypt_method= Ab4Sy2Nu*;
+	encrypt= 0;
 </info>
 <library>
 	<link>
