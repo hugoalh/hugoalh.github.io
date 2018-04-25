@@ -44,17 +44,35 @@
 				<tbody>
 					<tr>
 						<td>
+							<b>Date and Time:</b>
+						</td>
+						<td>
+							<div id="info_date-time"></div>
+						</td>
+					</tr>
+					<tr>
+						<td>
 							<b>Browser:</b>
 						</td>
 						<td>
 							<div id="info_browser"></div>
 						</td>
 					</tr>
+					<tr>
+						<td>
+							<b>JavaScript:</b>
+						</td>
+						<td>
+							<div id="info_javascript"><noscript>Disabled</noscript></div>
+						</td>
+					</tr>
 				</tbody>
 			</table>
 		</div>
 		<script>
+			document.getElementById('info_date-time').innerHTML = Date();
 			document.getElementById("info_browser").innerHTML = navigator.appVersion;
+			document.getElementById("info_javascript").innerHTML = "Enabled";
 		</script>
 	</body>
 </html>
