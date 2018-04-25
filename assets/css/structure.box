@@ -1,9 +1,0 @@
-<info>
-	type= library;
-	encrypt= 0;
-</info>
-<library>
-	<link>
-		href= https:hugoalh.gffu.net/assets/library.box;
-	</link>
-</library>
