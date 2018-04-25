@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="280px" height="64px" viewBox="0 0 280 64" enable-background="new 0 0 280 64" xml:space="preserve">
+<g>
+	<polygon fill="#FFDBAC" points="56,32 56,24 48,24 40,24 40,32 48,32 	"/>
+	<polygon fill="#FFDBAC" points="56,48 48,48 40,48 40,32 32,32 32,24 24,24 24,16 16,16 16,24 8,24 8,32 16,32 24,32 24,48 16,48 
+		8,48 8,32 0,32 0,64 64,64 64,32 56,32 	"/>
+	<polygon points="56,0 48,0 40,0 32,0 24,0 16,0 8,0 7,0 0,0 0,32 8,32 8,24 16,24 16,16 24,16 24,24 32,24 32,32 40,32 40,24 
+		48,24 56,24 56,32 64,32 64,0 	"/>
+	<rect x="8" y="32" fill="#FFFFFF" width="8" height="16"/>
+	<rect x="16" y="32" width="8" height="16"/>
+	<rect x="48" y="32" fill="#FFFFFF" width="8" height="16"/>
+	<rect x="40" y="32" width="8" height="16"/>
+</g>
+<g>
+	<rect x="216" y="28" fill="none" width="8" height="8"/>
+	<rect x="152" y="28" fill="none" width="8" height="8"/>
+	<rect x="184" y="28" fill="none" width="8" height="8"/>
+	<path d="M88,20V4h-8v40h8V28h8v16h8V20h-8H88z M103,21v6v16h-6V27H87v16h-6V27v-6V5h6v16h10H103z"/>
+	<path d="M128,36h-8V20h-8v24h8h8h8V20h-8V36z M135,21v16v6h-6h-10h-6v-6V21h6v16h10V21H135z"/>
+	<path d="M152,20h-8v24h8h8v8h-16v8h16h8V20h-8H152z M167,21v6v10v6v10v6h-6h-16v-6h16V43h-10h-6v-6V27v-6h6h10H167z"/>
+	<path d="M151,37h10V27h-10V37z M160,28v8h-8v-8H160z"/>
+	<path d="M183,37h10V27h-10V37z M192,28v8h-8v-8H192z"/>
+	<path d="M184,20h-8v24h8h8h8V20h-8H184z M199,21v6v10v6h-6h-10h-6v-6V27v-6h6h10H199z"/>
+	<path d="M208,28v8h8v-8H208z M215,35h-6v-6h6V35z"/>
+	<path d="M216,20v8h8v8h-8v8h8h8V20h-8H216z M231,21v6v10v6h-6h-8v-6h8V27h-8v-6h8H231z"/>
+	<path d="M240,44h8V4h-8V44z M241,5h6v38h-6V5z"/>
+	<path d="M272,20h-8V4h-8v40h8V28h8v16h8V20H272z M279,27v16h-6V27h-10v16h-6V27v-6V5h6v16h10h6V27z"/>
+	<polygon fill="#FFFFFF" points="87,5 81,5 81,21 81,27 81,43 87,43 87,27 97,27 97,43 103,43 103,27 103,21 97,21 87,21 	"/>
+	<polygon fill="#FFFFFF" points="119,37 119,21 113,21 113,37 113,43 119,43 129,43 135,43 135,37 135,21 129,21 129,37 	"/>
+	<path fill="#FFFFFF" d="M145,21v6v10v6h6h10v10h-16v6h16h6v-6V43v-6V27v-6h-6h-10H145z M161,27v10h-10V27H161z"/>
+	<path fill="#FFFFFF" d="M177,21v6v10v6h6h10h6v-6V27v-6h-6h-10H177z M193,27v10h-10V27H193z"/>
+	<rect x="209" y="29" fill="#FFFFFF" width="6" height="6"/>
+	<polygon fill="#FFFFFF" points="217,27 225,27 225,37 217,37 217,43 225,43 231,43 231,37 231,27 231,21 225,21 217,21 	"/>
+	<rect x="241" y="5" fill="#FFFFFF" width="6" height="38"/>
+	<polygon fill="#FFFFFF" points="263,21 263,5 257,5 257,21 257,27 257,43 263,43 263,27 273,27 273,43 279,43 279,27 279,21 
+		273,21 	"/>
+</g>
+</svg>
