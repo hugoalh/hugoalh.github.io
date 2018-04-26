@@ -12,7 +12,7 @@ var translate = function (jsdata)
 	);
 }
 
-langCode = navigator.language.substr (0, 2);
+langCode = navigator.language.substr ();
 
 if (langCode in langs)
 	$.getJSON('assets/language/'+langCode+'.json', translate);
