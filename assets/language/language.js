@@ -1,4 +1,4 @@
-var langs = ['en', 'zh-Hant'];
+var langs = ['en', 'ch'];
 var langCode = '';
 var langJS = null;
 
