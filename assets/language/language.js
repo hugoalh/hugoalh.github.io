@@ -13,9 +13,9 @@ var translate = function (jsdata)
 
 var cookie = document.cookie;
 
-var language_code = navigator.language.substr ();
+var language_code = navigator.language;
 
-if ("zh-TW" in language_code || language_code == "zh-HK" || language_code == "zh-Hant") {
+if (language_code == zh-HK || language_code == zh-HK || language_code == zh-Hant) {
 	var language_code = ch;
 }
 
