@@ -10,7 +10,7 @@ var translate = function (jsdata)
 	});
 };
 
-var language_code = (navigator.language || navigator.userLanguage || navigator.browserLanguage).toLowerCase();
+var language_code = (navigator.language(0) || navigator.userLanguage(0) || navigator.browserLanguage(0)).toLowerCase();
 
 if (language_code == zh-tw) {
 	var language_code = ch;
