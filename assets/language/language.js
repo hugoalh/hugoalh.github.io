@@ -1,5 +1,5 @@
-var langs = ['en', 'ch'];
-var langCode = '';
+var language_provide = ['en', 'ch', 'chs'];
+/* var language_code = ''; */
 var langJS = null;
 
 var translate = function (jsdata)
@@ -8,13 +8,19 @@ var translate = function (jsdata)
 	{
 		var strTr = jsdata [$(this).attr ('tkey')];
 		$(this).html (strTr);
-	}
-	);
+	});
 }
 
-langCode = navigator.language.substr ();
+var cookie = document.cookie;
 
-if (langCode in langs)
-	$.getJSON('assets/language/'+langCode+'.json', translate);
-else
+language_code = navigator.language.substr ();
+
+if (language_code == zh-TW || language_code == zh-HK || language_code == zh-Hant) {
+	var language_code = ch;
+}
+
+if (language_code in language_provide) {
+	$.getJSON('assets/language/'+language_code+'.json', translate);
+} else {
 	$.getJSON('assets/language/en.json', translate);
+}
