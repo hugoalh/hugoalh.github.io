@@ -10,18 +10,14 @@ var translate = function (jsdata)
 	});
 };
 
-var zhtw = zh-TW;
-var zhhk = zh-HK;
-var zhhant = zh-Hant;
-
-if (navigator.language == zhtw) {
-	var language_code = "ch";
+if (navigator.language == zh\-TW) {
+	var language_code = ch;
 };
-if (navigator.language == zhhk) {
-	var language_code = "ch";
+if (navigator.language == zh\-HK) {
+	var language_code = ch;
 };
-if (navigator.language == zhhant) {
-	var language_code = "ch";
+if (navigator.language == zh\-Hant) {
+	var language_code = ch;
 };
 
 if (language_code in language_provide) {
