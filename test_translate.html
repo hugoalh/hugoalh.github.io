@@ -13,12 +13,11 @@
 		<p id="display_userlanguage"></p>
 	</div>
 
-	<script src="assets/javascript/jquery_1.11.0-min.js"></script>
+	<script src="assets/javascript/jquery_3.3.1.js"></script>
 	<script src="assets/language/language.js"></script>
 	<script>
 		var userlanguage = navigator.language.toLowerCase(0, 2) || navigator.userLanguage.toLowerCase(0, 2) || navigator.browserLanguage.toLowerCase(0, 2);
 		document.getElementById("display_userlanguage").innerHTML = userlanguage;
-		alert (userlanguage);
 	</script>
 </body>
 </html>
