@@ -15,7 +15,7 @@ var cookie = document.cookie;
 
 var language_code = navigator.language.substr ();
 
-if (language_code == "zh-TW" || language_code == "zh-HK" || language_code == "zh-Hant") {
+if ("zh-TW" in language_code || language_code == "zh-HK" || language_code == "zh-Hant") {
 	var language_code = ch;
 }
 
