@@ -45,7 +45,7 @@ var translate = function (jsdata)
 langCode = navigator.language.substr (0, 2);
 
 if (langCode == zh-TW) {
-	var langCode = "ch";
+	var langCode = ch;
 }
 
 if (langCode in langs)
