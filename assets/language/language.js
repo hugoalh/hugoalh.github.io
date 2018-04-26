@@ -1,5 +1,4 @@
 var language_provide = ['en', 'ch', 'chs'];
-/* var language_code = ''; */
 var langJS = null;
 
 var translate = function (jsdata)
@@ -10,8 +9,6 @@ var translate = function (jsdata)
 		$(this).html (strTr);
 	});
 }
-
-var cookie = document.cookie;
 
 var language_code = navigator.language;
 
