@@ -19,7 +19,7 @@
 		document.getElementById("test_userlanguage").innerHTML = navigator.language;
 	</script>
 	<script type="text/javascript">
-		var userLang = navigator.language || navigator.userLanguage; 
+		var userLang = navigator.language || navigator.userLanguage || navigator.browserLanguage; 
 		alert (userLang);
 	</script>
 </body>
