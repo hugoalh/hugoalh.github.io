@@ -10,17 +10,15 @@
 		<p tkey="test-2"></p>
 	</div>
 	<div>
-		<p id="test_userlanguage"></p>
+		<p id="display_userlanguage"></p>
 	</div>
 
 	<script src="assets/javascript/jquery_1.11.0-min.js"></script>
 	<script src="assets/language/language.js"></script>
 	<script>
-		document.getElementById("test_userlanguage").innerHTML = navigator.language || navigator.userLanguage || navigator.browserLanguage;
-	</script>
-	<script type="text/javascript">
-		var userLang = navigator.language || navigator.userLanguage || navigator.browserLanguage; 
-		alert (userLang);
+		var userlanguage = (navigator.language(0) || navigator.userLanguage(0) || navigator.browserLanguage(0)).toLowerCase();
+		document.getElementById("display_userlanguage").innerHTML = userlanguage;
+		alert (userlanguage);
 	</script>
 </body>
 </html>
