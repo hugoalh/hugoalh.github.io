@@ -10,15 +10,15 @@ var translate = function (jsdata)
 	});
 };
 
-var language_code = '';
+var language_code = (navigator.language || navigator.userLanguage || navigator.browserLanguage).toLowerCase();
 
-if (navigator.language == zh-TW) {
+if (language_code == zh-tw) {
 	var language_code = ch;
 };
-if (navigator.language == zh-HK) {
+if (language_code == zh-hk) {
 	var language_code = ch;
 };
-if (navigator.language == zh-Hant) {
+if (language_code == zh-hant) {
 	var language_code = ch;
 };
 
