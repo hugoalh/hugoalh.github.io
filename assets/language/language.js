@@ -12,18 +12,6 @@ var translate = function (jsdata)
 
 var detect_language = navigator.language.toLowerCase() || navigator.userLanguage.toLowerCase() || navigator.browserLanguage.toLowerCase();
 
-/*
-if (detect_language == ) {
-	var language_code = "ch";
-};
-if (detect_language == "zh-hk") {
-	var language_code = "ch";
-};
-if (detect_language == "zh-hant") {
-	var language_code = "ch";
-};
-*/
-
 if (detect_language == "zh-tw" || detect_language == "zh-hk" || detect_language == "zh-hant" ) {
 	$.getJSON("assets/language/ch.json", translate);
 } else {
