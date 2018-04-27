@@ -1,4 +1,4 @@
-var language_provide = ['en', 'ch', 'chs'];
+var language_provide = ["en", "ch", "chs"];
 var langJS = null;
 
 var translate = function (jsdata)
@@ -10,20 +10,20 @@ var translate = function (jsdata)
 	});
 };
 
-var language_code = navigator.language.toLowerCase(0, 2) || navigator.userLanguage.toLowerCase(0, 2) || navigator.browserLanguage.toLowerCase(0, 2);
+var detect_language = navigator.language.toLowerCase() || navigator.userLanguage.toLowerCase() || navigator.browserLanguage.toLowerCase();
 
-/* if (language_code == zh-tw) {
-	var language_code = ch;
+if (detect_language == "zh-tw") {
+	var language_code = "ch";
 };
-if (language_code == zh-hk) {
-	var language_code = ch;
+if (detect_language == "zh-hk") {
+	var language_code = "ch";
 };
-if (language_code == zh-hant) {
-	var language_code = ch;
-}; */
+if (detect_language == "zh-hant") {
+	var language_code = "ch";
+};
 
 if (language_code in language_provide) {
-	$.getJSON('assets/language/'+language_code+'.json', translate);
+	$.getJSON("assets/language/" + language_code + ".json", translate);
 } else {
-	$.getJSON('assets/language/en.json', translate);
+	$.getJSON("assets/language/en.json", translate);
 }
