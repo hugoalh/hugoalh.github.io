@@ -1,3 +1,9 @@
+/*
+@hugoalh
+
+-Order is very important!
+*/
+
 /* Replace Language String */
 var translate = function (jsdata) {
 	$("[languagestring]").each (function (index) {
