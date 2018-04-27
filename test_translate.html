@@ -15,7 +15,7 @@
 	<script src="assets/javascript/jquery_3.3.1.js"></script>
 	<script src="assets/language/language.js"></script>
 	<script>
-		var userlanguage = navigator.language.toLowerCase(0, 2) || navigator.userLanguage.toLowerCase(0, 2) || navigator.browserLanguage.toLowerCase(0, 2);
+		var userlanguage = navigator.language.toLowerCase() || navigator.userLanguage.toLowerCase() || navigator.browserLanguage.toLowerCase();
 		document.getElementById("display_userlanguage").innerHTML = userlanguage;
 	</script>
 </body>
