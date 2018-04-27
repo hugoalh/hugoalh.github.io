@@ -1,5 +1,8 @@
 {
-	"title_test_translate" : "Translate Test",
-	"test-1" : "Example 1",
-	"test-2" : "Example 2"
+	"test_title" : "Test of Translation",
+	"test_1" : "Hello, world!",
+	"test_2" : "Example sentence can test many of things.",
+	"general_homepage" : "Home",
+	"general_about" : "About",
+	"title_about" : "About | hugoalh"
 }
