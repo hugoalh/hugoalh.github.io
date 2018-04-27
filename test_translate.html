@@ -11,12 +11,15 @@
 	</div>
 	<div>
 		<p id="display_userlanguage"></p>
+		<p id="display_userlanguage_modify"></p>
 	</div>
 	<script src="assets/javascript/jquery_3.3.1.js"></script>
 	<script src="assets/language/language.js"></script>
 	<script>
 		var userlanguage = navigator.language.toLowerCase() || navigator.userLanguage.toLowerCase() || navigator.browserLanguage.toLowerCase();
 		document.getElementById("display_userlanguage").innerHTML = userlanguage;
+		var userlanguage_modify = "\"" + userlanguage + "\""
+		document.getElementById("display_userlanguage_modify").innerHTML = userlanguage_modify;
 	</script>
 </body>
 </html>
