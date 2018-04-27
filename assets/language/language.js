@@ -22,8 +22,8 @@ if (detect_language == "zh-hant") {
 	var language_code = "ch";
 };
 
-if (language_code in language_provide) {
-	$.getJSON("assets/language/" + language_code + ".json", translate);
+if (language_code == "ch") {
+	$.getJSON("assets/language/ch.json", translate);
 } else {
 	$.getJSON("assets/language/en.json", translate);
 }
