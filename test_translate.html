@@ -12,6 +12,7 @@
 	<div>
 		<p id="display_userlanguage"></p>
 		<p id="display_userlanguage_modify"></p>
+		<p id="display_detect"></p>
 	</div>
 	<script src="assets/javascript/jquery_3.3.1.js"></script>
 	<script src="assets/language/language.js"></script>
@@ -20,6 +21,12 @@
 		document.getElementById("display_userlanguage").innerHTML = userlanguage;
 		var userlanguage_modify = "\"" + userlanguage + "\""
 		document.getElementById("display_userlanguage_modify").innerHTML = userlanguage_modify;
+		if (userlanguage_modify == "zh-tw") {
+			var detect = Yes
+		} else {
+			var detect = No
+		};
+		document.getElementById("display_detect").innerHTML = detect;
 	</script>
 </body>
 </html>
