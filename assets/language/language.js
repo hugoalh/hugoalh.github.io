@@ -11,15 +11,15 @@ var language_detect = navigator.language.toLowerCase() || navigator.userLanguage
 
 /* Simplify/Redirect Language Code*/
 if (language_detect == "zh-tw" || language_detect == "zh-hk" || language_detect == "zh-hant" ) {
-	var language_set = "ch";
+	var language_set = "zh";
 }
 
 /* Get Language String In JSON */
-if (language_set == "ch" ) {
-	$.getJSON("assets/language/ch.json", translate);
+if (language_set == "zh" ) {
+	$.getJSON("assets/language/zh.json", translate);
 } else {
-	if (language_set == "chs" ) {
-		$.getJSON("assets/language/chs.json", translate);
+	if (language_set == "zhs" ) {
+		$.getJSON("assets/language/zhs.json", translate);
 	} else {
 		$.getJSON("assets/language/en.json", translate);
 	}
