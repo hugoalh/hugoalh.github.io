@@ -4,7 +4,7 @@
 -Order is very important!
 */
 
-/* Replace Language String */
+/* Function, Replace Language String */
 var translate = function (jsdata) {
 	$("[languagestring]").each (function (index) {
 		var strTr = jsdata [$(this).attr ('languagestring')];
