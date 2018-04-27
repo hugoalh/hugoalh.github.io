@@ -20,8 +20,6 @@
 	<script>
 		var userlanguage = navigator.language.toLowerCase() || navigator.userLanguage.toLowerCase() || navigator.browserLanguage.toLowerCase();
 		document.getElementById("display_userlanguage").innerHTML = userlanguage;
-		var userlanguage_modify = "\"" + userlanguage + "\""
-		document.getElementById("display_userlanguage_modify").innerHTML = userlanguage_modify;
 		if (userlanguage == "zh-tw") {
 			var detect = "Yes";
 		} else {
