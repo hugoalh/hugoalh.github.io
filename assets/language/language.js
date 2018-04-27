@@ -1,5 +1,3 @@
-/* var language_provide = ["en", "ch", "chs"]; */
-var language_provide = "en" || "ch" || "chs";
 /* var langJS = null; */
 
 var translate = function (jsdata)
@@ -21,8 +19,12 @@ var language_detect = navigator.language.toLowerCase() || navigator.userLanguage
 if (language_detect == "zh-tw" || language_detect == "zh-hk" || language_detect == "zh-hant" ) {
 	var language_set = "ch";
 }
-if (language_set == language_provide ) {
-	$.getJSON("assets/language/" + language_set + ".json", translate);
+if (language_set == "ch" ) {
+	$.getJSON("assets/language/ch.json", translate);
 } else {
-	$.getJSON("assets/language/en.json", translate);
+	if (language_set == "chs" ) {
+		$.getJSON("assets/language/chs.json", translate);
+	} else {
+		$.getJSON("assets/language/en.json", translate);
+	}
 }
