@@ -1,5 +1,5 @@
 var language_provide = ["en", "ch", "chs"];
-var langJS = null;
+/* var langJS = null; */
 
 var translate = function (jsdata)
 {
