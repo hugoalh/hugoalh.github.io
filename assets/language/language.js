@@ -15,7 +15,7 @@ if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect 
 };
 if (language_detect == "zh-cn" || language_detect == "zh-hans" ) {
 	var language_set = "zhs";
-}
+};
 
 /* Get Language String In JSON */
 if (language_set == "zh" ) {
