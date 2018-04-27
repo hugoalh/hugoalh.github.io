@@ -3,9 +3,9 @@ var language_provide = ["en", "ch", "chs"];
 
 var translate = function (jsdata)
 {
-	$("[tkey]").each (function (index)
+	$("[languagestring]").each (function (index)
 	{
-		var strTr = jsdata [$(this).attr ('tkey')];
+		var strTr = jsdata [$(this).attr ('languagestring')];
 		$(this).html (strTr);
 	});
 };
