@@ -12,20 +12,6 @@
 	<div>
 		<p id="display_userlanguage"></p>
 	</div>
-	<form>
-		Cookie Name: <input name="cName" type="text" /> 
-		Cookie Value: <input name="cValue" type="text" />
-		<input onclick="doCookieSetup(this.form.cName.value, this.form.cValue.value)" type="button" value="設定" />
-	</form>
-	<form>
-		Cookie Name: <input name="cName" type="text" /> 
-		Cookie Value: <input name="cValue" type="text" />
-		<input onclick="this.form.cValue.value=getCookie(this.form.cName.value)" type="button" value="查詢" />
-	</form>
-	<form>
-		Cookie Name: <input name="cName" type="text" />
-		<input onclick="delCookie(this.form.cName.value)" type="button" value="移除" />
-	</form>
 	<script src="assets/javascript/jquery_3.3.1.js"></script>
 	<script src="assets/language/language.js"></script>
 	<script>
