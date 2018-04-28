@@ -33,10 +33,10 @@ if (language_detect == "zh-cn" || language_detect == "zh-hans" ) {
 /* Get Language String In JSON */
 if (language_set == "zh" ) {
 	$.getJSON("assets/language/zh.json", translate);
-} else {
-	if (language_set == "zhs" ) {
-		$.getJSON("assets/language/zhs.json", translate);
-	} else {
-		$.getJSON("assets/language/en.json", translate);
-	};
+};
+if (language_set == "zhs" ) {
+	$.getJSON("assets/language/zhs.json", translate);
+};
+if (language_set != "zh" && language_set != "zhs") {
+	$.getJSON("assets/language/en.json", translate);
 }
