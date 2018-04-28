@@ -10,11 +10,10 @@
 		<p languagestring="test_1"></p>
 		<p languagestring="test_2"></p>
 	</div>
-	<div>
-		<p id="display_userlanguage"></p>
-		<p id="display_userlanguage_modify"></p>
-		<p id="display_detect"></p>
-	</div>
+	<button type="button" onclick="displayCookies()">Display Cookies</button>
+	<button type="button" onclick="document.cookie="language_set=zh; domain=hugoalh.github.io">Set zh</button>
+	<button type="button" onclick="document.cookie="language_set=zhs; domain=hugoalh.github.io">Set zhs</button>
+	<button type="button" onclick="document.cookie="language_set=en; domain=hugoalh.github.io">Set en</button>
 	<script src="assets/javascript/jquery_3.3.1.js"></script>
 <!--	<script>
 		if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
