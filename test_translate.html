@@ -14,7 +14,8 @@
 	<button type="button" onclick="document.cookie="language_set=zh; domain=hugoalh.github.io">Set zh</button>
 	<button type="button" onclick="document.cookie="language_set=zhs; domain=hugoalh.github.io">Set zhs</button>
 	<button type="button" onclick="document.cookie="language_set=en; domain=hugoalh.github.io">Set en</button>
-	<script src="assets/javascript/jquery_3.3.1.js"></script>
+	<p id="cookie"></p>
+	<script src="assets/javascript/jquery_3.3.1.js" />
 <!--	<script>
 		if (navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/webOS/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/BlackBerry/i) || navigator.userAgent.match(/Windows Phone/i)) {
 			loadScript("assets/javascript/jquery_3.3.1-min.js");
@@ -26,6 +27,10 @@
 			 }
 		}
 	</script>--->
-	<script src="assets/language/language.js"></script>
+	<script src="assets/language/language.js" />
+	<script>
+		var x = document.cookie;
+		document.getElementById("cookie").innerHTML = x;
+	</script>
 </body>
 </html>
