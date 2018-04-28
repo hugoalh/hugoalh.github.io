@@ -14,21 +14,6 @@
 	<button type="button" onclick="document.cookie = 'language_set=zh;domain=hugoalh.github.io';">Set zh</button>
 	<button type="button" onclick="document.cookie = 'language_set=zhs;domain=hugoalh.github.io';">Set zhs</button>
 	<button type="button" onclick="document.cookie = 'language_set=en;domain=hugoalh.github.io';">Set en</button>
-	<div id="device" style="text-align: center; border:1px dotted black; color:green;"></div>
-<script type="text/javascript">
-  testExp = new RegExp('Android|webOS|iPhone|iPad|' +
-    		       'BlackBerry|Windows Phone|'  +
-    		       'Opera Mini|IEMobile|Mobile' , 
-    		      'i');
-  
-  if (testExp.test(navigator.userAgent))
-       document.getElementById("device").innerHTML =
-       		"Your device is a Mobile Device";
-  else
-       document.getElementById("device").innerHTML = 
-       		"Your device is NOT a Mobile Device";
-     			 
-</script>
 	<script src="assets/javascript/jquery_3.3.1.js"></script>
 	<script src="assets/language/language.js"></script>
 	<script>
