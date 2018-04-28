@@ -39,6 +39,7 @@ function cookie_get(cookie_section_name) {
 /* Check Client Setted Language Code */
 var language_setted_check = cookie_get("language_setted");
 if (language_setted_check = "" || language_setted_check = null || language_setted_check = "undefined") {
+	/* Get Client Language Code */
 	var language_detect = navigator.language.toLowerCase();
 	if (language_detect == "undefined") {
 		var language_detect = navigator.browserLanguage.toLowerCase();
@@ -49,27 +50,13 @@ if (language_setted_check = "" || language_setted_check = null || language_sette
 			}
 		}
 	};
-}
-
-
-/* Get Client Language Code */
-var language_detect = navigator.language.toLowerCase();
-if (language_detect == "undefined") {
-	var language_detect = navigator.browserLanguage.toLowerCase();
-	if (language_detect == "undefined") {
-		var language_detect = navigator.userLanguage.toLowerCase();
-		if (language_detect == "undefined") {
-			var language_detect = navigator.systemLanguage.toLowerCase();
-		}
+	/* Redirect Language Code */
+	if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect == "zh-sg" || language_detect == "zh-tw" || language_detect == "zh-hant" ) {
+		var language_setted = "zh";
+	};
+	if (language_detect == "zh-cn" || language_detect == "zh-hans" ) {
+		var language_setted = "zhs";
 	}
-};
-
-/* Redirect Language Code */
-if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect == "zh-sg" || language_detect == "zh-tw" || language_detect == "zh-hant" ) {
-	var language_setted = "zh";
-};
-if (language_detect == "zh-cn" || language_detect == "zh-hans" ) {
-	var language_setted = "zhs";
 };
 
 /* Get Language String In JSON */
