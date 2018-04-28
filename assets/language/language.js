@@ -1,7 +1,5 @@
 /*
 @hugoalh
-
--Order is very important!
 */
 
 /* Function, Replace Language String */
@@ -13,7 +11,16 @@ var translate = function (jsdata) {
 };
 
 /* Get Client Language Code */
-var language_detect = navigator.language.toLowerCase() || navigator.userLanguage.toLowerCase() || navigator.browserLanguage.toLowerCase();
+var language_detect = navigator.language.toLowerCase();
+if (language_detect == "undefined") {
+	var language_detect = navigator.browserLanguage.toLowerCase();
+	if (language_detect == "undefined") {
+		var language_detect = navigator.userLanguage.toLowerCase();
+		if (language_detect == "undefined") {
+			var language_detect = navigator.systemLanguage.toLowerCase();
+		}
+	}
+};
 
 /* Simplify/Redirect Language Code*/
 if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect == "zh-sg" || language_detect == "zh-tw" || language_detect == "zh-hant" ) {
