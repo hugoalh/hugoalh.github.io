@@ -1,8 +1,8 @@
 /*
 ==================================================
-Name: Website Language Extension
-API: JavaScript (+jQuery), Cookie
-Author: hugoalh
+Name:	Website Language Extension
+API:	JavaScript (ECMAScript 5/5.1/6/7), jQuery (1.12.4/2.2.4/3.3.1), Cookie
+Author:	hugoalh
 ==================================================
 */
 
