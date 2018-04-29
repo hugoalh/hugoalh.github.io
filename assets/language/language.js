@@ -6,6 +6,9 @@ Author:	hugoalh
 ==================================================
 */
 
+/* Script, Import/Link, Via jQuery */
+$.getScript("/assets/javascript/cookie.js");
+
 /* Language (Function), Replace String */
 var translate = function (jsdata) {
 	$("[languagestring]").each (function (index) {
@@ -14,6 +17,7 @@ var translate = function (jsdata) {
 	});
 };
 
+/*
 /* Cookie (Function), Data, Set */
 function cookie_data_set(cookie_datasection_name, cookie_datasection_value) {
 	var cookie_time_expire = new Date();
@@ -38,6 +42,7 @@ function cookie_data_get(cookie_datasection_name) {
 	};
 	return "";
 };
+*/
 
 /* Language (Function), Change To zh */
 function language_change_zh() {
