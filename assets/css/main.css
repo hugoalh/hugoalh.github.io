@@ -1,7 +1,9 @@
 /*
-====================================================================================================
-(C)hugoalh
-====================================================================================================
+==================================================
+hugoalh Website Theme - Main
+Author:	hugoalh
+API:	CSS
+==================================================
 */
 
 /* Scrollbar, Microsoft, Edge: Hide automatically when unscroll */
@@ -51,6 +53,23 @@ html
 }
 
 /* Icon */
+img.icon-24px
+{
+	width: 24px;
+	height: 24px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
 img.icon-32px
 {
 	width: 32px;
@@ -70,7 +89,7 @@ img.icon-32px
 }
 
 /* Logo */
-.logo-32px
+img.logo-32px
 {
 	width: auto;
 	height: 32px;
