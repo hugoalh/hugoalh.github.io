@@ -1,12 +1,12 @@
 /*
 ==================================================
 Name: Website Language Extension
-API: Javascript, jQuery
+API: JavaScript (+jQuery), Cookie
 Author: hugoalh
 ==================================================
 */
 
-/* Function, Replace Language String */
+/* Language (Function), Replace String */
 var translate = function (jsdata) {
 	$("[languagestring]").each (function (index) {
 		var strTr = jsdata [$(this).attr ('languagestring')];
@@ -14,7 +14,7 @@ var translate = function (jsdata) {
 	});
 };
 
-/* Function, Cookie, Data, Set */
+/* Cookie (Function), Data, Set */
 function cookie_data_set(cookie_datasection_name, cookie_datasection_value) {
 	var cookie_time_expire = new Date();
 	cookie_time_expire.setTime(cookie_time_expire.getTime() + (365.25 * 24 * 60 * 60 * 1000));
@@ -22,7 +22,7 @@ function cookie_data_set(cookie_datasection_name, cookie_datasection_value) {
 	document.cookie = cookie_datasection_name + "=" + cookie_datasection_value + ";expires=" + cookie_time_expire_utc + ";domain=hugoalh.github.io";
 };
 
-/* Function, Cookie, Data, Get */
+/* Cookie (Function), Data, Get */
 function cookie_data_get(cookie_datasection_name) {
 	var cookie_datasection_name_search = cookie_datasection_name + "=";
 	var cookie_decode = decodeURIComponent(document.cookie);
@@ -39,10 +39,28 @@ function cookie_data_get(cookie_datasection_name) {
 	return "";
 };
 
-/* Check Client Setted Language Code */
+/* Language (Function), Change To zh */
+function language_change_zh() {
+	cookie_data_set("language_setted", "zh");
+	location.reload(true);
+};
+
+/* Language (Function), Change To zhs */
+function language_change_zhs() {
+	cookie_data_set("language_setted", "zhs");
+	location.reload(true);
+};
+
+/* Language (Function), Change To en */
+function language_change_en() {
+	cookie_data_set("language_setted", "en");
+	location.reload(true);
+};
+
+/* Language+Cookie, Check Setted Client Code */
 var language_setted = cookie_data_get("language_setted");
 if (language_setted == "undefined") {
-	/* Get Client Language Code */
+	/* Language, Determine Client Code */
 	var language_detect = navigator.language.toLowerCase();
 	if (language_detect == "undefined") {
 		var language_detect = navigator.browserLanguage.toLowerCase();
@@ -53,7 +71,7 @@ if (language_setted == "undefined") {
 			}
 		}
 	};
-	/* Redirect Language Code */
+	/* Language, Redirect Code */
 	if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect == "zh-sg" || language_detect == "zh-tw" || language_detect == "zh-hant" ) {
 		var language_setted = "zh";
 	};
@@ -62,7 +80,7 @@ if (language_setted == "undefined") {
 	}
 };
 
-/* Get Language String In JSON */
+/* Language, Get String In JSON */
 if (language_setted == "zh" ) {
 	$.getJSON("assets/language/zh.json", translate);
 	cookie_data_set("language_setted", "zh");
