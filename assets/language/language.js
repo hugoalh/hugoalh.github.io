@@ -1,6 +1,7 @@
 /*
 ==================================================
-@hugoalh
+Name: Website Language Extension
+Author: hugoalh
 ==================================================
 */
 
@@ -12,16 +13,16 @@ var translate = function (jsdata) {
 	});
 };
 
-/* Function, Cookie, Set */
-function cookie_set(cookie_section_name, cookie_section_value) {
+/* Function, Cookie, Data, Set */
+function cookie_data_set(cookie_datasection_name, cookie_datasection_value) {
 	var time_now = new Date();
-	var cookie_time_expire = time_now.setTime(time_now.getTime() + (365 * 24 * 60 * 60 * 1000));
-	document.cookie = cookie_section_name + "=" + cookie_section_value + ";expires=" + cookie_time_expire.toUTCString() + ";domain=hugoalh.github.com";
+	var cookie_time_expire = time_now.setTime(time_now.getTime() + (365.25 * 24 * 60 * 60 * 1000));
+	document.cookie = cookie_datasection_name + "=" + cookie_datasection_value + ";expires=" + cookie_time_expire.toUTCString() + ";domain=hugoalh.github.io";
 };
 
-/* Function, Cookie, Get */
-function cookie_get(cookie_section_name) {
-	var cookie_section_name_search = cookie_section_name + "=";
+/* Function, Cookie, Data, Get */
+function cookie_data_get(cookie_datasection_name) {
+	var cookie_datasection_name_search = cookie_datasection_name + "=";
 	var cookie_decode = decodeURIComponent(document.cookie);
 	var cookie_array = cookie_decode.split(';');
 	for(var i = 0; i < cookie_array.length; i++) {
@@ -29,15 +30,15 @@ function cookie_get(cookie_section_name) {
 		while (c.charAt(0) == ' ') {
 			c = c.substring(1);
 		};
-		if (c.indexOf(cookie_section_name_search) == 0) {
-			return c.substring(cookie_section_name_search.length, c.length);
+		if (c.indexOf(cookie_datasection_name_search) == 0) {
+			return c.substring(cookie_datasection_name_search.length, c.length);
 		}
 	};
 	return "";
 };
 
 /* Check Client Setted Language Code */
-var language_setted_check = cookie_get("language_setted");
+var language_setted_check = cookie_data_get("language_setted");
 if (/*language_setted_check = "" || language_setted_check = null || */language_setted_check = "undefined") {
 	/* Get Client Language Code */
 	var language_detect = navigator.language.toLowerCase();
@@ -62,10 +63,13 @@ if (/*language_setted_check = "" || language_setted_check = null || */language_s
 /* Get Language String In JSON */
 if (language_setted == "zh" ) {
 	$.getJSON("assets/language/zh.json", translate);
+	cookie_data_set(language_setted, "zh");
 };
 if (language_setted == "zhs" ) {
 	$.getJSON("assets/language/zhs.json", translate);
+	cookie_data_set(language_setted, "zhs");
 };
 if (language_setted != "zh" && language_set != "zhs") {
 	$.getJSON("assets/language/en.json", translate);
+	cookie_data_set(language_setted, "en");
 }
