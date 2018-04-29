@@ -59,7 +59,7 @@ function language_change_en() {
 
 /* Language+Cookie, Check Setted Client Code */
 var language_setted = cookie_data_get("language_setted");
-if (language_setted != "zh" && language_setted != "zhs" || language_setted != "en") {
+if (language_setted != "zh" && language_setted != "zhs" && language_setted != "en") {
 	/* Language, Determine Client Code */
 	var language_detect = navigator.language.toLowerCase();
 	if (language_detect == "undefined") {
