@@ -41,7 +41,7 @@ function cookie_data_get(cookie_datasection_name) {
 
 /* Check Client Setted Language Code */
 var language_setted = cookie_data_get("language_setted");
-if (language_setted = "undefined") {
+if (language_setted == "undefined") {
 	/* Get Client Language Code */
 	var language_detect = navigator.language.toLowerCase();
 	if (language_detect == "undefined") {
