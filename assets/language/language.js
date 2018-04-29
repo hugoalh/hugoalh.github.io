@@ -38,7 +38,7 @@ function cookie_get(cookie_section_name) {
 
 /* Check Client Setted Language Code */
 var language_setted_check = cookie_get("language_setted");
-if (language_setted_check = "" || language_setted_check = null || language_setted_check = "undefined") {
+if (/*language_setted_check = "" || */language_setted_check = null || language_setted_check = "undefined") {
 	/* Get Client Language Code */
 	var language_detect = navigator.language.toLowerCase();
 	if (language_detect == "undefined") {
