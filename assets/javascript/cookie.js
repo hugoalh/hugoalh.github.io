@@ -1,6 +1,6 @@
 /*
 ==================================================
-Name:	Cookie (Function)
+Name:	Cookie
 API:	JavaScript (ECMAScript 5/5.1/6/7), Cookie
 Author:	hugoalh
 ==================================================
