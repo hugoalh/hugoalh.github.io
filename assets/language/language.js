@@ -15,11 +15,19 @@ var translate = function (jsdata) {
 
 /* Function, Cookie, Data, Set */
 function cookie_data_set(cookie_datasection_name, cookie_datasection_value) {
-	var time_now = new Date();
-	var cookie_time_expire = time_now.setTime(time_now.getTime() + (365.25 * 24 * 60 * 60 * 1000));
+	var cookie_time_expire = new Date();
+	cookie_time_expire.setTime(cookie_time_expire.getTime() + (365.25 * 24 * 60 * 60 * 1000));
 	var cookie_time_expire_utc = cookie_time_expire.toUTCString();
 	document.cookie = cookie_datasection_name + "=" + cookie_datasection_value + ";expires=" + cookie_time_expire_utc + ";domain=hugoalh.github.io";
 };
+/*
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+*/
 
 /* Function, Cookie, Data, Get */
 function cookie_data_get(cookie_datasection_name) {
