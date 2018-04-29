@@ -7,7 +7,7 @@ Author:	hugoalh
 */
 
 /* Script, Import/Link, Via jQuery */
-$.getScript("/assets/javascript/cookie.js");
+$.getScript("assets/javascript/cookie.js");
 
 /* Language (Function), Replace String */
 var translate = function (jsdata) {
