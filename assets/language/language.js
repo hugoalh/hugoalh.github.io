@@ -17,7 +17,8 @@ var translate = function (jsdata) {
 function cookie_data_set(cookie_datasection_name, cookie_datasection_value) {
 	var time_now = new Date();
 	var cookie_time_expire = time_now.setTime(time_now.getTime() + (365.25 * 24 * 60 * 60 * 1000));
-	document.cookie = cookie_datasection_name + "=" + cookie_datasection_value + ";expires=" + cookie_time_expire.toUTCString() + ";domain=hugoalh.github.io";
+	var cookie_time_expire_utc = cookie_time_expire.toUTCString();
+	document.cookie = cookie_datasection_name + "=" + cookie_datasection_value + ";expires=" + cookie_time_expire_utc + ";domain=hugoalh.github.io";
 };
 
 /* Function, Cookie, Data, Get */
