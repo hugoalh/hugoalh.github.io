@@ -71,7 +71,7 @@ if (language_setted == "zhs" ) {
 	$.getJSON("assets/language/zhs.json", translate);
 	cookie_data_set("language_setted", "zhs");
 };
-if (language_setted != "zh" && language_set != "zhs") {
+if (language_setted != "zh" && language_setted != "zhs") {
 	$.getJSON("assets/language/en.json", translate);
 	cookie_data_set("language_setted", "en");
 }
