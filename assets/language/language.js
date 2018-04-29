@@ -18,7 +18,7 @@ var translate = function (jsdata) {
 };
 
 /*
-/* Cookie (Function), Data, Set */
+Cookie (Function), Data, Set
 function cookie_data_set(cookie_datasection_name, cookie_datasection_value) {
 	var cookie_time_expire = new Date();
 	cookie_time_expire.setTime(cookie_time_expire.getTime() + (365.25 * 24 * 60 * 60 * 1000));
@@ -26,7 +26,7 @@ function cookie_data_set(cookie_datasection_name, cookie_datasection_value) {
 	document.cookie = cookie_datasection_name + "=" + cookie_datasection_value + ";expires=" + cookie_time_expire_utc + ";domain=hugoalh.github.io";
 };
 
-/* Cookie (Function), Data, Get */
+Cookie (Function), Data, Get
 function cookie_data_get(cookie_datasection_name) {
 	var cookie_datasection_name_search = cookie_datasection_name + "=";
 	var cookie_decode = decodeURIComponent(document.cookie);
