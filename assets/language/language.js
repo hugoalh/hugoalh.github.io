@@ -1,13 +1,10 @@
 /*
 ==================================================
 Name:	Website Language Extension
-API:	JavaScript (ECMAScript 5/5.1/6/7), jQuery (1.12.4/2.2.4/3.3.1), Cookie
+API:	JavaScript (ECMAScript 5/5.1/6/7 + JSON) + jQuery (1.12.4/2.2.4/3.3.1)
 Author:	hugoalh
 ==================================================
 */
-
-/* Script, Import/Link, Via jQuery */
-$.getScript("assets/javascript/cookie.js");
 
 /* Language (Function), Replace String */
 var translate = function (jsdata) {
@@ -62,7 +59,7 @@ function language_change_en() {
 	location.reload(true);
 };
 
-/* Language+Cookie, Check Setted Client Code */
+/* Language, Check Cookie Setted Client Code */
 var language_setted = cookie_data_get("language_setted");
 if (language_setted != "zh" && language_setted != "zhs" && language_setted != "en") {
 	/* Language, Determine Client Code */
