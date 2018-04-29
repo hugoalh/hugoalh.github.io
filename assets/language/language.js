@@ -1,6 +1,7 @@
 /*
 ==================================================
 Name: Website Language Extension
+API: Javascript, jQuery
 Author: hugoalh
 ==================================================
 */
@@ -20,14 +21,6 @@ function cookie_data_set(cookie_datasection_name, cookie_datasection_value) {
 	var cookie_time_expire_utc = cookie_time_expire.toUTCString();
 	document.cookie = cookie_datasection_name + "=" + cookie_datasection_value + ";expires=" + cookie_time_expire_utc + ";domain=hugoalh.github.io";
 };
-/*
-function setCookie(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-*/
 
 /* Function, Cookie, Data, Get */
 function cookie_data_get(cookie_datasection_name) {
@@ -47,8 +40,8 @@ function cookie_data_get(cookie_datasection_name) {
 };
 
 /* Check Client Setted Language Code */
-var language_setted_check = cookie_data_get("language_setted");
-if (/*language_setted_check = "" || language_setted_check = null || */language_setted_check = "undefined") {
+var language_setted = cookie_data_get("language_setted");
+if (language_setted = "undefined") {
 	/* Get Client Language Code */
 	var language_detect = navigator.language.toLowerCase();
 	if (language_detect == "undefined") {
