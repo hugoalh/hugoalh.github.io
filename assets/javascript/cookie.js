@@ -1,8 +1,8 @@
 /*
 ==================================================
-Name:	Cookie
-API:	JavaScript (ECMAScript 5/5.1/6/7), Cookie
+hugoalh Website Cookie
 Author:	hugoalh
+API:	JavaScript (ECMAScript 5/5.1/6/7), Cookie
 ==================================================
 */
 
