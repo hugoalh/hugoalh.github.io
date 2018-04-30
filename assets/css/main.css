@@ -6,7 +6,7 @@ API:	CSS
 ==================================================
 */
 
-/* Scrollbar, Microsoft, Edge: Hide automatically when unscroll */
+/* Scrollbar, Microsoft, Edge; Hide automatically when unscroll */
 html
 {
 	-ms-overflow-style: -ms-autohiding-scrollbar;
@@ -28,8 +28,6 @@ html
 	border-left: 0px;
 	border-right: 0px;
 }
-
-/* Webpage, No border */
 body
 {
 	margin-top: 0px;
@@ -50,6 +48,7 @@ body
 html
 {
 	font-family: 'Noto Sans', sans-serif;
+	font-size: 0.625em;
 }
 
 /* Icon */
