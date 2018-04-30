@@ -2,7 +2,14 @@
 	"test_title" : "Test of Translation",
 	"test_1" : "Hello, world!",
 	"test_2" : "Example sentence can test many of things.",
-	"general_homepage" : "Home",
-	"general_about" : "About",
-	"title_about" : "About | hugoalh"
+// New
+//"" : ""
+	"laboratory_translate_title_tab" : "Laboratory: Translate | hugoalh",
+	"laboratory_translate_title" : "Laboratory: Translate",
+	"laboratory_translate_test_1" : "Hello, world!",
+	"laboratory_translate_test_2" : "Example sentence can test many of things.",
+	"homepage_title_tab" : "hugoalh",
+	"homepage_title" : "Home"
+	"about_title_tab" : "About | hugoalh",
+	"about_title" : "About"
 }
