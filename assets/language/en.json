@@ -1,9 +1,4 @@
 {
-	"test_title" : "Test of Translation",
-	"test_1" : "Hello, world!",
-	"test_2" : "Example sentence can test many of things.",
-// New
-//"" : ""
 	"laboratory_translate_title_tab" : "Laboratory: Translate | hugoalh",
 	"laboratory_translate_title" : "Laboratory: Translate",
 	"laboratory_translate_test_1" : "Hello, world!",
