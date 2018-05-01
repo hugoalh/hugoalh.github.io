@@ -16,25 +16,25 @@ var translate = function (jsdata) {
 
 /* Client Select Change To zh */
 function language_change_zh() {
-	cookie_data_set("language_setted", "zh");
+	cookie_set("setting_language", "zh", 365.25);
 	location.reload(true);
 };
 
 /* Client Select Change To zhs */
 function language_change_zhs() {
-	cookie_data_set("language_setted", "zhs");
+	cookie_set("setting_language", "zhs", 365.25);
 	location.reload(true);
 };
 
 /* Client Select Change To en */
 function language_change_en() {
-	cookie_data_set("language_setted", "en");
+	cookie_set("setting_language", "en", 365.25);
 	location.reload(true);
 };
 
 /* Check Cookie Setted Client Code */
-var language_setted = cookie_data_get("language_setted");
-if (language_setted != "zh" && language_setted != "zhs" && language_setted != "en") {
+var setting_language = cookie_get("setting_language");
+if (setting_language != "zh" && setting_language != "zhs" && setting_language != "en") {
 	/* Determine Client Code */
 	var language_detect = navigator.language.toLowerCase();
 	if (language_detect == "undefined") {
@@ -48,23 +48,23 @@ if (language_setted != "zh" && language_setted != "zhs" && language_setted != "e
 	};
 	/* Redirect Code */
 	if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect == "zh-sg" || language_detect == "zh-tw" || language_detect == "zh-hant" ) {
-		var language_setted = "zh";
+		var setting_language = "zh";
 	};
 	if (language_detect == "zh-cn" || language_detect == "zh-hans" ) {
-		var language_setted = "zhs";
+		var setting_language = "zhs";
 	}
 };
 
 /* Get String In JSON */
-if (language_setted == "zh" ) {
+if (setting_language == "zh" ) {
 	$.getJSON("assets/language/zh.json", translate);
-	cookie_data_set("language_setted", "zh");
+	cookie_set("setting_language", "zh", 365.25);
 };
-if (language_setted == "zhs" ) {
+if (setting_language == "zhs" ) {
 	$.getJSON("assets/language/zhs.json", translate);
-	cookie_data_set("language_setted", "zhs");
+	cookie_set("setting_language", "zhs", 365.25);
 };
-if (language_setted != "zh" && language_setted != "zhs") {
+if (setting_language != "zh" && setting_language != "zhs") {
 	$.getJSON("assets/language/en.json", translate);
-	cookie_data_set("language_setted", "en");
+	cookie_set("setting_language", "en", 365.25);
 }
