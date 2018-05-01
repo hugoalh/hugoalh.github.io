@@ -13,7 +13,6 @@ function navigation_open_standard() {
 
 function navigation_open_mobile() {
 	document.getElementById("navigation_left").style.width = "100%";
-	document.getElementById("body_content").style.marginLeft = "100%";
 };
 
 function navigation_close() {
