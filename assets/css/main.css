@@ -69,7 +69,7 @@ img.logo-32px
 
 .navigation_top
 {
-	display: block;
+	display: inline-block;
 	width: 100%;
 	height: 40px;
 	margin: 0px;
@@ -81,7 +81,7 @@ img.logo-32px
 
 .navigation_left_button
 {
-	display: block;
+	display: inline-block;
 	width: 32px;
 	height: 32px;
 	margin: 0px;
@@ -91,7 +91,7 @@ img.logo-32px
 
 .websitelogo
 {
-	display: block;
+	display: inline-block;
 	width: auto;
 	height: 32px;
 	margin: 0px;
@@ -101,7 +101,7 @@ img.logo-32px
 
 .navigaion_top_toolbox
 {
-	display: block;
+	display: inline-block;
 	width: auto;
 	height: 32px;
 	margin: 0px;
