@@ -15,40 +15,21 @@ html
 /* Webpage, No border */
 html
 {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 body
 {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
 /* Font */
 html
 {
 	font-family: 'Noto Sans', sans-serif;
-	font-size: 0.625em;
 }
 
 /* Icon */
@@ -56,35 +37,17 @@ img.icon-24px
 {
 	width: 24px;
 	height: 24px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 img.icon-32px
 {
 	width: 32px;
 	height: 32px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
 /* Logo */
@@ -92,52 +55,25 @@ img.logo-32px
 {
 	width: auto;
 	height: 32px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
-div
+div.noborder
 {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 4px;
-	padding-right: 4px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
 table.nav
 {
 	width: 100%;
 	height: auto;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 	background-color: #002D4A;
 }
 
@@ -145,88 +81,61 @@ tbody.nav
 {
 	width: auto;
 	height: auto;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
 tr.nav
 {
 	width: auto;
 	height: auto;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
 
 td.nav
 {
 	width: auto;
 	height: auto;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 	color: #FFFFFF;
 	font-size: 16pt;
 }
 
 /* Icon, Google, Material */
-i.material-icons.md-18
+i.googlematerialicon_18px
 {
 	font-size: 18px;
 }
-i.material-icons.md-24
+i.googlematerialicon_24px
 {
 	font-size: 24px;
 }
-i.material-icons.md-36
+i.googlematerialicon_36px
 {
 	font-size: 36px;
 }
-i.material-icons.md-48
+i.googlematerialicon_48px
 {
 	font-size: 48px;
 }
-i.material-icons.md-dark
+i.googlematerialicon_dark
 {
 	color: rgba(0, 0, 0, 0.54);
 }
-i.material-icons.md-dark.md-inactive
+i.googlematerialicon_dark.googlematerialicon_inactive
 {
 	color: rgba(0, 0, 0, 0.26);
 }
-i.material-icons.md-light
+i.googlematerialicon_light
 {
 	color: rgba(255, 255, 255, 1);
 }
-i.material-icons.md-light.md-inactive
+i.googlematerialicon_light.googlematerialicon_inactive
 {
 	color: rgba(255, 255, 255, 0.3);
 }
