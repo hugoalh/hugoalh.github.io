@@ -67,44 +67,47 @@ div.noborder
 	border: 0px;
 }
 
-table.nav
+div.navigation_top
 {
 	width: 100%;
-	height: 16px;
+	height: 36px;
 	margin: 0px;
-	padding: 2px;
+	padding: 0px;
 	border: 0px;
 	background-color: #002D4A;
 	overflow: hidden;
 }
 
-tbody.nav
+div.navigation_left_button
 {
-	width: auto;
-	height: auto;
+	width: 32px;
+	height: 32px;
 	margin: 0px;
-	padding: 0px;
+	padding: 2px;
 	border: 0px;
+	overflow: hidden;
 }
 
-tr.nav
+div.websitelogo
 {
 	width: auto;
-	height: auto;
+	height: 32px;
 	margin: 0px;
-	padding: 0px;
+	padding: 2px;
 	border: 0px;
+	overflow: hidden;
 }
 
-td.nav
+div.navigaion_top_toolbox
 {
 	width: auto;
-	height: auto;
+	height: 32px;
 	margin: 0px;
-	padding: 0px;
+	padding: 2px;
 	border: 0px;
 	color: #FFFFFF;
 	font-size: 16pt;
+	text-align: right;
 }
 
 /* Icon, Google, Material */
