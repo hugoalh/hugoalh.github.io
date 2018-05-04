@@ -69,7 +69,7 @@ img.logo-32px
 
 .navigation_top
 {
-	display: inline-block;
+	display: block;
 	width: 100%;
 	height: 40px;
 	margin: 0px;
