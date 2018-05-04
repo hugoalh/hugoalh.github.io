@@ -33,7 +33,7 @@ html
 }
 
 /* Icon */
-img.icon-24px
+img.icon_24px
 {
 	width: 24px;
 	height: 24px;
@@ -41,7 +41,7 @@ img.icon-24px
 	padding: 0px;
 	border: 0px;
 }
-img.icon-32px
+img.icon_32px
 {
 	width: 32px;
 	height: 32px;
@@ -51,7 +51,7 @@ img.icon-32px
 }
 
 /* Logo */
-img.logo-24px
+img.logo_24px
 {
 	width: auto;
 	height: 24px;
