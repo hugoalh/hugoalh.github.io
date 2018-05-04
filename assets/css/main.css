@@ -12,7 +12,7 @@ html
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-/* Webpage, No border */
+/* Webpage, No border 
 html
 {
 	margin: 0px;
@@ -24,7 +24,7 @@ body
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
-}
+}*/
 
 /* Font */
 html
