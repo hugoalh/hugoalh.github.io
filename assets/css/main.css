@@ -12,7 +12,7 @@ html
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-/* Webpage, No border 
+/* Webpage, No border */
 html
 {
 	margin: 0px;
@@ -24,7 +24,7 @@ body
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
-}*/
+}
 
 /* Font */
 html
@@ -69,6 +69,7 @@ img.logo-32px
 
 .navigation_top
 {
+	display: block;
 	width: 100%;
 	height: 40px;
 	margin: 0px;
@@ -80,6 +81,7 @@ img.logo-32px
 
 .navigation_left_button
 {
+	display: block;
 	width: 32px;
 	height: 32px;
 	margin: 0px;
@@ -89,6 +91,7 @@ img.logo-32px
 
 .websitelogo
 {
+	display: block;
 	width: auto;
 	height: 32px;
 	margin: 0px;
@@ -98,6 +101,7 @@ img.logo-32px
 
 .navigaion_top_toolbox
 {
+	display: block;
 	width: auto;
 	height: 32px;
 	margin: 0px;
