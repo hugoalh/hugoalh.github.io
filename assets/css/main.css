@@ -60,14 +60,14 @@ img.logo-32px
 	border: 0px;
 }
 
-div.noborder
+.noborder
 {
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 }
 
-div.navigation_top
+.navigation_top
 {
 	width: 100%;
 	height: 40px;
@@ -78,7 +78,7 @@ div.navigation_top
 	overflow: auto;
 }
 
-div.navigation_left_button
+.navigation_left_button
 {
 	width: 32px;
 	height: 32px;
@@ -87,7 +87,7 @@ div.navigation_left_button
 	border: 0px;
 }
 
-div.websitelogo
+.websitelogo
 {
 	width: auto;
 	height: 32px;
@@ -96,7 +96,7 @@ div.websitelogo
 	border: 0px;
 }
 
-div.navigaion_top_toolbox
+.navigaion_top_toolbox
 {
 	width: auto;
 	height: 32px;
