@@ -82,8 +82,8 @@ div.navigation_top
 .navigation_left_button
 {
 	display: inline-block;
-	width: 32px;
-	height: 32px;
+	width: 24px;
+	height: 24px;
 	margin: 0px;
 	padding: 4px;
 	border: 0px;
@@ -93,7 +93,7 @@ div.navigation_top
 {
 	display: inline-block;
 	width: auto;
-	height: 32px;
+	height: 24px;
 	margin: 0px;
 	padding: 4px;
 	border: 0px;
@@ -103,7 +103,7 @@ div.navigation_top
 {
 	display: inline-block;
 	width: auto;
-	height: 32px;
+	height: 24px;
 	margin: 0px;
 	padding: 4px;
 	border: 0px;
