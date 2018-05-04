@@ -109,7 +109,7 @@ div.navigation_top
 	border: 0px;
 	color: #FFFFFF;
 	font-size: 16pt;
-	float: right;
+	text-align: right;
 }
 
 /* Icon, Google, Material */
