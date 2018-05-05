@@ -67,7 +67,7 @@ img.logo_32px
 	border: 0px;
 }
 
-div.navigation_top
+#navigation_top
 {
 	display: block;
 	vertical-align: middle;
@@ -80,7 +80,7 @@ div.navigation_top
 	overflow: hidden;
 }
 
-.navigation_left_button
+#navigation_left_button
 {
 	display: inline-block;
 	vertical-align: middle;
@@ -91,7 +91,7 @@ div.navigation_top
 	border: 0px;
 }
 
-.websitelogo
+#navigation_websitelogo
 {
 	display: inline-block;
 	vertical-align: middle;
@@ -102,7 +102,7 @@ div.navigation_top
 	border: 0px;
 }
 
-.navigaion_top_toolbox
+#navigaion_top_toolbox
 {
 	display: inline-block;
 	vertical-align: middle;
@@ -132,10 +132,6 @@ i.googlematerialicon_32px
 i.googlematerialicon_36px
 {
 	font-size: 36px;
-}
-i.googlematerialicon_48px
-{
-	font-size: 48px;
 }
 i.googlematerialicon_dark
 {
