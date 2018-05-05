@@ -106,6 +106,7 @@ div.navigation_top
 {
 	display: inline-block;
 	vertical-align: middle;
+	float: right;
 	width: auto;
 	height: 32px;
 	margin: 0px;
