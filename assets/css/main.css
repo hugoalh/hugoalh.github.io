@@ -95,7 +95,6 @@ img.logo_32px
 {
 	display: inline-block;
 	vertical-align: middle;
-	width: auto;
 	height: 32px;
 	margin: 0px;
 	padding: 4px;
@@ -107,7 +106,6 @@ img.logo_32px
 	display: inline-block;
 	vertical-align: middle;
 	float: right;
-	width: auto;
 	height: 32px;
 	margin: 0px;
 	padding: 4px;
