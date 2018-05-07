@@ -12,14 +12,8 @@ html
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
 
-/* Webpage, No border */
-html
-{
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
-body
+/* Blank Space, 0px */
+html, body, .blankspace_0px
 {
 	margin: 0px;
 	padding: 0px;
@@ -55,13 +49,6 @@ img.logo_32px
 {
 	width: auto;
 	height: 32px;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
-
-.noborder
-{
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
