@@ -82,8 +82,8 @@ img.logo_32px
 	vertical-align: middle;
 	width: 32px;
 	height: 32px;
-	margin: 0px;
-	padding: 4px;
+	margin: 4px;
+	padding: 0px;
 	border: 0px;
 }
 
@@ -92,8 +92,8 @@ img.logo_32px
 	display: inline-block;
 	vertical-align: middle;
 	height: 32px;
-	margin: 0px;
-	padding: 4px;
+	margin: 4px;
+	padding: 0px;
 	border: 0px;
 	font-size: 0px;
 }
@@ -104,11 +104,10 @@ img.logo_32px
 	vertical-align: middle;
 	float: right;
 	height: 32px;
-	margin: 0px;
-	padding: 4px;
+	margin: 4px;
+	padding: 0px;
 	border: 0px;
 	color: #FFFFFF;
-	font-size: 24pt;
 }
 
 /* Icon, Google, Material */
