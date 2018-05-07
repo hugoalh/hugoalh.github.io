@@ -78,7 +78,7 @@ img.logo_32px
 
 #navigation_left_button
 {
-	display: inline-block;
+	display: inline;
 	vertical-align: middle;
 	width: 32px;
 	height: 32px;
@@ -89,7 +89,7 @@ img.logo_32px
 
 #navigation_websitelogo
 {
-	display: inline-block;
+	display: inline;
 	vertical-align: middle;
 	height: 32px;
 	margin: 0px;
@@ -99,7 +99,7 @@ img.logo_32px
 
 #navigaion_top_toolbox
 {
-	display: inline-block;
+	display: inline;
 	vertical-align: middle;
 	float: right;
 	height: 32px;
