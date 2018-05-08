@@ -80,9 +80,6 @@ API:		CSS
 
 #navigation_left_button
 {
-	border: 0px;
-	margin: 0px;
-	padding: 0px;
 	vertical-align: top;
 }
 
@@ -101,9 +98,6 @@ API:		CSS
 #navigaion_top_toolbox
 {
 	display: inline-block;
-	border: 0px;
-	margin: 0px;
-	padding: 4px;
 	width: auto;
 	height: 32px;
 	vertical-align: top;
