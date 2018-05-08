@@ -1,77 +1,79 @@
 /*
-==================================================
-hugoalh Website Theme - Main
-Author:	hugoalh
-API:	CSS
-==================================================
+====================================================================================================
+hugoalh's Website Theme Set - Main (Metroize)
+Author:		hugoalh
+API:		CSS
+====================================================================================================
 */
 
-/* Scrollbar, Microsoft, Edge; Hide automatically when unscroll */
-html
-{
-	-ms-overflow-style: -ms-autohiding-scrollbar;
-}
+/* Scrollbar, Microsoft Edge; Hide automatically when unscroll */
+	html
+	{
+		-ms-overflow-style: -ms-autohiding-scrollbar;
+	}
 
 /* Blank Space, 0px */
-html, body, .blankspace_0px
-{
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
+	html, body, .blankspace_0px
+	{
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+	}
 
 /* Font */
-html
-{
-	font-family: 'Noto Sans', sans-serif;
-}
+	html
+	{
+		font-family: 'Noto Sans', sans-serif;
+	}
 
 /* Icon */
-img.icon_24px
-{
-	width: 24px;
-	height: 24px;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
-img.icon_32px
-{
-	width: 32px;
-	height: 32px;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
+	img.icon_24px
+	{
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		width: 24px;
+		height: 24px;
+	}
+	img.icon_32px
+	{
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		width: 32px;
+		height: 32px;
+	}
 
 /* Logo */
-img.logo_32px
-{
-	width: auto;
-	height: 32px;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-}
+	img.logo_32px
+	{
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		width: auto;
+		height: 32px;
+	}
+
 .logo_website_navigation
 {
+	display: block;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;	
 	width: auto;
 	height: 32px;
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
-	display: block;
+	vertical-align: middle;
 }
 
 #navigation_top
 {
 	display: block;
-	vertical-align: middle;
-	width: 100%;
-	height: 40px;
+	border: 0px;
 	margin: 0px;
 	padding: 0px;
-	border: 0px;
+	width: 100%;
+	height: 40px;
+	vertical-align: middle;
 	background-color: #0063B1;
 	overflow: hidden;
 }
@@ -79,67 +81,72 @@ img.logo_32px
 #navigation_left_button
 {
 	display: inline-block;
-	vertical-align: middle;
+	border: 0px;
+	margin: 0px;
+	padding: 4px;
 	width: 32px;
 	height: 32px;
-	margin: 4px;
-	padding: 0px;
-	border: 0px;
+	vertical-align: middle;
 }
 
 #navigation_websitelogo
 {
 	display: inline-block;
-	vertical-align: middle;
-	height: 32px;
-	margin: 4px;
-	padding: 0px;
 	border: 0px;
+	margin: 0px;
+	padding: 4px;
+	width: auto;
+	height: 32px;
+	vertical-align: middle;
 	font-size: 0px;
 }
 
 #navigaion_top_toolbox
 {
 	display: inline-block;
+	border: 0px;
+	margin: 0px;
+	padding: 4px;
+	width: auto;
+	height: 32px;
 	vertical-align: middle;
 	float: right;
-	height: 32px;
-	margin: 4px;
-	padding: 0px;
-	border: 0px;
-	color: #FFFFFF;
 }
 
 /* Icon, Google, Material */
-i.googlematerialicon_18px
-{
-	font-size: 18px;
-}
-i.googlematerialicon_24px
-{
-	font-size: 24px;
-}
-i.googlematerialicon_32px
-{
-	font-size: 32px;
-}
-i.googlematerialicon_36px
-{
-	font-size: 36px;
-}
-i.googlematerialicon_dark
-{
-	color: rgba(0, 0, 0, 0.54);
-}
-i.googlematerialicon_dark.googlematerialicon_inactive
-{
-	color: rgba(0, 0, 0, 0.26);
-}
-i.googlematerialicon_light
-{
-	color: rgba(255, 255, 255, 1);
-}
-i.googlematerialicon_light.googlematerialicon_inactive
-{
-	color: rgba(255, 255, 255, 0.3);
-}
+	i.googlematerialicon.16px
+	{
+		font-size: 16px;
+	}
+	i.googlematerialicon.18px
+	{
+		font-size: 18px;
+	}
+	i.googlematerialicon.24px
+	{
+		font-size: 24px;
+	}
+	i.googlematerialicon.32px
+	{
+		font-size: 32px;
+	}
+	i.googlematerialicon.36px
+	{
+		font-size: 36px;
+	}
+	i.googlematerialicon.dark
+	{
+		color: rgba(0, 0, 0, 0.54);
+	}
+	i.googlematerialicon.dark.inactive
+	{
+		color: rgba(0, 0, 0, 0.26);
+	}
+	i.googlematerialicon.light
+	{
+		color: rgba(255, 255, 255, 1);
+	}
+	i.googlematerialicon.light.inactive
+	{
+		color: rgba(255, 255, 255, 0.3);
+	}
