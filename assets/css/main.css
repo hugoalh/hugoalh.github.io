@@ -80,6 +80,9 @@ API:		CSS
 
 #navigation_left_button
 {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
 	vertical-align: top;
 }
 
