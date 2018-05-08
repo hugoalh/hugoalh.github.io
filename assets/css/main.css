@@ -114,39 +114,39 @@ API:		CSS
 }
 
 /* Icon, Google, Material */
-	i.googlematerialicon.16px
+	i.googlematerialicon_16px
 	{
 		font-size: 16px;
 	}
-	i.googlematerialicon.18px
+	i.googlematerialicon_18px
 	{
 		font-size: 18px;
 	}
-	i.googlematerialicon.24px
+	i.googlematerialicon_24px
 	{
 		font-size: 24px;
 	}
-	i.googlematerialicon.32px
+	i.googlematerialicon_32px
 	{
 		font-size: 32px;
 	}
-	i.googlematerialicon.36px
+	i.googlematerialicon_36px
 	{
 		font-size: 36px;
 	}
-	i.googlematerialicon.dark
+	i.googlematerialicon_dark
 	{
 		color: rgba(0, 0, 0, 0.54);
 	}
-	i.googlematerialicon.dark.inactive
+	i.googlematerialicon_dark.googlematerialicon_inactive
 	{
 		color: rgba(0, 0, 0, 0.26);
 	}
-	i.googlematerialicon.light
+	i.googlematerialicon_light
 	{
 		color: rgba(255, 255, 255, 1);
 	}
-	i.googlematerialicon.light.inactive
+	i.googlematerialicon_light.googlematerialicon_inactive
 	{
 		color: rgba(255, 255, 255, 0.3);
 	}
