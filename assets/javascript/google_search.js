@@ -1,3 +1,11 @@
+/*
+====================================================================================================
+Google Search - Custom Search Engine
+Author:		Google
+API:		JavaScript (ECMAScript 6/7)
+====================================================================================================
+*/
+
 (function() {
 	var cx = '008207840337707381853:janfdzcaxbq';
 	var gcse = document.createElement('script');

@@ -1,9 +1,9 @@
 /*
-==================================================
-hugoalh Website Cookie Toolkit
-Author:	hugoalh
-API:	JavaScript (ECMAScript 6/7), Cookie
-==================================================
+====================================================================================================
+hugoalh's Website Cookie Tool Set
+Author:		hugoalh
+API:		JavaScript (ECMAScript 6/7), Cookie
+====================================================================================================
 */
 
 /* Data, Set */
@@ -29,4 +29,4 @@ function cookie_get(cookie_data_name) {
 		}
 	};
 	return "";
-}
+};
