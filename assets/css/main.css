@@ -80,7 +80,7 @@ API:		CSS
 
 #navigation_left_button
 {
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 #navigation_websitelogo
@@ -91,7 +91,7 @@ API:		CSS
 	padding: 4px;
 	width: auto;
 	height: 32px;
-	vertical-align: middle;
+	vertical-align: top;
 	font-size: 0px;
 }
 
@@ -103,7 +103,7 @@ API:		CSS
 	padding: 4px;
 	width: auto;
 	height: 32px;
-	vertical-align: middle;
+	vertical-align: top;
 	float: right;
 }
 
