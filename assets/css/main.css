@@ -80,12 +80,6 @@ API:		CSS
 
 #navigation_left_button
 {
-	display: inline-block;
-	border: 0px;
-	margin: 0px;
-	padding: 4px;
-	width: 32px;
-	height: 32px;
 	vertical-align: middle;
 }
 
@@ -149,4 +143,19 @@ API:		CSS
 	i.googlematerialicon_light.googlematerialicon_inactive
 	{
 		color: rgba(255, 255, 255, 0.3);
+	}
+
+/* Button Metroize */
+	.buttonmetroize {
+		display: inline-block;
+		border: 0px;
+		margin: 0px;
+		padding: 4px;
+		text-align: center;
+		text-decoration: none;
+		background-color: rgba(255,255,255,0);
+		cursor: pointer;
+	}
+	.buttonmetroize:hover {
+		background-color: rgba(255,255,255,0.25);
 	}
