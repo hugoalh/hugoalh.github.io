@@ -6,6 +6,10 @@ API:		CSS
 ====================================================================================================
 */
 
+:root {
+	--themecolor: #0063B1;
+}
+
 /* Scrollbar, Microsoft Edge; Hide automatically when unscroll */
 	html
 	{
@@ -74,7 +78,7 @@ API:		CSS
 	width: 100%;
 	height: 40px;
 	vertical-align: middle;
-	background-color: #2B5797;
+	background-color: var(--themecolor);
 	overflow: hidden;
 }
 
