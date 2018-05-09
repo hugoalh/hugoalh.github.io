@@ -43,8 +43,8 @@ if (setting_language != "zh" && setting_language != "zhs" && setting_language !=
 			var language_detect = navigator.userLanguage.toLowerCase();
 			if (language_detect == "undefined") {
 				var language_detect = navigator.systemLanguage.toLowerCase();
-			}
-		}
+			};
+		};
 	};
 	/* Redirect Code */
 	if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect == "zh-sg" || language_detect == "zh-tw" || language_detect == "zh-hant" ) {
@@ -52,7 +52,7 @@ if (setting_language != "zh" && setting_language != "zhs" && setting_language !=
 	};
 	if (language_detect == "zh-cn" || language_detect == "zh-hans" ) {
 		var setting_language = "zhs";
-	}
+	};
 };
 
 /* Get String In JSON */
@@ -67,4 +67,4 @@ if (setting_language == "zhs" ) {
 if (setting_language != "zh" && setting_language != "zhs") {
 	$.getJSON("assets/language/en.json", translate);
 	cookie_set("setting_language", "en", 365.25);
-}
+};
