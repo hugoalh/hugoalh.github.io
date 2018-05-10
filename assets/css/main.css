@@ -234,3 +234,10 @@ Programming Language:	CSS 3
 	.buttonmetroize:hover {
 		background-color: rgba(255,255,255,0.2);
 	}
+
+@media screen and (max-width: 768px) {
+	#navigation_left_button
+	{
+		display: none;
+	}
+}
