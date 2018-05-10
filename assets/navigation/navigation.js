@@ -1,8 +1,8 @@
 /*
 ====================================================================================================
 hugoalh's Website Navigation Tool Set
-Author:		hugoalh
-API:		JavaScript (ECMAScript 6/7)
+Author:					hugoalh
+Programming Language:	JavaScript/ECMAScript 6/7
 ====================================================================================================
 */
 

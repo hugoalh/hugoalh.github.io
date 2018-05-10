@@ -1,8 +1,8 @@
 /*
 ====================================================================================================
 Google Search - Custom Search Engine
-Author:		Google
-API:		JavaScript (ECMAScript 6/7)
+Author:					Google
+Programming Language:	JavaScript/ECMAScript 6/7
 ====================================================================================================
 */
 

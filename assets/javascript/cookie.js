@@ -1,8 +1,8 @@
 /*
 ====================================================================================================
 hugoalh's Website Cookie Tool Set
-Author:		hugoalh
-API:		JavaScript (ECMAScript 6/7), Cookie
+Author:					hugoalh
+Programming Language:	JavaScript/ECMAScript 6/7, Cookie
 ====================================================================================================
 */
 

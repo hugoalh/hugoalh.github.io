@@ -1,9 +1,9 @@
 /*
-==================================================
-hugoalh Website Language Extension
-Author:	hugoalh
-API:	JavaScript (ECMAScript 6/7 + JSON) + jQuery (1.12.4/2.2.4/3.3.1) + Cookie
-==================================================
+====================================================================================================
+hugoalh's Website Language Extension
+Author:					hugoalh
+Programming Language:	JavaScript/ECMAScript 6/7, JSON, jQuery 1(.12.4)/2(.2.4)/3(.3.1), Cookie
+====================================================================================================
 */
 
 /* Replace String */
