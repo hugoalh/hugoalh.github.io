@@ -57,14 +57,14 @@ if (setting_language != "zh" && setting_language != "zhs" && setting_language !=
 
 /* Get String In JSON */
 if (setting_language == "zh" ) {
-	$.getJSON("assets/language/zh.json", translate);
+	$.getJSON("/assets/language/zh.json", translate);
 	cookie_set("setting_language", "zh", 365.25);
 };
 if (setting_language == "zhs" ) {
-	$.getJSON("assets/language/zhs.json", translate);
+	$.getJSON("/assets/language/zhs.json", translate);
 	cookie_set("setting_language", "zhs", 365.25);
 };
 if (setting_language != "zh" && setting_language != "zhs") {
-	$.getJSON("assets/language/en.json", translate);
+	$.getJSON("/assets/language/en.json", translate);
 	cookie_set("setting_language", "en", 365.25);
 };
