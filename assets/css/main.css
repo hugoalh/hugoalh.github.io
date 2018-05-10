@@ -17,12 +17,12 @@ API:		CSS
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 	}
 
-/* Blank Space, 0pt */
-	html, body, .blankspace_0pt
+/* Blank Space, 0px */
+	html, body, .blankspace_0px
 	{
-		border: 0pt;
-		margin: 0pt;
-		padding: 0pt;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
 	}
 
 /* Font */
@@ -32,52 +32,52 @@ API:		CSS
 	}
 
 /* Icon */
-	img.icon_24pt
+	img.icon_24px
 	{
-		border: 0pt;
-		margin: 0pt;
-		padding: 0pt;
-		width: 24pt;
-		height: 24pt;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		width: 24px;
+		height: 24px;
 	}
-	img.icon_32pt
+	img.icon_32px
 	{
-		border: 0pt;
-		margin: 0pt;
-		padding: 0pt;
-		width: 32pt;
-		height: 32pt;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
+		width: 32px;
+		height: 32px;
 	}
 
 /* Logo */
-	img.logo_32pt
+	img.logo_32px
 	{
-		border: 0pt;
-		margin: 0pt;
-		padding: 0pt;
+		border: 0px;
+		margin: 0px;
+		padding: 0px;
 		width: auto;
-		height: 32pt;
+		height: 32px;
 	}
 
 .logo_website_navigation
 {
 	display: block;
-	border: 0pt;
-	margin: 0pt;
-	padding: 0pt;	
+	border: 0px;
+	margin: 0px;
+	padding: 0px;	
 	width: auto;
-	height: 32pt;
+	height: 32px;
 	vertical-align: middle;
 }
 
 #navigation_top
 {
 	display: block;
-	border: 0pt;
-	margin: 0pt;
-	padding: 0pt;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
 	width: 100%;
-	height: 64pt;
+	height: 64px;
 	vertical-align: middle;
 	background-color: var(--themecolor);
 	overflow: hidden;
@@ -85,50 +85,50 @@ API:		CSS
 
 #navigation_left_button
 {
-	vertical-align: top;
+	vertical-align: middle;
 }
 
 #navigation_websitelogo
 {
 	display: inline-block;
-	border: 0pt;
-	margin: 0pt;
-	padding: 4pt;
+	border: 0px;
+	margin: 0px;
+	padding: 16px;
 	width: auto;
-	height: 32pt;
-	vertical-align: top;
-	font-size: 0pt;
+	height: 32px;
+	vertical-align: middle;
+	font-size: 0px;
 }
 
 #navigaion_top_toolbox
 {
 	display: inline-block;
 	width: auto;
-	height: 32pt;
-	vertical-align: top;
+	height: 64px;
+	vertical-align: middle;
 	float: right;
 }
 
 /* Icon, Google, Material */
-	i.googlematerialicon_16pt
+	i.googlematerialicon_16px
 	{
-		font-size: 16pt;
+		font-size: 16px;
 	}
-	i.googlematerialicon_18pt
+	i.googlematerialicon_18px
 	{
-		font-size: 18pt;
+		font-size: 18px;
 	}
-	i.googlematerialicon_24pt
+	i.googlematerialicon_24px
 	{
-		font-size: 24pt;
+		font-size: 24px;
 	}
-	i.googlematerialicon_32pt
+	i.googlematerialicon_32px
 	{
-		font-size: 32pt;
+		font-size: 32px;
 	}
-	i.googlematerialicon_36pt
+	i.googlematerialicon_36px
 	{
-		font-size: 36pt;
+		font-size: 36px;
 	}
 	i.googlematerialicon_dark
 	{
@@ -150,11 +150,11 @@ API:		CSS
 /* Button Metroize */
 	.buttonmetroize {
 		display: inline-block;
-		border: 0pt;
-		margin: 0pt;
-		padding: 4pt;
-		width: 32pt;
-		height: 32pt;
+		border: 0px;
+		margin: 0px;
+		padding: 20px;
+		width: 24px;
+		height: 24px;
 		text-align: center;
 		text-decoration: none;
 		background-color: rgba(255,255,255,0);
