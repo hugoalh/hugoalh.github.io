@@ -210,7 +210,8 @@ Programming Language:	CSS 3
 	}
 
 /* Button Metroize */
-	.buttonmetroize {
+	.buttonmetroize
+	{
 		display: inline-block;
 		margin-top: 0px;
 		margin-bottom: 0px;
@@ -229,10 +230,15 @@ Programming Language:	CSS 3
 		text-align: center;
 		text-decoration: none;
 		background-color: rgba(255,255,255,0);
-		cursor: pointer;
+		cursor: default;
 	}
-	.buttonmetroize:hover {
-		background-color: rgba(255,255,255,0.2);
+	.buttonmetroize:hover
+	{
+		background-color: rgba(255,255,255,0.125);
+	}
+	.buttonmetroize:active
+	{
+		background-color: rgba(255,255,255,0.25);
 	}
 
 @media screen and (min-width: 1024px) {

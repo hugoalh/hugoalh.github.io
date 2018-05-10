@@ -10,12 +10,12 @@ Programming Language:	CSS 3
 	font-family: 'Material Icons';
 	font-style: normal;
 	font-weight: 400;
-	src: url(https://hugoalh.github.io/assets/icon/googlematerialicon_regular.eot); /* For IE6-8 */
+	src: url(/assets/icon/googlematerialicon_regular.eot); /* For IE6-8 */
 	src: local('Material Icons'),
 	local('googlematerialicon_regular'),
-	url(https://hugoalh.github.io/assets/icon/googlematerialicon_regular.woff2) format('woff2'),
-	url(https://hugoalh.github.io/assets/icon/googlematerialicon_regular.woff) format('woff'),
-	url(https://hugoalh.github.io/assets/icon/googlematerialicon_regular.ttf) format('truetype');
+	url(/assets/icon/googlematerialicon_regular.woff2) format('woff2'),
+	url(/assets/icon/googlematerialicon_regular.woff) format('woff'),
+	url(/assets/icon/googlematerialicon_regular.ttf) format('truetype');
 }
 
 .googlematerialicon {
