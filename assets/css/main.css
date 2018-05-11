@@ -18,7 +18,7 @@ Programming Language:	CSS 3
 	}
 
 /* Blank Space, 0px */
-	html, body, .blankspace_0px
+	html, body, svg, .blankspace_0px
 	{
 		margin-top: 0px;
 		margin-bottom: 0px;
