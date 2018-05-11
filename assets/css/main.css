@@ -49,6 +49,15 @@ Programming Language:	CSS 3
 		width: 32px;
 		height: 32px;
 	}
+	svg.icon_navigation
+	{
+	display: inline-block;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: 24px;
+	height: 24px;
+	}
 
 /* Logo */
 	img.logo_32px
