@@ -1,6 +1,6 @@
 /*
 ====================================================================================================
-hugoalh's Website Theme Set - Main (Metroize)
+hugoalh's Website Theme Set - Main
 Author:					hugoalh
 Programming Language:	CSS 3
 ====================================================================================================
@@ -209,8 +209,8 @@ Programming Language:	CSS 3
 		color: rgba(255, 255, 255, 0.3);
 	}
 
-/* Button Metroize */
-	.buttonmetroize
+/* Button */
+	a.button
 	{
 		display: inline-block;
 		margin-top: 0px;
@@ -232,11 +232,11 @@ Programming Language:	CSS 3
 		background-color: rgba(255,255,255,0);
 		cursor: default;
 	}
-	.buttonmetroize:hover
+	a.button:hover
 	{
 		background-color: rgba(255,255,255,0.125);
 	}
-	.buttonmetroize:active
+	a.button:active
 	{
 		background-color: rgba(255,255,255,0.25);
 	}
