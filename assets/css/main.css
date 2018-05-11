@@ -155,6 +155,7 @@ Programming Language:	CSS 3
 	height: 48px;
 	vertical-align: middle;
 	float: left;
+	font-size: 0px;
 }
 
 #navigation_left_button
