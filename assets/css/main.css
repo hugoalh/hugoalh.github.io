@@ -1,46 +1,50 @@
-/*
-====================================================================================================
+/*==================================================================================================
 hugoalh's Website Theme Set - Main
 Author:					hugoalh
 Programming Language:	CSS 3
-====================================================================================================
-*/
+==================================================================================================*/
+/*Preset*/
+	/*Theme Colour*/
+		:root {
+			--themecolor_main: #0063B1;
+			--themecolor_main_light: #5590E3;
+			--themecolor_main_dark: #003A81;
+		}
+	/*Font*/
+		html
+		{
+			font-family: 'Noto Sans', sans-serif;
+		}
+	/*Transition*/
+		#page
+		{
+			transition: background-color 1s;
+		}
 
-:root {
-	--themecolor_main: #0063B1;
-	--themecolor_light: #5590E3;
-	--themecolor_dark: #003A81;
+/*Fix*/
+	/*Webpage Scaling*/
+		html, body
+		{
+			margin: 0px;
+			border: 0px;
+			padding: 0px;
+			width: 100%;
+			height: 100%;
+		}
+	/*Scrollbar, Microsoft Edge; Hide automatically when unscroll*/
+		html
+		{
+			-ms-overflow-style: -ms-autohiding-scrollbar;
+		}
+
+.blankspace_0px
+{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
 }
 
-/* Scrollbar, Microsoft Edge; Hide automatically when unscroll */
-	html
-	{
-		-ms-overflow-style: -ms-autohiding-scrollbar;
-	}
-
-/* Blank Space, 0px */
-	html, body, .blankspace_0px
-	{
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-	}
-
-/* Fix Scaling */
-	body
-	{
-		width: 100%;
-		height: 100%;
-	}
-
-
-/* Font */
-	html
-	{
-		font-family: 'Noto Sans', sans-serif;
-	}
-
-/* Icon */
+/*Icon*/
 	img.icon_24px
 	{
 		margin: 0px;
@@ -49,44 +53,27 @@ Programming Language:	CSS 3
 		width: 24px;
 		height: 24px;
 	}
-	img.icon_32px
-	{
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: 32px;
-		height: 32px;
-	}
 	svg.icon_navigation
 	{
-	display: inline-block;
-	margin: 0px;
-	border: 0px;
-	padding: 0px;
-	width: 24px;
-	height: 24px;
-	fill: rgba(255, 255, 255, 1);
-	}
-
-/* Logo */
-	img.logo_32px
-	{
+		display: inline-block;
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
+		width: 24px;
+		height: 24px;
+		fill: rgba(255, 255, 255, 1);
+	}
+
+/*Logo*/
+	.logo_website_navigation
+	{
+		display: inline-block;
+		margin: 0px;
+		border: 0px;
+		padding: 8px;
 		width: auto;
 		height: 32px;
 	}
-
-.logo_website_navigation
-{
-	display: inline-block;
-	margin: 0px;
-	border: 0px;
-	padding: 8px;
-	width: auto;
-	height: 32px;
-}
 
 #navigation_top
 {
@@ -136,45 +123,7 @@ Programming Language:	CSS 3
 	float: right;
 }
 
-/* Icon, Google, Material */
-	i.googlematerialicon_16px
-	{
-		font-size: 16px;
-	}
-	i.googlematerialicon_18px
-	{
-		font-size: 18px;
-	}
-	i.googlematerialicon_24px
-	{
-		font-size: 24px;
-	}
-	i.googlematerialicon_32px
-	{
-		font-size: 32px;
-	}
-	i.googlematerialicon_36px
-	{
-		font-size: 36px;
-	}
-	i.googlematerialicon_dark
-	{
-		color: rgba(0, 0, 0, 0.54);
-	}
-	i.googlematerialicon_dark.googlematerialicon_inactive
-	{
-		color: rgba(0, 0, 0, 0.26);
-	}
-	i.googlematerialicon_light
-	{
-		color: rgba(255, 255, 255, 1);
-	}
-	i.googlematerialicon_light.googlematerialicon_inactive
-	{
-		color: rgba(255, 255, 255, 0.3);
-	}
-
-/* Button */
+/*Button*/
 	a.button
 	{
 		display: inline-block;
