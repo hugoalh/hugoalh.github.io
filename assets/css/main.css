@@ -137,9 +137,43 @@ Programming Language:	CSS 3
 	overflow: hidden;
 }
 
+#navigaion_top_left
+{
+	display: inline-block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: auto;
+	height: 48px;
+	vertical-align: middle;
+	float: left;
+}
+
 #navigation_left_button
 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 	vertical-align: middle;
+	float: left;
 }
 
 #navigation_websitelogo
@@ -160,9 +194,10 @@ Programming Language:	CSS 3
 	width: auto;
 	height: 32px;
 	vertical-align: middle;
+	float: left;
 }
 
-#navigaion_top_toolbox
+#navigaion_top_right
 {
 	display: inline-block;
 	width: auto;
