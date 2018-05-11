@@ -179,7 +179,7 @@ Programming Language:	CSS 3
 		background-color: rgba(255,255,255,0.25);
 	}
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px), (orientation: landscape) {
 	#navigation_left_button
 	{
 		display: none;
