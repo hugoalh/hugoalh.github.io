@@ -97,7 +97,7 @@ Programming Language:	CSS 3
 
 .logo_website_navigation
 {
-	display: block;
+	display: inline-block;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -106,13 +106,12 @@ Programming Language:	CSS 3
 	border-bottom: 0px;
 	border-left: 0px;
 	border-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	padding-right: 8px;
 	width: auto;
 	height: 32px;
-	vertical-align: middle;
 }
 
 #navigation_top
@@ -160,6 +159,17 @@ Programming Language:	CSS 3
 
 #navigation_left_button
 {
+	vertical-align: middle;
+}
+
+#navigation_websitelogo
+{
+	vertical-align: middle;
+}
+
+#navigaion_top_right
+{
+	display: inline-block;
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -172,34 +182,6 @@ Programming Language:	CSS 3
 	padding-bottom: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
-	vertical-align: middle;
-	float: left;
-}
-
-#navigation_websitelogo
-{
-	display: inline-block;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	margin-right: 0px;
-	border-top: 0px;
-	border-bottom: 0px;
-	border-left: 0px;
-	border-right: 0px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-	padding-left: 8px;
-	padding-right: 8px;
-	width: auto;
-	height: 32px;
-	vertical-align: middle;
-	float: left;
-}
-
-#navigaion_top_right
-{
-	display: inline-block;
 	width: auto;
 	height: 48px;
 	vertical-align: middle;
