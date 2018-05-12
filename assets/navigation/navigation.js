@@ -15,5 +15,5 @@ Programming Language:	JavaScript/ECMAScript 6/7, jQuery 1(.12.4)/2(.2.4)/3(.3.1)
 
 /*Load Navigation*/
 	$(document).ready(function(){
-		$("#navigation_top").load("/assets/navigation/data.html-external #navigation_top");
+		$("#navigation_top").load("/assets/navigation/data.html #navigation_top");
 	});
