@@ -124,7 +124,7 @@ Programming Language:	CSS 3
 }
 
 /*Button*/
-	a.button
+	a.button_navigation_top
 	{
 		display: inline-block;
 		margin: 0px;
@@ -137,11 +137,11 @@ Programming Language:	CSS 3
 		background-color: rgba(255,255,255,0);
 		cursor: default;
 	}
-	a.button:hover
+	a.button_navigation_top:hover
 	{
 		background-color: rgba(255,255,255,0.125);
 	}
-	a.button:active
+	a.button_navigation_top:active
 	{
 		background-color: rgba(255,255,255,0.25);
 	}
