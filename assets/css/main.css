@@ -3,23 +3,24 @@ hugoalh's Website Theme Set - Main
 Author:					hugoalh
 Programming Language:	CSS 3
 ==================================================================================================*/
-/*Preset*/
-	/*Theme Colour*/
-		:root {
-			--themecolor_main: #0063B1;
-			--themecolor_main_light: #5590E3;
-			--themecolor_main_dark: #003A81;
-		}
-	/*Font*/
-		html
-		{
-			font-family: 'Noto Sans', sans-serif;
-		}
-	/*Transition*/
-		#page
-		{
-			transition: background-color 1s;
-		}
+:root {
+	/*Color*/
+		--themecolor_main: #0063B1;
+		--themecolor_main_light: #5590E3;
+		--themecolor_main_dark: #003A81;
+}
+
+/*Font*/
+	html
+	{
+		font-family: 'Noto Sans', sans-serif;
+	}
+
+/*Transition*/
+#page
+{
+	transition: background-color 1s;
+}
 
 /*Fix*/
 	/*Webpage Scaling*/
