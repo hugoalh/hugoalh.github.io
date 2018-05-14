@@ -172,4 +172,8 @@ Programming Language:	CSS 3
 	{
 		width: 256px;
 	}
+	#page
+	{
+		left: 256px;
+	}
 }
