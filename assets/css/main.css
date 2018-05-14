@@ -177,6 +177,6 @@ Programming Language:	CSS 3
 	}
 	#page
 	{
-		left: 256px;
+		margin-left: 256px;
 	}
 }
