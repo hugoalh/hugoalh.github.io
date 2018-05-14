@@ -138,7 +138,7 @@ Programming Language:	CSS 3
 	border: 0px;
 	padding: 0px;
 	width: 100%;
-	height: calc(100%-48px);
+	height: calc(100% - 48px);
 	overflow: auto;
 	transition: background-color 0.5s;
 }
@@ -178,6 +178,6 @@ Programming Language:	CSS 3
 	#page
 	{
 		margin-left: 256px;
-		width: calc(100%-256px);
+		width: calc(100% - 256px);
 	}
 }
