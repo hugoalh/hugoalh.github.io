@@ -1,0 +1,102 @@
+/*==================================================================================================
+Font, Noto, Sans
+Author:					Google, Monotype Imaging Inc, Adobe Systems Inc
+Source:					https://www.google.com/get/noto/
+Programming Language:	CSS 3
+==================================================================================================*/
+@font-face
+{
+	font-family: "Noto Sans";
+	src: url("/assets/font/noto_sans_regular.ttf") format("truetype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Noto Sans";
+	src: url("/assets/font/noto_sans_bold.ttf") format("truetype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "Noto Sans";
+	src: url("/assets/font/noto_sans_italic.ttf") format("truetype");
+	font-stretch: normal;
+	font-style: italic;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Noto Sans";
+	src: url("/assets/font/noto_sans_bold-italic.ttf") format("truetype");
+	font-stretch: normal;
+	font-style: italic;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "Noto Sans ZH";
+	src: url("/assets/font/noto_sans_zh_regular.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Noto Sans ZH";
+	src: url("/assets/font/noto_sans_zh_bold.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "Noto Sans ZHS";
+	src: url("/assets/font/noto_sans_zhs_regular.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Noto Sans ZHS";
+	src: url("/assets/font/noto_sans_zhs_bold.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "Noto Sans JP";
+	src: url("/assets/font/noto_sans_jp_regular.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Noto Sans JP";
+	src: url("/assets/font/noto_sans_jp_bold.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face
+{
+	font-family: "Noto Sans KR";
+	src: url("/assets/font/noto_sans_kr_regular.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face
+{
+	font-family: "Noto Sans KR";
+	src: url("/assets/font/noto_sans_kr_bold.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: bold;
+}
