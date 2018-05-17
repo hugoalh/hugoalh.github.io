@@ -1,20 +1,22 @@
 /*==================================================================================================
 Font, Noto, Emoji
-Author:					Google, Monotype Design Team
+Author:					Google, Monotype Imaging Inc
 Source:					https://www.google.com/get/noto/
 Programming Language:	CSS 3
 ==================================================================================================*/
 @font-face
 {
 	font-family: "Noto Emoji Mono";
-	src: url(/assets/font/noto_emoji_mono.ttf);
+	src: url(/assets/font/noto_emoji_mono.ttf) format("truetype");
+	font-stretch: normal;
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face
 {
 	font-family: "Noto Emoji Colour";
-	src: url(/assets/font/noto_emoji_colour.ttf);
+	src: url(/assets/font/noto_emoji_colour.ttf) format("truetype");
+	font-stretch: normal;
 	font-style: normal;
 	font-weight: normal;
 }

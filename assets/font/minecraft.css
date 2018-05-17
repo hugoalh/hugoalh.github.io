@@ -1,34 +1,38 @@
 /*==================================================================================================
 Font, Minecraft
-Author:					JDGraphics, jacobdebono3
+Author:					JDGraphics Fonts, Jacob Debono
 Source:					http://www.fontspace.com/jdgraphics/minecraft
 Programming Language:	CSS 3
 ==================================================================================================*/
 @font-face
 {
 	font-family: Minecraft;
-	src: url(/assets/font/minecraft_regular.otf);
+	src: url(/assets/font/minecraft_regular.otf) format("opentype");
+	font-stretch: normal;
 	font-style: normal;
 	font-weight: normal;
 }
 @font-face
 {
 	font-family: Minecraft;
-	src: url(/assets/font/minecraft_bold.otf);
+	src: url(/assets/font/minecraft_bold.otf) format("opentype");
+	font-stretch: normal;
 	font-style: normal;
 	font-weight: bold;
 }
 @font-face
 {
 	font-family: Minecraft;
-	src: url(/assets/font/minecraft_italic.otf);
+	src: url(/assets/font/minecraft_italic.otf) format("opentype");
+	font-stretch: normal;
 	font-style: italic;
 	font-weight: normal;
 }
 @font-face
 {
 	font-family: Minecraft;
-	src: url(/assets/font/minecraft_bold-italic.otf);
+	src: url(/assets/font/minecraft_bold-italic.otf) format("opentype");
+	font-stretch: normal;
 	font-style: italic;
 	font-weight: bold;
 }
