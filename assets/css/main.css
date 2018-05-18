@@ -108,7 +108,7 @@ Programming Language:	CSS 3
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		transition: width 0.5s, background-color 0.5s;
+		transition: left 0.5s, background-color 0.5s;
 	}
 
 .blankspace_0px
