@@ -82,7 +82,7 @@ Programming Language:	CSS 3
 		top: var(--framework_top);
 		bottom: 0px;
 		left: 0px;
-		width: 0px;
+		width: 0px !important;
 		max-width: var(--framework_left);
 		overflow-x: hidden;
 		background-color: var(--theme_color_main);
@@ -98,7 +98,7 @@ Programming Language:	CSS 3
 	{
 		top: var(--framework_top);
 		bottom: 0px;
-		left: 0px;
+		left: 0px !important;
 		right: 0px;
 		padding: 4px !important;
 		overflow: auto;
