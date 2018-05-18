@@ -22,7 +22,7 @@ var client_resolution_width;
 		} else {
 			document.getElementById("navigation_left").style.width = "100%";
 		};
-		document.getElementById("page").style.backgroundColor = "#7F000000";
+		document.getElementById("page").style.backgroundColor = "#0000007F";
 		document.getElementById("navigation_left_button").href = "javascript:navigation_left_close();";
 	};
 	function navigation_left_close()
