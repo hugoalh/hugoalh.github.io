@@ -9,7 +9,8 @@ Programming Language:	JavaScript/ECMAScript 6/7/8, jQuery 2(.2.4)/3(.3.1)
 		var client_resolution_x = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 	};
 	detect_resolution_x();
-	document.getElementsByTagName("body")[0].onresize = function() {detect_resolution_x()};
+	window.addEventListener("resize", detect_resolution_x);
+	/* ?? document.getElementsByTagName("body")[0].onresize = function() {detect_resolution_x()}; ?? */
 
 /*Navigation Left Control*/
 	function navigation_left_open()
