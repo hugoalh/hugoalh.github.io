@@ -1,7 +1,7 @@
 /*==================================================================================================
 hugoalh's Website Navigation Tool Set
 Author:					hugoalh
-Programming Language:	JavaScript/ECMAScript 6/7, jQuery 1(.12.4)/2(.2.4)/3(.3.1)
+Programming Language:	JavaScript/ECMAScript 6/7, jQuery 2(.2.4)/3(.3.1)
 ==================================================================================================*/
 /*Navigation Left Control*/
 	function navigation_left_open() {
@@ -10,8 +10,8 @@ Programming Language:	JavaScript/ECMAScript 6/7, jQuery 1(.12.4)/2(.2.4)/3(.3.1)
 		document.getElementById("navigation_left_button").href = "javascript:navigation_left_close();"
 	};
 	function navigation_left_close() {
-		document.getElementById("navigation_left").style.width = "0px";
-		document.getElementById("page").style.backgroundColor = "rgba(0, 0, 0, 0)";
+		document.getElementById("navigation_left").style.width = null;
+		document.getElementById("page").style.backgroundColor = null;
 		document.getElementById("navigation_left_button").href = "javascript:navigation_left_open();"
 	};
 

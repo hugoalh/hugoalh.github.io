@@ -1,7 +1,7 @@
 /*==================================================================================================
 hugoalh's Website Language Extension
 Author:					hugoalh
-Programming Language:	JavaScript/ECMAScript 6/7, JSON, jQuery 1(.12.4)/2(.2.4)/3(.3.1), Cookie
+Programming Language:	JavaScript/ECMAScript 6/7, JSON, jQuery 2(.2.4)/3(.3.1), Cookie
 ==================================================================================================*/
 /*Replace Language String*/
 	var translate = function (jsdata) {
