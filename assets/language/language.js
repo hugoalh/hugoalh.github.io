@@ -1,7 +1,7 @@
 /*==================================================================================================
 hugoalh's Website Language Extension
 Author:					hugoalh
-Programming Language:	JavaScript/ECMAScript 6/7, JSON, jQuery 2(.2.4)/3(.3.1), Cookie
+Programming Language:	JavaScript/ECMAScript 6/7/8, JSON, jQuery 2(.2.4)/3(.3.1), Cookie
 ==================================================================================================*/
 /*Replace Language String*/
 	var translate = function (jsdata)
@@ -40,19 +40,7 @@ Programming Language:	JavaScript/ECMAScript 6/7, JSON, jQuery 2(.2.4)/3(.3.1), C
 	if (setting_language != "zh" && setting_language != "zhs" && setting_language != "en")
 	{
 		/*Determine Client Language Code*/
-			var language_detect = navigator.language.toLowerCase();
-			if (language_detect == "undefined")
-			{
-				var language_detect = navigator.browserLanguage.toLowerCase();
-				if (language_detect == "undefined")
-				{
-					var language_detect = navigator.userLanguage.toLowerCase();
-					if (language_detect == "undefined")
-					{
-						var language_detect = navigator.systemLanguage.toLowerCase();
-					};
-				};
-			};
+			var language_detect = navigator.language.toLowerCase() || navigator.browserLanguage.toLowerCase() || navigator.userLanguage.toLowerCase() || navigator.systemLanguage.toLowerCase();
 		/*Redirect Language Code*/
 			if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect == "zh-sg" || language_detect == "zh-tw" || language_detect == "zh-hant" )
 			{

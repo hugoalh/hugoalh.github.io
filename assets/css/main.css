@@ -83,7 +83,6 @@ Programming Language:	CSS 3
 		bottom: 0px;
 		left: 0px;
 		width: 0px;
-		max-width: var(--framework_left);
 		overflow-x: hidden;
 		background-color: var(--theme_color_main);
 		background-image: var(--theme_image_left);

@@ -1,12 +1,25 @@
 /*==================================================================================================
 hugoalh's Website Navigation Tool Set
 Author:					hugoalh
-Programming Language:	JavaScript/ECMAScript 6/7, jQuery 2(.2.4)/3(.3.1)
+Programming Language:	JavaScript/ECMAScript 6/7/8, jQuery 2(.2.4)/3(.3.1)
 ==================================================================================================*/
+/*Determine Client Resolution Of Width*/
+	function detect_resolution_x()
+	{
+		var client_resolution_x = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+	};
+	detect_resolution_x();
+	document.getElementsByTagName("body")[0].onresize = function() {detect_resolution_x()};
+
 /*Navigation Left Control*/
 	function navigation_left_open()
 	{
-		document.getElementById("navigation_left").style.width = "100%";
+		if (client_resolution_x > 256)
+		{
+			document.getElementById("navigation_left").style.width = "256px";
+		} else {
+			document.getElementById("navigation_left").style.width = "100%";
+		}
 		document.getElementById("page").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
 		document.getElementById("navigation_left_button").href = "javascript:navigation_left_close();"
 	};

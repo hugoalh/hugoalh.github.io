@@ -1,7 +1,7 @@
 /*==================================================================================================
 hugoalh's Website Cookie Tool Set
 Author:					hugoalh
-Programming Language:	JavaScript/ECMAScript 6/7, Cookie
+Programming Language:	JavaScript/ECMAScript 6/7/8, Cookie
 ==================================================================================================*/
 /*Data, Set*/
 	function cookie_set(cookie_data_name, cookie_data_value, cookie_data_expiretime)
