@@ -6,7 +6,7 @@ Programming Language:	JavaScript/ECMAScript 6/7/8, jQuery 2(.2.4)/3(.3.1)
 var client_resolution_width;
 var navigation_left_mode;
 
-/*Navigation Left Control*/
+/*Control, Left*/
 	function navigation_left_open()
 	{
 		if (client_resolution_width > 256)
@@ -28,7 +28,7 @@ var navigation_left_mode;
 	};
 
 /*Determine Client Resolution Of Width*/
-	function detect_resolution_width()
+	function navigation_clientevent()
 	{
 		client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 		if (client_resolution_width >= 768 && navigation_left_mode == 1)
@@ -36,10 +36,10 @@ var navigation_left_mode;
 			navigation_left_close();
 		}
 	};
-	detect_resolution_width();
-	window.addEventListener("resize", detect_resolution_width);
+	navigation_clientevent();
+	window.addEventListener("resize", navigation_clientevent);
 
-/*Load Navigation*/
+/*Load Data*/
 	$(document).ready(function()
 		{
 			$("#navigation_top").load("/assets/navigation/data_top.embedhtml");
