@@ -4,24 +4,23 @@ Author:					hugoalh
 Programming Language:	JavaScript/ECMAScript 6/7/8, jQuery 2(.2.4)/3(.3.1)
 ==================================================================================================*/
 /*Determine Client Resolution Of Width*/
-	function detect_resolution_x()
+	function detect_resolution_width()
 	{
-		var client_resolution_x = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		var client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 	};
-	detect_resolution_x();
-	window.addEventListener("resize", detect_resolution_x);
-	/* ?? document.getElementsByTagName("body")[0].onresize = function() {detect_resolution_x()}; ?? */
+	detect_resolution_width();
+	document.getElementsByTagName("BODY")[0].onresize = function() {detect_resolution_width()};
 
 /*Navigation Left Control*/
 	function navigation_left_open()
 	{
-		if (client_resolution_x > 256)
+		if (client_resolution_width > 256)
 		{
 			document.getElementById("navigation_left").style.width = "256px";
 		} else {
 			document.getElementById("navigation_left").style.width = "100%";
 		};
-		document.getElementById("page").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+		document.getElementById("page").style.backgroundColor = "#7F000000";
 		document.getElementById("navigation_left_button").href = "javascript:navigation_left_close();";
 	};
 	function navigation_left_close()
