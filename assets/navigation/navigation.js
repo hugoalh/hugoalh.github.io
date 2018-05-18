@@ -3,10 +3,19 @@ hugoalh's Website Navigation Tool Set
 Author:					hugoalh
 Programming Language:	JavaScript/ECMAScript 6/7/8, jQuery 2(.2.4)/3(.3.1)
 ==================================================================================================*/
+var client_resolution_width;
+
+/*Determine Client Resolution Of Width*/
+	function detect_resolution_width()
+	{
+		client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+	};
+	detect_resolution_width();
+	window.addEventListener("resize", detect_resolution_width);
+
 /*Navigation Left Control*/
 	function navigation_left_open()
 	{
-		var client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 		if (client_resolution_width > 256)
 		{
 			document.getElementById("navigation_left").style.width = "256px";
