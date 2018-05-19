@@ -10,7 +10,7 @@ var navigation_left_mode;
 	function navigation_left_open()
 	{
 		document.getElementById("navigation_left").style.width = "256px";
-		document.getElementById("page").style.backgroundColor = "#0000007F";
+		document.getElementById("page").style.backgroundColor = "rgba(0,0,0,0.5)";
 		document.getElementById("navigation_left_button").href = "javascript:navigation_left_close();";
 		navigation_left_mode = 1;
 	};
