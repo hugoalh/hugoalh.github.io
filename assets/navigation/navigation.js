@@ -26,7 +26,7 @@ var navigation_left_mode;
 	function navigation_clientevent()
 	{
 		client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-		if (client_resolution_width >= 768 && navigation_left_mode == 1)
+		if (client_resolution_width >= 832 && navigation_left_mode == 1)
 		{
 			navigation_left_close();
 		}
@@ -36,7 +36,7 @@ var navigation_left_mode;
 /*Load Data*/
 	$(document).ready(function()
 		{
-			$("#navigation_top").load("/assets/navigation/data_top.embedhtml");
-			$("#navigation_left").load("/assets/navigation/data_left.embedhtml");
+			$("#navigation_top").load("/assets/navigation/top.embedhtml");
+			$("#navigation_left").load("/assets/navigation/left.embedhtml");
 		}
 	);
