@@ -9,12 +9,7 @@ var navigation_left_mode;
 /*Control, Left*/
 	function navigation_left_open()
 	{
-		if (client_resolution_width > 256)
-		{
-			document.getElementById("navigation_left").style.width = "256px";
-		} else {
-			document.getElementById("navigation_left").style.width = "100%";
-		};
+		document.getElementById("navigation_left").style.width = "256px";
 		document.getElementById("page").style.backgroundColor = "#0000007F";
 		document.getElementById("navigation_left_button").href = "javascript:navigation_left_close();";
 		navigation_left_mode = 1;
