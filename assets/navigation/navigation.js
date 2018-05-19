@@ -22,7 +22,7 @@ var navigation_left_mode;
 		navigation_left_mode = 0;
 	};
 
-/*Determine Client Resolution Of Width*/
+/*Determine Client Event*/
 	function navigation_clientevent()
 	{
 		client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
@@ -31,7 +31,6 @@ var navigation_left_mode;
 			navigation_left_close();
 		}
 	};
-	navigation_clientevent();
 	window.addEventListener("resize", navigation_clientevent);
 
 /*Load Data*/
