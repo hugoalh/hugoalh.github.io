@@ -40,11 +40,11 @@ Programming Language:	CSS 3
 {
 	font-family: "Noto Sans ZH";
 	src: local("NotoSansTC-Regular"), local("Noto Sans TC Regular"),
-		url("http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2") format("woff2"),
+		url("https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2") format("woff2"),
 		url("/assets/font/noto_sans_zh_regular.woff2") format("woff2"),
-		url("http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff") format("woff"),
+		url("https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff") format("woff"),
 		url("/assets/font/noto_sans_zh_regular.woff") format("woff"),
-		url("http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf") format("opentype"),
+		url("https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf") format("opentype"),
 		url("/assets/font/noto_sans_zh_regular.otf") format("opentype"),
 		url("/assets/font/noto_sans_cjk_zh_regular.otf") format("opentype");
 	font-stretch: normal;
@@ -55,11 +55,11 @@ Programming Language:	CSS 3
 {
 	font-family: "Noto Sans ZH";
 	src: local("NotoSansTC-Bold"), local("Noto Sans TC Bold"),
-		url("http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2") format('woff2'),
+		url("https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2") format('woff2'),
 		url("/assets/font/noto_sans_zh_bold.woff2") format("woff2"),
-		url("http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff") format('woff'),
+		url("https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff") format('woff'),
 		url("/assets/font/noto_sans_zh_bold.woff") format("woff"),
-		url("http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf") format('opentype'),
+		url("https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf") format('opentype'),
 		url("/assets/font/noto_sans_zh_bold.otf") format("opentype"),
 		url("/assets/font/noto_sans_cjk_zh_bold.otf") format("opentype");
 	font-stretch: normal;
@@ -70,11 +70,11 @@ Programming Language:	CSS 3
 {
 	font-family: "Noto Sans ZHS";
 	src: local("NotoSansSC-Regular"), local("Noto Sans SC Regular"),
-		url("http://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2") format('woff2'),
+		url("https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2") format('woff2'),
 		url("/assets/font/noto_sans_zhs_regular.woff2") format("woff2"),
-		url("http://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff") format('woff'),
+		url("https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff") format('woff'),
 		url("/assets/font/noto_sans_zhs_regular.woff") format("woff"),
-		url("http://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.otf") format('opentype'),
+		url("https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.otf") format('opentype'),
 		url("/assets/font/noto_sans_zhs_regular.otf") format("opentype"),
 		url("/assets/font/noto_sans_cjk_zhs_regular.otf") format("opentype");
 	font-stretch: normal;
@@ -85,11 +85,11 @@ Programming Language:	CSS 3
 {
 	font-family: "Noto Sans ZHS";
 	src: local("NotoSansSC-Bold"), local("Noto Sans SC Bold"),
-		url("http://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.woff2") format('woff2'),
+		url("https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.woff2") format('woff2'),
 		url("/assets/font/noto_sans_zhs_bold.woff2") format("woff2"),
-		url("http://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.woff") format('woff'),
+		url("https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.woff") format('woff'),
 		url("/assets/font/noto_sans_zhs_bold.woff") format("woff"),
-		url("http://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.otf") format('opentype'),
+		url("https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.otf") format('opentype'),
 		url("/assets/font/noto_sans_zhs_bold.otf") format("opentype"),
 		url("/assets/font/noto_sans_cjk_zhs_bold.otf") format("opentype");
 	font-stretch: normal;
@@ -100,11 +100,11 @@ Programming Language:	CSS 3
 {
 	font-family: "Noto Sans JP";
 	src: local("NotoSansJP-Regular"), local("Noto Sans JP Regular"),
-		url("http://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2") format('woff2'),
+		url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2") format('woff2'),
 		url("/assets/font/noto_sans_jp_regular.woff2") format("woff2"),
-		url("http://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff") format('woff'),
+		url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff") format('woff'),
 		url("/assets/font/noto_sans_jp_regular.woff") format("woff"),
-		url("http://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf") format('opentype'),
+		url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.otf") format('opentype'),
 		url("/assets/font/noto_sans_jp_regular.otf") format("opentype"),
 		url("/assets/font/noto_sans_cjk_jp_regular.otf") format("opentype");
 	font-stretch: normal;
@@ -115,11 +115,11 @@ Programming Language:	CSS 3
 {
 	font-family: "Noto Sans JP";
 	src: local("NotoSansJP-Bold"), local("Noto Sans JP Bold"),
-		url("http://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2") format('woff2'),
+		url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2") format('woff2'),
 		url("/assets/font/noto_sans_jp_bold.woff2") format("woff2"),
-		url("http://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff") format('woff'),
+		url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff") format('woff'),
 		url("/assets/font/noto_sans_jp_bold.woff") format("woff"),
-		url("http://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf") format('opentype'),
+		url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.otf") format('opentype'),
 		url("/assets/font/noto_sans_jp_bold.otf") format("opentype"),
 		url("/assets/font/noto_sans_cjk_jp_bold.otf") format("opentype");
 	font-stretch: normal;
