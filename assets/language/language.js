@@ -39,17 +39,17 @@ Programming Language:	JavaScript/ECMAScript 6/7/8, JSON, jQuery 2(.2.4)/3(.3.1),
 	var setting_language = cookie_get("setting_language");
 	if (setting_language != "zh" && setting_language != "zhs" && setting_language != "en")
 	{
-		/*Determine Client Language Code*/
-			var language_detect = navigator.language.toLowerCase() || navigator.browserLanguage.toLowerCase() || navigator.userLanguage.toLowerCase() || navigator.systemLanguage.toLowerCase();
-		/*Redirect Language Code*/
-			if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect == "zh-sg" || language_detect == "zh-tw" || language_detect == "zh-hant" )
-			{
-				var setting_language = "zh";
-			};
-			if (language_detect == "zh-cn" || language_detect == "zh-hans" )
-			{
-				var setting_language = "zhs";
-			};
+	/*Determine Client Language Code*/
+		var language_detect = navigator.language.toLowerCase() || navigator.browserLanguage.toLowerCase() || navigator.userLanguage.toLowerCase() || navigator.systemLanguage.toLowerCase();
+	/*Redirect Language Code*/
+		if (language_detect == "zh-hk" || language_detect == "zh-mo" || language_detect == "zh-sg" || language_detect == "zh-tw" || language_detect == "zh-hant" )
+		{
+			var setting_language = "zh";
+		};
+		if (language_detect == "zh-cn" || language_detect == "zh-hans" )
+		{
+			var setting_language = "zhs";
+		};
 	};
 
 /*Get Language String From JSON*/
