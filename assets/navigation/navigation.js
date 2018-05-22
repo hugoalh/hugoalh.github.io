@@ -7,36 +7,36 @@ var client_resolution_width;
 var navigation_left_mode;
 
 /*Control, Left*/
-	function navigation_left_open()
-	{
-		document.getElementById("navigation_left").style.width = "256px";
-		document.getElementById("page").style.backgroundColor = "rgba(0,0,0,0.5)";
-		document.getElementById("navigation_left_button").href = "javascript:navigation_left_close();";
-		navigation_left_mode = 1;
-	};
-	function navigation_left_close()
-	{
-		document.getElementById("navigation_left").style.width = null;
-		document.getElementById("page").style.backgroundColor = null;
-		document.getElementById("navigation_left_button").href = "javascript:navigation_left_open();";
-		navigation_left_mode = 0;
-	};
+function navigation_left_open()
+{
+	document.getElementById("navigation_left").style.width = "256px";
+	document.getElementById("page").style.backgroundColor = "rgba(0,0,0,0.5)";
+	document.getElementById("navigation_left_button").href = "javascript:navigation_left_close();";
+	navigation_left_mode = 1;
+};
+function navigation_left_close()
+{
+	document.getElementById("navigation_left").style.width = null;
+	document.getElementById("page").style.backgroundColor = null;
+	document.getElementById("navigation_left_button").href = "javascript:navigation_left_open();";
+	navigation_left_mode = 0;
+};
 
 /*Determine Client Event*/
-	function navigation_clientevent()
+function navigation_clientevent()
+{
+	client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+	if (client_resolution_width >= 832 && navigation_left_mode == 1)
 	{
-		client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-		if (client_resolution_width >= 832 && navigation_left_mode == 1)
-		{
-			navigation_left_close();
-		}
-	};
-	window.addEventListener("resize", navigation_clientevent);
+		navigation_left_close();
+	}
+};
+window.addEventListener("resize", navigation_clientevent);
 
 /*Load Data*/
-	$(document).ready(function()
-		{
-			$("#navigation_top").load("/assets/navigation/top.embedhtml");
-			$("#navigation_left").load("/assets/navigation/left.embedhtml");
-		}
-	);
+$(document).ready(function()
+	{
+		$("#navigation_top").load("/assets/navigation/top.embedhtml");
+		$("#navigation_left").load("/assets/navigation/left.embedhtml");
+	}
+);

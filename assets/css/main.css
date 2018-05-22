@@ -4,113 +4,113 @@ Author:					hugoalh
 Programming Language:	CSS 3
 ==================================================================================================*/
 /*Import Style Sheet*/
-	@import url("/assets/font/noto_sans.css");
+@import url("/assets/font/noto_sans.css");
 
 /*Variable*/
-	:root
-	{
-		/*Theme*/
-			/*Color*/
-				--theme_color_main: #0063B1;
-				--theme_color_main_light: #5590E3;
-				--theme_color_main_dark: #003A81;
-				--theme_color_page: #FFFFFF;
-			/*Background Image*/
-				--theme_image_top: none;
-				--theme_image_left: none;
-				--theme_image_page: none;
-			/*Icon Color*/
-				--theme_icon_color: #FFFFFF;
-		/*Framework*/
-			--framework_top: 48px;
-			--framework_left: 256px;
-	}
+:root
+{
+	/*Theme*/
+		/*Color*/
+		--theme_color_main: #0063B1;
+		--theme_color_main_light: #5590E3;
+		--theme_color_main_dark: #003A81;
+		--theme_color_page: #FFFFFF;
+		/*Background Image*/
+		--theme_image_top: none;
+		--theme_image_left: none;
+		--theme_image_page: none;
+		/*Icon Color*/
+		--theme_icon_color: #FFFFFF;
+	/*Framework*/
+	--framework_top: 48px;
+	--framework_left: 256px;
+}
 
 /*Fix*/
 	/*Webpage Render*/
-		html, body
-		{
-			margin: 0px;
-			border: 0px;
-			padding: 0px;
-			width: 100%;
-			height: 100%;
-		}
-
-/*Font*/
 	html, body
 	{
-		font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans ZHS", "Noto Sans JP", sans-serif;
-	}
-
-/*Scrollbar, Microsoft Edge; Hide automatically when unscroll*/
-	html, body
-	{
-		-ms-overflow-style: -ms-autohiding-scrollbar;
-	}
-
-/*Webpage Structure*/
-	.framework
-	{
-		display: block;
-		position: fixed;
-		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
+		width: 100%;
+		height: 100%;
 	}
-	#navigation_top
-	{
-		z-index: 1;
-		top: 0px;
-		left: 0px;
-		right: 0px;
-		height: var(--framework_top);
-		overflow: hidden;
-		font-size: 0px;
-		vertical-align: middle;
-		background-color: var(--theme_color_main);
-		background-image: var(--theme_image_top);
-		background-clip: border-box;
-		background-origin: border-box;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	#navigation_left
-	{
-		z-index: 1;
-		top: var(--framework_top);
-		bottom: 0px;
-		left: 0px;
-		width: 0px;
-		overflow-x: hidden;
-		background-color: var(--theme_color_main);
-		background-image: var(--theme_image_left);
-		background-clip: border-box;
-		background-origin: border-box;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		transition: width 0.4s;
-	}
-	#page
-	{
-		top: var(--framework_top);
-		bottom: 0px;
-		left: 0px;
-		right: 0px;
-		padding: 4px !important;
-		overflow: auto;
-		background-color: var(--theme_color_page);
-		background-image: var(--theme_image_page);
-		background-clip: border-box;
-		background-origin: border-box;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		transition: left 0.4s, background-color 0.4s;
-	}
+
+/*Font*/
+html, body
+{
+	font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans ZHS", "Noto Sans JP", sans-serif;
+}
+
+/*Scrollbar, Microsoft Edge; Hide automatically when unscroll*/
+html, body
+{
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+/*Webpage Structure*/
+.framework
+{
+	display: block;
+	position: fixed;
+	box-sizing: border-box;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+#navigation_top
+{
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: var(--framework_top);
+	overflow: hidden;
+	font-size: 0px;
+	vertical-align: middle;
+	background-color: var(--theme_color_main);
+	background-image: var(--theme_image_top);
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#navigation_left
+{
+	z-index: 1;
+	top: var(--framework_top);
+	bottom: 0px;
+	left: 0px;
+	width: 0px;
+	overflow-x: hidden;
+	background-color: var(--theme_color_main);
+	background-image: var(--theme_image_left);
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: width 0.4s;
+}
+#page
+{
+	top: var(--framework_top);
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 8px !important;
+	overflow: auto;
+	background-color: var(--theme_color_page);
+	background-image: var(--theme_image_page);
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: left 0.4s, background-color 0.4s;
+}
 
 .blankspace_0px
 {
@@ -120,89 +120,90 @@ Programming Language:	CSS 3
 }
 
 /*Icon*/
-	img.icon_24px
-	{
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: 24px;
-		height: 24px;
-	}
-	svg.icon_navigation
-	{
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: 24px;
-		height: 24px;
-		fill: var(--theme_icon_color);
-	}
+img.icon_24px
+{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: 24px;
+	height: 24px;
+}
+svg.icon_navigation
+{
+	display: inline-block;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: 24px;
+	height: 24px;
+	fill: var(--theme_icon_color);
+}
 
 /*Logo*/
-	.logo_website_navigation
-	{
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 8px;
-		width: auto;
-		height: 32px;
-	}
+.logo_website_navigation
+{
+	display: inline-block;
+	margin: 0px;
+	border: 0px;
+	padding: 8px;
+	width: auto;
+	height: 32px;
+}
 
 /*Navigation*/
-	#navigaion_top_left
-	{
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: auto;
-		height: 48px;
-		vertical-align: middle;
-		float: left;
-	}
-	#navigation_left_button
-	{
-		vertical-align: middle;
-	}
-	#navigation_websitelogo
-	{
-		vertical-align: middle;
-	}
-	#navigaion_top_right
-	{
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: auto;
-		height: 48px;
-		vertical-align: middle;
-		float: right;
-	}
+#navigaion_top_left
+{
+	display: inline-block;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: auto;
+	height: 48px;
+	vertical-align: middle;
+	float: left;
+}
+#navigation_left_button
+{
+	vertical-align: middle;
+}
+#navigation_websitelogo
+{
+	vertical-align: middle;
+}
+#navigaion_top_right
+{
+	display: inline-block;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: auto;
+	height: 48px;
+	vertical-align: middle;
+	float: right;
+}
+
 /*Button*/
-	a.button_navigation_top
-	{
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 12px;
-		width: 24px;
-		height: 24px;
-		text-align: center;
-		text-decoration: none;
-		background-color: rgba(255,255,255,0);
-		cursor: default;
-	}
-	a.button_navigation_top:hover
-	{
-		background-color: rgba(255,255,255,0.125);
-	}
-	a.button_navigation_top:active
-	{
-		background-color: rgba(255,255,255,0.25);
-	}
+a.button_navigation_top
+{
+	display: inline-block;
+	margin: 0px;
+	border: 0px;
+	padding: 12px;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	text-decoration: none;
+	background-color: rgba(255,255,255,0);
+	cursor: default;
+}
+a.button_navigation_top:hover
+{
+	background-color: rgba(255,255,255,0.125);
+}
+a.button_navigation_top:active
+{
+	background-color: rgba(255,255,255,0.25);
+}
 
 @media screen and (min-width: 832px)
 {
