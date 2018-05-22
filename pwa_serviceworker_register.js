@@ -1,6 +1,6 @@
 /*==================================================================================================
 Progressive Web App - Service Worker - Register
-Variable:				Cache-First Network
+Branch:					Cache-First Network
 Author:					hugoalh
 Source:					https://www.pwabuilder.com/serviceworker
 Programming Language:	JavaScript/ECMAScript 6/7/8
