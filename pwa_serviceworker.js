@@ -16,7 +16,7 @@ self.addEventListener("install", function(evt) {
 	evt.waitUntil(precache().then(function() {
 		console.log("[hugoalh.github.io Progressive Web App - Service Worker] Skip waiting on install.");
 		return self.skipWaiting();
-	);
+	)
 });
 
 /*Allow service worker to control of current page*/
