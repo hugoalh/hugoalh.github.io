@@ -36,7 +36,7 @@ window.addEventListener("resize", navigation_clientevent);
 /*Load Data*/
 $(document).ready(function()
 	{
-		$("#navigation_top").load("/assets/navigation/top.embedhtml");
-		$("#navigation_left").load("/assets/navigation/left.embedhtml");
+		$("#navigation_top").load("/navigation/top.embedhtml");
+		$("#navigation_left").load("/navigation/left.embedhtml");
 	}
 );

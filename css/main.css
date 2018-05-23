@@ -4,7 +4,7 @@ Author:					hugoalh
 Programming Language:	CSS 3
 ==================================================================================================*/
 /*Import Style Sheet*/
-@import url("/assets/font/noto_sans.css");
+@import url("/font/noto_sans.css");
 
 /*Variable*/
 :root

@@ -7,7 +7,7 @@ Programming Language:	JavaScript/ECMAScript 6/7/8
 ==================================================================================================*/
 var CACHE = "pwa_cache";
 var precacheFiles = [
-	"/assets/logo/hugoalh_tile.svg"
+	"/logo/hugoalh_tile.svg"
 	];
 
 /*Install stage sets up the cache-array to configure pre-cache content*/

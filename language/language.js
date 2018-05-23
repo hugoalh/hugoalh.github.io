@@ -1,4 +1,5 @@
 /*==================================================================================================
+/*==================================================================================================
 hugoalh's Website Language Extension
 Author:					hugoalh
 Programming Language:	JavaScript/ECMAScript 6/7/8, JSON, jQuery 2(.2.4)/3(.3.1), Cookie
@@ -55,16 +56,16 @@ if (setting_language != "zh" && setting_language != "zhs" && setting_language !=
 /*Get Language String From JSON*/
 if (setting_language == "zh" )
 {
-	$.getJSON("/assets/language/zh.json", translate);
+	$.getJSON("/language/zh.json", translate);
 	cookie_set("setting_language", "zh", 365.25);
 };
 if (setting_language == "zhs" )
 {
-	$.getJSON("/assets/language/zhs.json", translate);
+	$.getJSON("/language/zhs.json", translate);
 	cookie_set("setting_language", "zhs", 365.25);
 };
 if (setting_language != "zh" && setting_language != "zhs")
 {
-	$.getJSON("/assets/language/en.json", translate);
+	$.getJSON("/language/en.json", translate);
 	cookie_set("setting_language", "en", 365.25);
 };
