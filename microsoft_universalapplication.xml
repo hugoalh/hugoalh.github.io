@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+	<msapplication>
+		<tile>
+			<square70x70logo src="/favicon/microsoft_universalapplication_70x70.png" />
+			<square150x150logo src="/favicon/microsoft_universalapplication_150x150.png" />
+			<wide310x150logo src="/favicon/microsoft_universalapplication_310x150.png" />
+			<square310x310logo src="/favicon/microsoft_universalapplication_310x310.png" />
+			<TileImage src="/favicon/microsoft_universalapplication_150x150.png" />
+			<TileColor>#7F7F7F</TileColor>
+		</tile>
+<!--	<badge>
+			<polling-uri src="/microsoft_universalapplication_badge.xml" />
+			<frequency>30</frequency>
+		</badge>
+		<notification>
+			<polling-uri  src="/microsoft_universalapplication_notification_1.xml" />
+			<polling-uri2 src="/microsoft_universalapplication_notification_2.xml" />
+			<polling-uri3 src="/microsoft_universalapplication_notification_3.xml" />
+			<polling-uri4 src="/microsoft_universalapplication_notification_4.xml" />
+			<polling-uri5 src="/microsoft_universalapplication_notification_5.xml" />
+			<frequency>30</frequency>
+			<cycle>1</cycle>
+		</notification>-->
+	</msapplication>
+</browserconfig>
