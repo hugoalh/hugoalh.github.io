@@ -15,11 +15,6 @@
 			"type": "image/x-icon"
 		},
 		{
-			"src": "/favicon/general_8x8.png",
-			"sizes": "8x8",
-			"type": "image/png"
-		},
-		{
 			"src": "/favicon/general_16x16.png",
 			"sizes": "16x16",
 			"type": "image/png"
@@ -47,6 +42,11 @@
 		{
 			"src": "/favicon/general_56x56.png",
 			"sizes": "56x56",
+			"type": "image/png"
+		},
+		{
+			"src": "/favicon/general_64x64.png",
+			"sizes": "64x64",
 			"type": "image/png"
 		},
 		{
