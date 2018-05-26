@@ -4,8 +4,7 @@ Author:					JDGraphics Fonts, Jacob Debono
 Source:					http://www.fontspace.com/jdgraphics/minecraft
 Programming Language:	CSS 3
 ==================================================================================================*/
-@font-face
-{
+@font-face {
 	font-family: "Minecraft";
 	src: local("Minecraft-Regular"), local("Minecraft Regular"),
 		url("/font/minecraft_regular.otf") format("opentype");
@@ -13,8 +12,7 @@ Programming Language:	CSS 3
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face
-{
+@font-face {
 	font-family: "Minecraft";
 	src: local("Minecraft-Bold"), local("Minecraft Bold"),
 		url("/font/minecraft_bold.otf") format("opentype");
@@ -22,8 +20,7 @@ Programming Language:	CSS 3
 	font-style: normal;
 	font-weight: bold;
 }
-@font-face
-{
+@font-face {
 	font-family: "Minecraft";
 	src: local("Minecraft-Italic"), local("Minecraft Italic"),
 		url("/font/minecraft_italic.otf") format("opentype");
@@ -31,8 +28,7 @@ Programming Language:	CSS 3
 	font-style: italic;
 	font-weight: normal;
 }
-@font-face
-{
+@font-face {
 	font-family: "Minecraft";
 	src: local("Minecraft-BoldItalic"), local("Minecraft Bold Italic"),
 		url("/font/minecraft_bold-italic.otf") format("opentype");

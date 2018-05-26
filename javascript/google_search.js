@@ -3,8 +3,8 @@ Google Search - Custom Search Engine
 Author:					Google
 Programming Language:	JavaScript/ECMAScript 6/7/8
 ==================================================================================================*/
-(function()
-	{
+(
+	function() {
 		var cx = '008207840337707381853:janfdzcaxbq';
 		var gcse = document.createElement('script');
 		gcse.type = 'text/javascript';

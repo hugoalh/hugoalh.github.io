@@ -4,8 +4,7 @@ Author:					Google, Monotype Imaging Inc, Adobe Systems Inc
 Source:					https://www.google.com/get/noto/
 Programming Language:	CSS 3
 ==================================================================================================*/
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-Regular"), local("Noto Sans Regular"),
 		url("/font/noto_sans_regular.ttf") format("truetype");
@@ -13,8 +12,7 @@ Programming Language:	CSS 3
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-Bold"), local("Noto Sans Bold"),
 		url("/font/noto_sans_bold.ttf") format("truetype");
@@ -22,8 +20,7 @@ Programming Language:	CSS 3
 	font-style: normal;
 	font-weight: bold;
 }
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-Italic"), local("Noto Sans Italic"),
 		url("/font/noto_sans_italic.ttf") format("truetype");
@@ -31,8 +28,7 @@ Programming Language:	CSS 3
 	font-style: italic;
 	font-weight: normal;
 }
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-BoldItalic"), local("Noto Sans Bold Italic"),
 		url("/font/noto_sans_bold-italic.ttf") format("truetype");
@@ -40,8 +36,7 @@ Programming Language:	CSS 3
 	font-style: italic;
 	font-weight: bold;
 }
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans ZH";
 	src: local("NotoSansTC-Regular"), local("Noto Sans TC Regular"),
 		url("https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2") format("woff2"),
@@ -54,8 +49,7 @@ Programming Language:	CSS 3
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans ZH";
 	src: local("NotoSansTC-Bold"), local("Noto Sans TC Bold"),
 		url("https://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2") format('woff2'),
@@ -68,8 +62,7 @@ Programming Language:	CSS 3
 	font-style: normal;
 	font-weight: bold;
 }
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans ZHS";
 	src: local("NotoSansSC-Regular"), local("Noto Sans SC Regular"),
 		url("https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2") format('woff2'),
@@ -82,8 +75,7 @@ Programming Language:	CSS 3
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans ZHS";
 	src: local("NotoSansSC-Bold"), local("Noto Sans SC Bold"),
 		url("https://fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Bold.woff2") format('woff2'),
@@ -96,8 +88,7 @@ Programming Language:	CSS 3
 	font-style: normal;
 	font-weight: bold;
 }
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans JP";
 	src: local("NotoSansJP-Regular"), local("Noto Sans JP Regular"),
 		url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Regular.woff2") format('woff2'),
@@ -110,8 +101,7 @@ Programming Language:	CSS 3
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face
-{
+@font-face {
 	font-family: "Noto Sans JP";
 	src: local("NotoSansJP-Bold"), local("Noto Sans JP Bold"),
 		url("https://fonts.gstatic.com/ea/notosansjapanese/v6/NotoSansJP-Bold.woff2") format('woff2'),
