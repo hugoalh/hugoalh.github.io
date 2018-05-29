@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
+<svg version="1.1" id="icon_delete" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<path d="M5.334,19.777C5.334,21,6.333,22,7.556,22h8.889c1.222,0,2.223-1,2.223-2.223V6.444H5.334V19.777z M19.777,3.111h-3.889
+	L14.777,2H9.223L8.111,3.111H4.223v2.222h15.555V3.111z"/>
 </svg>
