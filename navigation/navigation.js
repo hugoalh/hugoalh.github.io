@@ -30,8 +30,8 @@ var navigation_left_mode;
 	window.addEventListener("resize", navigation_clientevent);
 
 /*Load Data*/
-$(document).ready(function() {
-		$("#navigation_top").load("/navigation/top.embedhtml");
-		$("#navigation_left").load("/navigation/left.embedhtml");
-	}
-);
+	$(document).ready(function() {
+			$("#navigation_top").load("/navigation/top.html-embed");
+			$("#navigation_left").load("/navigation/left.html-embed");
+		}
+	);

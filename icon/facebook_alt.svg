@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 512"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229"/></svg>
+<svg version="1.1" id="icon_facebook_alt" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<path d="M14.415,22v-8.051h-2.696V10.75h2.696V8.229C14.415,5.491,16.089,4,18.532,4C19.703,4,20.708,4.088,21,4.126v2.862h-1.694
+	c-1.329,0-1.586,0.633-1.586,1.558v2.204h2.999l-0.411,3.199H17.72V22"/>
+</svg>
