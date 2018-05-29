@@ -1,20 +1,20 @@
 /*==================================================================================================
-Progressive Web App - Service Worker
+Web Application - Service Worker
 Branch:					Cache-First Network
 Author:					hugoalh
 Source:					https://www.pwabuilder.com/serviceworker
 Programming Language:	JavaScript/ECMAScript 6/7/8
 ==================================================================================================*/
-var CACHE = "pwa_cache";
+var CACHE = "webapplication_cache";
 var precacheFiles = [
 	"/logo/hugoalh_tile.svg"
 ];
 
 /*Install stage sets up the cache-array to configure pre-cache content*/
 	self.addEventListener("install", function(evt) {
-			console.log("[hugoalh.github.io Progressive Web App - Service Worker] Service worker is installed.");
+			console.log("[hugoalh.github.io Web Application - Service Worker] Service worker is installed.");
 			evt.waitUntil(precache().then(function() {
-						console.log("[hugoalh.github.io Progressive Web App - Service Worker] Skip waiting on install.");
+						console.log("[hugoalh.github.io Web Application - Service Worker] Skip waiting on install.");
 						return self.skipWaiting();
 					}
 				)
@@ -24,12 +24,12 @@ var precacheFiles = [
 
 /*Allow service worker to control of current page*/
 	self.addEventListener("activate", function(event) {
-		console.log("[hugoalh.github.io Progressive Web App - Service Worker] Claiming client for current page.");
+		console.log("[hugoalh.github.io Web Application - Service Worker] Claiming client for current page.");
 		return self.clients.claim();
 		}
 	);
 	self.addEventListener("fetch", function(evt) {
-		console.log("[hugoalh.github.io Progressive Web App - Service Worker] Service worker is serving the asset: "+ evt.request.url);
+		console.log("[hugoalh.github.io Web Application - Service Worker] Service worker is serving the asset: "+ evt.request.url);
 		evt.respondWith(fromCache(evt.request).catch(fromServer(evt.request)));
 		evt.waitUntil(update(evt.request));
 		}

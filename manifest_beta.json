@@ -106,5 +106,10 @@
 			"type": "image/png"
 		}
 	],
-	"prefer_related_applications": false
+	"prefer_related_applications": false,
+	"serviceworker": [
+		"src": "/pwa_serviceworker_register.js",
+		"scope": "/",
+		"update_via_cache": "none"
+	]
 }

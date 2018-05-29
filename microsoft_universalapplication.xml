@@ -7,7 +7,7 @@
 			<wide310x150logo src="/favicon/microsoft_universalapplication_310x150.png" />
 			<square310x310logo src="/favicon/microsoft_universalapplication_310x310.png" />
 			<TileImage src="/favicon/microsoft_universalapplication_150x150.png" />
-			<TileColor>#7F7F7F</TileColor>
+			<TileColor>#FFFFFF</TileColor>
 		</tile>
 <!--	<badge>
 			<polling-uri src="/microsoft_universalapplication_badge.xml" />
