@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
-    <path d="M0 0h24v24H0z" fill="none"/>
+<svg version="1.1" id="icon_send" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<path d="M2.009,20.571L22,12L2.009,3.429L2,10.095L16.286,12L2,13.904L2.009,20.571z"/>
 </svg>

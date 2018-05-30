@@ -1,4 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path d="M0 0h24v24H0z" fill="none"/>
-    <path d="M17 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V7l-4-4zm-5 16c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm3-10H5V5h10v4z"/>
+<svg version="1.1" id="icon_save" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<path d="M17.556,2H4.222C2.989,2,2,3,2,4.222v15.555C2,21,2.989,22,4.222,22h15.555C21,22,22,21,22,19.777V6.444L17.556,2z
+	 M12,19.777c-1.845,0-3.333-1.488-3.333-3.333s1.489-3.333,3.333-3.333s3.333,1.488,3.333,3.333S13.845,19.777,12,19.777z
+	 M15.333,8.667H4.222V4.222h11.111V8.667z"/>
 </svg>
