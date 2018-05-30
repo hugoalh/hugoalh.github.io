@@ -23,6 +23,7 @@ Programming Language:	CSS 3
 		/*Framework*/
 			--framework_top: 48px;
 			--framework_left: 256px;
+			--framework_menu: 24px;
 	}
 
 /*Fix*/
@@ -88,6 +89,32 @@ Programming Language:	CSS 3
 		background-size: cover;
 		transition: width 0.4s;
 	}
+	#navigation_left > #menu {
+		display: block;
+		position: absolute;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		top: 0px;
+		bottom: var(--framework_menu);
+		left: 0px;
+		right: 0px;
+		overflow: auto;
+	}
+	#navigation_left > #copyright {
+		display: block;
+		position: absolute;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		height: var(--framework_menu);
+		overflow: hidden;
+	}
 	#page {
 		top: var(--framework_top);
 		bottom: 0px;
@@ -150,10 +177,7 @@ Programming Language:	CSS 3
 		vertical-align: middle;
 		float: left;
 	}
-	#navigation_left_button {
-		vertical-align: middle;
-	}
-	#navigation_websitelogo {
+	#navigation_left_button, #navigation_websitelogo {
 		vertical-align: middle;
 	}
 	#navigaion_top_right {

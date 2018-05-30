@@ -6,7 +6,7 @@ Programming Language:	JavaScript/ECMAScript 6/7/8, JSON, jQuery 2(.2.4)/3(.3.1),
 /*Replace Language String*/
 	var translate = function (jsdata) {
 		$("[languagestring]").each (function (index) {
-				var strTr = jsdata [$(this).attr ('languagestring')];
+				var strTr = jsdata [$(this).attr ("languagestring")];
 				$(this).html (strTr);
 			}
 		);
