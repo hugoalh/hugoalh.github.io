@@ -13,13 +13,12 @@ Programming Language:	CSS 3
 				--theme_color_main: #0063B1;
 				--theme_color_main_light: #5590E3;
 				--theme_color_main_dark: #003A81;
+				--theme_color_navigation: #FFFFFF;
 				--theme_color_page: #FFFFFF;
 			/*Background Image*/
 				--theme_image_top: none;
 				--theme_image_left: none;
 				--theme_image_page: none;
-			/*Icon Color*/
-				--theme_icon_color: #FFFFFF;
 		/*Framework*/
 			--framework_top: 48px;
 			--framework_left: 256px;
@@ -42,7 +41,7 @@ Programming Language:	CSS 3
 		font-size: 10pt;
 	}
 
-/*Scrollbar, Microsoft Edge; Hide automatically when unscroll*/
+/*Scrollbar, Microsoft Edge; Hide Automatically When Unscroll*/
 	html, body {
 		-ms-overflow-style: -ms-autohiding-scrollbar;
 	}
@@ -114,6 +113,9 @@ Programming Language:	CSS 3
 		right: 0px;
 		height: var(--framework_menu);
 		overflow: hidden;
+		text-align: center;
+		vertical-align: middle;
+		color: var(--theme_color_navigation);
 	}
 	#page {
 		top: var(--framework_top);
@@ -123,12 +125,12 @@ Programming Language:	CSS 3
 		padding: 8px !important;
 		overflow: auto;
 		background-color: var(--theme_color_page);
-		background-image: var(--theme_image_page);
+/* 		background-image: var(--theme_image_page);
 		background-clip: border-box;
 		background-origin: border-box;
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: cover;*/
 		transition: left 0.4s, background-color 0.4s;
 	}
 
@@ -153,7 +155,7 @@ Programming Language:	CSS 3
 		padding: 0px;
 		width: 24px;
 		height: 24px;
-		fill: var(--theme_icon_color);
+		fill: var(--theme_color_navigation);
 	}
 
 /*Logo*/
