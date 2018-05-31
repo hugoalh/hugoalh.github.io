@@ -102,17 +102,28 @@ Programming Language:	CSS 3
 		overflow: auto;
 	}
 	#navigation_left > #copyright {
-		display: block;
+		display: table;
 		position: absolute;
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
-		padding: 0px;
+		padding: 2px;
 		bottom: 0px;
 		left: 0px;
 		right: 0px;
+		width: 100%;
 		height: var(--framework_menu);
 		overflow: hidden;
+		text-align: center;
+		vertical-align: middle;
+		color: var(--theme_color_navigation);
+	}
+	#navigation_left > #copyright > div {
+		display: table-cell;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
 		text-align: center;
 		vertical-align: middle;
 		color: var(--theme_color_navigation);
