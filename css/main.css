@@ -206,6 +206,7 @@ Programming Language:	CSS 3
 
 /*Button*/
 	button {
+		box-sizing: content-box;
 		outline: none;
 	}
 	.button_navigation_top {
