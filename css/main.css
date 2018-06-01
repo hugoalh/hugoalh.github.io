@@ -22,7 +22,7 @@ Programming Language:	CSS 3
 		/*Framework*/
 			--framework_top: 48px;
 			--framework_left: 256px;
-			--framework_left_negative: calc(0 - var(--framework_left));
+			--framework_left_negative: -256px;
 			--framework_menu: 24px;
 	}
 
