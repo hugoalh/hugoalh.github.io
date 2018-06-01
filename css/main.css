@@ -13,8 +13,8 @@ Programming Language:	CSS 3
 				--theme_color_main: #0063B1;
 				--theme_color_main_light: #5590E3;
 				--theme_color_main_dark: #003A81;
-				--theme_color_navigation: #FFFFFF;
 				--theme_color_page: #FFFFFF;
+				--textcolor_navigation: #FFFFFF;
 			/*Background Image*/
 				--theme_image_top: none;
 				--theme_image_left: none;
@@ -23,7 +23,7 @@ Programming Language:	CSS 3
 			--framework_top: 48px;
 			--framework_left: 256px;
 			--framework_left_negative: -256px;
-			--framework_menu: 24px;
+			--framework_menu: 48px;
 	}
 
 /*Fix*/
@@ -65,6 +65,7 @@ Programming Language:	CSS 3
 		overflow: hidden;
 		font-size: 0px;
 		vertical-align: middle;
+		color: var(--textcolor_navigation);
 		background-color: var(--theme_color_main);
 		background-image: var(--theme_image_top);
 		background-clip: border-box;
@@ -80,6 +81,7 @@ Programming Language:	CSS 3
 		left: var(--framework_left_negative);
 		width: var(--framework_left);
 		overflow-x: hidden;
+		color: var(--textcolor_navigation);
 		background-color: var(--theme_color_main);
 		background-image: var(--theme_image_left);
 		background-clip: border-box;
@@ -101,6 +103,14 @@ Programming Language:	CSS 3
 		left: 0px;
 		right: 0px;
 		overflow: auto;
+		color: var(--textcolor_navigation);
+	}
+	#navigation_left > #menu > ul {
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		list-style-type: none;
+		
 	}
 	#navigation_left > #copyright {
 		display: table;
@@ -117,7 +127,7 @@ Programming Language:	CSS 3
 		overflow: hidden;
 		text-align: center;
 		vertical-align: middle;
-		color: var(--theme_color_navigation);
+		color: var(--textcolor_navigation);
 	}
 	#navigation_left > #copyright > div {
 		display: table-cell;
@@ -127,7 +137,7 @@ Programming Language:	CSS 3
 		padding: 0px;
 		text-align: center;
 		vertical-align: middle;
-		color: var(--theme_color_navigation);
+		color: var(--textcolor_navigation);
 	}
 	#page {
 		top: var(--framework_top);
@@ -167,7 +177,7 @@ Programming Language:	CSS 3
 		padding: 0px;
 		width: 24px;
 		height: 24px;
-		fill: var(--theme_color_navigation);
+		fill: var(--textcolor_navigation);
 	}
 
 /*Logo*/
