@@ -1,5 +1,60 @@
 <div id="menu">
-	
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">About Me</a></li>
+			<ul>
+				<li><a href="#">Stream Room</a></li>
+			</ul>
+		<li><a href="#">Minecraft</a></li>
+			<ul>
+				<li><a href="#">World</a></li>
+					<ul>
+						<li><a href="#">Battle Together (GuGe O&apos; Battle)</a></li>
+						<li><a href="#">Open The Door</a></li>
+						<li><a href="#">M3WE</a></li>
+					</ul>
+				<li><a href="#">Command</a></li>
+				<li><a href="#">Resource Pack</a></li>
+					<ul>
+						<li><a href="#">GUI Metroize (Java Vanilla)</a></li>
+						<li><a href="#">GUI Metroize (Java Forge)</a></li>
+						<li><a href="#">Language Extension</a></li>
+					</ul>
+				<li><a href="#">Data Pack</a></li>
+				<li><a href="#">Modification Pack</a></li>
+					<ul>
+						<li><a href="#">GuGe World: Survival Together</a></li>
+					</ul>
+				<li><a href="#">Add-on</a></li>
+					<ul>
+						<li><a href="#">GUI Metroize (Universal Vanilla)</a></li>
+					</ul>
+			</ul>
+		<li><a href="#">American Truck Simulator / Euro Truck Simulator 2 / Euro Truck Simulator</a></li>
+			<ul>
+				<li><a href="#">Modification</a></li>
+				<li><a href="#">World</a></li>
+			</ul>
+		<li><a href="#">Cities Skyline / Cities In Motion 2 / Cities In Motion</a></li>
+			<ul>
+				<li><a href="#">Modification</a></li>
+				<li><a href="#">World</a></li>
+			</ul>
+		<li><a href="#">Transport Fever / Train Fever</a></li>
+			<ul>
+				<li><a href="#">Modification</a></li>
+				<li><a href="#">World</a></li>
+			</ul>
+		<li><a href="#">Roblox</a></li>
+		<li><a href="#">Website Re-design</a></li>
+			<ul>
+				<li><a href="#">VeFans</a></li>
+			</ul>
+		<li><a href="#">Universal Blacklist (UBL)</a></li>
+		<li><a href="#">Event</a></li>
+		<li><a href="#">Laboratory</a></li>
+		<li><a href="#">About Website / Copyright / License</a></li>
+	</ul>
 </div>
 <div id="copyright">
 	<div>
