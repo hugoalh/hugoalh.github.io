@@ -22,6 +22,7 @@ Programming Language:	CSS 3
 		/*Framework*/
 			--framework_top: 48px;
 			--framework_left: 256px;
+			--framework_left_negative: calc(0 - var(--framework_left));
 			--framework_menu: 24px;
 	}
 
@@ -76,8 +77,8 @@ Programming Language:	CSS 3
 		z-index: 1;
 		top: var(--framework_top);
 		bottom: 0px;
-		left: 0px;
-		width: 0px;
+		left: var(--framework_left_negative);
+		width: var(--framework_left);
 		overflow-x: hidden;
 		background-color: var(--theme_color_main);
 		background-image: var(--theme_image_left);
@@ -86,7 +87,7 @@ Programming Language:	CSS 3
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		transition: width 0.4s;
+		transition: left 0.4s;
 	}
 	#navigation_left > #menu {
 		display: block;
@@ -233,7 +234,7 @@ Programming Language:	CSS 3
 		display: none;
 	}
 	#navigation_left {
-		width: var(--framework_left);
+		left: 0px;
 	}
 	#page {
 		left: var(--framework_left);
