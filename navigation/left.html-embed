@@ -29,6 +29,11 @@
 					<ul>
 						<li><a href="#">GUI Metroize (Universal Vanilla)</a></li>
 					</ul>
+				<li><a href="#">Generator</a></li>
+					<ul>
+						<li><a href="#">JSON Language Encode/Decode (For Chinese, Chinese Simplify)</a></li>
+						<li><a href="#">mcmeta File Generator</a></li>
+					</ul>
 			</ul>
 		<li><a href="#">American Truck Simulator / Euro Truck Simulator 2 / Euro Truck Simulator</a></li>
 			<ul>
@@ -52,7 +57,8 @@
 			</ul>
 		<li><a href="#">Universal Blacklist (UBL)</a></li>
 		<li><a href="#">Event</a></li>
-		<li><a href="#">Laboratory</a></li>
+		<li><a href="#">Recommended Application/Extension/Plugin</a></li>
+		<li><a href="#">Settings</a></li>
 		<li><a href="#">About Website / Copyright / License</a></li>
 	</ul>
 </div>
