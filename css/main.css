@@ -111,7 +111,7 @@ Programming Language:	CSS 3
 		padding: 0px;
 	}
 	#navigation_left > #menu > ul ul {
-		-webkit-padding-start: 24px; -moz-padding-start: 24px; -khtml-padding-start: 24px; -o-padding-start: 24px;
+		-webkit-padding-start: 24px; -moz-padding-start: 24px;
 	}
 	#navigation_left > #copyright {
 		display: table;
