@@ -27,24 +27,20 @@ Programming Language:	CSS 3
 	}
 
 /*Fix*/
-	/*Webpage Render*/
-		html, body {
-			margin: 0px;
-			border: 0px;
-			padding: 0px;
-			width: 100%;
-			height: 100%;
+	html, body {
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+	}
+	/*Microsoft Internet Explorer*/
+		article, aside, figure, footer, header, main, nav, section {
+			display: block; 
 		}
 
 /*Font*/
 	html, body {
 		font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans ZHS", "Noto Sans JP", sans-serif;
 		font-size: 10pt;
-	}
-
-/*Scrollbar, Microsoft Edge; Hide Automatically When Unscroll*/
-	html, body {
-		-ms-overflow-style: -ms-autohiding-scrollbar;
 	}
 
 /*Webpage Structure*/
@@ -105,12 +101,13 @@ Programming Language:	CSS 3
 		overflow: auto;
 		color: var(--textcolor_navigation);
 	}
+	#navigation_left > #menu ul {
+		list-style-type: none;
+	}
 	#navigation_left > #menu > ul {
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
-		list-style-type: none;
-		
 	}
 	#navigation_left > #copyright {
 		display: table;
