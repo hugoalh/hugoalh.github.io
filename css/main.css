@@ -102,12 +102,16 @@ Programming Language:	CSS 3
 		color: var(--textcolor_navigation);
 	}
 	#navigation_left > #menu ul {
+		box-sizing: border-box;
 		list-style-type: none;
 	}
 	#navigation_left > #menu > ul {
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
+	}
+	#navigation_left > #menu > ul ul {
+		-webkit-padding-start: 24px; -moz-padding-start: 24px; -khtml-padding-start: 24px; -o-padding-start: 24px;
 	}
 	#navigation_left > #copyright {
 		display: table;
