@@ -27,14 +27,15 @@ Programming Language:	CSS 3
 	}
 
 /*Fix*/
-	html, body {
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-	}
+	/*Webpage Render*/
+		html, body {
+			margin: 0px;
+			border: 0px;
+			padding: 0px;
+		}
 	/*Microsoft Internet Explorer*/
 		article, aside, figure, footer, header, main, nav, section {
-			display: block; 
+			display: block;
 		}
 
 /*Font*/
@@ -57,12 +58,16 @@ Programming Language:	CSS 3
 		top: 0px;
 		left: 0px;
 		right: 0px;
+		height /*Microsoft Internet Explorer*/: 48px;
 		height: var(--framework_top);
 		overflow: hidden;
-		font-size: 0px;
+		font-size: 0pt;
 		vertical-align: middle;
+		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
+		background-color /*Microsoft Internet Explorer*/: #0063B1;
 		background-color: var(--theme_color_main);
+		background-image /*Microsoft Internet Explorer*/: none;
 		background-image: var(--theme_image_top);
 		background-clip: border-box;
 		background-origin: border-box;
@@ -72,13 +77,19 @@ Programming Language:	CSS 3
 	}
 	#navigation_left {
 		z-index: 1;
+		top /*Microsoft Internet Explorer*/: 48px;
 		top: var(--framework_top);
 		bottom: 0px;
+		left /*Microsoft Internet Explorer*/: -256px;
 		left: var(--framework_left_negative);
+		width /*Microsoft Internet Explorer*/: 256px;
 		width: var(--framework_left);
 		overflow-x: hidden;
+		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
+		background-color /*Microsoft Internet Explorer*/: #0063B1;
 		background-color: var(--theme_color_main);
+		background-image /*Microsoft Internet Explorer*/: none;
 		background-image: var(--theme_image_left);
 		background-clip: border-box;
 		background-origin: border-box;
@@ -86,6 +97,25 @@ Programming Language:	CSS 3
 		background-repeat: no-repeat;
 		background-size: cover;
 		transition: left 0.4s;
+	}
+	#page {
+		top /*Microsoft Internet Explorer*/: 48px;
+		top: var(--framework_top);
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		padding: 8px;
+		overflow: auto;
+		background-color /*Microsoft Internet Explorer*/: #FFFFFF;
+		background-color: var(--theme_color_page);
+/* 		background-image [Microsoft Internet Explorer]: none;
+		background-image: var(--theme_image_page);
+		background-clip: border-box;
+		background-origin: border-box;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;*/
+		transition: left 0.4s, background-color 0.4s;
 	}
 	#navigation_left > #menu {
 		display: block;
@@ -95,11 +125,13 @@ Programming Language:	CSS 3
 		border: 0px;
 		padding: 0px;
 		top: 0px;
+		bottom /*Microsoft Internet Explorer*/: 48px;
 		bottom: var(--framework_menu);
 		left: 0px;
 		right: 0px;
 		overflow: auto;
 		font-size: 12pt;
+		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
 	#navigation_left > #menu ul {
@@ -110,7 +142,7 @@ Programming Language:	CSS 3
 		list-style-type: none;
 	}
 	#navigation_left > #menu > ul ul {
-		-webkit-padding-start: 24px; -moz-padding-start: 24px;
+		padding-left: 24px;
 	}
 	#navigation_left > #menu a {
 		display: block;
@@ -130,10 +162,12 @@ Programming Language:	CSS 3
 		left: 0px;
 		right: 0px;
 		width: 100%;
+		height /*Microsoft Internet Explorer*/: 48px;
 		height: var(--framework_menu);
 		overflow: hidden;
 		text-align: center;
 		vertical-align: middle;
+		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
 	#navigation_left > #copyright > div {
@@ -144,39 +178,11 @@ Programming Language:	CSS 3
 		padding: 0px;
 		text-align: center;
 		vertical-align: middle;
+		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#page {
-		top: var(--framework_top);
-		bottom: 0px;
-		left: 0px;
-		right: 0px;
-		padding: 8px !important;
-		overflow: auto;
-		background-color: var(--theme_color_page);
-/* 		background-image: var(--theme_image_page);
-		background-clip: border-box;
-		background-origin: border-box;
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;*/
-		transition: left 0.4s, background-color 0.4s;
-	}
-
-.blankspace_0px {
-	margin: 0px;
-	border: 0px;
-	padding: 0px;
-}
 
 /*Icon*/
-	img.icon_24px {
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: 24px;
-		height: 24px;
-	}
 	svg.icon_navigation {
 		display: inline-block;
 		margin: 0px;
@@ -184,57 +190,58 @@ Programming Language:	CSS 3
 		padding: 0px;
 		width: 24px;
 		height: 24px;
+		fill /*Microsoft Internet Explorer*/: #FFFFFF;
 		fill: var(--textcolor_navigation);
 	}
 
-/*Logo*/
-	.logo_website_navigation {
+/*Navigation*/
+	#navigation_top > .left {
+		display: inline-block;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		width: auto;
+		height: 48px;
+		float: left;
+		vertical-align: middle;
+	}
+	#navigation_top > .right {
+		display: inline-block;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		width: auto;
+		height: 48px;
+		float: right;
+		vertical-align: middle;
+	}
+	#navigation_websitelogo {
 		display: inline-block;
 		margin: 0px;
 		border: 0px;
 		padding: 8px;
 		width: auto;
 		height: 32px;
+		vertical-align: middle;
 	}
 
-/*Navigation*/
-	#navigaion_top_left {
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: auto;
-		height: 48px;
-		vertical-align: middle;
-		float: left;
-	}
-	#navigation_left_button, #navigation_websitelogo {
-		vertical-align: middle;
-	}
-	#navigaion_top_right {
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: auto;
-		height: 48px;
-		vertical-align: middle;
-		float: right;
-	}
 
 /*Button*/
 	button {
-		box-sizing: content-box;
 		outline: none;
 	}
 	.button_navigation_top {
 		display: inline-block;
+		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
 		padding: 12px;
-		width: 24px;
-		height: 24px;
+		width: 48px;
+		height: 48px;
 		text-align: center;
+		vertical-align: middle;
 		text-decoration: none;
 		background-color: rgba(255,255,255,0);
 		cursor: default;
@@ -254,6 +261,7 @@ Programming Language:	CSS 3
 		left: 0px;
 	}
 	#page {
+		left /*Microsoft Internet Explorer*/: 256px;
 		left: var(--framework_left);
 	}
 }
