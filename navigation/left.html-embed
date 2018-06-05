@@ -21,8 +21,8 @@
 						<li><a href="#">Language Extension</a></li>
 					</ul>
 				<li><a href="#">Data Pack</a></li>
-				<li><a href="#">Modification (MOD)</a></li>
-				<li><a href="#">Modification Pack (MOD Pack)</a></li>
+				<li><a href="#">Modification (Mod)</a></li>
+				<li><a href="#">Modification Pack (Modpack)</a></li>
 					<ul>
 						<li><a href="#">GuGe World: Survival Together</a></li>
 					</ul>
@@ -37,13 +37,12 @@
 				<li><a href="#">World</a></li>
 				<li><a href="#">Command</a></li>
 				<li><a href="#">Resource Pack</a></li>
-				<li><a href="#">Add-on</a></li>
 					<ul>
 						<li><a href="#">GUI Metroize (Universal Vanilla)</a></li>
 					</ul>
+				<li><a href="#">Add-on</a></li>
 				<li><a href="#">Generator</a></li>
 			</ul>
-
 		<li><a href="#">American Truck Simulator / Euro Truck Simulator 2 / Euro Truck Simulator</a></li>
 			<ul>
 				<li><a href="#">World</a></li>

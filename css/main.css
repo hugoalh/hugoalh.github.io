@@ -99,19 +99,25 @@ Programming Language:	CSS 3
 		left: 0px;
 		right: 0px;
 		overflow: auto;
+		font-size: 12pt;
 		color: var(--textcolor_navigation);
 	}
 	#navigation_left > #menu ul {
 		box-sizing: border-box;
-		list-style-type: none;
-	}
-	#navigation_left > #menu > ul {
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
+		list-style-type: none;
 	}
 	#navigation_left > #menu > ul ul {
 		-webkit-padding-start: 24px; -moz-padding-start: 24px;
+	}
+	#navigation_left > #menu a {
+		display: block;
+		width: 100%;
+		height: 48px;
+		text-align: left;
+		vertical-align: middle;
 	}
 	#navigation_left > #copyright {
 		display: table;
