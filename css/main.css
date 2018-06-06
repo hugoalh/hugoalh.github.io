@@ -155,8 +155,7 @@ Programming Language:	CSS 3
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
-		padding-right: 12px;
-		width: 36px;
+		width: 24px;
 		height: 24px;
 		vertical-align: middle;
 		fill /*Microsoft Internet Explorer*/: #FFFFFF;
@@ -168,7 +167,6 @@ Programming Language:	CSS 3
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
-		padding-left: 12px;
 		width: auto;
 		height: auto;
 		text-align: left;
