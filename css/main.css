@@ -139,12 +139,41 @@ Programming Language:	CSS 3
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
-		padding: 0px;
+		padding: 12px;
 		width: 100%;
 		min-height: 48px;
 		height: auto;
 		text-align: left;
 		vertical-align: middle;
+		text-decoration: none;
+		color /*Microsoft Internet Explorer*/: #FFFFFF;
+		color: var(--textcolor_navigation);
+	}
+	#navigation_left > #menu a > svg {
+		display: inline-block;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		padding-right: 12px;
+		width: 24px;
+		height: 24px;
+		vertical-align: middle;
+		fill /*Microsoft Internet Explorer*/: #FFFFFF;
+		fill: var(--textcolor_navigation);
+	}
+	#navigation_left > #menu a > span {
+		display: inline-block;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		padding-left: 12px;
+		width: auto;
+		height: auto;
+		text-align: left;
+		vertical-align: middle;
+		text-decoration: none;
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
@@ -154,22 +183,13 @@ Programming Language:	CSS 3
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
+		padding-left: 24px;
 		width: 100%;
 		height: auto;
 		text-align: left;
 		vertical-align: middle;
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
-	}
-	#navigation_left > #menu a > svg {
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 12px;
-		width: 48px;
-		height: 48px;
-		fill /*Microsoft Internet Explorer*/: #FFFFFF;
-		fill: var(--textcolor_navigation);
 	}
 	#navigation_left > #copyright {
 		display: table;
@@ -210,6 +230,7 @@ Programming Language:	CSS 3
 		padding: 0px;
 		width: 24px;
 		height: 24px;
+		vertical-align: middle;
 		fill /*Microsoft Internet Explorer*/: #FFFFFF;
 		fill: var(--textcolor_navigation);
 	}

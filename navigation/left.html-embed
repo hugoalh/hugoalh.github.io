@@ -1,26 +1,41 @@
 <div id="menu">
-	<a href="#">Homepage</a>
-	<a href="#">About hugoalh</a>
+	<a href="/" id="menu_homepage">
+		<svg viewBox="0 0 24 24"><use xlink:href="/icon/home.svg#icon_home"></use></svg>
+		<span>Homepage</span>
+	</a>
+	<a href="#" id="menu_about_hugoalh">
+		<svg viewBox="0 0 24 24"><use xlink:href="/icon/face.svg#icon_face"></use></svg>
+		<span>About hugoalh</span>
+	</a>
 		<div>
 			<a href="#">Stream Studio</a>
 		</div>
 	<a href="#">Minecraft (Java)</a>
+		<div>
 		<a href="#">World</a>
-			<a href="#">Battle Together (Previous Name: GuGe O&apos; Battle)</a>
-			<a href="#">Open The Door</a>
-			<a href="#">M3WE</a>
+			<div>
+				<a href="#">Battle Together (Previous Name: GuGe O&apos; Battle)</a>
+				<a href="#">Open The Door</a>
+				<a href="#">M3WE</a>
+			</div>
 		<a href="#">Command</a>
 		<a href="#">Resource Pack</a>
-			<a href="#">GUI Metroize (Java Vanilla)</a>
-			<a href="#">GUI Metroize (Java Forge)</a>
-			<a href="#">Language Extension</a>
+			<div>
+				<a href="#">GUI Metroize (Java Vanilla)</a>
+				<a href="#">GUI Metroize (Java Forge)</a>
+				<a href="#">Language Extension</a>
+			</div>
 		<a href="#">Data Pack</a>
 		<a href="#">Modification (Mod)</a>
 		<a href="#">Modification Pack (Modpack)</a>
-			<a href="#">GuGe World: Survival Together</a>
+			<div>
+				<a href="#">GuGe World: Survival Together</a>
+			</div>
 		<a href="#">Generator</a>
-			<a href="#">JSON Language Encode/Decode</a>
-			<a href="#">mcmeta File Generator</a>
+			<div>
+				<a href="#">JSON Language Encode/Decode</a>
+				<a href="#">mcmeta File Generator</a>
+			</div>
 	<a href="#">Minecraft (Universal/Bedrock)</a>
 		<a href="#">World</a>
 		<a href="#">Command</a>
