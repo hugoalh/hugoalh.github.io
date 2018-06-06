@@ -1,6 +1,6 @@
 <div id="menu">
 	<a href="/" id="menu_homepage">
-		<svg viewBox="0 0 24 24"><use xlink:href="/icon/home.svg#icon_home"></use></svg>
+		<svg viewBox="0 0 24 24"><use xlink:href="/icon/home_fill.svg#icon_home_fill"></use></svg>
 		<span>Homepage</span>
 	</a>
 	<a href="#" id="menu_about_hugoalh">
@@ -36,31 +36,46 @@
 				<a href="#">JSON Language Encode/Decode</a>
 				<a href="#">mcmeta File Generator</a>
 			</div>
+		</div>
 	<a href="#">Minecraft (Universal/Bedrock)</a>
-		<a href="#">World</a>
-		<a href="#">Command</a>
-		<a href="#">Resource Pack</a>
-			<a href="#">GUI Metroize (Universal Vanilla)</a>
-		<a href="#">Add-on</a>
-		<a href="#">Generator</a>
+		<div>
+			<a href="#">World</a>
+			<a href="#">Command</a>
+			<a href="#">Resource Pack</a>
+				<div>
+					<a href="#">GUI Metroize (Universal Vanilla)</a>
+				</div>
+			<a href="#">Add-on</a>
+			<a href="#">Generator</a>
+		</div>
 	<a href="#">American Truck Simulator / Euro Truck Simulator 2 / Euro Truck Simulator</a>
-		<a href="#">World</a>
-		<a href="#">Modification</a>
+		<div>
+			<a href="#">World</a>
+			<a href="#">Modification</a>
+		</div>
 	<a href="#">Cities Skyline / Cities In Motion 2 / Cities In Motion</a>
-		<a href="#">World</a>
-		<a href="#">Modification</a>
+		<div>
+			<a href="#">World</a>
+			<a href="#">Modification</a>
+		</div>
 	<a href="#">Transport Fever / Train Fever</a>
-		<a href="#">World</a>
-		<a href="#">Modification</a>
+		<div>
+			<a href="#">World</a>
+			<a href="#">Modification</a>
+		</div>
 	<a href="#">Roblox</a>
 	<a href="#">Website Re-design</a>
-		<a href="#">Vehicle Fans Community Forum (VeFans)</a>
+		<div>
+			<a href="#">Vehicle Fans Community Forum (VeFans)</a>
+		</div>
 	<a href="#">Universal Blacklist (UBL)</a>
 	<a href="#">Event</a>
 	<a href="#">Recommended Application/Extension/Plugin</a>
 	<a href="#">Settings</a>
 	<a href="#">About Website</a>
-		<a href="#">Device Information Snooper</a>
+		<div>
+			<a href="#">Device Information Snooper</a>
+		</div>
 </div>
 <div id="copyright">
 	<div>
