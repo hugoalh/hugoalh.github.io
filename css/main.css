@@ -134,7 +134,7 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu a {
+	#navigation_left > #menu > a {
 		display: block;
 		box-sizing: border-box;
 		margin: 0px;
@@ -175,17 +175,32 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu > div {
+	#navigation_left > #menu div.menu_sub {
 		display: block;
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
-		padding-left: 24px;
 		width: 100%;
 		height: auto;
 		text-align: left;
 		vertical-align: middle;
+		color /*Microsoft Internet Explorer*/: #FFFFFF;
+		color: var(--textcolor_navigation);
+	}
+	#navigation_left > #menu div.menu_sub > a {
+		display: block;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 6px;
+		padding-left: 24px;
+		width: 100%;
+		min-height: 24px;
+		height: auto;
+		text-align: left;
+		vertical-align: middle;
+		text-decoration: none;
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
