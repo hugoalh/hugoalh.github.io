@@ -1,16 +1,20 @@
 <div id="menu">
-	<a href="/" id="menu_homepage">
+	<a id="menu_homepage" href="/">
 		<svg viewBox="0 0 24 24"><use xlink:href="/icon/home_fill.svg#icon_home_fill"></use></svg>
 		<span>Homepage</span>
 	</a>
-	<a href="#" id="menu_about_hugoalh">
+	<a id="menu_about_hugoalh" href="#">
 		<svg viewBox="0 0 24 24"><use xlink:href="/icon/face.svg#icon_face"></use></svg>
 		<span>About hugoalh</span>
 	</a>
-		<div>
-			<a href="#">Stream Studio</a>
-		</div>
-	<a href="#">Minecraft (Java)</a>
+	<a id="menu_hugoalh-streamstudio" href="#">
+		<svg viewBox="0 0 24 24"><use xlink:href="/icon/broadcast.svg#icon_broadcast"></use></svg>
+		<span>Stream Studio</span>
+	</a>
+	<a id="menu_minecraft-java" href="#">
+		<svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg>
+		<span>Minecraft (Java)</span>
+	</a>
 		<div>
 		<a href="#">World</a>
 			<div>
