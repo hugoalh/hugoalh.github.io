@@ -130,7 +130,7 @@ Programming Language:	CSS 3
 		left: 0px;
 		right: 0px;
 		overflow: auto;
-		font-size: 12pt;
+		font-size: 0pt;
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
@@ -169,6 +169,7 @@ Programming Language:	CSS 3
 		padding: 0px;
 		width: auto;
 		height: auto;
+		font-size: 12pt;
 		text-align: left;
 		vertical-align: middle;
 		text-decoration: none;
@@ -195,6 +196,49 @@ Programming Language:	CSS 3
 		border: 0px;
 		padding: 6px;
 		padding-left: 24px;
+		width: 100%;
+		min-height: 24px;
+		height: auto;
+		text-align: left;
+		vertical-align: middle;
+		text-decoration: none;
+		color /*Microsoft Internet Explorer*/: #FFFFFF;
+		color: var(--textcolor_navigation);
+	}
+	#navigation_left > #menu div.menu_sub > a > svg {
+		display: inline-block;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		width: 16px;
+		height: 16px;
+		vertical-align: middle;
+		fill /*Microsoft Internet Explorer*/: #FFFFFF;
+		fill: var(--textcolor_navigation);
+	}
+	#navigation_left > #menu div.menu_sub > a > span {
+		display: inline-block;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		width: auto;
+		height: auto;
+		font-size: 10pt;
+		text-align: left;
+		vertical-align: middle;
+		text-decoration: none;
+		color /*Microsoft Internet Explorer*/: #FFFFFF;
+		color: var(--textcolor_navigation);
+	}
+	#navigation_left > #menu div.menu_sub > div.menu_sub > a {
+		display: block;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 6px;
+		padding-left: 48px;
 		width: 100%;
 		min-height: 24px;
 		height: auto;
