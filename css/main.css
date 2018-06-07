@@ -109,12 +109,12 @@ Programming Language:	CSS 3
 		background-color /*Microsoft Internet Explorer*/: #FFFFFF;
 		background-color: var(--theme_color_page);
 /* 		background-image [Microsoft Internet Explorer]: none;
-		background-image: var(--theme_image_page);
+		background-image: var(--theme_image_page);*/
 		background-clip: border-box;
 		background-origin: border-box;
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;*/
+		background-size: cover;
 		transition: left 0.4s, background-color 0.4s;
 	}
 	#navigation_left > #menu {
@@ -130,7 +130,7 @@ Programming Language:	CSS 3
 		left: 0px;
 		right: 0px;
 		overflow: auto;
-		font-size: 0pt;
+		font-size: 10pt;
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
@@ -143,6 +143,7 @@ Programming Language:	CSS 3
 		width: 100%;
 		min-height: 48px;
 		height: auto;
+		font-size: 12pt;
 		text-align: left;
 		vertical-align: middle;
 		text-decoration: none;
@@ -176,11 +177,13 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub {
+	#navigation_left > #menu div.menu_sub_menu {
 		display: block;
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
+		border-left /*Microsoft Internet Explorer*/: 2px solid #FFFFFF;
+		border-left: 2px solid var(--textcolor_navigation);
 		padding: 0px;
 		width: 100%;
 		height: auto;
@@ -189,12 +192,12 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub > a {
+	#navigation_left > #menu div.menu_sub_menu > a {
 		display: block;
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
-		padding: 6px;
+		padding: 3px 12px;
 		padding-left: 24px;
 		width: 100%;
 		min-height: 24px;
@@ -205,19 +208,19 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub > a > svg {
+	#navigation_left > #menu div.menu_sub_menu > a > svg {
 		display: inline-block;
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
-		width: 16px;
-		height: 16px;
+		width: 18px;
+		height: 18px;
 		vertical-align: middle;
 		fill /*Microsoft Internet Explorer*/: #FFFFFF;
 		fill: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub > a > span {
+	#navigation_left > #menu div.menu_sub_menu > a > span {
 		display: inline-block;
 		box-sizing: border-box;
 		margin: 0px;
@@ -232,21 +235,8 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub > div.menu_sub > a {
-		display: block;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 6px;
+	#navigation_left > #menu div.menu_sub_menu > div.menu_sub_menu > a {
 		padding-left: 48px;
-		width: 100%;
-		min-height: 24px;
-		height: auto;
-		text-align: left;
-		vertical-align: middle;
-		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
 	}
 	#navigation_left > #copyright {
 		display: table;
