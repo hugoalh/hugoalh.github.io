@@ -182,8 +182,6 @@ Programming Language:	CSS 3
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
-		border-left /*Microsoft Internet Explorer*/: 2px solid #FFFFFF;
-		border-left: 2px solid var(--textcolor_navigation);
 		padding: 0px;
 		width: 100%;
 		height: auto;
@@ -197,6 +195,8 @@ Programming Language:	CSS 3
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
+		border-left /*Microsoft Internet Explorer*/: 2px solid #FFFFFF;
+		border-left: 2px solid var(--textcolor_navigation);
 		padding: 3px 12px;
 		padding-left: 24px;
 		width: 100%;
