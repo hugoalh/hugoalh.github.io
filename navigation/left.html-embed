@@ -1,7 +1,7 @@
 <div id="menu">
 	<a href="/"><svg viewBox="0 0 24 24"><use xlink:href="/icon/home_fill.svg#icon_home_fill"></use></svg><span>Homepage</span></a>
-	<a href="/about_hugoalh"><svg viewBox="0 0 24 24"><use xlink:href="/icon/face.svg#icon_face"></use></svg><span>About hugoalh</span></a>
-	<a href="/streamstudio"><svg viewBox="0 0 24 24"><use xlink:href="/icon/broadcast.svg#icon_broadcast"></use></svg><span>Stream Studio</span></a>
+	<a href="/page/about_hugoalh"><svg viewBox="0 0 24 24"><use xlink:href="/icon/face.svg#icon_face"></use></svg><span>About hugoalh</span></a>
+	<a href="/page/streamstudio"><svg viewBox="0 0 24 24"><use xlink:href="/icon/broadcast.svg#icon_broadcast"></use></svg><span>Stream Studio</span></a>
 	<div id="menu_minecraft-java" class="menu_title_1">
 	<svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Java)</span>
 		<div class="menu_title_2">World</div>
@@ -32,30 +32,32 @@
 	</div>
 	<div id="menu_scs-truck" class="menu_title_1">
 	<svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span>[SCS Software: Truck] American Truck Simulator / Euro Truck Simulator 2 / Euro Truck Simulator</span>
-			<div class="menu_title_2">World</div>
-			<div class="menu_title_2">Modification</div>
+		<div class="menu_title_2">World</div>
+		<div class="menu_title_2">Modification</div>
 	</div>
-	<a href="#">Cities In Motion 2 / Cities In Motion</a>
-		<div class="menu_havesubmenu">
-			<a href="#">World</a>
-			<a href="#">Modification</a>
-		</div>
-	<a href="#">Transport Fever / Train Fever</a>
-		<div class="menu_havesubmenu">
-			<a href="#">World</a>
-			<a href="#">Modification</a>
-		</div>
-	<a href="#">Roblox</a>
-	<a href="#">Website Re-design</a>
-		<div class="menu_havesubmenu">
-			<a href="#">Vehicle Fans Community Forum (VeFans)</a>
-		</div>
-	<a href="#">Universal Blacklist (UBL)</a>
-	<a href="#">Event</a>
-	<a href="#">Recommended Application/Extension/Plugin</a>
-	<a href="#">Settings</a>
-	<a href="#">About Website</a>
-		<a href="#">Device Information Snooper</a>
+	<div id="menu_citiesinmotion" class="menu_title_1">
+	<svg viewBox="0 0 24 24"><use xlink:href="/icon/city.svg#icon_city"></use></svg><span>Cities In Motion 2 / Cities In Motion</span>
+		<div class="menu_title_2">World</div>
+		<div class="menu_title_2">Modification</div>
+	</div>
+	<div id="menu_transportfever" class="menu_title_1">
+	<svg viewBox="0 0 24 24"><use xlink:href="/icon/train.svg#icon_train"></use></svg><span>Transport Fever / Train Fever</a>
+		<div class="menu_title_2">World</div>
+		<div class="menu_title_2">Modification</div>
+	</div>
+	<a href="/page/roblox">Roblox</a>
+	<div id="menu_websiteredesign" class="menu_title_1">
+	<a href="/page/websiteredesign"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#icon_build"></use></svg><span>Website Re-design</span></a>
+		<a href="/websiteredesign/vefans">Vehicle Fans Community Forum (VeFans)</a>
+	</div>
+	<a href="/page/universalblacklist">Universal Blacklist (UBL)</a>
+	<a href="/page/event">Event</a>
+	<a href="/page/recommended">Recommended Application/Extension/Plugin</a>
+	<a href="/settings">Settings</a>
+	<div id="menu_about_website" class="menu_title_1">
+	<a href="/about_website"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#icon_info_outline"></use></svg><span>About Website</a>
+		<a href="/snooper">Device Information Snooper</a>
+	</div>
 </div>
 <div id="copyright">
 	<div>

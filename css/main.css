@@ -150,7 +150,7 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu a > svg {
+	#navigation_left > #menu a > svg, #navigation_left > #menu div > svg {
 		display: inline-block;
 		box-sizing: border-box;
 		margin: 0px;
@@ -162,7 +162,7 @@ Programming Language:	CSS 3
 		fill /*Microsoft Internet Explorer*/: #FFFFFF;
 		fill: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu a > span {
+	#navigation_left > #menu a > span, #navigation_left > #menu div > span {
 		display: inline-block;
 		box-sizing: border-box;
 		margin: 0px;
@@ -176,65 +176,6 @@ Programming Language:	CSS 3
 		text-decoration: none;
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
-	}
-	#navigation_left > #menu div.menu_havesubmenu {
-		display: block;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: 100%;
-		height: auto;
-		text-align: left;
-		vertical-align: middle;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
-	}
-	#navigation_left > #menu div.menu_havesubmenu > a {
-		display: block;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 3px 12px;
-		padding-left: 24px;
-		width: 100%;
-		min-height: 24px;
-		height: auto;
-		text-align: left;
-		vertical-align: middle;
-		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
-	}
-	#navigation_left > #menu div.menu_havesubmenu > a > svg {
-		display: inline-block;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: 18px;
-		height: 18px;
-		vertical-align: middle;
-		fill /*Microsoft Internet Explorer*/: #FFFFFF;
-		fill: var(--textcolor_navigation);
-	}
-	#navigation_left > #menu div.menu_havesubmenu > a > span {
-		display: inline-block;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: auto;
-		height: auto;
-		font-size: 10pt;
-		text-align: left;
-		vertical-align: middle;
-		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
-	}
-	#navigation_left > #menu div.menu_havesubmenu > div.menu_havesubmenu > a {
-		padding-left: 48px;
 	}
 	#navigation_left > #copyright {
 		display: table;
