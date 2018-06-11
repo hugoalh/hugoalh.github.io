@@ -51,11 +51,11 @@
 		<a href="/websiteredesign/vefans">Vehicle Fans Community Forum (VeFans)</a>
 	</div>
 	<a href="/page/universalblacklist">Universal Blacklist (UBL)</a>
-	<a href="/page/event">Event</a>
+	<a href="/page/event"><svg viewBox="0 0 24 24"><use xlink:href="/icon/calendar.svg#icon_calendar"></use></svg><span>Event</span></a>
 	<a href="/page/recommended">Recommended Application/Extension/Plugin</a>
-	<a href="/settings">Settings</a>
+	<a href="/settings"><svg viewBox="0 0 24 24"><use xlink:href="/icon/settings.svg#icon_settings"></use></svg><span>Settings</span></a>
 	<div id="menu_about_website" class="menu_title_1">
-	<a href="/about_website"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#icon_info_outline"></use></svg><span>About Website</a>
+	<a href="/about_website"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#icon_info_outline"></use></svg><span>About Website</span></a>
 		<a href="/snooper">Device Information Snooper</a>
 	</div>
 </div>
