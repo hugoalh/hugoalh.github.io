@@ -1,63 +1,53 @@
 <div id="menu">
-	<a id="menu_homepage" href="/"><svg viewBox="0 0 24 24"><use xlink:href="/icon/home_fill.svg#icon_home_fill"></use></svg><span>Homepage</span></a>
-	<a id="menu_about_hugoalh" href="#"><svg viewBox="0 0 24 24"><use xlink:href="/icon/face.svg#icon_face"></use></svg><span>About hugoalh</span></a>
-	<a id="menu_hugoalh-streamstudio" href="#"><svg viewBox="0 0 24 24"><use xlink:href="/icon/broadcast.svg#icon_broadcast"></use></svg><span>Stream Studio</span></a>
-	<a id="menu_minecraft-java" href="#"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Java)</span></a>
-		<div class="menu_sub_menu">
-			<a href="#">World</a>
-				<div class="menu_sub_menu">
-					<a href="#">Battle Together (Previous Name: GuGe O&apos; Battle)</a>
-					<a href="#">Open The Door</a>
-					<a href="#">M3WE</a>
-				</div>
-			<a href="#">Command</a>
-			<a href="#">Resource Pack</a>
-				<div class="menu_sub_menu">
-					<a href="#">GUI Metroize (Java Vanilla)</a>
-					<a href="#">GUI Metroize (Java Forge)</a>
-					<a href="#">Language Extension</a>
-				</div>
-			<a href="#">Data Pack</a>
-			<a href="#">Modification (Mod)</a>
-			<a href="#">Modification Pack (Modpack)</a>
-				<div class="menu_sub_menu">
-					<a href="#">GuGe World: Survival Together</a>
-				</div>
-			<a href="#">Generator</a>
-				<div class="menu_sub_menu">
-					<a href="#">JSON Language Encode/Decode</a>
-					<a href="#">mcmeta File Generator</a>
-				</div>
-		</div>
-	<a href="#">Minecraft (Universal/Bedrock)</a>
-		<div class="menu_sub_menu">
-			<a href="#">World</a>
-			<a href="#">Command</a>
-			<a href="#">Resource Pack</a>
-				<div class="menu_sub_menu">
-					<a href="#">GUI Metroize (Universal Vanilla)</a>
-				</div>
-			<a href="#">Add-on</a>
-			<a href="#">Generator</a>
-		</div>
-	<a href="#">American Truck Simulator / Euro Truck Simulator 2 / Euro Truck Simulator</a>
-		<div class="menu_sub_menu">
-			<a href="#">World</a>
-			<a href="#">Modification</a>
-		</div>
+	<a href="/"><svg viewBox="0 0 24 24"><use xlink:href="/icon/home_fill.svg#icon_home_fill"></use></svg><span>Homepage</span></a>
+	<a href="/about_hugoalh"><svg viewBox="0 0 24 24"><use xlink:href="/icon/face.svg#icon_face"></use></svg><span>About hugoalh</span></a>
+	<a href="/streamstudio"><svg viewBox="0 0 24 24"><use xlink:href="/icon/broadcast.svg#icon_broadcast"></use></svg><span>Stream Studio</span></a>
+	<div id="menu_minecraft-java" class="menu_title_1">
+	<svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Java)</span>
+		<div class="menu_title_2">World</div>
+			<a href="/page/minecraft-java/world/battletogether">Battle Together (Previous Name: GuGe O&apos; Battle)</a>
+			<a href="/page/minecraft-java/world/openthedoor">Open The Door</a>
+			<a href="/page/minecraft-java/world/m3we">M3WE</a>
+		<div class="menu_title_2">Command</div>
+		<div class="menu_title_2">Resource Pack</div>
+			<a href="/page/minecraft-java/resourcepack/guimetroize_javavanilla">GUI Metroize (Java Vanilla)</a>
+			<a href="/page/minecraft-java/resourcepack/guimetroize_javaforge">GUI Metroize (Java Forge)</a>
+			<a href="/page/minecraft-java/resourcepack/languageextension">Language Extension</a>
+		<div class="menu_title_2">Data Pack</div>
+		<div class="menu_title_2">Modification (Mod)</div>
+		<div class="menu_title_2">Modification Pack (Modpack)</div>
+			<a href="/page/minecraft-java/modificationpack/gugeworld-survivaltogether">GuGe World: Survival Together</a>
+		<div class="menu_title_2">Generator</div>
+			<a href="/page/minecraft-java/generator/json_language">JSON Language Encode/Decode</a>
+			<a href="/page/minecraft-java/generator/mcmeta">mcmeta File Generator</a>
+	</div>
+	<div id="menu_minecraft-universal" class="menu_title_1">
+	<svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Universal/Bedrock)</span>
+		<div class="menu_title_2">World</div>
+		<div class="menu_title_2">Command</div>
+		<div class="menu_title_2">>Resource Pack</div>
+			<a href="/page/minecraft-universal/resourcepack/guimetroize_universalvanilla">GUI Metroize (Universal Vanilla)</a>
+		<div class="menu_title_2">Add-on</div>
+		<div class="menu_title_2">Generator</div>
+	</div>
+	<div id="menu_scs-truck" class="menu_title_1">
+	<svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span>[SCS Software: Truck] American Truck Simulator / Euro Truck Simulator 2 / Euro Truck Simulator</span>
+			<div class="menu_title_2">World</div>
+			<div class="menu_title_2">Modification</div>
+	</div>
 	<a href="#">Cities In Motion 2 / Cities In Motion</a>
-		<div class="menu_sub_menu">
+		<div class="menu_havesubmenu">
 			<a href="#">World</a>
 			<a href="#">Modification</a>
 		</div>
 	<a href="#">Transport Fever / Train Fever</a>
-		<div class="menu_sub_menu">
+		<div class="menu_havesubmenu">
 			<a href="#">World</a>
 			<a href="#">Modification</a>
 		</div>
 	<a href="#">Roblox</a>
 	<a href="#">Website Re-design</a>
-		<div class="menu_sub_menu">
+		<div class="menu_havesubmenu">
 			<a href="#">Vehicle Fans Community Forum (VeFans)</a>
 		</div>
 	<a href="#">Universal Blacklist (UBL)</a>
@@ -65,9 +55,7 @@
 	<a href="#">Recommended Application/Extension/Plugin</a>
 	<a href="#">Settings</a>
 	<a href="#">About Website</a>
-		<div class="menu_sub_menu">
-			<a href="#">Device Information Snooper</a>
-		</div>
+		<a href="#">Device Information Snooper</a>
 </div>
 <div id="copyright">
 	<div>

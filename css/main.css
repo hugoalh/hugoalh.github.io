@@ -177,7 +177,7 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub_menu {
+	#navigation_left > #menu div.menu_havesubmenu {
 		display: block;
 		box-sizing: border-box;
 		margin: 0px;
@@ -190,13 +190,11 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub_menu > a {
+	#navigation_left > #menu div.menu_havesubmenu > a {
 		display: block;
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
-		border-left /*Microsoft Internet Explorer*/: 2px solid #FFFFFF;
-		border-left: 2px solid var(--textcolor_navigation);
 		padding: 3px 12px;
 		padding-left: 24px;
 		width: 100%;
@@ -208,7 +206,7 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub_menu > a > svg {
+	#navigation_left > #menu div.menu_havesubmenu > a > svg {
 		display: inline-block;
 		box-sizing: border-box;
 		margin: 0px;
@@ -220,7 +218,7 @@ Programming Language:	CSS 3
 		fill /*Microsoft Internet Explorer*/: #FFFFFF;
 		fill: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub_menu > a > span {
+	#navigation_left > #menu div.menu_havesubmenu > a > span {
 		display: inline-block;
 		box-sizing: border-box;
 		margin: 0px;
@@ -235,7 +233,7 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu div.menu_sub_menu > div.menu_sub_menu > a {
+	#navigation_left > #menu div.menu_havesubmenu > div.menu_havesubmenu > a {
 		padding-left: 48px;
 	}
 	#navigation_left > #copyright {
