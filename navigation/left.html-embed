@@ -2,8 +2,8 @@
 	<a href="/"><svg viewBox="0 0 24 24"><use xlink:href="/icon/home_fill.svg#icon_home_fill"></use></svg><span>Homepage</span></a>
 	<a href="/page/about_hugoalh"><svg viewBox="0 0 24 24"><use xlink:href="/icon/face.svg#icon_face"></use></svg><span>About hugoalh</span></a>
 	<a href="/page/streamstudio"><svg viewBox="0 0 24 24"><use xlink:href="/icon/broadcast.svg#icon_broadcast"></use></svg><span>Stream Studio</span></a>
-	<div id="menu_minecraft-java" class="menu_title_1">
-	<svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Java)</span>
+	<div id="menu_minecraft-java" class="collapse">
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Java)</span></div>
 		<div class="menu_title_2">World</div>
 			<a href="/page/minecraft-java/world/battletogether">Battle Together (Previous Name: GuGe O&apos; Battle)</a>
 			<a href="/page/minecraft-java/world/openthedoor">Open The Door</a>
@@ -21,8 +21,8 @@
 			<a href="/page/minecraft-java/generator/json_language">JSON Language Encode/Decode</a>
 			<a href="/page/minecraft-java/generator/mcmeta">mcmeta File Generator</a>
 	</div>
-	<div id="menu_minecraft-universal" class="menu_title_1">
-	<svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Universal/Bedrock)</span>
+	<div id="menu_minecraft-universal" class="collapse">
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Universal/Bedrock)</span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Command</div>
 		<div class="menu_title_2">>Resource Pack</div>
@@ -30,23 +30,23 @@
 		<div class="menu_title_2">Add-on</div>
 		<div class="menu_title_2">Generator</div>
 	</div>
-	<div id="menu_scs-truck" class="menu_title_1">
-	<svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span>[SCS Software: Truck] American Truck Simulator / Euro Truck Simulator 2 / Euro Truck Simulator</span>
+	<div id="menu_scs-truck" class="collapse">
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span>[SCS Software: Truck] American Truck Simulator / Euro Truck Simulator 2 / Euro Truck Simulator</span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Modification</div>
 	</div>
-	<div id="menu_citiesinmotion" class="menu_title_1">
-	<svg viewBox="0 0 24 24"><use xlink:href="/icon/city.svg#icon_city"></use></svg><span>Cities In Motion 2 / Cities In Motion</span>
+	<div id="menu_citiesinmotion" class="collapse">
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/city.svg#icon_city"></use></svg><span>Cities In Motion 2 / Cities In Motion</span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Modification</div>
 	</div>
-	<div id="menu_transportfever" class="menu_title_1">
-	<svg viewBox="0 0 24 24"><use xlink:href="/icon/train.svg#icon_train"></use></svg><span>Transport Fever / Train Fever</a>
+	<div id="menu_transportfever" class="collapse">
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/train.svg#icon_train"></use></svg><span>Transport Fever / Train Fever</span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Modification</div>
 	</div>
 	<a href="/page/roblox">Roblox</a>
-	<div id="menu_websiteredesign" class="menu_title_1">
+	<div id="menu_websiteredesign" class="collapse">
 	<a href="/page/websiteredesign"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#icon_build"></use></svg><span>Website Re-design</span></a>
 		<a href="/websiteredesign/vefans">Vehicle Fans Community Forum (VeFans)</a>
 	</div>
@@ -54,7 +54,7 @@
 	<a href="/page/event"><svg viewBox="0 0 24 24"><use xlink:href="/icon/calendar.svg#icon_calendar"></use></svg><span>Event</span></a>
 	<a href="/page/recommended">Recommended Application/Extension/Plugin</a>
 	<a href="/settings"><svg viewBox="0 0 24 24"><use xlink:href="/icon/settings.svg#icon_settings"></use></svg><span>Settings</span></a>
-	<div id="menu_about_website" class="menu_title_1">
+	<div id="menu_about_website" class="collapse">
 	<a href="/about_website"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#icon_info_outline"></use></svg><span>About Website</span></a>
 		<a href="/snooper">Device Information Snooper</a>
 	</div>
