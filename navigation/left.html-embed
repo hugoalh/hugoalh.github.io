@@ -52,7 +52,7 @@
 	</div>
 	<a href="/page/universalblacklist"><svg></svg><span>Universal Blacklist (UBL)</span></a>
 	<a href="/page/event"><svg viewBox="0 0 24 24"><use xlink:href="/icon/calendar.svg#icon_calendar"></use></svg><span>Event</span></a>
-	<a href="/page/recommended"><svg></svg><span>Recommended Application/Extension/Plugin</span></a>
+	<a href="/page/recommended"><svg></svg><span>hugoalh's Recommended</span></a>
 	<a href="/settings"><svg viewBox="0 0 24 24"><use xlink:href="/icon/settings.svg#icon_settings"></use></svg><span>Settings</span></a>
 	<div id="menu_about_website" class="collapse">
 	<a href="/about_website" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#icon_info_outline"></use></svg><span>About Website</span></a>
