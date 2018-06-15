@@ -5,6 +5,9 @@ Programming Language:	CSS 3
 ==================================================================================================*/
 /*Import Style Sheet*/
 	@import url("/font/noto_sans.css");
+	@import url("/font/noto_emoji.css");
+	@import url("/font/gothic-a1.css");
+	@import url("/font/minecraft.css");
 
 /*Variable*/
 	:root {
@@ -40,11 +43,11 @@ Programming Language:	CSS 3
 
 /*Font*/
 	html, body {
-		font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans ZHS", "Noto Sans JP", sans-serif;
+		font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans ZHS", "Noto Sans JP", "Gothic A1", sans-serif;
 		font-size: 10pt;
 	}
 
-/*Webpage Structure*/
+/*Website Structure*/
 	.framework {
 		display: block;
 		position: fixed;
@@ -154,6 +157,13 @@ Programming Language:	CSS 3
 		text-decoration: none;
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
+		background-color: rgba(255,255,255,0);
+	}
+	#navigation_left > #menu > a:hover, #navigation_left > #menu div.menu_title_1:hover, #navigation_left > #menu a.menu_title_1:hover {
+		background-color: rgba(255,255,255,0.125);
+	}
+	#navigation_left > #menu > a:active, #navigation_left > #menu div.menu_title_1:active, #navigation_left > #menu a.menu_title_1:active {
+		background-color: rgba(255,255,255,0.25);
 	}
 	#navigation_left > #menu > a > svg, #navigation_left > #menu div.menu_title_1 > svg, #navigation_left > #menu a.menu_title_1 > svg {
 		display: table-cell;
@@ -338,7 +348,6 @@ Programming Language:	CSS 3
 		height: 32px;
 		vertical-align: middle;
 	}
-
 
 /*Button*/
 	button {
