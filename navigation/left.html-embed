@@ -25,7 +25,7 @@
 	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Universal/Bedrock)</span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Command</div>
-		<div class="menu_title_2">>Resource Pack</div>
+		<div class="menu_title_2">Resource Pack</div>
 			<a href="/page/minecraft-universal/resourcepack/guimetroize_universalvanilla">GUI Metroize (Universal Vanilla)</a>
 		<div class="menu_title_2">Add-on</div>
 		<div class="menu_title_2">Generator</div>

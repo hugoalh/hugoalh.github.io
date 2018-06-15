@@ -149,7 +149,7 @@ Programming Language:	CSS 3
 		background-color /*Microsoft Internet Explorer*/: #5590E3;
 		background-color: var(--theme_color_main_light);
 	}
-	#navigation_left > #menu > a, #navigation_left > #menu div.menu_title_1 {
+	#navigation_left > #menu > a, #navigation_left > #menu div.menu_title_1, #navigation_left > #menu a.menu_title_1 {
 		display: table;
 		box-sizing: border-box;
 		margin: 0px;
@@ -165,7 +165,7 @@ Programming Language:	CSS 3
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu a > svg, #navigation_left > #menu div.menu_title_1 > svg {
+	#navigation_left > #menu a > svg, #navigation_left > #menu div.menu_title_1 > svg, #navigation_left > #menu a.menu_title_1 > svg {
 		display: table-cell;
 		box-sizing: border-box;
 		margin: 0px;
@@ -173,7 +173,7 @@ Programming Language:	CSS 3
 		padding: 12px;
 		width: 48px;
 		height: 48px;
-		text-align: middle;
+		text-align: center;
 		vertical-align: middle;
 		text-decoration: none;
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
@@ -181,13 +181,13 @@ Programming Language:	CSS 3
 		fill /*Microsoft Internet Explorer*/: #FFFFFF;
 		fill: var(--textcolor_navigation);
 	}
-	#navigation_left > #menu a > span, #navigation_left > #menu div.menu_title_1 > span {
+	#navigation_left > #menu a > span, #navigation_left > #menu div.menu_title_1 > span, #navigation_left > #menu a.menu_title_1 > span {
 		display: table-cell;
 		box-sizing: border-box;
 		margin: 0px;
 		border: 0px;
 		padding: 12px 12px 12px 0px;
-		width: auto;
+		width: 100%;
 		min-height: 48px;
 		height: auto;
 		text-align: left;
@@ -195,6 +195,22 @@ Programming Language:	CSS 3
 		text-decoration: none;
 		color /*Microsoft Internet Explorer*/: #FFFFFF;
 		color: var(--textcolor_navigation);
+	}
+	#navigation_left > #menu div.menu_title_2 {
+		display: inline-block;
+		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		padding: 2px;
+		width: auto;
+		height: 24px;
+		text-align: center;
+		vertical-align: middle;
+		text-decoration: none;
+		color /*Microsoft Internet Explorer*/: #5590E3;
+		color: var(--theme_color_main_light);
+		background-color /*Microsoft Internet Explorer*/: #FFFFFF;
+		background-color: var(--textcolor_navigation);
 	}
 	#navigation_left > #copyright {
 		display: table;
