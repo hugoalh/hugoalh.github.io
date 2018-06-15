@@ -145,6 +145,7 @@ Programming Language:	CSS 3
 		border: 0px;
 		padding: 0px;
 		width: auto;
+		max-width: 100%;
 		min-height: 48px;
 		height: auto;
 		font-size: 12pt;
