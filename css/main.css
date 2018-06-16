@@ -126,10 +126,8 @@ Programming Language:	CSS 3
 		text-align: center;
 		vertical-align: middle;
 		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
-		fill /*Microsoft Internet Explorer*/: #FFFFFF;
-		fill: var(--textcolor_navigation);
+		color: #FFFFFF;
+		fill: #FFFFFF;
 	}
 	#navigation_left > #menu > a > span, #navigation_left > #menu div.menu_title_1 > span, #navigation_left > #menu a.menu_title_1 > span {
 		display: table-cell;
@@ -143,8 +141,7 @@ Programming Language:	CSS 3
 		text-align: left;
 		vertical-align: middle;
 		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
+		color: #FFFFFF;
 	}
 	#navigation_left > #menu > div.collapse {
 		display: block;
@@ -156,8 +153,7 @@ Programming Language:	CSS 3
 		height: auto;
 		text-align: left;
 		vertical-align: middle;
-		background-color /*Microsoft Internet Explorer*/: #5590E3;
-		background-color: var(--theme_color_main_light);
+		background-color: #5590E3;
 	}
 	#navigation_left > #menu div.menu_title_2 {
 		display: inline-block;
@@ -170,10 +166,8 @@ Programming Language:	CSS 3
 		text-align: center;
 		vertical-align: middle;
 		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #5590E3;
-		color: var(--theme_color_main_light);
-		background-color /*Microsoft Internet Explorer*/: #FFFFFF;
-		background-color: var(--textcolor_navigation);
+		color: #5590E3;
+		background-color: #FFFFFF;
 	}
 	#navigation_left > #menu > div.collapse > a {
 		display: table;
@@ -188,8 +182,7 @@ Programming Language:	CSS 3
 		text-align: left;
 		vertical-align: middle;
 		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
+		color: #FFFFFF;
 	}
 	#navigation_left > #menu > div.collapse > a > svg {
 		display: table-cell;
@@ -202,10 +195,8 @@ Programming Language:	CSS 3
 		text-align: center;
 		vertical-align: middle;
 		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
-		fill /*Microsoft Internet Explorer*/: #FFFFFF;
-		fill: var(--textcolor_navigation);
+		color #FFFFFF;
+		fill: #FFFFFF;
 	}
 	#navigation_left > #menu > div.collapse > a > span {
 		display: table-cell;
@@ -219,8 +210,7 @@ Programming Language:	CSS 3
 		text-align: left;
 		vertical-align: middle;
 		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
+		color: #FFFFFF;
 	}
 	#navigation_left > #copyright {
 		display: table;
@@ -233,13 +223,11 @@ Programming Language:	CSS 3
 		left: 0px;
 		right: 0px;
 		width: 100%;
-		height /*Microsoft Internet Explorer*/: 48px;
-		height: var(--framework_menu);
+		height: 48px;
 		overflow: hidden;
 		text-align: center;
 		vertical-align: middle;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
+		color: #FFFFFF;
 	}
 	#navigation_left > #copyright > div {
 		display: table-cell;
@@ -249,8 +237,7 @@ Programming Language:	CSS 3
 		padding: 0px;
 		text-align: center;
 		vertical-align: middle;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
+		color: #FFFFFF;
 	}
 
 /*Navigation*/
