@@ -35,6 +35,7 @@
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Modification</div>
 	</div>
+	<div id="menu_scs-truck" class="collapse">
 	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span>Euro Truck Simulator 2</span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Modification</div>
