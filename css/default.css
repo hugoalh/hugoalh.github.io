@@ -35,6 +35,15 @@ Programming Language:	CSS 3
 	}
 
 /*Button*/
+	#navigation_top button, #navigation_top a {
+		background-color: rgba(255,255,255,0);
+	}
+	#navigation_top button:hover, #navigation_top a:hover {
+		background-color: rgba(255,255,255,0.125);
+	}
+	#navigation_top button:active, #navigation_top a:active {
+		background-color: rgba(255,255,255,0.25);
+	}
 
 /*Icon*/
 	#navigation_top button > svg, #navigation_top a > svg {

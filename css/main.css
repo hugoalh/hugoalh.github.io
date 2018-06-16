@@ -73,11 +73,9 @@ Programming Language:	CSS 3
 		transition: left 0.4s, background-color 0.4s;
 	}
 	#navigation_top *, #navigation_left * {
+		text-decoration: none;
 		cursor: default;
 		user-select: none; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none;
-	}
-	#navigation_top a, #navigation_left a {
-		text-decoration: none;
 	}
 	#navigation_left > #menu {
 		display: block;
@@ -288,14 +286,6 @@ Programming Language:	CSS 3
 		text-align: center;
 		vertical-align: middle;
 		text-decoration: none;
-		background-color: rgba(255,255,255,0);
-		cursor: default;
-	}
-	.button_navigation_top:hover {
-		background-color: rgba(255,255,255,0.125);
-	}
-	.button_navigation_top:active {
-		background-color: rgba(255,255,255,0.25);
 	}
 
 /*Icon*/
@@ -319,6 +309,6 @@ Programming Language:	CSS 3
 		}
 	/*Button*/
 		#navigation_left_button {
-			display: none;
+			display: none !important;
 		}
 }
