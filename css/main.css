@@ -154,9 +154,9 @@ Programming Language:	CSS 3
 		background-color: #5590E3;
 	}
 	#navigation_left > #menu div.menu_title_2 {
-		display: inline-block;
+		display: block;
 		box-sizing: border-box;
-		margin: 0px;
+		margin: 0px 0px 0px 48px;
 		border: 0px;
 		padding: 2px;
 		width: auto;
