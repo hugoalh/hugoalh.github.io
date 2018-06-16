@@ -1,33 +1,13 @@
 /*==================================================================================================
-hugoalh's Website Theme Set - Main
+hugoalh's Website Style Set - Main
 Author:					hugoalh
 Programming Language:	CSS 3
 ==================================================================================================*/
-/*Import Style Sheet*/
+/*Import Style Sheet, Font*/
 	@import url("/font/noto_sans.css");
 	@import url("/font/noto_emoji.css");
 	@import url("/font/gothic-a1.css");
 	@import url("/font/minecraft.css");
-
-/*Variable*/
-	:root {
-		/*Theme*/
-			/*Color*/
-				--theme_color_main: #0063B1;
-				--theme_color_main_light: #5590E3;
-				--theme_color_main_dark: #003A81;
-				--theme_color_page: #FFFFFF;
-				--textcolor_navigation: #FFFFFF;
-			/*Background Image*/
-				--theme_image_top: none;
-				--theme_image_left: none;
-				--theme_image_page: none;
-		/*Framework*/
-			--framework_top: 48px;
-			--framework_left: 256px;
-			--framework_left_negative: -256px;
-			--framework_menu: 48px;
-	}
 
 /*Fix*/
 	/*Webpage Render*/
@@ -36,14 +16,13 @@ Programming Language:	CSS 3
 			border: 0px;
 			padding: 0px;
 		}
-	/*Microsoft Internet Explorer*/
+	/*Microsoft Internet Explorer Style Sheet*/
 		article, aside, figure, footer, header, main, nav, section {
 			display: block;
 		}
 
 /*Font*/
 	html, body {
-		font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans ZHS", "Noto Sans JP", "Gothic A1", sans-serif;
 		font-size: 10pt;
 	}
 
@@ -61,68 +40,44 @@ Programming Language:	CSS 3
 		top: 0px;
 		left: 0px;
 		right: 0px;
-		height /*Microsoft Internet Explorer*/: 48px;
-		height: var(--framework_top);
+		height: 48px;
 		overflow: hidden;
 		font-size: 0pt;
 		vertical-align: middle;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
-		background-color /*Microsoft Internet Explorer*/: #0063B1;
-		background-color: var(--theme_color_main);
-		background-image /*Microsoft Internet Explorer*/: none;
-		background-image: var(--theme_image_top);
 		background-clip: border-box;
 		background-origin: border-box;
 		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
 	}
 	#navigation_left {
 		z-index: 1;
-		top /*Microsoft Internet Explorer*/: 48px;
-		top: var(--framework_top);
+		top: 48px;
 		bottom: 0px;
-		left /*Microsoft Internet Explorer*/: -256px;
-		left: var(--framework_left_negative);
-		width /*Microsoft Internet Explorer*/: 256px;
-		width: var(--framework_left);
+		left: -256px;
+		width: 256px;
 		overflow-x: hidden;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
-		background-color /*Microsoft Internet Explorer*/: #0063B1;
-		background-color: var(--theme_color_main);
-		background-image /*Microsoft Internet Explorer*/: none;
-		background-image: var(--theme_image_left);
 		background-clip: border-box;
 		background-origin: border-box;
 		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
 		transition: left 0.4s;
 	}
 	#page {
-		top /*Microsoft Internet Explorer*/: 48px;
-		top: var(--framework_top);
+		top: 48px;
 		bottom: 0px;
 		left: 0px;
 		right: 0px;
 		padding: 8px;
 		overflow: auto;
-		background-color /*Microsoft Internet Explorer*/: #FFFFFF;
-		background-color: var(--theme_color_page);
-/* 		background-image [Microsoft Internet Explorer]: none;
-		background-image: var(--theme_image_page);*/
 		background-clip: border-box;
 		background-origin: border-box;
 		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
 		transition: left 0.4s, background-color 0.4s;
 	}
 	#navigation_top *, #navigation_left * {
 		cursor: default;
 		user-select: none; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none;
+	}
+	#navigation_top a, #navigation_left a {
+		text-decoration: none;
 	}
 	#navigation_left > #menu {
 		display: block;
@@ -132,14 +87,11 @@ Programming Language:	CSS 3
 		border: 0px;
 		padding: 0px;
 		top: 0px;
-		bottom /*Microsoft Internet Explorer*/: 48px;
-		bottom: var(--framework_menu);
+		bottom: 48px;
 		left: 0px;
 		right: 0px;
 		overflow: auto;
 		font-size: 10pt;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
 	}
 	#navigation_left > #menu > a, #navigation_left > #menu div.menu_title_1, #navigation_left > #menu a.menu_title_1 {
 		display: table;
@@ -154,9 +106,7 @@ Programming Language:	CSS 3
 		font-size: 12pt;
 		text-align: left;
 		vertical-align: middle;
-		text-decoration: none;
-		color /*Microsoft Internet Explorer*/: #FFFFFF;
-		color: var(--textcolor_navigation);
+		color: #FFFFFF;
 		background-color: rgba(255,255,255,0);
 	}
 	#navigation_left > #menu > a:hover, #navigation_left > #menu div.menu_title_1:hover, #navigation_left > #menu a.menu_title_1:hover {
@@ -303,19 +253,6 @@ Programming Language:	CSS 3
 		color: var(--textcolor_navigation);
 	}
 
-/*Icon*/
-	svg.icon_navigation {
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: 24px;
-		height: 24px;
-		vertical-align: middle;
-		fill /*Microsoft Internet Explorer*/: #FFFFFF;
-		fill: var(--textcolor_navigation);
-	}
-
 /*Navigation*/
 	#navigation_top > .left {
 		display: inline-block;
@@ -353,7 +290,7 @@ Programming Language:	CSS 3
 	button {
 		outline: none;
 	}
-	.button_navigation_top {
+	#navigation_top button, #navigation_top a {
 		display: inline-block;
 		box-sizing: border-box;
 		margin: 0px;
@@ -374,15 +311,27 @@ Programming Language:	CSS 3
 		background-color: rgba(255,255,255,0.25);
 	}
 
+/*Icon*/
+	#navigation_top button > svg, #navigation_top a > svg {
+		display: inline-block;
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+		width: 24px;
+		height: 24px;
+		vertical-align: middle;
+	}
+
 @media screen and (min-width: 832px) {
-	#navigation_left_button {
-		display: none;
-	}
-	#navigation_left {
-		left: 0px;
-	}
-	#page {
-		left /*Microsoft Internet Explorer*/: 256px;
-		left: var(--framework_left);
-	}
+	/*Website Structure*/
+		#navigation_left {
+			left: 0px;
+		}
+		#page {
+			left: 256px;
+		}
+	/*Button*/
+		#navigation_left_button {
+			display: none;
+		}
 }

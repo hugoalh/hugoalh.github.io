@@ -1,0 +1,42 @@
+/*==================================================================================================
+hugoalh's Website Style Set - Default
+Author:					hugoalh
+Programming Language:	CSS 3
+==================================================================================================*/
+/*Import Style Sheet, Font*/
+	@import url("/css/main.css");
+
+/*Font*/
+	html, body {
+		font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans ZHS", "Noto Sans JP", "Gothic A1", sans-serif;
+	}
+
+/*Website Structure*/
+	#navigation_top {
+		color: #FFFFFF;
+		background-color: #0063B1;
+		background-image: none;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#navigation_left {
+		color: #FFFFFF;
+		background-color: #0063B1;
+		background-image: none;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#page {
+		color: #000000;
+		background-color: #FFFFFF;
+		background-image: none;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+/*Button*/
+
+/*Icon*/
+	#navigation_top button > svg, #navigation_top a > svg {
+		fill /*SVG*/: #FFFFFF;
+	}
