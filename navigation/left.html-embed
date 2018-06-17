@@ -13,16 +13,16 @@
 			<a href="/page/minecraft-java/resourcepack/guimetroize_javavanilla"><svg></svg><span>GUI Metroize (Java Vanilla)</span></a>
 			<a href="/page/minecraft-java/resourcepack/guimetroize_javaforge"><svg></svg><span>GUI Metroize (Java Forge)</span></a>
 			<a href="/page/minecraft-java/resourcepack/languageextension"><svg></svg><span>Language Extension</span></a>
-		<div class="menu_title_2">Data Pack</div>
-		<div class="menu_title_2">Modification (Mod)</div>
-		<div class="menu_title_2">Modification Pack (Modpack)</div>
+		<div class="menu_title_2" languagestring="category_datapack"></div>
+		<div class="menu_title_2" languagestring="category_modification"></div>
+		<div class="menu_title_2" languagestring="category_modificationpack"></div>
 			<a href="/page/minecraft-java/modificationpack/gugeworld-survivaltogether"><svg></svg><span>GuGe World: Survival Together</span></a>
-		<div class="menu_title_2">Generator</div>
+		<div class="menu_title_2" languagestring="category_generator"></div>
 			<a href="/page/minecraft-java/generator/json_language"><svg></svg><span>JSON Language Encode/Decode</span></a>
 			<a href="/page/minecraft-java/generator/mcmeta"><svg></svg><span>mcmeta File Generator</span></a>
 	</div>
 	<div id="menu_minecraft-universal" class="collapse">
-	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span>Minecraft (Universal/Bedrock)</span></div>
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span languagestring="minecraft_universal_title"></span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Command</div>
 		<div class="menu_title_2">Resource Pack</div>
@@ -31,36 +31,36 @@
 		<div class="menu_title_2">Generator</div>
 	</div>
 	<div id="menu_scs-truck" class="collapse">
-	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span>American Truck Simulator</span></div>
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span languagestring="scs_americantrucksimulator_title"></span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Modification</div>
 	</div>
 	<div id="menu_scs-truck" class="collapse">
-	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span>Euro Truck Simulator 2</span></div>
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span languagestring="scs_eurotrucksimulator2_title"></span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Modification</div>
 	</div>
 	<div id="menu_citiesinmotion" class="collapse">
-	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/city.svg#icon_city"></use></svg><span>Cities In Motion 2 / Cities In Motion</span></div>
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/city.svg#icon_city"></use></svg><span languagestring="citiesinmotion_title"></span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Modification</div>
 	</div>
 	<div id="menu_transportfever" class="collapse">
-	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/train.svg#icon_train"></use></svg><span>Transport Fever</span></div>
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/train.svg#icon_train"></use></svg><span languagestring="transportfever_title"></span></div>
 		<div class="menu_title_2">World</div>
 		<div class="menu_title_2">Modification</div>
 	</div>
-	<a href="/page/roblox"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#icon_roblox"></use></svg><span>Roblox</span></a>
+	<a href="/page/roblox"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#icon_roblox"></use></svg><span languagestring="roblox_title"></span></a>
 	<div id="menu_websiteredesign" class="collapse">
-	<a href="/page/websiteredesign" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#icon_build"></use></svg><span>Website Re-design</span></a>
-		<a href="/websiteredesign/vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/bus.svg#icon_bus"></use></svg><span>Vehicle Fans Community Forum (VeFans)</span></a>
+	<a href="/page/websiteredesign" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#icon_build"></use></svg><span languagestring="websiteredesign_title"></span></a>
+		<a href="/websiteredesign/vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/bus.svg#icon_bus"></use></svg><span languagestring="websiteredesign_vfcf_title"></span></a>
 	</div>
-	<a href="/page/universalblacklist"><svg viewBox="0 0 24 24"><use xlink:href="/icon/list.svg#icon_list"></use></svg><span>Universal Blacklist (UBL)</span></a>
-	<a href="/page/event"><svg viewBox="0 0 24 24"><use xlink:href="/icon/calendar.svg#icon_calendar"></use></svg><span>Event</span></a>
-	<a href="/settings"><svg viewBox="0 0 24 24"><use xlink:href="/icon/settings.svg#icon_settings"></use></svg><span>Settings</span></a>
+	<a href="/page/universalblacklist"><svg viewBox="0 0 24 24"><use xlink:href="/icon/list.svg#icon_list"></use></svg><span languagestring="universalblacklist_title"></span></a>
+	<a href="/page/event"><svg viewBox="0 0 24 24"><use xlink:href="/icon/calendar.svg#icon_calendar"></use></svg><span languagestring="event_title"></span></a>
+	<a href="/settings"><svg viewBox="0 0 24 24"><use xlink:href="/icon/settings.svg#icon_settings"></use></svg><span languagestring="settings_title"></span></a>
 	<div id="menu_about_website" class="collapse">
-	<a href="/about_website" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#icon_info_outline"></use></svg><span>About Website</span></a>
-		<a href="/snooper"><svg viewBox="0 0 24 24"><use xlink:href="/icon/devices.svg#icon_devices"></use></svg><span>Device Information Snooper</span></a>
+	<a href="/about_website" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#icon_info_outline"></use></svg><span languagestring="about_website_title"></span></a>
+		<a href="/snooper"><svg viewBox="0 0 24 24"><use xlink:href="/icon/devices.svg#icon_devices"></use></svg><span languagestring="snooper_title"></span></a>
 	</div>
 </div>
 <div id="copyright">
