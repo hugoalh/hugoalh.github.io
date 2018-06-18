@@ -20,6 +20,40 @@ Programming Language:	CSS 3
 		article, aside, figure, footer, header, main, nav, section {
 			display: block;
 		}
+	/*Scrollbar*/
+		::-webkit-scrollbar {
+			width: 4px;
+			height: 4px;
+		}
+		::-webkit-scrollbar-button {
+			width: 0px;
+			height: 0px;
+		}
+		::-webkit-scrollbar-thumb {
+			background: #E1E1E1;
+			border: 0px;
+			border-radius: 0px;
+		}
+		::-webkit-scrollbar-thumb:hover {
+			background: #FFFFFF;
+		}
+		::-webkit-scrollbar-thumb:active {
+			background: #000000;
+		}
+		::-webkit-scrollbar-track {
+			background: #666666;
+			border: 0px;
+			border-radius: 0px;
+		}
+		::-webkit-scrollbar-track:hover {
+			background: #666666;
+		}
+		::-webkit-scrollbar-track:active {
+			background: #333333;
+		}
+		::-webkit-scrollbar-corner {
+			background: transparent;
+		}
 
 /*Font*/
 	html, body {
