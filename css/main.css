@@ -26,16 +26,16 @@ Programming Language:	CSS 3
 			height: 4px;
 		}
 		::-webkit-scrollbar-button {
-			width: 4px;
-			height: 4px;
+			width: 0px;
+			height: 0px;
 		}
 		::-webkit-scrollbar-thumb {
-			background: #808080;
+			background: #FFFFFF;
 			border: 0px;
 			border-radius: 0px;
 		}
 		::-webkit-scrollbar-thumb:hover {
-			background: #BFBFBF;
+			background: #FFFFFF;
 		}
 		::-webkit-scrollbar-thumb:active {
 			background: #FFFFFF;
