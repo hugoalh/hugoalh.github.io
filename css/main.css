@@ -185,7 +185,7 @@ Programming Language:	CSS 3
 		height: auto;
 		text-align: left;
 		vertical-align: middle;
-		background-color: #5590E3;
+		background-color: rgba(0,0,0,0.2);
 	}
 	#navigation_left > #menu div.menu_title_2 {
 		display: block;
