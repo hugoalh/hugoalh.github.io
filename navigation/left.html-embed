@@ -52,7 +52,7 @@
 	<a href="/page/roblox"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#icon_roblox"></use></svg><span languagestring="roblox_title"></span></a>
 	<div id="menu_websiteredesign" class="collapse">
 	<a href="/page/websiteredesign" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#icon_build"></use></svg><span languagestring="websiteredesign_title"></span></a>
-		<a href="/websiteredesign/vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/bus.svg#icon_bus"></use></svg><span languagestring="websiteredesign_vfcf_title"></span></a>
+		<a href="/websiteredesign/vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/steeringwheel.svg#icon_steeringwheel"></use></svg><span languagestring="websiteredesign_vfcf_title"></span></a>
 	</div>
 	<a href="/page/universalblacklist"><svg viewBox="0 0 24 24"><use xlink:href="/icon/list.svg#icon_list"></use></svg><span languagestring="universalblacklist_title"></span></a>
 	<a href="/page/event"><svg viewBox="0 0 24 24"><use xlink:href="/icon/calendar.svg#icon_calendar"></use></svg><span languagestring="event_title"></span></a>
