@@ -244,6 +244,9 @@ Programming Language:	CSS 3
 		text-decoration: none;
 		color: #FFFFFF;
 	}
+	#navigation_left > #menu > div.collapse + div.collapse {
+		margin-top: 4px;
+	}
 	#navigation_left > #copyright {
 		display: table;
 		position: absolute;
