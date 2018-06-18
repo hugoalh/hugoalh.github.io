@@ -1,13 +1,12 @@
 /*==================================================================================================
 Web Application - Service Worker
-Branch:					Cache-First Network
 Author:					hugoalh
-Source:					https://www.pwabuilder.com/serviceworker
+Source:					https://www.pwabuilder.com/serviceworker, https://jakearchibald.com/2014/offline-cookbook
 Programming Language:	JavaScript/ECMAScript 6/7/8
 ==================================================================================================*/
-var CACHE = "webapplication_cache";
-var precacheFiles = [
-	"/logo/hugoalh_tile.svg"
+var cache_name = "webapplication_serviceworker_cache";
+var cache_filelist = [
+	"/"
 ];
 
 /*Install stage sets up the cache-array to configure pre-cache content*/
@@ -35,14 +34,14 @@ var precacheFiles = [
 		}
 	);
 	function precache() {
-		return caches.open(CACHE).then(function (cache) {
-				return cache.addAll(precacheFiles);
+		return caches.open(cache_name).then(function (cache) {
+				return cache.addAll(cache_filelist);
 			}
 		);
 	};
 	function fromCache(request) {
 		/*Pull files from the cache first thing to show them fast*/
-			return caches.open(CACHE).then(function (cache) {
+			return caches.open(cache_name).then(function (cache) {
 				return cache.match(request).then(function (matching) {
 						return matching || Promise.reject("no-match");
 					}
@@ -52,7 +51,7 @@ var precacheFiles = [
 	};
 	function update(request) {
 		/*Call the server to get the newest version of the file to use the next time of show view*/
-		return caches.open(CACHE).then(function (cache) {
+		return caches.open(cache_name).then(function (cache) {
 				return fetch(request).then(function (response) {
 						return cache.put(request, response);
 					}
