@@ -139,13 +139,6 @@ Programming Language:	CSS 3
 		text-align: left;
 		vertical-align: middle;
 		color: #FFFFFF;
-		background-color: rgba(255,255,255,0);
-	}
-	#navigation_left > #menu > a:hover, #navigation_left > #menu div.menu_title_1:hover, #navigation_left > #menu a.menu_title_1:hover {
-		background-color: rgba(255,255,255,0.125);
-	}
-	#navigation_left > #menu > a:active, #navigation_left > #menu div.menu_title_1:active, #navigation_left > #menu a.menu_title_1:active {
-		background-color: rgba(255,255,255,0.25);
 	}
 	#navigation_left > #menu > a > svg, #navigation_left > #menu div.menu_title_1 > svg, #navigation_left > #menu a.menu_title_1 > svg {
 		display: table-cell;
@@ -159,7 +152,7 @@ Programming Language:	CSS 3
 		vertical-align: middle;
 		text-decoration: none;
 		color: #FFFFFF;
-		fill: #FFFFFF;
+		fill /*SVG*/: #FFFFFF;
 	}
 	#navigation_left > #menu > a > span, #navigation_left > #menu div.menu_title_1 > span, #navigation_left > #menu a.menu_title_1 > span {
 		display: table-cell;

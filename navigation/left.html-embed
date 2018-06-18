@@ -23,10 +23,9 @@
 	</div>
 	<div id="menu_minecraft-universal" class="collapse">
 	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span languagestring="minecraft_universal_title"></span></div>
-		<div class="menu_title_2" languagestring="category_world"></div>
 		<div class="menu_title_2" languagestring="category_resourcepack"></div>
 			<a href="/page/minecraft-universal/resourcepack/guimetroize_universalvanilla"><svg></svg><span>GUI Metroize (Universal Vanilla)</span></a>
-		<div class="menu_title_2" languagestring="category_addon">Add-on</div>
+		<div class="menu_title_2" languagestring="category_addon"></div>
 		<div class="menu_title_2" languagestring="category_generator"></div>
 	</div>
 	<div id="menu_scs-truck" class="collapse">
