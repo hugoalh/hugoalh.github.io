@@ -30,33 +30,16 @@ Programming Language:	CSS 3
 			height: 0px;
 		}
 		::-webkit-scrollbar-thumb {
-			background: #FFFFFF;
 			border: 0px;
 			border-radius: 0px;
-		}
-		::-webkit-scrollbar-thumb:hover {
-			background: #FFFFFF;
-		}
-		::-webkit-scrollbar-thumb:active {
-			background: #FFFFFF;
 		}
 		::-webkit-scrollbar-track {
-			background: transparent;
 			border: 0px;
 			border-radius: 0px;
-		}
-		::-webkit-scrollbar-track:hover {
-			background: rgba(255,255,255,0.125);
-		}
-		::-webkit-scrollbar-track:active {
-			background: rgba(255,255,255,0.25);
-		}
-		::-webkit-scrollbar-corner {
-			background: transparent;
 		}
 
 /*Font*/
-	html, body {
+	* {
 		font-size: 10pt;
 	}
 
