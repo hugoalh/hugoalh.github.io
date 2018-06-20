@@ -32,14 +32,31 @@ Programming Language:	CSS 3
 		::-webkit-scrollbar-thumb {
 			border: 0px;
 			border-radius: 0px;
+			background: rgba(127,127,127,1.0);
+		}
+		::-webkit-scrollbar-thumb:hover {
+			background: rgba(159,159,159,1.0);
+		}
+		::-webkit-scrollbar-thumb:active {
+			background: rgba(191,191,191,1.0);
 		}
 		::-webkit-scrollbar-track {
 			border: 0px;
 			border-radius: 0px;
+			background: rgba(0,0,0,0.1);
+		}
+		::-webkit-scrollbar-track:hover {
+			background: rgba(0,0,0,0.2);
+		}
+		::-webkit-scrollbar-track:active {
+			background: rgba(0,0,0,0.2);
+		}
+		::-webkit-scrollbar-corner {
+			background: transparent;
 		}
 
 /*Font*/
-	* {
+	html, body {
 		font-size: 10pt;
 	}
 

@@ -7,30 +7,10 @@ Programming Language:	CSS 3
 	@import url("/css/main.css");
 
 /*Scrollbar*/
-	#navigation_left::-webkit-scrollbar-thumb {
-		background: #FFFFFF;
-	}
-	#navigation_left::-webkit-scrollbar-thumb:hover {
-		background: #FFFFFF;
-	}
-	#navigation_left::-webkit-scrollbar-thumb:active {
-		background: #FFFFFF;
-	}
-	#navigation_left::-webkit-scrollbar-track {
-		background: transparent;
-	}
-	#navigation_left::-webkit-scrollbar-track:hover {
-		background: rgba(255,255,255,0.125);
-	}
-	#navigation_left::-webkit-scrollbar-track:active {
-		background: rgba(255,255,255,0.25);
-	}
-	#navigation_left::-webkit-scrollbar-corner {
-		background: transparent;
-	}
+
 
 /*Font*/
-	* {
+	html, body {
 		font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans ZHS", "Noto Sans JP", "Gothic A1", sans-serif;
 	}
 
