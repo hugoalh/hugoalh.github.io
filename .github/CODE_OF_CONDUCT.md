@@ -46,10 +46,10 @@
 
 ## 來源
 
-本行為準則改編自[貢獻者公約][首頁]，版本 1.4
-可在此觀看https://www.contributor-covenant.org/zh-tw/version/1/4/code-of-conduct.html
+本行為準則改編自[貢獻者公約]，版本 1.4，可在[此]觀看。
 
-[首頁]: https://www.contributor-covenant.org
+[貢獻者公約]: https://www.contributor-covenant.org
+[此]: https://www.contributor-covenant.org/zh-tw/version/1/4/code-of-conduct.html
 
 <hr>
 
@@ -95,7 +95,7 @@ Project maintainers who do not follow or enforce the Code of Conduct in good fai
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4, available at [http://contributor-covenant.org/version/1/4][version]
+This Code of Conduct is adapted from the [Contributor Covenant], version 1.4, available at [here].
 
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
+[Contributor Covenant]: http://contributor-covenant.org
+[here]: http://contributor-covenant.org/version/1/4/
