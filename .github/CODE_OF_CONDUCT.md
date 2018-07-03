@@ -1,4 +1,4 @@
-# 貢獻者公約
+# 貢獻者公約（中文版）
 
 ## 我們的承諾
 
@@ -24,7 +24,7 @@
 
 ## 我們的責任
 
-專案維護者有責任為"可接受的行為"準則做出詮釋，以及對已發生的不被接受的行為採取恰當且公平的糾正措施。
+專案維護者有責任為「可接受的行為」準則做出詮釋，以及對已發生的不被接受的行為採取恰當且公平的糾正措施。
 
 專案維護者有權力及責任去刪除、編輯、拒絕與本行為準則有所違背的評論（Comment）、提交（Commit）、程式碼、Wiki編輯、問題（Issue）和其他貢獻，以及專案維護者可暫時或永久性的禁止任何他們認為有不適當、威脅、冒犯、有害行為的貢獻者。
 
@@ -46,14 +46,14 @@
 
 ## 來源
 
-本行為準則改編自[貢獻者公約]，版本 1.4，可在[此]觀看。
+本行為準則改編自[貢獻者公約]，版本1.4，可在[此]觀看。
 
 [貢獻者公約]: https://www.contributor-covenant.org
 [此]: https://www.contributor-covenant.org/zh-tw/version/1/4/code-of-conduct.html
 
 <hr>
 
-# Contributor Covenant Code of Conduct
+# Contributor Covenant Code of Conduct (English Version)
 
 ## Our Pledge
 
