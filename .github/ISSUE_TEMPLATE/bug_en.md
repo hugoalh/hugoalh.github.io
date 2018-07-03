@@ -1,23 +1,23 @@
 ---
-name: Bug Report
-about: Create a report to help us improve
+name: Bug Report (English Version)
+about: Report a bug to help us improve
 
 ---
 
-**Describe the bug**
+**Description**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
+**Steps To Reproduce**
 Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behavior**
+**Expected Behavior**
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+**Screenshot**
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
@@ -31,5 +31,5 @@ If applicable, add screenshots to help explain your problem.
  - Browser [e.g. stock browser, safari]
  - Version [e.g. 22]
 
-**Additional context**
+**Additional Context**
 Add any other context about the problem here.
