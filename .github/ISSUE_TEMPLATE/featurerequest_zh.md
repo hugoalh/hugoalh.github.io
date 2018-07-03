@@ -1,17 +1,17 @@
 ---
-name: Feature Request (English Version)
-about: Suggest an idea for this project
+name: 請求新功能（中文版）
+about: 建議新想法給這個項目
 
 ---
 
-## Is your feature request related to a problem? Please describe.
-A clear and concise description of what the problem is.
+## 你請求的新功能是否與問題有關？請描述。
+清楚簡潔地描述問題所在。
 
-## Describe the solution you'd like
-A clear and concise description of what you want to happen.
+## 描述你想要的解決方案
+清楚簡潔地描述你想要發生的事情。
 
-## Describe alternatives you've considered
-A clear and concise description of any alternative solutions or features you've considered.
+## 描述你考慮過的替代方案
+清楚簡潔地描述對你考慮的任何替代解決方案或功能。
 
-## Additional context
-Add any other context or screenshots about the feature request here.
+## 附加上下文
+在此添加有關請求新功能的任何其他上下文或截圖。
