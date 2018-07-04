@@ -2,6 +2,14 @@
 	word-wrap: break-word;
 }
 
+blockquote {
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 40px;
+	-webkit-margin-end: 40px;
+}
+
 body {
 	background: #000000 url("../../images/NewArk/logo_dw.jpg");
 	text-align: center;
@@ -11,7 +19,7 @@ body {
 
 body, td, input, textarea, select, button {
 	color: #333333;
-	font: 13px/1.6em Verdana, Helvetica, sans-serif;
+	font: 13px/1.6em "Verdana", "Helvetica", sans-serif;
 }
 
 body, ul, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset {
@@ -213,7 +221,7 @@ img.ava_border, a img.ava_border {
 
 #copyright, #debuginfo {
 	text-align: left;
-	font: 12px/1.5em Arial, Helvetica, sans-serif;
+	font: 12px/1.5em "Arial", "Helvetica", sans-serif;
 	color: #fff;
 }
 
