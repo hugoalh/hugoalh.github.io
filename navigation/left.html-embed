@@ -5,50 +5,50 @@
 	<div id="menu_minecraft-java" class="collapse">
 	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span languagestring="minecraft_java_title"></span></div>
 		<div class="menu_title_2" languagestring="category_world"></div>
-			<a href="/page/minecraft-java/world/battletogether"><svg></svg><span>Battle Together (Previous Name: GuGe O&apos; Battle)</span></a>
+			<a href="/page/minecraft-java/world/battletogether"><svg></svg><span>Battle Together (Previous: GuGe O&apos; Battle)</span></a>
 			<a href="/page/minecraft-java/world/openthedoor"><svg></svg><span>Open The Door</span></a>
 			<a href="/page/minecraft-java/world/m3we"><svg></svg><span>M3WE</span></a>
-		<div class="menu_title_2" languagestring="category_command"></div>
+		<div class="menu_title_2" languagestring="category_command" style="display:none;"></div>
 		<div class="menu_title_2" languagestring="category_resourcepack"></div>
 			<a href="/page/minecraft-java/resourcepack/guimetroize_javavanilla"><svg></svg><span>GUI Metroize (Java Vanilla)</span></a>
 			<a href="/page/minecraft-java/resourcepack/guimetroize_javaforge"><svg></svg><span>GUI Metroize (Java Forge)</span></a>
 			<a href="/page/minecraft-java/resourcepack/languageextension"><svg></svg><span>Language Extension</span></a>
-		<div class="menu_title_2" languagestring="category_datapack"></div>
-		<div class="menu_title_2" languagestring="category_modification"></div>
+		<div class="menu_title_2" languagestring="category_datapack" style="display:none;"></div>
+		<div class="menu_title_2" languagestring="category_modification" style="display:none;"></div>
 		<div class="menu_title_2" languagestring="category_modificationpack"></div>
 			<a href="/page/minecraft-java/modificationpack/gugeworld-survivaltogether"><svg></svg><span>GuGe World: Survival Together</span></a>
 		<div class="menu_title_2" languagestring="category_generator"></div>
 			<a href="/page/minecraft-java/generator/json_language"><svg></svg><span>JSON Language Encode/Decode</span></a>
 			<a href="/page/minecraft-java/generator/mcmeta"><svg></svg><span>mcmeta File Generator</span></a>
 	</div>
-	<div id="menu_minecraft-universal" class="collapse">
-	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span languagestring="minecraft_universal_title"></span></div>
+	<div id="menu_minecraft-bedrock" class="collapse">
+	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#icon_minecraft_creeper"></use></svg><span languagestring="minecraft_bedrock_title"></span></div>
 		<div class="menu_title_2" languagestring="category_resourcepack"></div>
-			<a href="/page/minecraft-universal/resourcepack/guimetroize_universalvanilla"><svg></svg><span>GUI Metroize (Universal Vanilla)</span></a>
-		<div class="menu_title_2" languagestring="category_addon"></div>
-		<div class="menu_title_2" languagestring="category_generator"></div>
+			<a href="/page/minecraft-bedrock/resourcepack/guimetroize_bedrockvanilla"><svg></svg><span>GUI Metroize (Bedrock Vanilla)</span></a>
+		<div class="menu_title_2" languagestring="category_addon" style="display:none;"></div>
+		<div class="menu_title_2" languagestring="category_generator" style="display:none;"></div>
 	</div>
-	<div id="menu_scs-truck" class="collapse">
+	<div id="menu_scs-truck" class="collapse" style="display:none;">
 	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span languagestring="scs_americantrucksimulator_title"></span></div>
 		<div class="menu_title_2" languagestring="category_world"></div>
 		<div class="menu_title_2" languagestring="category_modification"></div>
 	</div>
-	<div id="menu_scs-truck" class="collapse">
+	<div id="menu_scs-truck" class="collapse" style="display:none;">
 	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#icon_truck"></use></svg><span languagestring="scs_eurotrucksimulator2_title"></span></div>
 		<div class="menu_title_2" languagestring="category_world"></div>
 		<div class="menu_title_2" languagestring="category_modification"></div>
 	</div>
-	<div id="menu_citiesinmotion" class="collapse">
+	<div id="menu_citiesinmotion" class="collapse" style="display:none;">
 	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/city.svg#icon_city"></use></svg><span languagestring="citiesinmotion_title"></span></div>
 		<div class="menu_title_2" languagestring="category_world"></div>
 		<div class="menu_title_2" languagestring="category_modification"></div>
 	</div>
-	<div id="menu_transportfever" class="collapse">
+	<div id="menu_transportfever" class="collapse" style="display:none;">
 	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/train.svg#icon_train"></use></svg><span languagestring="transportfever_title"></span></div>
 		<div class="menu_title_2" languagestring="category_world"></div>
 		<div class="menu_title_2" languagestring="category_modification"></div>
 	</div>
-	<a href="/page/roblox"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#icon_roblox"></use></svg><span languagestring="roblox_title"></span></a>
+	<a href="/page/roblox" style="display:none;"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#icon_roblox"></use></svg><span languagestring="roblox_title"></span></a>
 	<div id="menu_websiteredesign" class="collapse">
 	<a href="/page/websiteredesign" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#icon_build"></use></svg><span languagestring="websiteredesign_title"></span></a>
 		<a href="/websiteredesign/vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/steeringwheel.svg#icon_steeringwheel"></use></svg><span languagestring="websiteredesign_vfcf_title"></span></a>
@@ -66,5 +66,3 @@
 		&copy;hugoalh&emsp;2014&dash;2018
 	</div>
 </div>
-<script src="/javascript/cookie.js"></script>
-<script src="/javascript/language.js"></script>
