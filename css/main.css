@@ -178,7 +178,6 @@ Programming Language:	CSS 3
 		height: auto;
 		text-align: left;
 		vertical-align: middle;
-		background-color: rgba(0,0,0,0.2);
 	}
 	#navigation_left > #menu div.menu_title_2 {
 		display: block;
@@ -236,9 +235,6 @@ Programming Language:	CSS 3
 		vertical-align: middle;
 		text-decoration: none;
 		color: #FFFFFF;
-	}
-	#navigation_left > #menu > div.collapse + div.collapse {
-		margin-top: 4px;
 	}
 	#navigation_left > #copyright {
 		display: table;
