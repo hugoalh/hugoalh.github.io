@@ -1,6 +1,9 @@
-/**
-* @preserve HTML5 Shiv 3.7.3 | @afarkas @jdalton @jon_neal @rem | MIT/GPL2 Licensed
-*/
+/*==================================================================================================
+HTML5 Shiv (3.7.3 Print) (hugoalh Compressed)
+Author:				afarkas, jdalton, jon_neal, rem
+Program Language:	JavaScript/ECMAScript 6/7/8
+License:			MIT/GPL2
+==================================================================================================*/
 ;(function(window, document) {
 /*jshint evil:true */
   /** version */

@@ -1,9 +1,9 @@
 /*==================================================================================================
-hugoalh's Website Cookie Tool Set
-Author:					hugoalh
-Programming Language:	JavaScript/ECMAScript 6/7/8, Cookie
+hugoalh Website Cookie Tool Set
+Author:				hugoalh
+Program Language:	JavaScript/ECMAScript 6/7/8, Cookie
 ==================================================================================================*/
-/*Set Data*/
+/*Set Cookie*/
 	function cookie_set(cookie_data_name, cookie_data_value, cookie_data_expiretime) {
 		var cookie_data_expiretime_set = new Date();
 		cookie_data_expiretime_set.setTime(cookie_data_expiretime_set.getTime() + (cookie_data_expiretime * 24 * 60 * 60 * 1000));
@@ -11,7 +11,7 @@ Programming Language:	JavaScript/ECMAScript 6/7/8, Cookie
 		document.cookie = cookie_data_name + "=" + cookie_data_value + ";expires=" + cookie_data_expiretime_utc + ";domain=hugoalh.github.io;path=/";
 	};
 
-/*Get Data*/
+/*Get Cookie*/
 	function cookie_get(cookie_data_name) {
 		var cookie_data_name_search = cookie_data_name + "=";
 		var cookie_decode = decodeURIComponent(document.cookie);

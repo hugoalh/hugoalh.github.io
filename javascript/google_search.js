@@ -1,7 +1,7 @@
 /*==================================================================================================
 Google Search - Custom Search Engine
-Author:					Google
-Programming Language:	JavaScript/ECMAScript 6/7/8
+Author:				Google
+Program Language:	JavaScript/ECMAScript 6/7/8
 ==================================================================================================*/
 (
 	function() {
