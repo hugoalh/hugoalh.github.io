@@ -16,10 +16,6 @@ Program Language:	CSS 3
 			border: 0px;
 			padding: 0px;
 		}
-	/*Microsoft Internet Explorer Style Sheet*/
-		article, aside, figure, footer, header, main, nav, section {
-			display: block;
-		}
 	/*Scrollbar*/
 		::-webkit-scrollbar {
 			width: 4px;
