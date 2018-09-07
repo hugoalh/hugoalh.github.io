@@ -1,0 +1,7 @@
+files:
+  - source: /language/en.json
+    translation: /language/%language%.json
+    languages_mapping:
+      language:
+        zh-CN: zhs
+        zh-TW: zh
