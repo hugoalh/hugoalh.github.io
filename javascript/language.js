@@ -1,8 +1,13 @@
-/*==================================================================================================
+/*==================================================
 hugoalh Website Language Extension
-Author:				hugoalh
-Program Language:	JavaScript/ECMAScript 6/7/8, JSON, jQuery 3(.3.1), Cookie
-==================================================================================================*/
+	Author
+		hugoalh
+	Program Language
+		JavaScript/ECMAScript 6/7/8
+		JSON
+		jQuery 3(.3.1)
+		Cookie
+==================================================*/
 /*Client Set Language To zh*/
 	function language_change_zh() {
 		cookie_set("setting_language", "zh", 365.25);

@@ -1,9 +1,14 @@
-/*==================================================================================================
+/*==================================================
 Font, Noto, Sans
-Author:				Google, Monotype Imaging Inc, Adobe Systems Inc
-Program Language:	CSS 3
-Source:				https://www.google.com/get/noto/
-==================================================================================================*/
+	Author
+		Google
+		Monotype Imaging Inc
+		Adobe Systems Inc
+	Program Language
+		CSS 3
+	Source
+		https://www.google.com/get/noto/
+==================================================*/
 @font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-Regular"), local("Noto Sans Regular"),

@@ -1,9 +1,13 @@
-/*==================================================================================================
+/*==================================================
 Web Application - Service Worker
-Author:				hugoalh
-Program Language:	JavaScript/ECMAScript 6/7/8
-Source:				https://www.pwabuilder.com/serviceworker, https://jakearchibald.com/2014/offline-cookbook
-==================================================================================================*/
+	Author
+		hugoalh
+	Program Language
+		JavaScript/ECMAScript 6/7/8
+	Source
+		https://www.pwabuilder.com/serviceworker
+		https://jakearchibald.com/2014/offline-cookbook
+==================================================*/
 var cache_name = "webapplication_serviceworker_cache";
 var cache_filelist = [
 	"/"

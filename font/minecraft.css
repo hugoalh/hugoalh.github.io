@@ -1,9 +1,13 @@
-/*==================================================================================================
+/*==================================================
 Font, Minecraft
-Author:				JDGraphics Fonts, Jacob Debono
-Program Language:	CSS 3
-Source:				http://www.fontspace.com/jdgraphics/minecraft
-==================================================================================================*/
+	Author
+		JDGraphics Fonts
+		Jacob Debono
+	Program Language
+		CSS 3
+	Source
+		http://www.fontspace.com/jdgraphics/minecraft
+==================================================*/
 @font-face {
 	font-family: "Minecraft";
 	src: local("Minecraft-Regular"), local("Minecraft Regular"),

@@ -1,8 +1,11 @@
-/*==================================================================================================
-hugoalh Website Navigation Tool Set
-Author:				hugoalh
-Program Language:	JavaScript/ECMAScript 6/7/8, jQuery 3(.3.1)
-==================================================================================================*/
+/*==================================================
+hugoalh Website Navigation Tool
+	Author
+		hugoalh
+	Program Language
+		JavaScript/ECMAScript 6/7/8
+		jQuery 3(.3.1)
+==================================================*/
 var client_resolution_width;
 var navigation_left_mode;
 

@@ -1,8 +1,11 @@
-/*==================================================================================================
-hugoalh Website Cookie Tool Set
-Author:				hugoalh
-Program Language:	JavaScript/ECMAScript 6/7/8, Cookie
-==================================================================================================*/
+/*==================================================
+hugoalh Website Cookie Tool
+	Author
+		hugoalh
+	Program Language
+		JavaScript/ECMAScript 6/7/8
+		Cookie
+==================================================*/
 /*Set Cookie*/
 	function cookie_set(cookie_data_name, cookie_data_value, cookie_data_expiretime) {
 		var cookie_data_expiretime_set = new Date();

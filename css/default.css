@@ -1,13 +1,12 @@
-/*==================================================================================================
-hugoalh Website Style Set - Default
-Author:				hugoalh
-Program Language:	CSS 3
-==================================================================================================*/
+/*==================================================
+hugoalh Website Style - Default
+	Author
+		hugoalh
+	Program Language
+		CSS 3
+==================================================*/
 /*Import Style Sheet, Font*/
 	@import url("/css/main.css");
-
-/*Scrollbar*/
-
 
 /*Font*/
 	html, body {
