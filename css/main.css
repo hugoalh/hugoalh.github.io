@@ -191,9 +191,6 @@ hugoalh.github.io Website Style
 		#menu > ul > li > ul > li {
 			padding-left: 48px;
 		}
-			#menu > ul > li > ul > li > ul > li {
-				padding-left: 48px;
-			}
 	#menu a, #menu div {
 		display: table;
 		box-sizing: border-box;
@@ -216,6 +213,7 @@ hugoalh.github.io Website Style
 			border: 0px;
 			padding: 2px;
 			width: auto;
+			min-height: 0px;
 			height: 24px;
 			text-align: center;
 			vertical-align: middle;
