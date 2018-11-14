@@ -1,0 +1,24 @@
+{
+	"name": "hugoalh.github.io",
+	"description": "hugoalh.github.io",
+	"version": "18.1114.9",
+	"author": "hugoalh",
+	"keywords": [
+		"hugoalh",
+		"github"
+	],
+	"license": "",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hugoalh/hugoalh.github.io.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hugoalh/hugoalh.github.io/issues"
+	},
+	"homepage": "https://hugoalh.github.io",
+	"devDependencies": {
+	},
+	"dependencies": {
+		"jquery": ">=3.3.1"
+	}
+}
