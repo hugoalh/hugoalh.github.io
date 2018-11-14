@@ -57,25 +57,30 @@
 				<li><div class="menu_title_2" style="display:none;">Generator<br />生產器</div></li>
 			</ul>
 		</li>
+		<li>
+			<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#master"></use></svg><span>American Truck Simulator<br />美洲卡車模擬</span></div>
+			<ul>
+				<li><div class="menu_title_2">World<br />世界</div></li>
+				<li><div class="menu_title_2">Modification<br />模組</div></li>
+			</ul>
+		</li>
+		<li>
+			<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#master"></use></svg><span>Euro Truck Simulator 2<br />歐洲卡車模擬2</span></div>
+			<ul>
+				<li><div class="menu_title_2">World<br />世界</div></li>
+				<li><div class="menu_title_2">Modification<br />模組</div></li>
+			</ul>
+		</li>
+		<li><a href="/page/roblox" style="display:none;"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#master"></use></svg><span>Roblox<br />機械磚塊</span></a></li>
+		<li>
+			<a href="/page/websiteredesign" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#master"></use></svg><span>Website Redesign<br />網站重新設計</span></a>
+			<ul>
+				<li><a href="/websiteredesign/vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/steeringwheel.svg#master"></use></svg><span>Vehicle Fans Community (VeFans)<br />模擬載運遊戲聯合支援站（模載聯合支援站／模載聯合）</span></a></li>
+			</ul>
+		</li>
+		<li><a href="/page/universalblacklist"><svg viewBox="0 0 24 24"><use xlink:href="/icon/list.svg#master"></use></svg><span>Universal Blacklist<br />通用黑名單</span></a></li>
+		<li><a href="/about_website" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#master"></use></svg><span>About Website<br />關於網站</span></a></li>
 	</ul>
-	<div id="menu_scs-truck" class="collapse" style="display:none;">
-	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#master"></use></svg><span>American Truck Simulator<br />美洲卡車模擬</span></div>
-		<div class="menu_title_2">World<br />世界</div>
-		<div class="menu_title_2">Modification<br />模組</div>
-	</div>
-	<div id="menu_scs-truck" class="collapse" style="display:none;">
-	<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#master"></use></svg><span>Euro Truck Simulator 2<br />歐洲卡車模擬2</span></div>
-		<div class="menu_title_2">World<br />世界</div>
-		<div class="menu_title_2">Modification<br />模組</div>
-	</div>
-	<a href="/page/roblox" style="display:none;"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#master"></use></svg><span>Roblox<br />機械磚塊</span></a>
-	<div id="menu_websiteredesign" class="collapse">
-	<a href="/page/websiteredesign" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#master"></use></svg><span>Website Redesign<br />網站重新設計</span></a>
-		<a href="/websiteredesign/vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/steeringwheel.svg#master"></use></svg><span>Vehicle Fans Community (VeFans)<br />模擬載運遊戲聯合支援站（模載聯合支援站／模載聯合）</span></a>
-	</div>
-	<a href="/page/universalblacklist"><svg viewBox="0 0 24 24"><use xlink:href="/icon/list.svg#master"></use></svg><span>Universal Blacklist<br />通用黑名單</span></a>
-	<a href="/page/event"><svg viewBox="0 0 24 24"><use xlink:href="/icon/calendar.svg#master"></use></svg><span>Event<br />活動</span></a>
-	<a href="/about_website" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#master"></use></svg><span>About Website<br />關於網站</span></a>
 </div>
 <div id="copyright">
 	<div>
