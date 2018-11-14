@@ -188,6 +188,15 @@ hugoalh.github.io Website Style
 		padding: 0px;
 		list-style-type: none;
 	}
+		#menu > ul > li > ul > li {
+			margin-left: 24px;
+		}
+		#menu > ul > li > ul > li > ul > li {
+			margin-left: 48px;
+		}
+		#menu > ul > li > ul > li > ul > li > ul > li {
+			margin-left: 72px;
+		}
 	#menu a, #menu div {
 		display: table;
 		box-sizing: border-box;
