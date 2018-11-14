@@ -8,10 +8,6 @@ hugoalh Website Style - Default
 /*Import Style Sheet, Font*/
 	@import url("/css/main.css");
 
-/*Font*/
-	html, body {
-		font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans ZHS", "Noto Sans JP", "Gothic A1", sans-serif;
-	}
 
 /*Website Structure*/
 	#navigation_top {
