@@ -189,14 +189,11 @@ hugoalh.github.io Website Style
 		list-style-type: none;
 	}
 		#menu > ul > li > ul > li {
-			margin-left: 24px;
+			padding-left: 48px;
 		}
-		#menu > ul > li > ul > li > ul > li {
-			margin-left: 48px;
-		}
-		#menu > ul > li > ul > li > ul > li > ul > li {
-			margin-left: 72px;
-		}
+			#menu > ul > li > ul > li > ul > li {
+				padding-left: 48px;
+			}
 	#menu a, #menu div {
 		display: table;
 		box-sizing: border-box;
@@ -212,6 +209,20 @@ hugoalh.github.io Website Style
 		vertical-align: middle;
 		color: #FFFFFF;
 	}
+		#menu > ul > li > ul > li > div {
+			display: block;
+			box-sizing: border-box;
+			margin: 0px;
+			border: 0px;
+			padding: 2px;
+			width: auto;
+			height: 24px;
+			text-align: center;
+			vertical-align: middle;
+			text-decoration: none;
+			color: #0063B1;
+			background-color: #FFFFFF;
+		}
 	#menu svg {
 		display: table-cell;
 		box-sizing: border-box;
