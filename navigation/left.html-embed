@@ -8,35 +8,35 @@
 			</ul>
 		</li>
 		<li>
-			<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#master"></use></svg><span>Minecraft - Java</span></div>
+			<div><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#master"></use></svg><span>Minecraft - Java</span></div>
 			<ul>
 				<li>
-					<div class="menu_title_2">World<br />世界</div>
+					<div>World<br />世界</div>
 					<ul>
 						<li><a href="/page/minecraft-java/world/battletogether"><svg></svg><span>Battle Together</span></a></li>
 						<li><a href="/page/minecraft-java/world/openthedoor"><svg></svg><span>Open The Door</span></a></li>
 						<li><a href="/page/minecraft-java/world/m3we"><svg></svg><span>M3WE</span></a></li>
 					</ul>
 				</li>
-				<li><div class="menu_title_2" style="display:none;">Command<br />指令</div></li>
+				<li><div style="display:none;">Command<br />指令</div></li>
 				<li>
-					<div class="menu_title_2">Resource Pack<br />資源包</div>
+					<div>Resource Pack<br />資源包</div>
 					<ul>
 						<li><a href="/page/minecraft-java/resourcepack/guimetroize-javavanilla"><svg></svg><span>GUI Metroize - Java Vanilla<br />介面扁平化—Java香草</span></a></li>
 						<li><a href="/page/minecraft-java/resourcepack/guimetroize-javamodification"><svg></svg><span>GUI Metroize - Java Modification<br />介面扁平化—Java模組</span></a></li>
 						<li><a href="/page/minecraft-java/resourcepack/languageextension"><svg></svg><span>Language Extension<br />語言擴充</span></a></li>
 					</ul>
 				</li>
-				<li><div class="menu_title_2" style="display:none;">Data Pack<br />資料包</div></li>
-				<li><div class="menu_title_2" style="display:none;">Modification<br />模組</div></li>
+				<li><div style="display:none;">Data Pack<br />資料包</div></li>
+				<li><div style="display:none;">Modification<br />模組</div></li>
 				<li>
-					<div class="menu_title_2">Modification Pack<br />模組包</div>
+					<div>Modification Pack<br />模組包</div>
 					<ul>
 						<li><a href="/page/minecraft-java/modificationpack/gugeutopiaplus"><svg></svg><span>GuGe Utopia+</span></a></li>
 					</ul>
 				</li>
 				<li>
-					<div class="menu_title_2">Generator<br />生產器</div>
+					<div>Generator<br />生產器</div>
 					<ul>
 						<li><a href="/page/minecraft-java/generator/json_language"><svg></svg><span>JSON Language Encode/Decode</span></a></li>
 						<li><a href="/page/minecraft-java/generator/mcmeta"><svg></svg><span>mcmeta File Generator</span></a></li>
@@ -45,41 +45,41 @@
 			</ul>
 		</li>
 		<li>
-			<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#master"></use></svg><span>Minecraft - Bedrock<br />Minecraft—基岩</span></div>
+			<div><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#master"></use></svg><span>Minecraft - Bedrock<br />Minecraft—基岩</span></div>
 			<ul>
 				<li>
-					<div class="menu_title_2">Resource Pack<br />資源包</div>
+					<div>Resource Pack<br />資源包</div>
 					<ul>
 						<li><a href="/page/minecraft-bedrock/resourcepack/guimetroize-bedrockvanilla"><svg></svg><span>GUI Metroize - Bedrock Vanilla<br />介面扁平化—基岩香草</span></a></li>
 					</ul>
 				</li>
-				<li><div class="menu_title_2"style="display:none;">Add On<br />附加包</div></li>
-				<li><div class="menu_title_2" style="display:none;">Generator<br />生產器</div></li>
+				<li><div style="display:none;">Add On<br />附加包</div></li>
+				<li><div style="display:none;">Generator<br />生產器</div></li>
 			</ul>
 		</li>
 		<li>
-			<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#master"></use></svg><span>American Truck Simulator<br />美洲卡車模擬</span></div>
+			<div><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#master"></use></svg><span>American Truck Simulator<br />美洲卡車模擬</span></div>
 			<ul>
-				<li><div class="menu_title_2">World<br />世界</div></li>
-				<li><div class="menu_title_2">Modification<br />模組</div></li>
+				<li><div>World<br />世界</div></li>
+				<li><div>Modification<br />模組</div></li>
 			</ul>
 		</li>
 		<li>
-			<div class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#master"></use></svg><span>Euro Truck Simulator 2<br />歐洲卡車模擬2</span></div>
+			<div><svg viewBox="0 0 24 24"><use xlink:href="/icon/truck.svg#master"></use></svg><span>Euro Truck Simulator 2<br />歐洲卡車模擬2</span></div>
 			<ul>
-				<li><div class="menu_title_2">World<br />世界</div></li>
-				<li><div class="menu_title_2">Modification<br />模組</div></li>
+				<li><div>World<br />世界</div></li>
+				<li><div>Modification<br />模組</div></li>
 			</ul>
 		</li>
 		<li><a href="/page/roblox" style="display:none;"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#master"></use></svg><span>Roblox<br />機械磚塊</span></a></li>
 		<li>
-			<a href="/page/websiteredesign" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#master"></use></svg><span>Website Redesign<br />網站重新設計</span></a>
+			<a href="/page/websiteredesign" ><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#master"></use></svg><span>Website Redesign<br />網站重新設計</span></a>
 			<ul>
 				<li><a href="/websiteredesign/vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/steeringwheel.svg#master"></use></svg><span>Vehicle Fans Community (VeFans)<br />模擬載運遊戲聯合支援站（模載聯合支援站／模載聯合）</span></a></li>
 			</ul>
 		</li>
 		<li><a href="/page/universalblacklist"><svg viewBox="0 0 24 24"><use xlink:href="/icon/list.svg#master"></use></svg><span>Universal Blacklist<br />通用黑名單</span></a></li>
-		<li><a href="/about_website" class="menu_title_1"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#master"></use></svg><span>About Website<br />關於網站</span></a></li>
+		<li><a href="/about_website" ><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#master"></use></svg><span>About Website<br />關於網站</span></a></li>
 	</ul>
 </div>
 <div id="copyright">

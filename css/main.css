@@ -15,9 +15,12 @@ hugoalh.github.io Website Style
 
 /*Common*/
 	/*Button*/
-	button:focus {
+	button {
 		outline: 0px !important;
 	}
+		button:focus {
+			outline: 0px !important;
+		}
 	/*Webpage Render*/
 	html, body {
 		width: 100%;
@@ -30,121 +33,162 @@ hugoalh.github.io Website Style
 		font-size: 10pt;
 	}
 	/*Scrollbar*/
-		::-webkit-scrollbar {
-			width: 4px;
-			height: 4px;
-		}
-		::-webkit-scrollbar-button {
-			width: 0px;
-			height: 0px;
-		}
-		::-webkit-scrollbar-thumb {
-			border: 0px;
-			border-radius: 0px;
-			background: rgba(127,127,127,1.0);
-		}
-		::-webkit-scrollbar-thumb:hover {
-			background: rgba(95,95,95,1.0);
-		}
-		::-webkit-scrollbar-thumb:active {
-			background: rgba(63,63,63,1.0);
-		}
-		::-webkit-scrollbar-track {
-			border: 0px;
-			border-radius: 0px;
-			background: rgba(0,0,0,0.125);
-		}
-		::-webkit-scrollbar-track:hover {
-			background: rgba(0,0,0,0.25);
-		}
-		::-webkit-scrollbar-track:active {
-			background: rgba(0,0,0,0.25);
-		}
-		::-webkit-scrollbar-corner {
-			background: transparent;
-		}
+	::-webkit-scrollbar {
+		width: 4px;
+		height: 4px;
+	}
+	::-webkit-scrollbar-button {
+		width: 0px;
+		height: 0px;
+	}
+	::-webkit-scrollbar-thumb {
+		border: 0px;
+		border-radius: 0px;
+		background: rgba(192,192,192,1.0);
+	}
+	::-webkit-scrollbar-thumb:hover {
+		background: rgba(166,166,166,1.0);
+	}
+	::-webkit-scrollbar-thumb:active {
+		background: rgba(96,96,96,1.0);
+	}
+	::-webkit-scrollbar-track {
+		border: 0px;
+		border-radius: 0px;
+		background: rgba(0,0,0,0.125);
+	}
+	::-webkit-scrollbar-track:hover {
+		background: rgba(0,0,0,0.25);
+	}
+	::-webkit-scrollbar-track:active {
+		background: rgba(0,0,0,0.25);
+	}
+	::-webkit-scrollbar-corner {
+		background: transparent;
+	}
 
 /*Website Structure*/
-	.framework {
-		display: block;
-		position: fixed;
-		box-sizing: border-box;
+.framework {
+	display: block;
+	position: fixed;
+	box-sizing: border-box;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	padding: 0px;
+}
+#navigation_top {
+	z-index: 1;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 48px;
+	overflow: hidden;
+	font-size: 0pt;
+	color: #FFFFFF;
+	vertical-align: middle;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center center;
+	background-color: #0063B1;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#navigation_left {
+	z-index: 1;
+	top: 48px;
+	bottom: 0px;
+	left: -256px;
+	width: 256px;
+	overflow-x: hidden;
+	color: #FFFFFF;
+	transition: left 0.4s;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center center;
+	background-color: #0063B1;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#navigation_top *, #navigation_left * {
+	text-decoration: none;
+	cursor: default;
+	user-select: none; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none;
+}
+#page {
+	top: 48px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 8px;
+	overflow: auto;
+	color: #000000;
+	transition: left 0.4s, background-color 0.4s;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center center;
+	background-color: #FFFFFF;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*Navigation*/
+#navigation_top > .left {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: auto;
+	height: 48px;
+	float: left;
+	vertical-align: middle;
+}
+	#navigation_websitelogo {
+		display: inline-block;
 		margin: 0px;
 		border: 0px;
-		padding: 0px;
-	}
-	#navigation_top {
-		z-index: 1;
-		top: 0px;
-		left: 0px;
-		right: 0px;
-		height: 48px;
-		overflow: hidden;
-		font-size: 0pt;
-		vertical-align: middle;
-		background-clip: border-box;
-		background-origin: border-box;
-		background-position: center center;
-		color: #FFFFFF;
-		background-color: #0063B1;
-		background-image: none;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	#navigation_left {
-		z-index: 1;
-		top: 48px;
-		bottom: 0px;
-		left: -256px;
-		width: 256px;
-		overflow-x: hidden;
-		background-clip: border-box;
-		background-origin: border-box;
-		background-position: center center;
-		transition: left 0.4s;
-		color: #FFFFFF;
-		background-color: #0063B1;
-		background-image: none;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-	#page {
-		top: 48px;
-		bottom: 0px;
-		left: 0px;
-		right: 0px;
 		padding: 8px;
-		overflow: auto;
-		background-clip: border-box;
-		background-origin: border-box;
-		background-position: center center;
-		transition: left 0.4s, background-color 0.4s;
-		color: #000000;
-		background-color: #FFFFFF;
-		background-image: none;
-		background-repeat: no-repeat;
-		background-size: cover;
+		width: auto;
+		height: 32px;
+		vertical-align: middle;
 	}
-	#navigation_top *, #navigation_left * {
-		text-decoration: none;
-		cursor: default;
-		user-select: none; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none;
-	}
-	#navigation_left > #menu {
-		display: block;
-		position: absolute;
-		box-sizing: border-box;
+#navigation_top > .right {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: auto;
+	height: 48px;
+	float: right;
+	vertical-align: middle;
+}
+#navigation_left > #menu {
+	display: block;
+	position: absolute;
+	box-sizing: border-box;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	top: 0px;
+	bottom: 48px;
+	left: 0px;
+	right: 0px;
+	overflow: auto;
+	font-size: 10pt;
+}
+	#menu ul, #menu li {
 		margin: 0px;
 		border: 0px;
+		outline: 0px;
 		padding: 0px;
-		top: 0px;
-		bottom: 48px;
-		left: 0px;
-		right: 0px;
-		overflow: auto;
-		font-size: 10pt;
+		list-style-type: none;
 	}
-	#navigation_left > #menu > a, #navigation_left > #menu div.menu_title_1, #navigation_left > #menu a.menu_title_1 {
+	#menu a, #menu div {
 		display: table;
 		box-sizing: border-box;
 		margin: 0px;
@@ -159,7 +203,7 @@ hugoalh.github.io Website Style
 		vertical-align: middle;
 		color: #FFFFFF;
 	}
-	#navigation_left > #menu > a > svg, #navigation_left > #menu div.menu_title_1 > svg, #navigation_left > #menu a.menu_title_1 > svg {
+	#menu svg {
 		display: table-cell;
 		box-sizing: border-box;
 		margin: 0px;
@@ -173,7 +217,7 @@ hugoalh.github.io Website Style
 		color: #FFFFFF;
 		fill /*SVG*/: #FFFFFF;
 	}
-	#navigation_left > #menu > a > span, #navigation_left > #menu div.menu_title_1 > span, #navigation_left > #menu a.menu_title_1 > span {
+	#menu span {
 		display: table-cell;
 		box-sizing: border-box;
 		margin: 0px;
@@ -187,92 +231,24 @@ hugoalh.github.io Website Style
 		text-decoration: none;
 		color: #FFFFFF;
 	}
-	#navigation_left > #menu > div.collapse {
-		display: block;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: auto;
-		height: auto;
-		text-align: left;
-		vertical-align: middle;
-	}
-	#navigation_left > #menu div.menu_title_2 {
-		display: block;
-		box-sizing: border-box;
-		margin: 0px 0px 0px 48px;
-		border: 0px;
-		padding: 2px;
-		width: auto;
-		height: 24px;
-		text-align: center;
-		vertical-align: middle;
-		text-decoration: none;
-		color: #0063B1;
-		background-color: #FFFFFF;
-	}
-	#navigation_left > #menu > div.collapse > a {
-		display: table;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: auto;
-		min-height: 24px;
-		height: auto;
-		font-size: 10pt;
-		text-align: left;
-		vertical-align: middle;
-		text-decoration: none;
-		color: #FFFFFF;
-	}
-	#navigation_left > #menu > div.collapse > a > svg {
-		display: table-cell;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 2px 24px;
-		width: 24px;
-		height: 24px;
-		text-align: center;
-		vertical-align: middle;
-		text-decoration: none;
-		color #FFFFFF;
-		fill: #FFFFFF;
-	}
-	#navigation_left > #menu > div.collapse > a > span {
-		display: table-cell;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 2px 12px 2px 0px;
-		width: 100%;
-		min-height: 48px;
-		height: auto;
-		text-align: left;
-		vertical-align: middle;
-		text-decoration: none;
-		color: #FFFFFF;
-	}
-	#navigation_left > #copyright {
-		display: table;
-		position: absolute;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 2px;
-		bottom: 0px;
-		left: 0px;
-		right: 0px;
-		width: 100%;
-		height: 48px;
-		overflow: hidden;
-		text-align: center;
-		vertical-align: middle;
-		color: #FFFFFF;
-	}
-	#navigation_left > #copyright > div {
+#navigation_left > #copyright {
+	display: table;
+	position: absolute;
+	box-sizing: border-box;
+	margin: 0px;
+	border: 0px;
+	padding: 2px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+	height: 48px;
+	overflow: hidden;
+	text-align: center;
+	vertical-align: middle;
+	color: #FFFFFF;
+}
+	#copyright > div {
 		display: table-cell;
 		box-sizing: border-box;
 		margin: 0px;
@@ -281,45 +257,9 @@ hugoalh.github.io Website Style
 		text-align: center;
 		vertical-align: middle;
 		color: #FFFFFF;
-	}
-
-/*Navigation*/
-	#navigation_top > .left {
-		display: inline-block;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: auto;
-		height: 48px;
-		float: left;
-		vertical-align: middle;
-	}
-	#navigation_top > .right {
-		display: inline-block;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: auto;
-		height: 48px;
-		float: right;
-		vertical-align: middle;
-	}
-	#navigation_websitelogo {
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 8px;
-		width: auto;
-		height: 32px;
-		vertical-align: middle;
 	}
 
 /*Button*/
-	button {
-		outline: none;
-	}
 	#navigation_top button, #navigation_top a {
 		display: inline-block;
 		box-sizing: border-box;
