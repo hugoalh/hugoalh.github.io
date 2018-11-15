@@ -34,6 +34,11 @@ function navigation_deviceevent() {
 window.addEventListener("resize", navigation_deviceevent);
 
 /*Website Page Parameter Handle*/
+function website_pageparameter_detect() {
+	browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
+	browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
+	website_pageparameter_load(browser_url_pageparameter_get);
+}
 function website_pageparameter_load(browser_url_pageparameter) {
 	var pageparameter;
 	var pageparameter_encode;
@@ -44,7 +49,7 @@ function website_pageparameter_load(browser_url_pageparameter) {
 		pageparameter = browser_url_pageparameter;
 	};
 	alert(pageparameter);
-	pageparameter_encode = /*"#navigation_left #menu #" + */pageparameter;
+	pageparameter_encode = "#navigation_left #menu #" + pageparameter;
 	alert(pageparameter_encode);
 	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	$(pageparameter_encode).addClass("navigation_currentpage");
@@ -61,10 +66,11 @@ function website_pageparameter_load(browser_url_pageparameter) {
 /*Load Data*/
 $(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
-		$("#navigation_left").load("/navigation/left.html-embed");
-		browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
-		browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
-		website_pageparameter_load(browser_url_pageparameter_get);
+		$("#navigation_left").load("/navigation/left.html-embed", function(response, status, xhr) {
+			if (status == "success") {
+				website_pageparameter_detect();
+			}
+		});
 		$("#coverscreen").css("display","none");
 	}
 );
