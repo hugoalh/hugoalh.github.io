@@ -81,12 +81,13 @@ hugoalh.github.io Website Style
 	z-index: 1;
 	top: 0px;
 	left: 0px;
-	right: 0px;
+	width: 100%;
 	height: 48px;
 	overflow: hidden;
 	font-size: 0pt;
 	color: #FFFFFF;
 	vertical-align: middle;
+	transition: width 0.4s;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center center;
@@ -125,7 +126,7 @@ hugoalh.github.io Website Style
 	padding: 8px;
 	overflow: auto;
 	color: #000000;
-	transition: left 0.4s, background-color 0.4s;
+	transition: top 0.4s, left 0.4s, background-color 0.4s;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center center;
@@ -207,7 +208,7 @@ hugoalh.github.io Website Style
 			padding-left: 48px;
 		}
 		#menu > ul > li > ul > li > ul > li > a, #menu > ul > li > ul > li > ul > li > div {
-			padding-left: 72px;
+			padding-left: 48px;
 		}
 		#menu > ul > li > ul > li > div {
 			display: block;
@@ -329,14 +330,18 @@ hugoalh.github.io Website Style
 
 @media screen and (min-width: 832px) {
 	/*Website Structure*/
-		#navigation_left {
-			left: 0px;
-		}
-		#page {
-			left: 256px;
-		}
+	#navigation_left {
+		width: 256px;
+	}
+	#navigation_left {
+		left: 0px;
+	}
+	#page {
+		top: 0px;
+		left: 256px;
+	}
 	/*Button*/
-		#navigation_left_button {
-			display: none !important;
-		}
+	#navigation_left_button {
+		display: none !important;
+	}
 }
