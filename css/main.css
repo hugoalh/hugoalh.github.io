@@ -297,7 +297,7 @@ hugoalh.github.io Website Style
 	}
 
 /*Icon*/
-	#navigation_top button > svg, #navigation_top a > svg {
+	#navigation_top button svg, #navigation_top a svg {
 		display: inline-block;
 		margin: 0px;
 		border: 0px;
@@ -305,6 +305,8 @@ hugoalh.github.io Website Style
 		width: 24px;
 		height: 24px;
 		vertical-align: middle;
+		color: #FFFFFF;
+		fill /*SVG*/: #FFFFFF;
 	}
 
 
