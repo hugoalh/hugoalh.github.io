@@ -38,15 +38,15 @@ function website_pageparameter_load(browser_url_pageparameter) {
 	var pageparameter;
 	var pageparameter_encode;
 	alert(browser_url_pageparameter);
-	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	if (browser_url_pageparameter == null) {
 		pageparameter = "homepage";
 	} else {
 		pageparameter = browser_url_pageparameter;
 	};
 	alert(pageparameter);
-	pageparameter_encode = "#navigation_left #menu #" + pageparameter;
+	pageparameter_encode = /*"#navigation_left #menu #" + */pageparameter;
 	alert(pageparameter_encode);
+	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	$(pageparameter_encode).addClass("navigation_currentpage");
 	pageparameter = pageparameter.replace(/,/g, "/");
 	pageparameter = pageparameter.replace(/\2c /g, "/");
@@ -59,7 +59,7 @@ function website_pageparameter_load(browser_url_pageparameter) {
 }
 
 /*Load Data*/
-$(document).ready(function() {
+$(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed");
 		browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
