@@ -35,14 +35,14 @@ window.addEventListener("resize", navigation_deviceevent);
 
 /*Website Page Parameter Handle*/
 function website_pageparameter_load(browser_url_pageparameter) {
+	var pageparameter;
 	$("#navigation_left #menu a").removeClass("navigation_currentpage");
-	document.getElementById(browser_url_pageparameter).classList.add("navigation_currentpage");
-	navigation_left_close();
-	var pageparameter = browser_url_pageparameter.get("page");
-	pageparameter = pageparameter.replace(",", "/");
-	if (pageparameter == null) {
+	if (browser_url_pageparameter == null) {
 		pageparameter = "homepage";
 	};
+	document.getElementById(pageparameter).classList.add("navigation_currentpage");
+	navigation_left_close();
+	pageparameter = pageparameter.replace(",", "/");
 	page_needload = "/page/" + pageparameter + ".html-embed";
 	$("#page").load(page_needload, function(response, status, xhr) {
 		if (status == "error") {
@@ -57,6 +57,7 @@ $(document).ready(function() {
 		$("#navigation_left").load("/navigation/left.html-embed");
 		$("#coverscreen").css("display","none");
 		browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
+		browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
 		website_pageparameter_load(browser_url_pageparameter_get);
 	}
 );
