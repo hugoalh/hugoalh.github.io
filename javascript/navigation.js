@@ -36,6 +36,7 @@ window.addEventListener("resize", navigation_deviceevent);
 /*Website Page Parameter Handle*/
 function website_pageparameter_load(browser_url_pageparameter) {
 	var pageparameter;
+	var pageparameter_encode;
 	alert(browser_url_pageparameter);
 	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	if (browser_url_pageparameter == null) {
@@ -44,7 +45,9 @@ function website_pageparameter_load(browser_url_pageparameter) {
 		pageparameter = browser_url_pageparameter;
 	};
 	alert(pageparameter);
-	$("#navigation_left #menu #" + pageparameter).addClass("navigation_currentpage");
+	pageparameter_encode = "#navigation_left #menu #" + pageparameter;
+	alert(pageparameter_encode);
+	$(pageparameter_encode).addClass("navigation_currentpage");
 	pageparameter = pageparameter.replace(/,/g, "/");
 	pageparameter = pageparameter.replace(/\2c /g, "/");
 	page_needload = "/page/" + pageparameter + ".html-embed";
