@@ -36,13 +36,17 @@ window.addEventListener("resize", navigation_deviceevent);
 /*Website Page Parameter Handle*/
 function website_pageparameter_load(browser_url_pageparameter) {
 	var pageparameter;
+	alert(browser_url_pageparameter);
 	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	if (browser_url_pageparameter == null) {
 		pageparameter = "homepage";
+	} else {
+		pageparameter = browser_url_pageparameter;
 	};
+	alert(pageparameter);
 	$("#navigation_left #menu #" + pageparameter).addClass("navigation_currentpage");
-	pageparameter = pageparameter.replace(",", "/");
-	pageparameter = pageparameter.replace("\2c ", "/");
+	pageparameter = pageparameter.replace(/,/g,, "/");
+	pageparameter = pageparameter.replace(/\2c /g, "/");
 	page_needload = "/page/" + pageparameter + ".html-embed";
 	$("#page").load(page_needload, function(response, status, xhr) {
 		if (status == "error") {
