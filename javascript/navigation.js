@@ -26,7 +26,7 @@ var navigation_left_mode;
 /*Determine Client Event*/
 	function navigation_clientevent() {
 		client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-		if (client_resolution_width >= 832 && navigation_left_mode == 1) {
+		if (client_resolution_width >= 768 && navigation_left_mode == 1) {
 			navigation_left_close();
 		};
 	};

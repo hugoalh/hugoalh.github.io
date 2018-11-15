@@ -79,7 +79,7 @@
 			</ul>
 		</li>
 		<li><a href="/page/universalblacklist"><svg viewBox="0 0 24 24"><use xlink:href="/icon/list.svg#master"></use></svg><span>Universal Blacklist<br />通用黑名單</span></a></li>
-		<li><a href="/about_website" ><svg viewBox="0 0 24 24"><use xlink:href="/icon/info_outline.svg#master"></use></svg><span>About Website<br />關於網站</span></a></li>
+		<li><a href="/about_website" ><svg viewBox="0 0 24 24"><use xlink:href="/icon/info.svg#master"></use></svg><span>About Website<br />關於網站</span></a></li>
 	</ul>
 </div>
 <div id="copyright">

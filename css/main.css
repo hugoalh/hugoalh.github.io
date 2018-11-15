@@ -207,9 +207,6 @@ hugoalh.github.io Website Style
 		#menu > ul > li > ul > li > a {
 			padding-left: 48px;
 		}
-		#menu > ul > li > ul > li > ul > li > a, #menu > ul > li > ul > li > ul > li > div {
-			padding-left: 48px;
-		}
 		#menu > ul > li > ul > li > div {
 			display: block;
 			box-sizing: border-box;
@@ -225,6 +222,9 @@ hugoalh.github.io Website Style
 			text-decoration: none;
 			color: #0063B1;
 			background-color: #FFFFFF;
+		}
+		#menu > ul > li > ul > li > ul > li > a, #menu > ul > li > ul > li > ul > li > div {
+			padding-left: 48px;
 		}
 	#menu svg {
 		display: table-cell;
@@ -311,24 +311,21 @@ hugoalh.github.io Website Style
 
 
 
-#navigation_top button, #navigation_top a, #navigation_left > #menu > a, #navigation_left > #menu div.menu_title_1, #navigation_left > #menu a.menu_title_1 {
+#navigation_top button, #navigation_top a, #navigation_left > #menu > a {
 	background-color: rgba(255,255,255,0);
 }
-#navigation_top button:hover, #navigation_top a:hover, #navigation_left > #menu > a:hover, #navigation_left > #menu a.menu_title_1:hover {
+#navigation_top button:hover, #navigation_top a:hover, #navigation_left > #menu > a:hover {
 	background-color: rgba(255,255,255,0.125);
 }
-#navigation_top button:active, #navigation_top a:active, #navigation_left > #menu > a:active, #navigation_left > #menu a.menu_title_1:active {
+#navigation_top button:active, #navigation_top a:active, #navigation_left > #menu > a:active {
 	background-color: rgba(255,255,255,0.25);
 }
-#navigation_top button > svg, #navigation_top a > svg {
-	fill /*SVG*/: #FFFFFF;
-}
 
 
 
 
 
-@media screen and (min-width: 832px) {
+@media screen and (min-width: 768px) {
 	/*Website Structure*/
 	#navigation_top {
 		width: 256px;
