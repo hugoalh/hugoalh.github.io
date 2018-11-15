@@ -283,51 +283,42 @@ hugoalh.github.io Website Style
 	}
 
 /*Button*/
-	#navigation_top button, #navigation_top a {
-		display: inline-block;
-		box-sizing: border-box;
-		margin: 0px;
-		border: 0px;
-		padding: 12px;
-		width: 48px;
-		height: 48px;
-		text-align: center;
-		vertical-align: middle;
-		text-decoration: none;
-	}
-
-/*Icon*/
-	#navigation_top button svg, #navigation_top a svg {
-		display: inline-block;
-		margin: 0px;
-		border: 0px;
-		padding: 0px;
-		width: 24px;
-		height: 24px;
-		vertical-align: middle;
-		color: #FFFFFF;
-		fill /*SVG*/: #FFFFFF;
-	}
-
-
-
-
-
-#navigation_top button, #navigation_top a, #navigation_left > #menu > a {
+#navigation_top button, #navigation_top a {
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 0px;
+	border: 0px;
+	padding: 12px;
+	width: 48px;
+	height: 48px;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+#navigation_top button, #navigation_top a, #navigation_left #menu a, #navigation_left #menu > ul > li > div {
 	background-color: rgba(255,255,255,0);
 }
-#navigation_top button:hover, #navigation_top a:hover, #navigation_left > #menu > a:hover {
+#navigation_top button:hover, #navigation_top a:hover, #navigation_left #menu a:hover, #navigation_left #menu > ul > li > div:hover {
 	background-color: rgba(255,255,255,0.125);
 }
-#navigation_top button:active, #navigation_top a:active, #navigation_left > #menu > a:active {
+#navigation_top button:active, #navigation_top a:active, #navigation_left #menu a:active, #navigation_left #menu > ul > li > div:active {
 	background-color: rgba(255,255,255,0.25);
 }
 
+/*Icon*/
+#navigation_top button svg, #navigation_top a svg {
+	display: inline-block;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	color: #FFFFFF;
+	fill /*SVG*/: #FFFFFF;
+}
 
-
-
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 896px) {
 	/*Website Structure*/
 	#navigation_top {
 		width: 256px;

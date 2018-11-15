@@ -8,7 +8,7 @@
 			</ul>
 		</li>
 		<li>
-			<div><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#master"></use></svg><span>Minecraft - Java</span></div>
+			<div><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#master"></use></svg><span>Minecraft Java</span></div>
 			<ul>
 				<li>
 					<div>World<br />世界</div>
@@ -45,7 +45,7 @@
 			</ul>
 		</li>
 		<li>
-			<div><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#master"></use></svg><span>Minecraft - Bedrock<br />Minecraft—基岩</span></div>
+			<div><svg viewBox="0 0 24 24"><use xlink:href="/icon/minecraft_creeper.svg#master"></use></svg><span>Minecraft Bedrock<br />Minecraft基岩</span></div>
 			<ul>
 				<li>
 					<div>Resource Pack<br />資源包</div>
