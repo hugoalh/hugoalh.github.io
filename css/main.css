@@ -282,8 +282,15 @@ hugoalh.github.io Website Style
 		color: rgb(128,207,255);
 		fill /*SVG*/: rgb(128,207,255);
 	}
+		#menu a.navigation_currentpage svg {
+			fill /*SVG*/: rgb(128,207,255);
+		}
+		#menu a.navigation_currentpage span {
+			color: rgb(128,207,255);
+		}
 		#menu > ul > li > a.navigation_currentpage svg {
 			margin-left: -4px;
+			fill /*SVG*/: rgb(128,207,255);
 		}
 		#menu > ul > li > ul > li > ul > li > a.navigation_currentpage {
 			padding-left: 44px;
