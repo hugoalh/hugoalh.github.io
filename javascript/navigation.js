@@ -55,8 +55,8 @@ function website_pageparameter_load(browser_url_pageparameter) {
 $(document).ready(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed");
+		$("#cover").css("display","none");
 		browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
 		website_pageparameter_load(browser_url_pageparameter_get);
-		$("#cover").css("display","none");
 	}
 );
