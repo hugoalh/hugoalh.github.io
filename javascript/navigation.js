@@ -56,7 +56,7 @@ function website_pageparameter_load(browser_url_pageparameter) {
 $(document).ready(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed");
-		browser_url_pageparameter_get = URLSearchParams(location.search.substring(1));
+		browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
 		if (browser_url_pageparameter_get == null) {
 			browser_url_pageparameter_get = "page=homepage";
 		};
