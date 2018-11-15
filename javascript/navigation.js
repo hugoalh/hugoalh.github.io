@@ -41,7 +41,6 @@ function website_pageparameter_load(browser_url_pageparameter) {
 		pageparameter = "homepage";
 	};
 	$("#navigation_left #menu #" + pageparameter).addClass("navigation_currentpage");
-	navigation_left_close();
 	pageparameter = pageparameter.replace(",", "/");
 	pageparameter = pageparameter.replace("\2c ", "/");
 	page_needload = "/page/" + pageparameter + ".html-embed";
@@ -57,10 +56,13 @@ $(document).ready(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed");
 		browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
+		alert(browser_url_pageparameter_get);
 		if (browser_url_pageparameter_get == null) {
 			browser_url_pageparameter_get = "page=homepage";
 		};
+		alert(browser_url_pageparameter_get);
 		browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
+		alert(browser_url_pageparameter_get);
 		website_pageparameter_load(browser_url_pageparameter_get);
 		$("#coverscreen").css("display","none");
 	}
