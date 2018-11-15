@@ -57,11 +57,10 @@ $(document).ready(function() {
 		$("#navigation_left").load("/navigation/left.html-embed");
 		browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
 		alert(browser_url_pageparameter_get);
-		if (browser_url_pageparameter_get == "") {
-			browser_url_pageparameter_get = "page=homepage";
-		};
-		alert(browser_url_pageparameter_get);
 		browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
+		if (browser_url_pageparameter_get == null) {
+			browser_url_pageparameter_get = "homepage";
+		};
 		alert(browser_url_pageparameter_get);
 		website_pageparameter_load(browser_url_pageparameter_get);
 		$("#coverscreen").css("display","none");
