@@ -1,40 +1,62 @@
 /*==================================================
-hugoalh Website Navigation Tool
+hugoalh.github.io Website Navigation
 	Author
 		hugoalh
 	Program Language
 		JavaScript/ECMAScript 6/7/8
 		jQuery 3(.3.1)
 ==================================================*/
-var client_resolution_width;
+var device_resolution_width;
 var navigation_left_mode;
+var browser_url_pageparameter_get;
 
-/*Control, Left*/
-	function navigation_left_open() {
-		document.getElementById("navigation_left").style.left = "0px";
-		document.getElementById("page").style.backgroundColor = "rgba(0,0,0,0.5)";
-		document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_close();");
-		navigation_left_mode = 1;
-	};
-	function navigation_left_close() {
-		document.getElementById("navigation_left").style.left = null;
-		document.getElementById("page").style.backgroundColor = null;
-		document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_open();");
-		navigation_left_mode = 0;
-	};
+/*Navigation Left Control*/
+function navigation_left_open() {
+	document.getElementById("navigation_left").style.left = "0px";
+	document.getElementById("page").style.backgroundColor = "rgba(0,0,0,0.5)";
+	document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_close();");
+	navigation_left_mode = 1;
+};
+function navigation_left_close() {
+	document.getElementById("navigation_left").style.left = null;
+	document.getElementById("page").style.backgroundColor = null;
+	document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_open();");
+	navigation_left_mode = 0;
+};
 
-/*Determine Client Event*/
-	function navigation_clientevent() {
-		client_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-		if (client_resolution_width >= 896 && navigation_left_mode == 1) {
-			navigation_left_close();
-		};
+/*Determine Device Event*/
+function navigation_deviceevent() {
+	device_resolution_width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+	if (device_resolution_width >= 896 && navigation_left_mode == 1) {
+		navigation_left_close();
 	};
-	window.addEventListener("resize", navigation_clientevent);
+};
+window.addEventListener("resize", navigation_deviceevent);
+
+/*Website Page Parameter Handle*/
+function website_pageparameter_load(browser_url_pageparameter) {
+	$("#navigation_left #menu a").removeClass("navigation_currentpage");
+	document.getElementById(browser_url_pageparameter).classList.add("navigation_currentpage");
+	navigation_left_close();
+	var pageparameter = browser_url_pageparameter.get("page");
+	pageparameter = pageparameter.replace(",", "/");
+	if (pageparameter == null) {
+		pageparameter = "homepage";
+	};
+	page_needload = "/page/" + pageparameter + ".html-embed";
+	$("#page").load(page_needload, function(response, status, xhr) {
+		if (status == "error") {
+			$("#page").load("/page/404.html-embed");
+		}
+	});
+}
 
 /*Load Data*/
-	$(document).ready(function() {
-			$("#navigation_top").load("/navigation/top.html-embed");
-			$("#navigation_left").load("/navigation/left.html-embed");
-		}
-	);
+$(document).ready(function() {
+		$("#navigation_top").load("/navigation/top.html-embed");
+		$("#navigation_left").load("/navigation/left.html-embed");
+		browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
+		website_pageparameter_load(browser_url_pageparameter_get);
+		$("#cover").css("display","none");
+	}
+);

@@ -77,6 +77,21 @@ hugoalh.github.io Website Style
 	outline: 0px;
 	padding: 0px;
 }
+#coverscreen {
+	z-index: 10;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	transition: display 0.4s;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center center;
+	background-color: #0063B1;
+	background-image: url("/tile/microsoftuniversalwebapplication_150x150.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
 #navigation_top {
 	z-index: 1;
 	top: 0px;
