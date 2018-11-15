@@ -40,9 +40,10 @@ function website_pageparameter_load(browser_url_pageparameter) {
 	if (browser_url_pageparameter == null) {
 		pageparameter = "homepage";
 	};
-	document.getElementById(pageparameter).classList.add("navigation_currentpage");
+	$("#navigation_left #menu #" + pageparameter).addClass("navigation_currentpage");
 	navigation_left_close();
 	pageparameter = pageparameter.replace(",", "/");
+	pageparameter = pageparameter.replace("\2c ", "/");
 	page_needload = "/page/" + pageparameter + ".html-embed";
 	$("#page").load(page_needload, function(response, status, xhr) {
 		if (status == "error") {
@@ -55,9 +56,12 @@ function website_pageparameter_load(browser_url_pageparameter) {
 $(document).ready(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed");
-		$("#coverscreen").css("display","none");
-		browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
+		browser_url_pageparameter_get = URLSearchParams(location.search.substring(1));
+		if (browser_url_pageparameter_get == null) {
+			browser_url_pageparameter_get = "page=homepage";
+		};
 		browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
 		website_pageparameter_load(browser_url_pageparameter_get);
+		$("#coverscreen").css("display","none");
 	}
 );

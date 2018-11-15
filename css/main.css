@@ -77,6 +77,15 @@ hugoalh.github.io Website Style
 	outline: 0px;
 	padding: 0px;
 }
+.frameless {
+	display: block;
+	position: absolute;
+	box-sizing: border-box;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	padding: 0px;
+}
 #coverscreen {
 	z-index: 10;
 	top: 0px;
@@ -210,8 +219,7 @@ hugoalh.github.io Website Style
 		margin: 0px;
 		border: 0px;
 		padding: 0px;
-		width: auto;
-		max-width: 100%;
+		width: 100%;
 		min-height: 48px;
 		height: auto;
 		font-size: 10pt;
@@ -269,6 +277,17 @@ hugoalh.github.io Website Style
 		text-decoration: none;
 		color: #FFFFFF;
 	}
+	#menu a.navigation_currentpage {
+		border-left: 4px solid rgb(128,207,255);
+		color: rgb(128,207,255);
+		fill /*SVG*/: rgb(128,207,255);
+	}
+		#menu > ul > li > a.navigation_currentpage svg {
+			margin-left: -4px;
+		}
+		#menu > ul > li > ul > li > ul > li > a.navigation_currentpage {
+			padding-left: 44px;
+		}
 #navigation_left > #copyright {
 	display: table;
 	position: absolute;
