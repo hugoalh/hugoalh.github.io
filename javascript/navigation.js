@@ -45,7 +45,7 @@ function website_pageparameter_load(browser_url_pageparameter) {
 	};
 	alert(pageparameter);
 	$("#navigation_left #menu #" + pageparameter).addClass("navigation_currentpage");
-	pageparameter = pageparameter.replace(/,/g,, "/");
+	pageparameter = pageparameter.replace(/,/g, "/");
 	pageparameter = pageparameter.replace(/\2c /g, "/");
 	page_needload = "/page/" + pageparameter + ".html-embed";
 	$("#page").load(page_needload, function(response, status, xhr) {
