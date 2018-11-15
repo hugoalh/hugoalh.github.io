@@ -188,9 +188,6 @@ hugoalh.github.io Website Style
 		padding: 0px;
 		list-style-type: none;
 	}
-		#menu > ul > li > ul > li {
-			padding-left: 48px;
-		}
 	#menu a, #menu div {
 		display: table;
 		box-sizing: border-box;
@@ -206,10 +203,17 @@ hugoalh.github.io Website Style
 		vertical-align: middle;
 		color: #FFFFFF;
 	}
+		#menu > ul > li > ul > li > a {
+			padding-left: 48px;
+		}
+		#menu > ul > li > ul > li > ul > li > a, #menu > ul > li > ul > li > ul > li > div {
+			padding-left: 72px;
+		}
 		#menu > ul > li > ul > li > div {
 			display: block;
 			box-sizing: border-box;
 			margin: 0px;
+			margin-left: 48px;
 			border: 0px;
 			padding: 2px;
 			width: auto;
