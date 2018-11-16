@@ -23,7 +23,7 @@ function navigation_left_close() {
 	document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_open();");
 	navigation_left_mode = 0;
 };
-$("#blur").click(navigation_left_close());
+document.getElementById("blur").addEventListener("click", navigation_left_close);
 
 /*Determine Device Event*/
 function navigation_deviceevent() {
