@@ -81,6 +81,11 @@
 </div>
 <div id="copyright">
 	<div>
-		&copy;hugoalh&emsp;2014&dash;2018
+		&copy;hugoalh&emsp;2014&dash;2018<br />
+		<span id="websiteversion"></span>
 	</div>
+	<script>
+		var websiteversion = $.parseJSON($.getJSON("/package.json");
+		document.getElementById("websiteversion").innerHTML = websiteversion;
+	</script>
 </div>
