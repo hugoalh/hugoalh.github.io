@@ -48,6 +48,7 @@ function website_pageparameter_load(browser_url_pageparameter) {
 		pageparameter = browser_url_pageparameter;
 	};
 	pageparameter_encode = "#navigation_left #menu #" + pageparameter;
+	console.log(pageparameter_encode);
 	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	$(pageparameter_encode).addClass("navigation_currentpage");
 	pageparameter = pageparameter.replace(/,/g, "/");
