@@ -23,7 +23,6 @@ function navigation_left_close() {
 	document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_open();");
 	navigation_left_mode = 0;
 };
-document.getElementById("blur").addEventListener("click", navigation_left_close);
 
 /*Determine Device Event*/
 function navigation_deviceevent() {
@@ -66,11 +65,12 @@ $(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed", function(response, status, xhr) {
 			if (status == "success") {
+				website_pageparameter_get();
+				document.getElementById("blur").addEventListener("click", navigation_left_close);
 				$("#navigation_left #menu a").click(function(event) {
 					event.preventDefault();
 					website_pageparameter_get();
 				});
-				website_pageparameter_get();
 				$("#coverscreen").css("display","none");
 			}
 		});
