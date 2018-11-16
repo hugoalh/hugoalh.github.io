@@ -6,7 +6,10 @@ hugoalh.github.io Website Navigation
 		JavaScript/ECMAScript 6/7/8
 		jQuery 3(.3.1)
 ==================================================*/
+var protocol = location.protocol;
+var hostname = location.hostname;
 var navigation_left_mode;
+var needloadpage_parameter;
 
 /*Navigation Left Control*/
 function navigation_left_open() {
@@ -21,11 +24,8 @@ function navigation_left_close() {
 	document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_open();");
 	navigation_left_mode = 0;
 };
-function navigation_triggerloadpage() {
-	var href = this.getAttribute("href");
-	var protocol = location.protocol;
-	var hostname = location.hostname;
-	var needloadpageurl = protocol + hostname + href;
+function navigation_triggerloadpage(needloadpage_parameter) {
+	var needloadpageurl = protocol + hostname + needloadpage_parameter;
 	history.pushState("", "hugoalh", needloadpageurl);
 	website_pageparameter_get();
 }
@@ -74,7 +74,9 @@ $(function() {
 				document.getElementById("blur").addEventListener("click", navigation_left_close);
 				$("#navigation_left #menu a").click(function(event) {
 					event.preventDefault();
-					navigation_triggerloadpage();
+					needloadpage_parameter = this.getAttribute("href");
+					navigation_triggerloadpage(needloadpage_parameter);
+					navigation_left_close();
 				});
 				$("#coverscreen").css("display","none");
 			}
