@@ -37,12 +37,12 @@ window.addEventListener("resize", navigation_deviceevent);
 function website_pageparameter_load(browser_url_pageparameter) {
 	var pageparameter;
 	var pageparameter_encode;
-	if (browser_url_pageparameter == null || "404") {
+	if (browser_url_pageparameter == null || browser_url_pageparameter == "404") {
 		pageparameter = "homepage";
 	} else {
 		pageparameter = browser_url_pageparameter;
 	};
-	pageparameter_encode = "#navigation_left #menu a[href='/?page=" + pageparameter + "'";
+	pageparameter_encode = "#navigation_left #menu a[href='/?page=" + pageparameter + "']";
 	console.log(pageparameter_encode);
 	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	$(pageparameter_encode).addClass("navigation_currentpage");
@@ -64,6 +64,7 @@ $(function() {
 			if (status == "success") {
 				browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
 				browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
+				console.log(browser_url_pageparameter_get);
 				website_pageparameter_load(browser_url_pageparameter_get);
 				$("#coverscreen").css("display","none");
 			}
