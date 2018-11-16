@@ -38,7 +38,7 @@ function website_urlpageparameter_get() {
 	website_urlpageparameter_load(urlpageparameter_get);
 };
 function website_urlpageparameter_load(urlpageparameter) {
-	if (urlpageparameter == null || urlpageparameter == "404") {
+	if (urlpageparameter == null || "homepage" || "404") {
 		urlpageparameter = "homepage";
 		history.replaceState("", "hugoalh", "/");
 	};
