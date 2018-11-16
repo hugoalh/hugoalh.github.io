@@ -60,7 +60,7 @@ $(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed", function(response, status, xhr) {
 			if (status == "success") {
-				var websiteversion = $.parseJSON($.getJSON("/package.json");
+				var websiteversion = $.parseJSON($.getJSON("/package.json"));
 				document.getElementById("websiteversion").innerHTML = websiteversion.version;
 				website_urlpageparameter_get();
 				document.getElementById("blur").addEventListener("click", navigation_left_close);
