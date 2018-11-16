@@ -22,7 +22,7 @@ function navigation_left_close() {
 	navigation_left_mode = 0;
 };
 function navigation_triggerloadpage() {
-	var href = this.attr("href");
+	var href = this.getAttribute("href");
 	var protocol = location.protocol;
 	var hostname = location.hostname;
 	var needloadpageurl = protocol + hostname + href;
