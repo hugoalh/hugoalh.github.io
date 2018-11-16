@@ -102,7 +102,7 @@ hugoalh.github.io Website Style
 	background-size: auto;
 }
 #navigation_top {
-	z-index: 1;
+	z-index: 2;
 	top: 0px;
 	left: 0px;
 	width: 100%;
@@ -121,7 +121,7 @@ hugoalh.github.io Website Style
 	background-size: cover;
 }
 #navigation_left {
-	z-index: 1;
+	z-index: 2;
 	top: 48px;
 	bottom: 0px;
 	left: -256px;
@@ -150,7 +150,7 @@ hugoalh.github.io Website Style
 	padding: 0px;
 	overflow: auto;
 	color: #000000;
-	transition: top 0.4s, left 0.4s, background-color 0.4s;
+	transition: top 0.4s, left 0.4s;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center center;
@@ -162,6 +162,24 @@ hugoalh.github.io Website Style
 	#page > #content {
 		padding: 8px;
 	}
+#blur {
+	z-index: 1;
+	display: none;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: hidden;
+	transition: 0.4s;
+	background-clip: border-box;
+	background-origin: border-box;
+	background-position: center center;
+	background-color: rgba(0,0,0,0.25);
+	background-image: none;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 /*Navigation*/
 #navigation_top > .left {

@@ -13,13 +13,13 @@ var browser_url_pageparameter_get;
 /*Navigation Left Control*/
 function navigation_left_open() {
 	document.getElementById("navigation_left").style.left = "0px";
-	document.getElementById("page").style.backgroundColor = "rgba(0,0,0,0.5)";
+	document.getElementById("blur").style.display = "block";
 	document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_close();");
 	navigation_left_mode = 1;
 };
 function navigation_left_close() {
 	document.getElementById("navigation_left").style.left = null;
-	document.getElementById("page").style.backgroundColor = null;
+	document.getElementById("blur").style.display = null;
 	document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_open();");
 	navigation_left_mode = 0;
 };
@@ -34,20 +34,15 @@ function navigation_deviceevent() {
 window.addEventListener("resize", navigation_deviceevent);
 
 /*Website Page Parameter Handle*/
-function website_pageparameter_detect() {
-	browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
-	browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
-	website_pageparameter_load(browser_url_pageparameter_get);
-}
 function website_pageparameter_load(browser_url_pageparameter) {
 	var pageparameter;
 	var pageparameter_encode;
-	if (browser_url_pageparameter == null || browser_url_pageparameter == "404") {
+	if (browser_url_pageparameter == null || "404") {
 		pageparameter = "homepage";
 	} else {
 		pageparameter = browser_url_pageparameter;
 	};
-	pageparameter_encode = "#navigation_left #menu #" + pageparameter;
+	pageparameter_encode = "#navigation_left #menu a[href='/?page=" + pageparameter + "'";
 	console.log(pageparameter_encode);
 	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	$(pageparameter_encode).addClass("navigation_currentpage");
@@ -67,9 +62,11 @@ $(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed", function(response, status, xhr) {
 			if (status == "success") {
-				website_pageparameter_detect();
+				browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
+				browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
+				website_pageparameter_load(browser_url_pageparameter_get);
+				$("#coverscreen").css("display","none");
 			}
 		});
-		$("#coverscreen").css("display","none");
 	}
 );

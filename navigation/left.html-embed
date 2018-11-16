@@ -72,7 +72,7 @@
 		</li>
 		<li><a href="/?page=roblox" id="roblox"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#master"></use></svg><span>Roblox<br />機械磚塊</span></a></li>
 		<li>
-			<a href="/?page=websiteredesign" id="websiteredesign,main"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#master"></use></svg><span>Website Interface Redesign<br />網站介面重新設計</span></a>
+			<a href="/?page=websiteredesign,main" id="websiteredesign,main"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#master"></use></svg><span>Website Interface Redesign<br />網站介面重新設計</span></a>
 			<ul>
 				<li><a href="/?page=websiteredesign,vefans" id="websiteredesign,vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/steeringwheel.svg#master"></use></svg><span>Vehicle Fans Community (VeFans)<br />模擬載運遊戲聯合支援站（模載聯合支援站／模載聯合）</span></a></li>
 			</ul>
