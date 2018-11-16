@@ -1,4 +1,3 @@
-<div id="blur"></div>
 <div id="menu">
 	<ul>
 		<li><a href="/?page=homepage"><svg viewBox="0 0 24 24"><use xlink:href="/icon/home.svg#master"></use></svg><span>Homepage<br />首頁</span></a></li>
