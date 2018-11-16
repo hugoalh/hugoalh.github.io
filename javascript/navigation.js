@@ -60,7 +60,9 @@ $(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed", function(response, status, xhr) {
 			if (status == "success") {
-				var json_package_original = $.getJSON("/package.json");
+				$.getJSON("/package.json", function(json_package) {
+					document.getElementById("websiteversion").innerHTML = json_package.version;
+				});
 				var json_package_parse = JSON.parse(json_package_original);
 				document.getElementById("websiteversion").innerHTML = json_package.version;
 				website_urlpageparameter_get();
