@@ -26,7 +26,7 @@ function navigation_triggerloadpage() {
 	var protocol = location.protocol;
 	var hostname = location.hostname;
 	var needloadpageurl = protocol + hostname + href;
-	history.pushState(stateObj, "hugoalh", needloadpageurl);
+	history.pushState("", "hugoalh", needloadpageurl);
 	website_pageparameter_get();
 }
 
