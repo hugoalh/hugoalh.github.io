@@ -60,7 +60,8 @@ $(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed", function(response, status, xhr) {
 			if (status == "success") {
-				var json_package = JSON.parse($.getJSON("/package.json"));
+				var json_package_original = $.getJSON("/package.json");
+				var json_package_parse = JSON.parse(json_package_original);
 				document.getElementById("websiteversion").innerHTML = json_package.version;
 				website_urlpageparameter_get();
 				document.getElementById("blur").addEventListener("click", navigation_left_close);
@@ -71,7 +72,7 @@ $(function() {
 					website_urlpageparameter_get();
 					navigation_left_close();
 				});
-				$("#coverscreen").css("display","none");
+				document.getElementById("coverscreen").style.display = "none";
 			}
 		});
 	}
