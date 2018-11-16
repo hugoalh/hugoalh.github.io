@@ -42,15 +42,12 @@ function website_pageparameter_detect() {
 function website_pageparameter_load(browser_url_pageparameter) {
 	var pageparameter;
 	var pageparameter_encode;
-	alert(browser_url_pageparameter);
-	if (browser_url_pageparameter == null) {
+	if (browser_url_pageparameter == null || browser_url_pageparameter == "404") {
 		pageparameter = "homepage";
 	} else {
 		pageparameter = browser_url_pageparameter;
 	};
-	alert(pageparameter);
 	pageparameter_encode = "#navigation_left #menu #" + pageparameter;
-	alert(pageparameter_encode);
 	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	$(pageparameter_encode).addClass("navigation_currentpage");
 	pageparameter = pageparameter.replace(/,/g, "/");
