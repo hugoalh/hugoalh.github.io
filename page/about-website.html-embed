@@ -1,20 +1,55 @@
-About Website
-
-hugoalh.github.io
-Version:			
-Author/Copyright:	hugoalh
-License:			All Rights Reserved
-
-Font
-	Noto Sans [English, Chinese, Chinese Simplified]
-	Version:			
-	Author/Copyright:	Google, Monotype Imaging Inc, Adobe Systems Inc
-	License:			
-	
-	Noto Emoji [Mono, Color]
-	Version:			
-	Author/Copyright:	Google, Monotype Imaging Inc
-	License:			
+<div id="content">
+	<h2>About Website<br />關於網站</h2>
+		<h3>hugoalh.github.io</h3>
+		<table class="title_left">
+			<tbody>
+				<tr>
+					<td>Version<br />版本</td>
+					<td>
+						<span id="websiteversion"></span>
+						<script>document.getElementById("websiteversion").innerHTML = json_package.version</script>
+					</td>
+				</tr>
+				<tr>
+					<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+					<td>hugoalh</td>
+				</tr>
+				<tr>
+					<td>License<br />許可證／授權</td>
+					<td>All Rights Reserved<br />版權所有</td>
+				</tr>
+			</tbody>
+		</table>
+			<h4>Font<br />字體</h4>
+				<h5>Noto Sans</h5>
+					<table class="title_left">
+						<tbody>
+							<tr>
+								<td>Version<br />版本</td>
+								<td>
+									<ul>
+										<li>English<br />英文</li>
+										<li>Chinese<br />中文</li>
+										<li>Chinese Simplified<br />中文简体</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+								<td>
+									<ul>
+										<li>Google</li>
+										<li>Monotype Imaging Inc</li>
+										<li>Adobe Systems Inc</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>License<br />許可證／授權</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
 	
 	Gothic A1 [Korean]
 	Version:			
@@ -35,22 +70,19 @@ Icon
 	Font Awesome
 	Version:			5
 	Author/Copyright:	Fonticons Inc
-	License:			CC BY 4.0 (https://fontawesome.com/license/free), MIT (https://fontawesome.com/license/free)
+	License:<ul>
+	<li><a href="https://fontawesome.com/license/free">CC BY 4.0</a></li>
+	<li><a href="https://fontawesome.com/license/free">MIT</a></li>
+	</ul>
 
-JavaScript
+Library
 	jQuery
-	Version:			3.3.1
+	Version:			3.3.1 Compressed
 	Author/Copyright:	JS Foundation, The jQuery Foundation
 	License:			MIT (jquery.org/license)
-
-Framework
-	Web Open Source Operating System (WOSOS)
-	Version:			
-	Author/Copyright:	hugoalh
-	License:			MIT
 	
-	Flat Material Web User Interface
+Modern Interface, Modern Interface (Web)
 	Version:			
 	Author/Copyright:	hugoalh
 	License:			
-		
+</div>
