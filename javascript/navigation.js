@@ -23,6 +23,11 @@ function navigation_left_close() {
 	document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_open();");
 	navigation_left_mode = 0;
 };
+$("#blur").click(navigation_left_close());
+$("#navigation_left #menu a").click(function(event) {
+	event.preventDefault();
+	website_pageparameter_get();
+});
 
 /*Determine Device Event*/
 function navigation_deviceevent() {
@@ -34,6 +39,11 @@ function navigation_deviceevent() {
 window.addEventListener("resize", navigation_deviceevent);
 
 /*Website Page Parameter Handle*/
+function website_pageparameter_get() {
+	browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
+	browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
+	website_pageparameter_load(browser_url_pageparameter_get);
+};
 function website_pageparameter_load(browser_url_pageparameter) {
 	var pageparameter;
 	var pageparameter_encode;
@@ -43,12 +53,10 @@ function website_pageparameter_load(browser_url_pageparameter) {
 		pageparameter = browser_url_pageparameter;
 	};
 	pageparameter_encode = "#navigation_left #menu a[href='/?page=" + pageparameter + "']";
-	console.log(pageparameter_encode);
 	$("#navigation_left #menu a").removeClass("navigation_currentpage");
 	$(pageparameter_encode).addClass("navigation_currentpage");
 	pageparameter = pageparameter.replace(/,/g, "/");
 	pageparameter = pageparameter.replace(/\2c /g, "/");
-	console.log(pageparameter);
 	page_needload = "/page/" + pageparameter + ".html-embed";
 	$("#page").load(page_needload, function(response, status, xhr) {
 		if (status == "error") {
@@ -62,10 +70,7 @@ $(function() {
 		$("#navigation_top").load("/navigation/top.html-embed");
 		$("#navigation_left").load("/navigation/left.html-embed", function(response, status, xhr) {
 			if (status == "success") {
-				browser_url_pageparameter_get = new URLSearchParams(location.search.substring(1));
-				browser_url_pageparameter_get = browser_url_pageparameter_get.get("page");
-				console.log(browser_url_pageparameter_get);
-				website_pageparameter_load(browser_url_pageparameter_get);
+				website_pageparameter_get();
 				$("#coverscreen").css("display","none");
 			}
 		});
