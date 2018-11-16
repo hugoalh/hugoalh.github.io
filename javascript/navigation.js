@@ -63,8 +63,6 @@ $(function() {
 				$.getJSON("/package.json", function(json_package) {
 					document.getElementById("websiteversion").innerHTML = json_package.version;
 				});
-				var json_package_parse = JSON.parse(json_package_original);
-				document.getElementById("websiteversion").innerHTML = json_package.version;
 				website_urlpageparameter_get();
 				document.getElementById("blur").addEventListener("click", navigation_left_close);
 				$("#navigation_left #menu a").click(function(event) {
