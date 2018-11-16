@@ -74,7 +74,7 @@ $(function() {
 				document.getElementById("blur").addEventListener("click", navigation_left_close);
 				$("#navigation_left #menu a").click(function(event) {
 					event.preventDefault();
-					website_pageparameter_get();
+					navigation_triggerloadpage();
 				});
 				$("#coverscreen").css("display","none");
 			}
