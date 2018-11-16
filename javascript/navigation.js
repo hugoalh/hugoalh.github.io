@@ -52,6 +52,7 @@ function website_pageparameter_load(browser_url_pageparameter) {
 	$(pageparameter_encode).addClass("navigation_currentpage");
 	pageparameter = pageparameter.replace(/,/g, "/");
 	pageparameter = pageparameter.replace(/\2c /g, "/");
+	console.log(pageparameter);
 	page_needload = "/page/" + pageparameter + ".html-embed";
 	$("#page").load(page_needload, function(response, status, xhr) {
 		if (status == "error") {

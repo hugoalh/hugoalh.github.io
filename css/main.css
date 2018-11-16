@@ -147,7 +147,7 @@ hugoalh.github.io Website Style
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	padding: 8px;
+	padding: 0px;
 	overflow: auto;
 	color: #000000;
 	transition: top 0.4s, left 0.4s, background-color 0.4s;
@@ -159,6 +159,9 @@ hugoalh.github.io Website Style
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+	#page > #content {
+		padding: 8px;
+	}
 
 /*Navigation*/
 #navigation_top > .left {
@@ -292,7 +295,7 @@ hugoalh.github.io Website Style
 			margin-left: -4px;
 			fill /*SVG*/: rgb(128,207,255);
 		}
-		#menu > ul > li > ul > li > ul > li > a.navigation_currentpage {
+		#menu > ul > li > ul > li > a.navigation_currentpage, #menu > ul > li > ul > li > ul > li > a.navigation_currentpage {
 			padding-left: 44px;
 		}
 #navigation_left > #copyright {

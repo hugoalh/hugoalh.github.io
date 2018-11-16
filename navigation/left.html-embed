@@ -27,7 +27,13 @@
 						<li><a href="/?page=minecraft-java,resourcepack,languageextension" id="minecraft-java,resourcepack,languageextension"><span>Language Extension<br />語言擴充</span></a></li>
 					</ul>
 				</li>
-				<li><div style="display:none;">Data Pack<br />資料包</div></li>
+				<li>
+					<div>Data Pack<br />資料包</div>
+					<ul>
+						<li><a href="/?page=minecraft-java,datapack,recipeplus" id="minecraft-java,datapack,recipeplus"><span>Recipe+ (Recipe Plus)<br />配方＋</span></a></li>
+						<li><a href="/?page=minecraft-java,datapack,enchantplus" id="minecraft-java,datapack,enchantplus"><span>Enchant+ (Enchant Plus)<br />附魔＋</span></a></li>
+					</ul>
+				</li>
 				<li><div style="display:none;">Modification<br />模組</div></li>
 				<li>
 					<div>Modification Pack<br />模組包</div>
@@ -64,7 +70,7 @@
 				<li><div>Modification<br />模組</div></li>
 			</ul>
 		</li>
-		<li><a href="/page/roblox" id="roblox"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#master"></use></svg><span>Roblox<br />機械磚塊</span></a></li>
+		<li><a href="/?page=roblox" id="roblox"><svg viewBox="0 0 24 24"><use xlink:href="/icon/roblox.svg#master"></use></svg><span>Roblox<br />機械磚塊</span></a></li>
 		<li>
 			<a href="/?page=websiteredesign" id="websiteredesign,main"><svg viewBox="0 0 24 24"><use xlink:href="/icon/build.svg#master"></use></svg><span>Website Interface Redesign<br />網站介面重新設計</span></a>
 			<ul>
