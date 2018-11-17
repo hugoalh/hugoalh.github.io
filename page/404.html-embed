@@ -1,29 +1,39 @@
 <div id="content" style="display: table; width: -webkit-fill-available; height: -webkit-fill-available; text-align: center; vertical-align: middle; color: rgb(0,0,0); background-color: rgb(224,224,224);">
 	<div style="display: table-cell; text-align: center; vertical-align: middle;">
 	<svg viewBox="0 0 24 24" style="width: 64px; height: 64px; text-align: center; vertical-align: middle; fill: rgb(0,0,0);"><use xlink:href="/icon/broken.svg#master"></use></svg>
-	<p>There may has many reasons that why this page cannot display correctly, but I believe <span class="error_reason_en">you are finding this error page</span>.<br />可能有很多原因導致此頁面無法正確地顯示，但是我相信<span class="error_reason_zh">你正在尋找此錯誤頁面</span>。</p>
-	</div>
-	<script>
-		var error_reason_en = [
-			"this page was damaged by a creeper explosion",
-			"you are finding this error page"
-		];
-		var error_reason_zh = [
-			"此頁面是因為苦力怕的爆炸而損壞了",
-			"你正在尋找此錯誤頁面"
-		];
-		var error_reason_amount;
-		if (error_reason_en.length != error_reason_zh.length) {
-			if (error_reason_en.length > error_reason_zh.length) {
-				error_reason_amount = error_reason_zh.length;
+	<p>There may has many reasons that why this page cannot display correctly, but I believe <span id="error_reason_en">you are finding this error page</span>.<br />
+	可能有很多原因導致此頁面無法正確地顯示，但是我相信<span id="error_reason_zh">你正在尋找此錯誤頁面</span>。
+		<script>
+			var error_reason_en = [
+				"you are finding this error page",
+				"this page was damaged by a creeper explosion",
+				"this page was damaged by a TNT explosion",
+				"this page was ran over and damaged by a truck",
+				"this page was ran over and damaged by a train",
+				"this page was broken by shredder"
+			];
+			var error_reason_zh = [
+				"你正在尋找此錯誤頁面",
+				"此頁面是因為被苦力怕的爆炸而損壞了",
+				"此頁面是因為被TNT的爆炸而損壞了",
+				"此頁面是因為被貨車輾過而損壞了",
+				"此頁面是因為被火車輾過而損壞了",
+				"此頁面是因為被碎紙機碎掉了"
+			];
+			var error_reason_amount;
+			if (error_reason_en.length != error_reason_zh.length) {
+				if (error_reason_en.length > error_reason_zh.length) {
+					error_reason_amount = error_reason_zh.length;
+				} else {
+					error_reason_amount = error_reason_en.length;
+				};
 			} else {
 				error_reason_amount = error_reason_en.length;
 			};
-		} else {
-			error_reason_amount = error_reason_en.length;
-		};
-		var randomnumber = Math.floor(Math.random()*error_reason_amount);
-		document.getElementsByClassName("error_reason_en").innerHTML = error_reason_en[randomnumber];
-		document.getElementsByClassName("error_reason_zh").innerHTML = error_reason_zh[randomnumber];
-	</script>
+			var randomnumber = Math.floor(Math.random()*error_reason_amount);
+			document.getElementById("error_reason_en").innerHTML = error_reason_en[randomnumber];
+			document.getElementById("error_reason_zh").innerHTML = error_reason_zh[randomnumber];
+		</script>
+	</p>
+	</div>
 </div>
