@@ -7,6 +7,7 @@ hugoalh.github.io Website Navigation
 		jQuery 3(.3.1)
 ==================================================*/
 var navigation_left_mode;
+var website_version;
 
 /*Navigation Left Control*/
 function navigation_left_open() {
@@ -61,7 +62,8 @@ $(function() {
 		$("#navigation_left").load("/navigation/left.html-embed", function(response, status, xhr) {
 			if (status == "success") {
 				$.getJSON("/package.json", function(json_package) {
-					document.getElementById("websiteversion").innerHTML = json_package.version;
+					website_version = json_package.version;
+					document.getElementById("websiteversion").innerHTML = website_version;
 				});
 				website_urlpageparameter_get();
 				document.getElementById("blur").addEventListener("click", navigation_left_close);

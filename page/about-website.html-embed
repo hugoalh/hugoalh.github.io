@@ -7,7 +7,7 @@
 					<td>Version<br />版本</td>
 					<td>
 						<span id="websiteversion"></span>
-						<script>document.getElementById("websiteversion").innerHTML = json_package.version</script>
+						<script>document.getElementById("websiteversion").innerHTML = website_version</script>
 					</td>
 				</tr>
 				<tr>
