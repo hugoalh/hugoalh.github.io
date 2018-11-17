@@ -74,7 +74,7 @@ $(function() {
 					website_urlpageparameter_get();
 					navigation_left_close();
 				});
-				document.getElementById("coverscreen").style.display = "none";
+				document.getElementById("initialscreen").style.display = "none";
 			}
 		});
 	}
