@@ -9,7 +9,7 @@
 	"scope": "/",
 	"start_url": "/",
 	"theme_color": "#0063B1",
-	"background_color": "#FFFFFF",
+	"background_color": "#0063B1",
 	"icons": [
 		{
 			"src": "/favicon/hugoalh.ico",

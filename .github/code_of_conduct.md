@@ -34,7 +34,7 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at hugoalh@gmail.com. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at hugoalh@gmail.com or hugoalh@hotmail.com. The project team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances. The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
 
 Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
@@ -45,7 +45,7 @@ This Code of Conduct is adapted from the [Contributor Covenant], version 1.4, av
 [Contributor Covenant]: http://contributor-covenant.org
 [here]: http://contributor-covenant.org/version/1/4/
 
-<hr />
+<hr>
 
 # 貢獻者公約
 
@@ -87,7 +87,7 @@ This Code of Conduct is adapted from the [Contributor Covenant], version 1.4, av
 
 ## 強制執行
 
-可以透過hugoalh@gmail.com，來聯繫專案團隊來報告濫用、騷擾或其他不被接受的行為。
+可以透過hugoalh@gmail.com或hugoalh@hotmail.com，來聯繫專案團隊來報告濫用、騷擾或其他不被接受的行為。
 
 任何維護團隊認為有必要且適合的所有投訴都將進行審查及調查，並做出相對應的回應。專案小組有對事件回報者有保密的義務。具體執行的方針近一步細節可能會單獨公佈。
 
@@ -95,7 +95,7 @@ This Code of Conduct is adapted from the [Contributor Covenant], version 1.4, av
 
 ## 來源
 
-本行為準則改編自[貢獻者公約]，版本1.4，可在[此]觀看。
+本行為準則改編自[貢獻者公約]，版本1.4，可以在[此]觀看。
 
 [貢獻者公約]: https://www.contributor-covenant.org
 [此]: https://www.contributor-covenant.org/zh-tw/version/1/4/code-of-conduct.html

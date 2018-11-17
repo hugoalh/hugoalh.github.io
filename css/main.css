@@ -86,7 +86,7 @@ hugoalh.github.io Website Style
 	outline: 0px;
 	padding: 0px;
 }
-#coverscreen {
+#initialscreen {
 	z-index: 10;
 	top: 0px;
 	bottom: 0px;
@@ -97,7 +97,7 @@ hugoalh.github.io Website Style
 	background-origin: border-box;
 	background-position: center center;
 	background-color: #0063B1;
-	background-image: url("/tile/microsoftuniversalwebapplication_150x150.png");
+	background-image: url("/tile/hugoalh_150x150.png");
 	background-repeat: no-repeat;
 	background-size: auto;
 }

@@ -1,7 +1,7 @@
 {
 	"name": "hugoalh.github.io",
 	"description": "hugoalh.github.io",
-	"version": "18.1117.2",
+	"version": "18.1117.3",
 	"author": "hugoalh",
 	"keywords": [
 		"hugoalh",
@@ -18,8 +18,7 @@
 	"homepage": "https://hugoalh.github.io",
 	"devDependencies": {
 		"material-design-icons": ">=3.0.1",
-		"Font-Awesome": ">=5.5.0",
-		"google/fonts": ">=1.0.0"
+		"Font-Awesome": ">=5.5.0"
 	},
 	"dependencies": {
 		"jquery": ">=3.3.1"
