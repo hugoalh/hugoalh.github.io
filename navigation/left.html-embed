@@ -29,6 +29,7 @@
 				<li>
 					<div>Data Pack<br />資料包</div>
 					<ul>
+						<li><a href="/?page=minecraft-java,datapack,arrowbreakchorusfruitflower"><span>Arrow Break Chorus Fruit Flower<br />箭矢破壞歌萊花</span></a></li>
 						<li><a href="/?page=minecraft-java,datapack,beaconplus"><span>Beacon+ (Beacon Plus)<br />烽火台＋</span></a></li>
 						<li><a href="/?page=minecraft-java,datapack,crystaltechnology"><span>End Crystal Technology<br />終界水晶科技</span></a></li>
 						<li><a href="/?page=minecraft-java,datapack,disableminecraftadvancement"><span>Disable Minecraft Advancement<br />停用Minecraft進度</span></a></li>
