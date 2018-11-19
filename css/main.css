@@ -184,7 +184,10 @@ hugoalh.github.io Website Style
 	background-size: cover;
 }
 	#page > #content {
+		box-sizing: border-box;
 		padding: 8px;
+		width: 100%;
+		height: 100%;
 	}
 #blur {
 	z-index: 1;
