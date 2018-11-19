@@ -18,7 +18,7 @@ hugoalh.github.io Website Style
 	/*Dimension*/
 	--navigation_top_height: 48px;
 	--navigation_left_width: 256px;
-	--navigation_left_width_mirror: calc(0 - var(--navigation_left_width));
+	--navigation_left_width_mirror: calc(0px - var(--navigation_left_width));
 	/*Background Color*/
 	--website_backgroundcolor: rgb(0,99,177);
 }
