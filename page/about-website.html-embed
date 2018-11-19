@@ -51,6 +51,35 @@
 				</table>
 			</li>
 			<li>
+				<p>PHP Emulator<br />PHP模擬器</p>
+				<table class="title_left">
+					<tbody>
+						<tr>
+							<td>Type<br />類別</td>
+							<td>
+								<ul>
+									<li>Framework<br />骨架</li>
+									<li>Javascript Library<br />Javascript指令資源庫</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td>Version<br />版本</td>
+							<td>0.1.0</td>
+						</tr>
+						<tr>
+							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+							<td>hugoalh</td>
+						</tr>
+						<tr>
+							<td>License<br />許可證／授權</td>
+							<td>All Rights Reserved<br />版權所有</td>
+						</tr>
+					</tbody>
+				</table>
+			</li>
+
+			<li>
 				<p>Noto Sans</p>
 				<table class="title_left">
 					<tbody>
@@ -95,7 +124,7 @@
 						</tr>
 						<tr>
 							<td>Version<br />版本</td>
-							<td>한국어<</td>
+							<td>한국어</td>
 						</tr>
 						<tr>
 							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
@@ -159,7 +188,7 @@
 						</tr>
 						<tr>
 							<td>License<br />許可證／授權</td>
-							<td><a href="http://jquery.org/license">MIT</a></td>
+							<td><a href="https://jquery.org/license">MIT</a></td>
 						</tr>
 					</tbody>
 				</table>
