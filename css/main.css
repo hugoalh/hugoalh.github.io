@@ -13,6 +13,16 @@ hugoalh.github.io Website Style
 	@import url("/font/gothic-a1.css");
 	@import url("/font/minecraft.css");
 
+/*Standard*/
+:root {
+	/*Dimension*/
+	--navigation_top_height: 48px;
+	--navigation_left_width: 256px;
+	--navigation_left_width_mirror: calc(0 - var(--navigation_left_width));
+	/*Background Color*/
+	--website_backgroundcolor: rgb(0,99,177);
+}
+
 /*Common*/
 	/*Button*/
 	button {
@@ -88,16 +98,24 @@ hugoalh.github.io Website Style
 }
 #initialscreen {
 	z-index: 10;
+	display: block;
+	position: fixed;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+	border: 0px;
+	outline: 0px;
+	padding: 8px;
 	transition: display 0.4s;
-	background-clip: border-box;
-	background-origin: border-box;
-	background-position: center center;
-	background-color: #0063B1;
+	background-color: var(--website_backgroundcolor);
 	background-image: url("/tile/hugoalh_150x150.png");
+	background-attachment: fixed;
+	background-clip: border-box;
+	background-origin: content-box;
+	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: auto;
 }
@@ -106,56 +124,62 @@ hugoalh.github.io Website Style
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 48px;
+	height: var(--navigation_top_height);
 	overflow: hidden;
 	font-size: 0pt;
-	color: #FFFFFF;
+	color: rgb(255,255,255);
 	vertical-align: middle;
 	transition: width 0.4s;
+	background-color: var(--website_backgroundcolor);
+	background-image: none;
+	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center center;
-	background-color: #0063B1;
-	background-image: none;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #navigation_left {
 	z-index: 2;
-	top: 48px;
+	top: var(--navigation_top_height);
 	bottom: 0px;
-	left: -256px;
-	width: 256px;
+	left: var(--navigation_left_width_mirror);
+	width: var(--navigation_left_width);
 	overflow-x: hidden;
-	color: #FFFFFF;
+	color: rgb(255,255,255);
 	transition: left 0.4s;
+	background-color: var(--website_backgroundcolor);
+	background-image: none;
+	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center center;
-	background-color: #0063B1;
-	background-image: none;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #navigation_top *, #navigation_left * {
-	text-decoration: none;
-	cursor: default;
-	user-select: none; -ms-user-select: none; -webkit-user-select: none; -moz-user-select: none;
+	text-decoration: none !important;
+	cursor: default !important;
+	-ms-user-select: none !important;
+	-moz-user-select: none !important;
+	-webkit-user-select: none !important;
+	user-select: none !important;
 }
 #page {
-	top: 48px;
+	top: var(--navigation_top_height);
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 	padding: 0px;
 	overflow: auto;
-	color: #000000;
+	color: rgb(0,0,0);
 	transition: top 0.4s, left 0.4s;
+	background-color: rgb(255,255,255);
+	background-image: none;
+	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center center;
-	background-color: #FFFFFF;
-	background-image: none;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -172,11 +196,12 @@ hugoalh.github.io Website Style
 	right: 0px;
 	overflow: hidden;
 	transition: 0.4s;
+	background-color: rgba(0,0,0,0.25);
+	background-image: none;
+	background-attachment: fixed;
 	background-clip: border-box;
 	background-origin: border-box;
 	background-position: center center;
-	background-color: rgba(0,0,0,0.25);
-	background-image: none;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -189,7 +214,7 @@ hugoalh.github.io Website Style
 	border: 0px;
 	padding: 0px;
 	width: auto;
-	height: 48px;
+	height: 100%;
 	float: left;
 	vertical-align: middle;
 }
@@ -209,7 +234,7 @@ hugoalh.github.io Website Style
 	border: 0px;
 	padding: 0px;
 	width: auto;
-	height: 48px;
+	height: 100%;
 	float: right;
 	vertical-align: middle;
 }
@@ -246,7 +271,7 @@ hugoalh.github.io Website Style
 		font-size: 10pt;
 		text-align: left;
 		vertical-align: middle;
-		color: #FFFFFF;
+		color: rgb(255,255,255);
 	}
 		#menu > ul > li > ul > li > a {
 			padding-left: 48px;
@@ -265,7 +290,7 @@ hugoalh.github.io Website Style
 			vertical-align: middle;
 			text-decoration: none;
 			color: #0063B1;
-			background-color: #FFFFFF;
+			background-color: rgb(255,255,255);
 		}
 		#menu > ul > li > ul > li > ul > li > a, #menu > ul > li > ul > li > ul > li > div {
 			padding-left: 48px;
@@ -281,8 +306,8 @@ hugoalh.github.io Website Style
 		text-align: center;
 		vertical-align: middle;
 		text-decoration: none;
-		color: #FFFFFF;
-		fill /*SVG*/: #FFFFFF;
+		color: rgb(255,255,255);
+		fill /*SVG*/: rgb(255,255,255);
 	}
 	#menu span {
 		display: table-cell;
@@ -296,7 +321,7 @@ hugoalh.github.io Website Style
 		text-align: left;
 		vertical-align: middle;
 		text-decoration: none;
-		color: #FFFFFF;
+		color: rgb(255,255,255);
 	}
 	#menu a.navigation_currentpage {
 		border-left: 4px solid rgb(128,207,255);
@@ -331,7 +356,7 @@ hugoalh.github.io Website Style
 	overflow: hidden;
 	text-align: center;
 	vertical-align: middle;
-	color: #FFFFFF;
+	color: rgb(255,255,255);
 }
 	#copyright > div {
 		display: table-cell;
@@ -341,7 +366,7 @@ hugoalh.github.io Website Style
 		padding: 0px;
 		text-align: center;
 		vertical-align: middle;
-		color: #FFFFFF;
+		color: rgb(255,255,255);
 	}
 
 /*Button*/
@@ -376,21 +401,21 @@ hugoalh.github.io Website Style
 	width: 24px;
 	height: 24px;
 	vertical-align: middle;
-	color: #FFFFFF;
-	fill /*SVG*/: #FFFFFF;
+	color: rgb(255,255,255);
+	fill /*SVG*/: rgb(255,255,255);
 }
 
 @media screen and (min-width: 896px) {
 	/*Website Structure*/
 	#navigation_top {
-		width: 256px;
+		width: var(--navigation_left_width);
 	}
 	#navigation_left {
 		left: 0px;
 	}
 	#page {
 		top: 0px;
-		left: 256px;
+		left: var(--navigation_left_width);
 	}
 	/*Button*/
 	#navigation_left_button {
