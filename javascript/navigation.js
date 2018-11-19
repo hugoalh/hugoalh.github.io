@@ -55,6 +55,9 @@ function website_urlpageparameter_load(urlpageparameter) {
 		}
 	});
 }
+window.onpopstate = function() {
+	website_urlpageparameter_get();
+};
 
 /*Load Navigation*/
 $(function() {
