@@ -80,7 +80,7 @@
 				<li><a href="/?page=websiteredesign,vefans"><svg viewBox="0 0 24 24"><use xlink:href="/icon/steeringwheel.svg#master"></use></svg><span>Vehicle Fans Community (VeFans)<br />模擬載運遊戲聯合支援站（模載聯合支援站／模載聯合）</span></a></li>
 			</ul>
 		</li>
-		<li><a href="/?page=universalblacklist"><svg viewBox="0 0 24 24"><use xlink:href="/icon/list.svg#master"></use></svg><span>Universal Blacklist<br />通用黑名單</span></a></li>
+		<li><a href="/?page=universalblacklist"><svg viewBox="0 0 24 24"><use xlink:href="/icon/listsheet.svg#master"></use></svg><span>Universal Blacklist<br />通用黑名單</span></a></li>
 		<li><a href="/?page=about-website"><svg viewBox="0 0 24 24"><use xlink:href="/icon/info.svg#master"></use></svg><span>About Website<br />關於網站</span></a></li>
 	</ul>
 </div>
