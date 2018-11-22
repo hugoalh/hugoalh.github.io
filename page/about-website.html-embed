@@ -1,6 +1,6 @@
 <div id="content">
 	<h1>About Website<br />關於網站</h1>
-		<table class="title_left">
+		<table class="type_left">
 			<tbody>
 				<tr>
 					<td>Version<br />版本</td>
@@ -23,7 +23,7 @@
 		<ul>
 			<li>
 				<p>Modern Interface<br />摩登介面</p>
-				<table class="title_left">
+				<table class="type_left">
 					<tbody>
 						<tr>
 							<td>Type<br />類別</td>
@@ -52,7 +52,7 @@
 			</li>
 			<li>
 				<p>PHP Emulator<br />PHP模擬器</p>
-				<table class="title_left">
+				<table class="type_left">
 					<tbody>
 						<tr>
 							<td>Type<br />類別</td>
@@ -81,7 +81,7 @@
 
 			<li>
 				<p>Noto Sans</p>
-				<table class="title_left">
+				<table class="type_left">
 					<tbody>
 						<tr>
 							<td>Type<br />類別</td>
@@ -116,7 +116,7 @@
 			</li>
 			<li>
 				<p>Gothic A1</p>
-				<table class="title_left">
+				<table class="type_left">
 					<tbody>
 						<tr>
 							<td>Type<br />類別</td>
@@ -139,7 +139,7 @@
 			</li>
 			<li>
 				<p>Minecraft</p>
-				<table class="title_left">
+				<table class="type_left">
 					<tbody>
 						<tr>
 							<td>Type<br />類別</td>
@@ -167,7 +167,7 @@
 			</li>
 			<li>
 				<p>jQuery</p>
-				<table class="title_left">
+				<table class="type_left">
 					<tbody>
 						<tr>
 							<td>Type<br />類別</td>
@@ -195,7 +195,7 @@
 			</li>
 			<li>
 				<p>Google - Material Icon<br />Google—材質圖示</p>
-				<table class="title_left">
+				<table class="type_left">
 					<tbody>
 						<tr>
 							<td>Type<br />類別</td>
@@ -218,7 +218,7 @@
 			</li>
 			<li>
 				<p>Font Awesome</p>
-				<table class="title_left">
+				<table class="type_left">
 					<tbody>
 						<tr>
 							<td>Type<br />類別</td>

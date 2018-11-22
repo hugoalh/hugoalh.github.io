@@ -408,6 +408,17 @@ hugoalh.github.io Website Style
 	fill /*SVG*/: rgb(255,255,255);
 }
 
+/*Table*/
+table.type_top tr:first-child, table.type_left tr td:first-child {
+	font-weight: bold;
+}
+table.type_top.type_color tr:first-child, table.type_left.type_color tr td:first-child {
+	background-color: rgb(192,192,192);
+}
+table.zebra_horizontal tr:nth-child(odd), table.zebra_vertical tr td:nth-child(odd) {
+	background-color: rgb(230,230,230);
+}
+
 @media screen and (min-width: 896px) {
 	/*Website Structure*/
 	#navigation_top {
