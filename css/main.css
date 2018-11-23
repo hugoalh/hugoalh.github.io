@@ -31,6 +31,9 @@ hugoalh.github.io Website Style
 		button:focus {
 			outline: 0px !important;
 		}
+	iframe {
+		border: 0px;
+	}
 	/*Webpage Render*/
 	html, body {
 		width: 100%;
@@ -419,6 +422,12 @@ table.zebra_horizontal tr:nth-child(odd), table.zebra_vertical tr td:nth-child(o
 	background-color: rgb(230,230,230);
 }
 
+/*Page Content*/
+img.minecraft_craftingtable {
+	width: 232px;
+	height: 108px;
+}
+
 @media screen and (min-width: 896px) {
 	/*Website Structure*/
 	#navigation_top {
@@ -434,5 +443,10 @@ table.zebra_horizontal tr:nth-child(odd), table.zebra_vertical tr td:nth-child(o
 	/*Button*/
 	#navigation_left_button {
 		display: none !important;
+	}
+	/*Page Content*/
+	img.minecraft_craftingtable {
+		width: 116px;
+		height: 54px;
 	}
 }

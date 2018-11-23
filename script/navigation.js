@@ -49,12 +49,12 @@ function website_urlpageparameter_load(urlpageparameter) {
 	urlpageparameter = urlpageparameter.replace(/,/g, "/");
 	urlpageparameter = urlpageparameter.replace(/\2c /g, "/");
 	page_needload = "/page/" + urlpageparameter + ".html-embed";
-	$("#page").scrollTop(0).load(page_needload, function(response, status, xhr) {
+	$("#page").load(page_needload, function(response, status, xhr) {
 		if (status == "error" || status == "timeout" || status == "abort" || status == "parsererror") {
-			$("#page").scrollTop(0).load("/page/404.html-embed");
+			$("#page").load("/page/404.html-embed");
 		}
-	});
-}
+	}).scrollTop(0);
+};
 window.onpopstate = function() {
 	website_urlpageparameter_get();
 };
