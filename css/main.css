@@ -424,8 +424,8 @@ table.zebra_horizontal tr:nth-child(odd), table.zebra_vertical tr td:nth-child(o
 
 /*Page Content*/
 img.minecraft_craftingtable {
-	width: 232px;
-	height: 108px;
+	width: 116px;
+	height: 54px;
 }
 
 @media screen and (min-width: 896px) {
@@ -446,7 +446,7 @@ img.minecraft_craftingtable {
 	}
 	/*Page Content*/
 	img.minecraft_craftingtable {
-		width: 116px;
-		height: 54px;
+		width: 232px;
+		height: 108px;
 	}
 }
