@@ -42,14 +42,19 @@
 				</ul>
 			</li>
 		</ul>
-<hr />
+	<hr />
 	<h2 id="catalog_description">Description<br />說明</h2>
 		<p>Tweak recipe and add new recipe for Minecraft Java Vanilla. Some recipe can reduce crafting time.<br />
 		給Minecraft Java香草調整配方並增加新配方。部分配方可以減少製作時間。</p>
 		<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFf1fVnvfWpNIxCk7rZSVlxkY26zlAJS4U-RI3mWhF8ZYho5SUEfDQ8D8UEr_Xlfc3_dG7KNGeWPD8/pubhtml?gid=2053588638&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%; height: 480px;"></iframe>
 		<h3 id="catalog_download">Download<br />下載</h3>
 			<ul>
-				<li><a href="https://minecraft.curseforge.com/projects/299451"><img src="https://pbs.twimg.com/profile_images/725406699369058304/0mVMpCrb_400x400.jpg" style="width: auto; height: 48px;" /></a></li>
+				<li>
+					<a href="https://minecraft.curseforge.com/projects/299451">
+						<img src="https://pbs.twimg.com/profile_images/725406699369058304/0mVMpCrb_400x400.jpg" style="width: auto; height: 48px;" /><br />
+						CurseForge Minecraft
+					</a>
+				</li>
 			</ul>
 	<h2 id="catalog_wiki">Wiki<br />維基</h2>
 		<p>Welcome to the <b>Recipe Plus</b> wiki!<br />
