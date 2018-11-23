@@ -1,4 +1,4 @@
-<div id="content" style="font-family: 'Minecraft', 'Noto Sans', 'Noto Sans ZH', 'Noto Sans ZHS', sans-serif;">
+<div id="content" style="font-family: &quot;Minecraft&quot;, &quot;Noto Sans&quot;, &quot;Noto Sans ZH&quot;, &quot;Noto Sans ZHS&quot;, sans-serif;">
 	<h1 style="text-align: center;">
 		<img src="https://i.imgur.com/0WAhM6y.png" style="width: 64px; height: 64px;"/><br />
 		Minecraft Java Data Pack: Recipe+ (Recipe Plus)<br />
@@ -6,9 +6,9 @@
 	</h1>
 	<h2>Catalog<br />目錄</h2>
 		<ul>
-			<li>Description<br />說明
+			<li><a href="#catalog_description">Description<br />說明</a>
 				<ul>
-					<li>Download<br />下載</li>
+					<li><a href="#catalog_download">Download<br />下載</a></li>
 				</ul>
 			</li>
 			<li>Wiki<br />維基
@@ -43,15 +43,15 @@
 			</li>
 		</ul>
 <hr />
-	<h2>Description<br />說明</h2>
+	<h2 id="catalog_description">Description<br />說明</h2>
 		<p>Tweak recipe and add new recipe for Minecraft Java Vanilla. Some recipe can reduce crafting time.<br />
 		給Minecraft Java香草調整配方並增加新配方。部分配方可以減少製作時間。</p>
 		<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFf1fVnvfWpNIxCk7rZSVlxkY26zlAJS4U-RI3mWhF8ZYho5SUEfDQ8D8UEr_Xlfc3_dG7KNGeWPD8/pubhtml?gid=2053588638&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%; height: 480px;"></iframe>
-		<h3>Download<br />下載</h3>
+		<h3 id="catalog_download">Download<br />下載</h3>
 			<ul>
-				<li><a href="https://minecraft.curseforge.com/projects/299451"><img src="https://minecraft.curseforge.com/Content/2-0-6884-32496/Skins/Minecraft/images/generic-header-logo.png" style="width: auto; height: 48px;" /></a></li>
+				<li><a href="https://minecraft.curseforge.com/projects/299451"><img src="https://pbs.twimg.com/profile_images/725406699369058304/0mVMpCrb_400x400.jpg" style="width: auto; height: 48px;" /></a></li>
 			</ul>
-	<h2>Wiki<br />維基</h2>
+	<h2 id="catalog_wiki">Wiki<br />維基</h2>
 		<p>Welcome to the <b>Recipe Plus</b> wiki!<br />
 		歡迎來到<b>配方＋</b>維基！</p>
 		<p>This wiki content is written since version 1.1.0, some of the content may have make change between version.<br />
@@ -125,7 +125,7 @@
 					</ul>
 				</td>
 				<td>
-					6 * <em>#item</em> = <span style="color: #ff0000;">8 * <em>#stairs</span></em><br />
+					6 * <em>#item</em> = <span style="color: #ff0000;">8 * <em>#stairs</em></span><br />
 					<img src="https://i.imgur.com/Ov6Tdn3.png" class="minecraft_craftingtable" />
 					<img src="https://i.imgur.com/26SVi2X.png" class="minecraft_craftingtable" />
 					<img src="https://i.imgur.com/u8txbP8.png" class="minecraft_craftingtable" />
@@ -140,16 +140,25 @@
 				</td>
 			</tr>
 			<tr>
-			<td>spectral_arrow</td>
-			<td><span style="color: #ff0000;">1 * arrow</span> + <span style="color: #ff0000;">1 * glowstone_dust</span> = <span style="color: #ff0000;">1 * spectral_arrow</span> <span style="color: #ff0000;">[Shapeless]</span><br /><img src="https://i.imgur.com/bFjK2Aa.png" class="minecraft_craftingtable" /></td>
+				<td>spectral_arrow</td>
+				<td>
+					<span style="color: #ff0000;">1 * arrow</span> + <span style="color: #ff0000;">1 * glowstone_dust</span> = <span style="color: #ff0000;">1 * spectral_arrow</span><img src="https://minecraft.gamepedia.com/media/a/a9/Grid_layout_Shapeless.png" /><br />
+					<img src="https://i.imgur.com/bFjK2Aa.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td>rail</td>
-			<td>6 * iron_ingot + <span style="color: #ff0000;">3 * #planks</span> = 16 * rail<br /><img src="https://i.imgur.com/emlecFn.png" class="minecraft_craftingtable" /></td>
+				<td>rail</td>
+				<td>
+					6 * iron_ingot + <span style="color: #ff0000;">3 * #planks</span> = 16 * rail<br />
+					<img src="https://i.imgur.com/emlecFn.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td>activator_rail</td>
-			<td><span style="color: #ff0000;">6 * rail</span> + 2 * stick + <span style="color: #ff0000;">1 * redstone</span> = 6 * activator_rail<br /><img src="https://i.imgur.com/pAC9Xg9.png" class="minecraft_craftingtable" /></td>
+				<td>activator_rail</td>
+				<td>
+					<span style="color: #ff0000;">6 * rail</span> + 2 * stick + <span style="color: #ff0000;">1 * redstone</span> = 6 * activator_rail<br />
+					<img src="https://i.imgur.com/pAC9Xg9.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
 			<td>detector_rail</td>
