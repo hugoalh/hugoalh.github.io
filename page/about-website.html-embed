@@ -5,8 +5,8 @@
 				<tr>
 					<td>Version<br />版本</td>
 					<td>
-						<span id="websiteversion"></span>
-						<script>document.getElementById("websiteversion").innerHTML = website_version</script>
+						<span id="websiteversion_2"></span>
+						<script>document.getElementById("websiteversion_2").innerHTML = website_version</script>
 					</td>
 				</tr>
 				<tr>
@@ -21,8 +21,7 @@
 		</table>
 	<h2>Dependency Library<br />依賴的資源庫</h2>
 		<ul>
-			<li>
-				<p>Modern Interface<br />摩登介面</p>
+			<li><h3>Modern Interface<br />摩登介面</h3>
 				<table class="type_left">
 					<tbody>
 						<tr>
@@ -50,8 +49,7 @@
 					</tbody>
 				</table>
 			</li>
-			<li>
-				<p>PHP Emulator<br />PHP模擬器</p>
+			<li><h3>PHP Emulator<br />PHP模擬器</h3>
 				<table class="type_left">
 					<tbody>
 						<tr>
@@ -78,9 +76,7 @@
 					</tbody>
 				</table>
 			</li>
-
-			<li>
-				<p>Noto Sans</p>
+			<li><h3>Noto Sans</h3>
 				<table class="type_left">
 					<tbody>
 						<tr>
@@ -114,8 +110,7 @@
 					</tbody>
 				</table>
 			</li>
-			<li>
-				<p>Gothic A1</p>
+			<li><h3>Gothic A1</h3>
 				<table class="type_left">
 					<tbody>
 						<tr>
@@ -137,8 +132,7 @@
 					</tbody>
 				</table>
 			</li>
-			<li>
-				<p>Minecraft</p>
+			<li><h3>Minecraft</h3>
 				<table class="type_left">
 					<tbody>
 						<tr>
@@ -165,8 +159,7 @@
 					</tbody>
 				</table>
 			</li>
-			<li>
-				<p>jQuery</p>
+			<li><h3>jQuery</h3>
 				<table class="type_left">
 					<tbody>
 						<tr>
@@ -193,8 +186,7 @@
 					</tbody>
 				</table>
 			</li>
-			<li>
-				<p>Google - Material Icon<br />Google—材質圖示</p>
+			<li><h3>Google - Material Icon<br />Google—材質圖示</h3>
 				<table class="type_left">
 					<tbody>
 						<tr>
@@ -216,8 +208,7 @@
 					</tbody>
 				</table>
 			</li>
-			<li>
-				<p>Font Awesome</p>
+			<li><h3>Font Awesome</h3>
 				<table class="type_left">
 					<tbody>
 						<tr>
