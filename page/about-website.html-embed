@@ -132,7 +132,7 @@
 					</tbody>
 				</table>
 			</li>
-			<li><h3>Minecraft</h3>
+			<li><h3>Minecraftia</h3>
 				<table class="type_left">
 					<tbody>
 						<tr>
@@ -145,14 +145,9 @@
 						</tr>
 						<tr>
 							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
-							<td>
-								<ul>
-									<li>JDGraphics Fonts</li>
-									<li>Jacob Debono</li>
-								</ul>
-							</td>
+							<td><a href="https://www.AndrewTyler.net">Andrew Tyler</a></td>
 						</tr>
-						<tr>
+						<tr style="display: none;">
 							<td>License<br />許可證／授權</td>
 							<td></td>
 						</tr>

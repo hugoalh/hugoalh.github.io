@@ -1,0 +1,18 @@
+/*==================================================
+Font, Minecraftia
+	Author
+		Andrew Tyler
+	Program Language
+		CSS 3
+	Source
+		https://www.dafont.com/minecraftia.font
+==================================================*/
+@font-face {
+	font-family: "Minecraftia";
+	src: local("Minecraftia"),
+		url("/font/minecraftia_webfont.woff") format("woff"),
+		url("/font/minecraftia_regular.ttf") format("truetype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: normal;
+}
