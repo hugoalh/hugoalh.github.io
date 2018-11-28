@@ -1,7 +1,7 @@
 /*==================================================
 jQuery
 	Version
-		3.3.1 Compressed
+		3.3.1
 	Author
 		JS Foundation
 		The jQuery Foundation

@@ -19,216 +19,215 @@
 				</tr>
 			</tbody>
 		</table>
-	<h2>Dependency Library<br />依賴的資源庫</h2>
-		<ul>
-			<li><h3>Modern Interface<br />摩登介面</h3>
-				<table class="type_left">
-					<tbody>
-						<tr>
-							<td>Type<br />類別</td>
-							<td>Framework<br />骨架</td>
-						</tr>
-						<tr>
-							<td>Version<br />版本</td>
-							<td>
-								<ul>
-									<li>Standard 3.0.0<br />標準3.0.0</li>
-									<li>Web 2.0.0<br />網路2.0.0</li>
-									<li>Lightweight 0.18.0<br />輕型0.18.0</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
-							<td>hugoalh</td>
-						</tr>
-						<tr>
-							<td>License<br />許可證／授權</td>
-							<td>All Rights Reserved<br />版權所有</td>
-						</tr>
-					</tbody>
-				</table>
-			</li>
-			<li><h3>PHP Emulator<br />PHP模擬器</h3>
-				<table class="type_left">
-					<tbody>
-						<tr>
-							<td>Type<br />類別</td>
-							<td>
-								<ul>
-									<li>Framework<br />骨架</li>
-									<li>Javascript Library<br />Javascript指令資源庫</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td>Version<br />版本</td>
-							<td>0.1.0</td>
-						</tr>
-						<tr>
-							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
-							<td>hugoalh</td>
-						</tr>
-						<tr>
-							<td>License<br />許可證／授權</td>
-							<td>All Rights Reserved<br />版權所有</td>
-						</tr>
-					</tbody>
-				</table>
-			</li>
-			<li><h3>Noto Sans</h3>
-				<table class="type_left">
-					<tbody>
-						<tr>
-							<td>Type<br />類別</td>
-							<td>Font<br />字體</td>
-						</tr>
-						<tr>
-							<td>Version<br />版本</td>
-							<td>
-								<ul>
-									<li>English</li>
-									<li>中文</li>
-									<li>中文简体</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
-							<td>
-								<ul>
-									<li>Google</li>
-									<li>Monotype Imaging Inc</li>
-									<li>Adobe Systems Inc</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td>License<br />許可證／授權</td>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-			</li>
-			<li><h3>Gothic A1</h3>
-				<table class="type_left">
-					<tbody>
-						<tr>
-							<td>Type<br />類別</td>
-							<td>Font<br />字體</td>
-						</tr>
-						<tr>
-							<td>Version<br />版本</td>
-							<td>한국어</td>
-						</tr>
-						<tr>
-							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
-							<td>HanYang I&C Co Ltd</td>
-						</tr>
-						<tr>
-							<td>License<br />許可證／授權</td>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-			</li>
-			<li><h3>Minecraftia</h3>
-				<table class="type_left">
-					<tbody>
-						<tr>
-							<td>Type<br />類別</td>
-							<td>Font<br />字體</td>
-						</tr>
-						<tr>
-							<td>Version<br />版本</td>
-							<td>English</td>
-						</tr>
-						<tr>
-							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
-							<td><a href="https://www.AndrewTyler.net">Andrew Tyler</a></td>
-						</tr>
-						<tr style="display: none;">
-							<td>License<br />許可證／授權</td>
-							<td></td>
-						</tr>
-					</tbody>
-				</table>
-			</li>
-			<li><h3>jQuery</h3>
-				<table class="type_left">
-					<tbody>
-						<tr>
-							<td>Type<br />類別</td>
-							<td>Javascript Library<br />Javascript指令資源庫</td>
-						</tr>
-						<tr>
-							<td>Version<br />版本</td>
-							<td>3.3.1 Compressed<br />3.3.1壓縮</td>
-						</tr>
-						<tr>
-							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
-							<td>
-								<ul>
-									<li>JS Foundation</li>
-									<li>The jQuery Foundation</li>
-								</ul>
-							</td>
-						</tr>
-						<tr>
-							<td>License<br />許可證／授權</td>
-							<td><a href="https://jquery.org/license">MIT</a></td>
-						</tr>
-					</tbody>
-				</table>
-			</li>
-			<li><h3>Google - Material Icon<br />Google—材質圖示</h3>
-				<table class="type_left">
-					<tbody>
-						<tr>
-							<td>Type<br />類別</td>
-							<td>Icon<br />圖示</td>
-						</tr>
-						<tr>
-							<td>Version<br />版本</td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
-							<td>Google</td>
-						</tr>
-						<tr>
-							<td>License<br />許可證／授權</td>
-							<td>Apache License 2.0</td>
-						</tr>
-					</tbody>
-				</table>
-			</li>
-			<li><h3>Font Awesome</h3>
-				<table class="type_left">
-					<tbody>
-						<tr>
-							<td>Type<br />類別</td>
-							<td>Icon<br />圖示</td>
-						</tr>
-						<tr>
-							<td>Version<br />版本</td>
-							<td>5</td>
-						</tr>
-						<tr>
-							<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
-							<td>Fonticons Inc</td>
-						</tr>
-						<tr>
-							<td>License<br />許可證／授權</td>
-							<td>
-								<ul>
-									<li><a href="https://fontawesome.com/license/free">CC BY 4.0</a></li>
-									<li><a href="https://fontawesome.com/license/free">MIT</a></li>
-								</ul>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-			</li>
-		</ul>
+		<h2>Dependency Library<br />依賴的資源庫</h2>
+			<ul>
+				<li><h3>Modern Interface<br />摩登介面</h3>
+					<table class="type_left">
+						<tbody>
+							<tr>
+								<td>Type<br />類別</td>
+								<td>
+									<ul>
+										<li>Framework<br />骨架</li>
+										<li>Interface<br />介面</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>Version<br />版本</td>
+								<td>1.28.0</td>
+							</tr>
+							<tr>
+								<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+								<td>hugoalh</td>
+							</tr>
+							<tr>
+								<td>License<br />許可證／授權</td>
+								<td>All Rights Reserved<br />版權所有</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li><h3>PHP Emulator<br />PHP模擬器</h3>
+					<table class="type_left">
+						<tbody>
+							<tr>
+								<td>Type<br />類別</td>
+								<td>
+									<ul>
+										<li>Framework<br />骨架</li>
+										<li>Javascript Library<br />Javascript指令資源庫</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>Version<br />版本</td>
+								<td>0.1.5</td>
+							</tr>
+							<tr>
+								<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+								<td>hugoalh</td>
+							</tr>
+							<tr>
+								<td>License<br />許可證／授權</td>
+								<td>All Rights Reserved<br />版權所有</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li><h3>Noto Sans</h3>
+					<table class="type_left">
+						<tbody>
+							<tr>
+								<td>Type<br />類別</td>
+								<td>Font<br />字體</td>
+							</tr>
+							<tr>
+								<td>Version<br />版本</td>
+								<td>
+									<ul>
+										<li>English</li>
+										<li>中文</li>
+										<li>中文简体</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+								<td>
+									<ul>
+										<li>Google</li>
+										<li>Monotype Imaging Inc</li>
+										<li>Adobe Systems Inc</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>License<br />許可證／授權</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li><h3>Gothic A1</h3>
+					<table class="type_left">
+						<tbody>
+							<tr>
+								<td>Type<br />類別</td>
+								<td>Font<br />字體</td>
+							</tr>
+							<tr>
+								<td>Version<br />版本</td>
+								<td>한국어</td>
+							</tr>
+							<tr>
+								<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+								<td>HanYang I&C Co Ltd</td>
+							</tr>
+							<tr>
+								<td>License<br />許可證／授權</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li><h3>Minecraftia</h3>
+					<table class="type_left">
+						<tbody>
+							<tr>
+								<td>Type<br />類別</td>
+								<td>Font<br />字體</td>
+							</tr>
+							<tr>
+								<td>Version<br />版本</td>
+								<td>English</td>
+							</tr>
+							<tr>
+								<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+								<td><a href="https://www.AndrewTyler.net">Andrew Tyler</a></td>
+							</tr>
+							<tr style="display: none;">
+								<td>License<br />許可證／授權</td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li><h3>jQuery</h3>
+					<table class="type_left">
+						<tbody>
+							<tr>
+								<td>Type<br />類別</td>
+								<td>Javascript Library<br />Javascript指令資源庫</td>
+							</tr>
+							<tr>
+								<td>Version<br />版本</td>
+								<td>3.3.1</td>
+							</tr>
+							<tr>
+								<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+								<td>
+									<ul>
+										<li>JS Foundation</li>
+										<li>The jQuery Foundation</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>License<br />許可證／授權</td>
+								<td><a href="https://jquery.org/license">MIT</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li><h3>Google - Material Icon<br />Google—材質圖示</h3>
+					<table class="type_left">
+						<tbody>
+							<tr>
+								<td>Type<br />類別</td>
+								<td>Icon<br />圖示</td>
+							</tr>
+							<tr>
+								<td>Version<br />版本</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+								<td>Google</td>
+							</tr>
+							<tr>
+								<td>License<br />許可證／授權</td>
+								<td>Apache License 2.0</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+				<li><h3>Font Awesome</h3>
+					<table class="type_left">
+						<tbody>
+							<tr>
+								<td>Type<br />類別</td>
+								<td>Icon<br />圖示</td>
+							</tr>
+							<tr>
+								<td>Version<br />版本</td>
+								<td>5</td>
+							</tr>
+							<tr>
+								<td>Owner / Author / Copyright<br />擁有者／作者／版權擁有者</td>
+								<td>Fonticons Inc</td>
+							</tr>
+							<tr>
+								<td>License<br />許可證／授權</td>
+								<td>
+									<ul>
+										<li><a href="https://fontawesome.com/license/free">CC BY 4.0</a></li>
+										<li><a href="https://fontawesome.com/license/free">MIT</a></li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</li>
+			</ul>
 </div>
