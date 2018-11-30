@@ -11,8 +11,9 @@
 					<br />版本
 				</td>
 				<td>
-					<span id="websiteversion_2"></span>
-					<script>document.getElementById("websiteversion_2").innerHTML = website_version</script>
+					<span>
+						<script>document.write(website_version)</script>
+					</span>
 				</td>
 			</tr>
 			<tr>
