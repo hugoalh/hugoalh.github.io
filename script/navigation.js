@@ -78,7 +78,8 @@ $(function() {
 					navigation_left_close();
 				});
 				document.getElementById("initialscreen").style.display = "none";
-			}
+				$("#initialscreen").remove();
+			};
 		});
 	}
 );
