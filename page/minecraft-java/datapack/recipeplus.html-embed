@@ -1,75 +1,132 @@
 <div id="content" style="font-family: &quot;Minecraftia&quot;, &quot;Noto Sans&quot;, &quot;Noto Sans ZH&quot;, &quot;Noto Sans ZHS&quot;, sans-serif;">
 	<h1 style="text-align: center;">
-		<img src="https://i.imgur.com/0WAhM6y.png" style="width: 64px; height: 64px;"/><br />
-		Minecraft Java Data Pack: Recipe+ (Recipe Plus)<br />
+		<img src="https://i.imgur.com/0WAhM6y.png" style="width: 64px; height: 64px;" />
+		<br />
+		Minecraft Java Data Pack: Recipe+ (Recipe Plus)
+		<br />
 		Minecraft Java資料包：配方＋
 	</h1>
-	<h2>Catalog<br />目錄</h2>
-		<ul>
-			<li><a href="#catalog_description">Description<br />說明</a>
-				<ul>
-					<li><a href="#catalog_download">Download<br />下載</a></li>
-				</ul>
-			</li>
-			<li>Wiki<br />維基
-				<ul>
-					<li>
-						<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/d/d4/Crafting_Table.png?version=ef20591d7a264d60d6669f5f765e54e3" style="width: 48px; height: 48px;" />
-						<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/0/0f/Furnace.png?version=61804f51a03a60f5a160f8d0bbcf3d29" style="width: 48px; height: 48px;" /><br />
-						Recipe List (Tweaked)<br />
-						配方表（已調整）
-					</li>
-					<li>
-						<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/d/d4/Crafting_Table.png?version=ef20591d7a264d60d6669f5f765e54e3" style="width: 48px; height: 48px;" /><br />
-						Recipe List (Added, Crafting)<br />
-						配方表（已增加，合成）
-					</li>
-					<li>
-						<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/0/0f/Furnace.png?version=61804f51a03a60f5a160f8d0bbcf3d29" style="width: 48px; height: 48px;" /><br />
-						Recipe List (Added, Smelting)<br />
-						配方表（已增加，冶煉）
-					</li>
-					<li>
-						<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_zh_gamepedia/6/6f/Item_entities.png" style="width: auto; height: 48px;" /><br />
-						Recipe List (Added, Drop Item Crafting)<br />
-						配方表（已增加，扔物品合成）
-					</li>
-					<li>
-						<img src="https://i.imgur.com/DlyJson.png" style="width: auto; height: 48px;" /><br />
-						Recipe List (Added, Stackable)<br />
-						配方表（已增加，堆疊式）
-					</li>
-				</ul>
-			</li>
-		</ul>
-	<hr />
-	<h2 id="catalog_description">Description<br />說明</h2>
-		<p>Tweak recipe and add new recipe for Minecraft Java Vanilla. Some recipe can reduce crafting time.<br />
-		給Minecraft Java香草調整配方並增加新配方。部分配方可以減少製作時間。</p>
-		<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFf1fVnvfWpNIxCk7rZSVlxkY26zlAJS4U-RI3mWhF8ZYho5SUEfDQ8D8UEr_Xlfc3_dG7KNGeWPD8/pubhtml?gid=2053588638&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%; height: 480px;"></iframe>
-		<h3 id="catalog_download">Download<br />下載</h3>
+	<h2>
+		Catalog
+		<br />目錄
+	</h2>
+	<ul>
+		<li>
+			<a href="#catalog_description">Description<br />說明</a>
 			<ul>
 				<li>
-					<a href="https://minecraft.curseforge.com/projects/299451">
-						<img src="https://pbs.twimg.com/profile_images/725406699369058304/0mVMpCrb_400x400.jpg" style="width: auto; height: 48px;" /><br />
-						CurseForge Minecraft
-					</a>
+					<a href="#catalog_download">Download<br />下載</a>
 				</li>
 			</ul>
-	<h2 id="catalog_wiki">Wiki<br />維基</h2>
-		<p>Welcome to the <b>Recipe Plus</b> wiki!<br />
-		歡迎來到<b>配方＋</b>維基！</p>
-		<p>This wiki content is written since version 1.1.0, some of the content may have make change between version.<br />
-		此維基內容是從版本1.1.0開始撰寫，部分內容可能會在版本之間進行變更。</p>
-		<p>Some of the content may not added to the wiki currently, will be added back to the wiki as soon as possible.<br />
-		部分內容可能目前尚未增加到維基，將會盡快增加到維基。</p>
-		<p>Also, if you have a GitHub account, you can help/improve this wiki by fork, edit and pull request. For more information, please read this article.<br />
-		此外，如果你有GitHub帳戶，你可以通過Fork、編輯和合併請求以幫助／改進此維基。有關更多資料，請閱讀此文章。</p>
-		<h3>Recipe List (Tweaked)<br />配方表（已調整）</h3>
-		<table class="type_top type_color zebra_horizontal"><tbody>
+		</li>
+		<li>
+			Wiki
+			<br />維基
+			<ul>
+				<li>
+					<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/d/d4/Crafting_Table.png?version=ef20591d7a264d60d6669f5f765e54e3" style="width: 48px; height: 48px;" />
+					<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/0/0f/Furnace.png?version=61804f51a03a60f5a160f8d0bbcf3d29" style="width: 48px; height: 48px;" />
+					<br />
+					Recipe List (Tweaked)
+					<br />
+					配方表（已調整）
+				</li>
+				<li>
+					<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/d/d4/Crafting_Table.png?version=ef20591d7a264d60d6669f5f765e54e3" style="width: 48px; height: 48px;" />
+					<br />
+					Recipe List (Added, Crafting)
+					<br />
+					配方表（已增加，合成）
+				</li>
+				<li>
+					<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_gamepedia/0/0f/Furnace.png?version=61804f51a03a60f5a160f8d0bbcf3d29" style="width: 48px; height: 48px;" />
+					<br />
+					Recipe List (Added, Smelting)
+					<br />
+					配方表（已增加，冶煉）
+				</li>
+				<li>
+					<img src="https://d1u5p3l4wpay3k.cloudfront.net/minecraft_zh_gamepedia/6/6f/Item_entities.png" style="width: auto; height: 48px;" />
+					<br />
+					Recipe List (Added, Drop Item Crafting)
+					<br />
+					配方表（已增加，扔物品合成）
+				</li>
+				<li>
+					<img src="https://i.imgur.com/DlyJson.png" style="width: auto; height: 48px;" />
+					<br />
+					Recipe List (Added, Stackable)
+					<br />
+					配方表（已增加，堆疊式）
+				</li>
+			</ul>
+		</li>
+	</ul>
+	<hr />
+	<h2 id="catalog_description">
+		Description
+		<br />說明
+	</h2>
+	<p>
+		Tweak recipe and add new recipe for Minecraft Java Vanilla. Some recipe can reduce crafting time.
+		<br />
+		給Minecraft Java香草調整配方並增加新配方。部分配方可以減少製作時間。
+	</p>
+	<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSFf1fVnvfWpNIxCk7rZSVlxkY26zlAJS4U-RI3mWhF8ZYho5SUEfDQ8D8UEr_Xlfc3_dG7KNGeWPD8/pubhtml?gid=2053588638&amp;single=true&amp;widget=true&amp;headers=false" style="width: 100%; height: 480px;"></iframe>
+	<h3 id="catalog_download">
+		Download
+		<br />下載
+	</h3>
+	<ul>
+		<li>
+			<a href="https://minecraft.curseforge.com/projects/299451">
+				<img src="https://pbs.twimg.com/profile_images/725406699369058304/0mVMpCrb_400x400.jpg" style="width: auto; height: 48px;" /><br />
+				CurseForge Minecraft
+			</a>
+		</li>
+	</ul>
+	<h2 id="catalog_wiki">
+		Wiki
+		<br />維基
+	</h2>
+	<p>
+		Welcome to the
+		<b>Recipe Plus</b> wiki!
+		<br />
+		歡迎來到
+		<b>配方＋</b>維基！
+	</p>
+	<p>
+		This wiki content is written since version 1.1.0, some of the content may have make change between version.
+		<br />
+		此維基內容是從版本1.1.0開始撰寫，部分內容可能會在版本之間進行變更。
+	</p>
+	<p>
+		Some of the content may not added to the wiki currently, will be added back to the wiki as soon as possible.
+		<br />
+		部分內容可能目前尚未增加到維基，將會盡快增加到維基。
+	</p>
+	<p style="display: none;">
+		Also, if you have a GitHub account, you can help/improve this wiki by fork, edit and pull request. For more information, please read this article.
+		<br />
+		此外，如果你有GitHub帳戶，你可以通過Fork、編輯和合併請求以幫助／改進此維基。有關更多資料，請閱讀此文章。
+	</p>
+	<h3>
+		Recipe List (Tweaked)
+		<br />配方表（已調整）
+	</h3>
+	<table class="type_top type_color zebra_horizontal">
+		<tbody>
 			<tr style="text-align: center;">
-				<td>Item ID<br />物品ID<br /></td>
-				<td>New Recipe<br />新配方</td>
+				<td>
+					Item ID
+					<br />物品ID
+					<br />
+				</td>
+				<td>
+					New Recipe
+					<br />新配方
+				</td>
 			</tr>
 			<tr>
 				<td>
@@ -83,7 +140,9 @@
 					</ul>
 				</td>
 				<td>
-					5 * #planks <span style="color: #ff0000;">+ 2 * wooden_shovel</span> = 1 * #boats<br />
+					5 * #planks
+					<span style="color: #ff0000;">+ 2 * wooden_shovel</span> = 1 * #boats
+					<br />
 					<img src="https://i.imgur.com/vAKjCSS.png" class="minecraft_craftingtable" />
 					<img src="https://i.imgur.com/By5ZWU5.png" class="minecraft_craftingtable" />
 					<img src="https://i.imgur.com/Y29I0hF.png" class="minecraft_craftingtable" />
@@ -104,7 +163,9 @@
 					</ul>
 				</td>
 				<td>
-					6 * #planks = <span style="color: #ff0000;">8 * #wooden_stairs</span><br />
+					6 * #planks =
+					<span style="color: #ff0000;">8 * #wooden_stairs</span>
+					<br />
 					<img src="https://i.imgur.com/diRGWap.png" class="minecraft_craftingtable" />
 					<img src="https://i.imgur.com/KDJIf04.png" class="minecraft_craftingtable" />
 					<img src="https://i.imgur.com/sKj5iCt.png" class="minecraft_craftingtable" />
@@ -130,7 +191,10 @@
 					</ul>
 				</td>
 				<td>
-					6 * <em>#item</em> = <span style="color: #ff0000;">8 * <em>#stairs</em></span><br />
+					6 *
+					<em>#item</em> =
+					<span style="color: #ff0000;">8 * <em>#stairs</em></span>
+					<br />
 					<img src="https://i.imgur.com/Ov6Tdn3.png" class="minecraft_craftingtable" />
 					<img src="https://i.imgur.com/26SVi2X.png" class="minecraft_craftingtable" />
 					<img src="https://i.imgur.com/u8txbP8.png" class="minecraft_craftingtable" />
@@ -147,725 +211,1386 @@
 			<tr>
 				<td>spectral_arrow</td>
 				<td>
-					<span style="color: #ff0000;">1 * arrow</span> + <span style="color: #ff0000;">1 * glowstone_dust</span> = <span style="color: #ff0000;">1 * spectral_arrow</span><img src="https://minecraft.gamepedia.com/media/a/a9/Grid_layout_Shapeless.png" /><br />
+					<span style="color: #ff0000;">1 * arrow</span> +
+					<span style="color: #ff0000;">1 * glowstone_dust</span> =
+					<span style="color: #ff0000;">1 * spectral_arrow</span>
+					<img src="https://minecraft.gamepedia.com/media/a/a9/Grid_layout_Shapeless.png" />
+					<br />
 					<img src="https://i.imgur.com/bFjK2Aa.png" class="minecraft_craftingtable" />
 				</td>
 			</tr>
 			<tr>
 				<td>rail</td>
 				<td>
-					6 * iron_ingot + <span style="color: #ff0000;">3 * #planks</span> = 16 * rail<br />
+					6 * iron_ingot +
+					<span style="color: #ff0000;">3 * #planks</span> = 16 * rail
+					<br />
 					<img src="https://i.imgur.com/emlecFn.png" class="minecraft_craftingtable" />
 				</td>
 			</tr>
 			<tr>
 				<td>activator_rail</td>
 				<td>
-					<span style="color: #ff0000;">6 * rail</span> + 2 * stick + <span style="color: #ff0000;">1 * redstone</span> = 6 * activator_rail<br />
+					<span style="color: #ff0000;">6 * rail</span> + 2 * stick +
+					<span style="color: #ff0000;">1 * redstone</span> = 6 * activator_rail
+					<br />
 					<img src="https://i.imgur.com/pAC9Xg9.png" class="minecraft_craftingtable" />
 				</td>
 			</tr>
 			<tr>
-			<td>detector_rail</td>
-			<td><span style="color: #ff0000;">6 * rail</span> + 1 * stone_pressure_plate + 1 * redstone = 6 * detector_rail<br /><img src="https://i.imgur.com/z4QV7cv.png" class="minecraft_craftingtable" /></td>
+				<td>detector_rail</td>
+				<td>
+					<span style="color: #ff0000;">6 * rail</span> + 1 * stone_pressure_plate + 1 * redstone = 6 * detector_rail
+					<br />
+					<img src="https://i.imgur.com/z4QV7cv.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td>powered_rail</td>
-			<td><span style="color: #ff0000;">6 * activator_rail</span> + <span style="color: #ff0000;">3 * gold_ingot</span> = 6 * powered_rail<br /><img src="https://i.imgur.com/GL9RBuA.png" class="minecraft_craftingtable" /></td>
+				<td>powered_rail</td>
+				<td>
+					<span style="color: #ff0000;">6 * activator_rail</span> +
+					<span style="color: #ff0000;">3 * gold_ingot</span> = 6 * powered_rail
+					<br />
+					<img src="https://i.imgur.com/GL9RBuA.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td>bread</td>
-			<td>= <span style="color: #ff0000;">1 * wheat [+200 Tick]</span><br /><img src="https://i.imgur.com/ugaYRfA.png" alt="" width="164" height="108" /></td>
+				<td>bread</td>
+				<td>
+					=
+					<span style="color: #ff0000;">1 * wheat [+200 Tick]</span>
+					<br />
+					<img src="https://i.imgur.com/ugaYRfA.png" alt="" width="164" height="108" />
+				</td>
 			</tr>
 			<tr>
-			<td><span style="color: #0000ff;">[1.2.0+]</span> book</td>
-			<td>1 * leather + 3 * paper = 1 * book <span style="color: #ff0000;">[Shaped]</span><br /><img src="https://i.imgur.com/fdnsjYl.png" class="minecraft_craftingtable" /></td>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> book
+				</td>
+				<td>
+					1 * leather + 3 * paper = 1 * book
+					<span style="color: #ff0000;">[Shaped]</span>
+					<br />
+					<img src="https://i.imgur.com/fdnsjYl.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td><span style="color: #0000ff;">[1.2.0+]</span> flower_pot</td>
-			<td>3 * brick + <span style="color: #ff0000;">1 * dirt</span> = <span style="color: #ff0000;">6 * flower_pot</span><br /><img src="https://i.imgur.com/5qAlWHx.png" class="minecraft_craftingtable" /></td>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> flower_pot
+				</td>
+				<td>
+					3 * brick +
+					<span style="color: #ff0000;">1 * dirt</span> =
+					<span style="color: #ff0000;">6 * flower_pot</span>
+					<br />
+					<img src="https://i.imgur.com/5qAlWHx.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td>
-			<p><span style="color: #0000ff;">[1.2.0+]</span></p>
-			<ul>
-			<li>oak_fence</li>
-			<li>spruce_fence</li>
-			<li>birch_fence</li>
-			<li>jungle_fence</li>
-			<li>acacia_fence</li>
-			<li>dark_oak_fence</li>
-			</ul>
-			</td>
-			<td>4 * #planks + 2 * stick = <span style="color: #ff0000;">6 * #fence</span><br /><img src="https://i.imgur.com/i4fUB7k.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/Gvb1ftJ.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/0LjfrxN.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/j66Loc5.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/TXDPuxA.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/w7kYEiz.png" class="minecraft_craftingtable" /></td>
+				<td>
+					<p>
+						<span style="color: #0000ff;">[1.2.0+]</span>
+					</p>
+					<ul>
+						<li>oak_fence</li>
+						<li>spruce_fence</li>
+						<li>birch_fence</li>
+						<li>jungle_fence</li>
+						<li>acacia_fence</li>
+						<li>dark_oak_fence</li>
+					</ul>
+				</td>
+				<td>
+					4 * #planks + 2 * stick =
+					<span style="color: #ff0000;">6 * #fence</span>
+					<br />
+					<img src="https://i.imgur.com/i4fUB7k.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/Gvb1ftJ.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/0LjfrxN.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/j66Loc5.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/TXDPuxA.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/w7kYEiz.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td><span style="color: #0000ff;">[1.2.0+]</span> carrot_on_a_stick</td>
-			<td>1 * fishing_rod + 1 * carrot = 1 *&nbsp;carrot_on_a_stick <span style="color: #ff0000;">[Shapeless]</span><br /><img src="https://i.imgur.com/hFu555e.png" class="minecraft_craftingtable" /></td>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> carrot_on_a_stick
+				</td>
+				<td>
+					1 * fishing_rod + 1 * carrot = 1 *&nbsp;carrot_on_a_stick
+					<span style="color: #ff0000;">[Shapeless]</span>
+					<br />
+					<img src="https://i.imgur.com/hFu555e.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td><span style="color: #0000ff;">[1.2.0+]</span> fermented_spider_eye</td>
-			<td>1 * spider_eye + <span style="color: #ff0000;">1 * #mushroom</span> + 1 * sugar = 1 *&nbsp;fermented_spider_eye<br /><img src="https://i.imgur.com/MYSQACA.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/HPfx5Ia.png" class="minecraft_craftingtable" /></td>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> fermented_spider_eye
+				</td>
+				<td>
+					1 * spider_eye +
+					<span style="color: #ff0000;">1 * #mushroom</span> + 1 * sugar = 1 *&nbsp;fermented_spider_eye
+					<br />
+					<img src="https://i.imgur.com/MYSQACA.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/HPfx5Ia.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td><span style="color: #0000ff;">[1.2.0+]</span> nether_brick_fence</td>
-			<td>4 * bricks + <span style="color: #ff0000;">2 * brick</span> = 6 *&nbsp;nether_brick_fence<br /><img src="https://i.imgur.com/z4cMUiq.png" class="minecraft_craftingtable" /></td>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> nether_brick_fence
+				</td>
+				<td>
+					4 * bricks +
+					<span style="color: #ff0000;">2 * brick</span> = 6 *&nbsp;nether_brick_fence
+					<br />
+					<img src="https://i.imgur.com/z4cMUiq.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
 			<tr>
-			<td><span style="color: #0000ff;">[1.2.0+]</span> dark_prismarine</td>
-			<td><span style="color: #ff0000;">4 * prismarine_shard</span> + 1 * ink_sac&nbsp;= 1 *&nbsp;dark_prismarine<br /><img src="https://i.imgur.com/K2GfRBn.png" class="minecraft_craftingtable" /></td>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> dark_prismarine
+				</td>
+				<td>
+					<span style="color: #ff0000;">4 * prismarine_shard</span> + 1 * ink_sac&nbsp;= 1 *&nbsp;dark_prismarine
+					<br />
+					<img src="https://i.imgur.com/K2GfRBn.png" class="minecraft_craftingtable" />
+				</td>
 			</tr>
-		</tbody></table>
+		</tbody>
+	</table>
 
-		### Recipe List (Added, Crafting)<br />配方表（已增加，合成）
-		<table><tbody>
-		<tr align"center">
-		<td><b>Item ID<br />物品ID<br /></b></td>
-		<td><b>Recipe<br />配方<br /></b></td>
-		</tr>
-		<tr>
-		<td>
-		<ul>
-		<li>oak_stairs</li>
-		<li>spruce_stairs</li>
-		<li>birch_stairs</li>
-		<li>jungle_stairs</li>
-		<li>acacia_stairs</li>
-		<li>dark_oak_stairs</li>
-		</ul>
-		[32]</td>
-		<td>= 6 * #logs/#woods<br /><img src="https://i.imgur.com/Xk052OQ.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/7bBuKXb.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/E4Ba3Qb.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/7po8y01.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/iHDhdvT.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/W5aoql1.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>
-		<ul>
-		<li>oak_slab</li>
-		<li>spruce_slab</li>
-		<li>birch_slab</li>
-		<li>jungle_slab</li>
-		<li>acacia_slab</li>
-		<li>dark_oak_slab</li>
-		</ul>
-		[24]</td>
-		<td>= 3 * #logs/#woods<br /><img src="https://i.imgur.com/OqBag3T.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/BFI7nat.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/gdLNn1g.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/xwGtFYi.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/W9NSLBf.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/oblfxhz.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>chest [4]</td>
-		<td>= 8 * #logs/#woods<br /><img src="https://i.imgur.com/DqB5f1z.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>glowstone_dust [4]</td>
-		<td>= 1 * glowstone [Shapeless]<br /><img src="https://i.imgur.com/LFro5pr.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>hopper</td>
-		<td>= 5 * iron_ingot + 2 * #logs/#woods<br /><img src="https://i.imgur.com/SdF2yCt.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>magma_cream [4]</td>
-		<td>= 1 * magma_block [Shapeless]<br /><img src="https://i.imgur.com/KTP0rLY.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>clay_ball [4]</td>
-		<td>= 1 * clay [Shapeless]<br /><img src="https://i.imgur.com/NdWFfjR.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>quartz [4]</td>
-		<td>= 1 * quartz_block [Shapeless]<br /><img src="https://i.imgur.com/5d4bxPQ.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>redstone_lamp</td>
-		<td>= 4 * glowstone_dust + 4 * redstone<br /><img src="https://i.imgur.com/pjsnysi.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/CcrRViV.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>shulker_box</td>
-		<td>= 2 * shulker_shell + 2 * #logs<br /><img src="https://i.imgur.com/l3dMWkc.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>
-		<ul>
-		<li>white_shulker_box</li>
-		<li>orange_shulker_box</li>
-		<li>magenta_shulker_box</li>
-		<li>light_blue_shulker_box</li>
-		<li>yellow_shulker_box</li>
-		<li>lime_shulker_box</li>
-		<li>pink_shulker_box</li>
-		<li>gray_shulker_box</li>
-		<li>light_gray_shulker_box</li>
-		<li>cyan_shulker_box</li>
-		<li>purple_shulker_box</li>
-		<li>blue_shulker_box</li>
-		<li>brown_shulker_box</li>
-		<li>green_shulker_box</li>
-		<li>red_shulker_box</li>
-		<li>black_shulker_box</li>
-		</ul>
-		</td>
-		<td>
-		<ul>
-		<li>= 2 * shulker_shell + 1 * chest + 1 * #dye<br /><img src="https://i.imgur.com/xmnvzPV.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/U3SVSJj.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/ADwlwRS.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/E1lNv3x.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/BlpTnZO.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/hiWMegc.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/sa2okUs.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/1dEYVdQ.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/s5AZUCE.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/16LM2Ht.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/2CxvCw8.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/QDde0iT.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/TMGiC1y.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/7JqMhag.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/YblCw1Z.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/ewVfzEk.png" class="minecraft_craftingtable" /></li>
-		<li>= 2 * shulker_shell + 2 * #logs + 1 * #dye<br /><img src="https://imgur.com/iYZGryK.png" class="minecraft_craftingtable" /><img src="https://imgur.com/yOTKq80.png" class="minecraft_craftingtable" /><img src="https://imgur.com/6KsRELW.png" class="minecraft_craftingtable" /><img src="https://imgur.com/YgiV50s.png" class="minecraft_craftingtable" /><img src="https://imgur.com/2DZZdyt.png" class="minecraft_craftingtable" /><img src="https://imgur.com/z53MV5P.png" class="minecraft_craftingtable" /><img src="https://imgur.com/KeRWBnC.png" class="minecraft_craftingtable" /><img src="https://imgur.com/37k5m4r.png" class="minecraft_craftingtable" /><img src="https://imgur.com/FnlOBRw.png" class="minecraft_craftingtable" /><img src="https://imgur.com/whUbTK1.png" class="minecraft_craftingtable" /><img src="https://imgur.com/zYldW83.png" class="minecraft_craftingtable" /><img src="https://imgur.com/XeOSuM8.png" class="minecraft_craftingtable" /><img src="https://imgur.com/hymq5HC.png" class="minecraft_craftingtable" /><img src="https://imgur.com/qO2WkVV.png" class="minecraft_craftingtable" /><img src="https://imgur.com/44GeNj8.png" class="minecraft_craftingtable" /><img src="https://imgur.com/p4LyLTb.png" class="minecraft_craftingtable" /></li>
-		</ul>
-		</td>
-		</tr>
-		<tr>
-		<td>stick [16]</td>
-		<td>= 2 * #logs/#woods<br /><img src="https://i.imgur.com/s6Hdllc.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>iron_horse_armor</td>
-		<td>= 2 * black_carpet + 1 * iron_helmet + 3 * iron_ingot + 2 * iron_leggings<br /><img src="https://i.imgur.com/ZomTC9M.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>golden_horse_armor</td>
-		<td>= 2 * red_carpet + 1 * golden_helmet + 3 * gold_ingot + 2 * golden_leggings<br /><img src="https://i.imgur.com/yffSngO.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>diamond_horse_armor</td>
-		<td>= 2 * yellow_carpet + 1 * diamond_helmet + 3 * diamond + 2 * diamond_leggings<br /><img src="https://i.imgur.com/ze3HrpH.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>saddle</td>
-		<td>= 6 * leather + 1 * string + 2 * tripwire_hook<br /><img src="https://i.imgur.com/DHQs2dO.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>name_tag [2]</td>
-		<td>= 3 * string + 1 * iron_ingot + 1 * sign<br /><img src="https://i.imgur.com/aFCK6cH.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>coarse_dirt</td>
-		<td>
-		<ul>
-		<li><span style="color: #0000ff;">[1.1.0 - 1.1.1]</span> = 1 * water + 1 * fermented_spider_eye + 1 * hay_block + 3 * wheat<br /><img src="https://i.imgur.com/YcVPRDr.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/PelXn2V.png" class="minecraft_craftingtable" /></li>
-		<li><span style="color: #0000ff;">[1.2.0+]</span> = 1 * water + 1 * fermented_spider_eye + 1 * hay_block + 4 * wheat<br /><img src="https://i.imgur.com/8RYhr1m.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/lfKB6ze.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * water + 1 * fermented_spider_eye + 7 * #fishes<br /><img src="https://i.imgur.com/KuT21ik.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/e9hwisK.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/6yBYVo3.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/ablzv14.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/GoIbLLI.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/octi4Gk.png" class="minecraft_craftingtable" /></li>
-		<li><span style="color: #0000ff;">[1.1.0 - 1.1.1]</span> = 4 * dried_kelp_block + 1 * fermented_spider_eye + 4 * kelp<br /><img src="https://i.imgur.com/NHYWVt9.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/n9X84zR.png" class="minecraft_craftingtable" /></li>
-		<li><span style="color: #0000ff;">[1.2.0+]</span> = 5 * dried_kelp_block + 3 * dried_kelp + 1 * fermented_spider_eye<br /><img src="https://i.imgur.com/fhsWeQq.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/sua1bwp.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * water + 1 * fermented_spider_eye + 5 * #meats<br /><img src="https://i.imgur.com/UI4pSva.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/lovbB6l.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/3pfOzqR.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/R0Q5yoz.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/AAUn1Va.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/ImshwMc.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/6LjiODj.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/4JWpzHd.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/HeNxctU.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/4mxe93p.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/kAdJcIY.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/eDy2p2W.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/cCfgwPF.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/kCONsau.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/ajnFdrJ.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/3mnFKiJ.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/5ZnmmHf.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/UY2YUsX.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/lBf7F2C.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/OR03qUj.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * water + 1 * fermented_spider_eye + 3 * melon<br /><img src="https://i.imgur.com/PItmlEt.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * water + 1 * fermented_spider_eye + 6 * pumpkin<br /><img src="https://i.imgur.com/x3wJ9JK.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * fermented_spider_eye + 8 * #saplings<br /><img src="https://i.imgur.com/U6sOIum.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/YiGANsr.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/wjqBNyZ.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/tNiYveE.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/pRWKNaK.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/4FLlDS2.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * fermented_spider_eye + 8 * #leaves<br /><img src="https://i.imgur.com/5aVws2z.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/bx8aIk6.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/g5LlDco.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/ayXgX1Z.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/UbUktAD.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/XPRz9mU.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * water + 1 * fermented_spider_eye + 1 * string + 6 * white_wool<br /><img src="https://i.imgur.com/ikcwyYJ.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * water + 6 * #mushroom_block<br /><img src="https://i.imgur.com/f8SuHPj.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/aV89StR.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/vgOg0mn.png" class="minecraft_craftingtable" /></li>
-		</ul>
-		</td>
-		</tr>
-		<tr>
-		<td>soul_sand</td>
-		<td>= 1 * #sand + 1 * fermented_spider_eye + 1 * water + 1 * nether_wart_block + 1 * nether_wart<br /><img src="https://i.imgur.com/Fy7YlhQ.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/LiR9WIZ.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>
-		<ul>
-		<li>oak_sapling</li>
-		<li>spruce_sapling</li>
-		<li>birch_sapling</li>
-		<li>jungle_sapling</li>
-		<li>acacia_sapling</li>
-		<li>dark_oak_sapling</li>
-		</ul>
-		</td>
-		<td>= 1 * stick + 8 * #leaves<br /><img src="https://i.imgur.com/TaegBd5.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/xg305t4.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/YBUPGPU.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/OsYADwZ.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/B39wupK.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/QePp5va.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>string [4]</td>
-		<td>= 1 * white_wool [Shapeless]<br /><img src="https://i.imgur.com/Som00Vk.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>string [9]</td>
-		<td>= 1 * cobweb [Shapeless]<br /><img src="https://i.imgur.com/4HWdtxf.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>clock [9]</td>
-		<td>= 4 * gold_block + 1 * redstone_block<br /><img src="https://i.imgur.com/gPlWOEp.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>compass [9]</td>
-		<td>= 4 * iron_block + 1 * redstone_block<br /><img src="https://i.imgur.com/3NlvWHf.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>
-		<ul>
-		<li>oak_pressure_plate</li>
-		<li>spruce_pressure_plate</li>
-		<li>birch_pressure_plate</li>
-		<li>jungle_pressure_plate</li>
-		<li>acacia_pressure_plate</li>
-		<li>dark_oak_pressure_plate</li>
-		</ul>
-		[4]</td>
-		<td>= 2 * #logs/#woods<br /><img src="https://i.imgur.com/LGx74v1.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/MggwHZI.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/zNlRn22.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/vtNKZ0o.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/Zez8JHF.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/bxizc8j.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>heavy_weighted_pressure_plate [9]</td>
-		<td>= 2 * iron_block<br /><img src="https://i.imgur.com/X52zoK0.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>light_weighted_pressure_plate [9]</td>
-		<td>= 2 * gold_block<br /><img src="https://i.imgur.com/6QcuerE.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>bowl [16]</td>
-		<td>= 3 * #logs/#woods<br /><img src="https://i.imgur.com/q3qosm9.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>bucket [9]</td>
-		<td>= 3 * iron_block<br /><img src="https://i.imgur.com/PwfMZKx.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>cauldron [9]</td>
-		<td>= 7 * iron_block<br /><img src="https://i.imgur.com/r5FA6sk.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>minecart [9]</td>
-		<td>= 5 * iron_block<br /><img src="https://i.imgur.com/JDAiihl.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>chest_minecart</td>
-		<td>
-		<ul>
-		<li>= 1 * chest + 5 * iron_ingot<br /><img src="https://i.imgur.com/CKHHj3y.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/zRO1x0X.png" class="minecraft_craftingtable" /></li>
-		<li>= 2 * #logs/#woods + 5 * iron_ingot<br /><img src="https://i.imgur.com/9UhkUgG.png" class="minecraft_craftingtable" /></li>
-		</ul>
-		</td>
-		</tr>
-		<tr>
-		<td>furnace_minecart</td>
-		<td>= 1 * furnace + 5 * iron_ingot<br /><img src="https://i.imgur.com/ak6TAti.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/VfuxbsK.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>hopper_minecart</td>
-		<td>= 1 * hopper + 5 * iron_ingot<br /><img src="https://i.imgur.com/GIxwgXO.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/1ALoY6d.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>tnt_minecart</td>
-		<td>= 1 * tnt + 5 * iron_ingot<br /><img src="https://i.imgur.com/LSUCyjD.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/DL1ABMq.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>repeater</td>
-		<td>= 3 * redstone + 2 * stick + 3 * stone<br /><img src="https://i.imgur.com/3W1yPL4.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> anvil</td>
-		<td>
-		<ul>
-		<li>= 1 * chipped_anvil + 8 * iron_ingot<br /><img src="https://i.imgur.com/eITmyZH.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * damaged_anvil + 1 * iron_block + 7 * iron_ingot<br /><img src="https://i.imgur.com/6D0oiL2.png" class="minecraft_craftingtable" /></li>
-		</ul>
-		</td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> chipped_anvil</td>
-		<td>= 1 * damaged_anvil + 8 * iron_ingot<br /><img src="https://i.imgur.com/W0HYYAj.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> petrified_oak_slab [2]</td>
-		<td>= 2 * oak_slab + 2 * stone_slab<br /><img src="https://i.imgur.com/mtwXx5l.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>
-		<p><span style="color: #0000ff;">[1.2.0+]</span></p>
-		<ul>
-		<li>oak_door</li>
-		<li>spruce_door</li>
-		<li>birch_door</li>
-		<li>jungle_door</li>
-		<li>acacia_door</li>
-		<li>dark_oak_door</li>
-		</ul>
-		<p>[12]</p>
-		</td>
-		<td>= 6 * #logs/#woods<br /><img src="https://i.imgur.com/BfXNS6r.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/VI7eU2v.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/felkj2S.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/8MFkYIt.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/fqG0ao6.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/B5NblPl.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td>
-		<p><span style="color: #0000ff;">[1.2.0+]</span></p>
-		<ul>
-		<li>oak_trapdoor</li>
-		<li>spruce_trapdoor</li>
-		<li>birch_trapdoor</li>
-		<li>jungle_trapdoor</li>
-		<li>acacia_trapdoor</li>
-		<li>dark_oak_trapdoor</li>
-		</ul>
-		<p>[8]</p>
-		</td>
-		<td>= 6 * #logs/#woods<br /><img src="https://i.imgur.com/ahWPX8z.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/r6odRgH.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/O9mNLCk.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/VpmT8Vn.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/RnjCc7v.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/gVS6ZMU.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> iron_door [27]</td>
-		<td>= 6 * iron_block<br /><img src="https://i.imgur.com/ruT4CBU.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> iron_trapdoor [9]</td>
-		<td>= 4 * iron_block<br /><img src="https://i.imgur.com/Bx1juMq.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> book</td>
-		<td>
-		<ul>
-		<li>= 1 * leather + 3 * sugar_cane<br /><img src="https://i.imgur.com/l2Vv5TZ.png" class="minecraft_craftingtable" /></li>
-		<li>= 4 * rabbit_hide + 3 * paper<br /><img src="https://i.imgur.com/SUIp3rG.png" class="minecraft_craftingtable" /></li>
-		<li>= 4 * rabbit_hide + 3 * sugar_cane<br /><img src="https://i.imgur.com/9Makuti.png" class="minecraft_craftingtable" /></li>
-		</ul>
-		</td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> writable_book</td>
-		<td>
-		<ul>
-		<li>= 1 * leather + 3 * paper + 1 * feather + 1 * ink_sac<br /><img src="https://i.imgur.com/Bt9u6Gg.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * leather + 3 * sugar_cane + 1 * feather + 1 * ink_sac<br /><img src="https://i.imgur.com/3mNdf2i.png" class="minecraft_craftingtable" /></li>
-		<li>= 4 * rabbit_hide + 3 * paper + 1 * feather + 1 * ink_sac<br /><img src="https://i.imgur.com/dr9VfiV.png" class="minecraft_craftingtable" /></li>
-		<li>= 4 * rabbit_hide + 3 * sugar_cane + 1 * feather + 1 * ink_sac<br /><img src="https://i.imgur.com/Te6HdDe.png" class="minecraft_craftingtable" /></li>
-		</ul>
-		</td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> sponge</td>
-		<td>= 2 * yellow_wool + 2 * green_wool + 1 * slime_ball<br /><img src="https://i.imgur.com/wIT54M3.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/9P8feWF.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> tnt</td>
-		<td>= 4 * #sand + 5 * gunpowder<br /><img src="https://i.imgur.com/qbu1sLF.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> ladder [6]</td>
-		<td>= 7 * #planks<br /><img src="https://i.imgur.com/m6OZtHH.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> ladder [24]</td>
-		<td>= 7 * #logs/#woods<br /><img src="https://i.imgur.com/qGlTMQ0.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_quartz [2]</td>
-		<td>= 4 * quartz_slab<br /><img src="https://i.imgur.com/8jPF5h4.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_sandstone [2]</td>
-		<td>= 4 * sandstone_slab<br /><img src="https://i.imgur.com/qyN96h5.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_red_sandstone [2]</td>
-		<td>= 4 * red_sandstone_slab<br /><img src="https://i.imgur.com/Hi7ld8C.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_stone [2]</td>
-		<td>= 4 * stone_slab<br /><img src="https://i.imgur.com/1TFJlzO.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> chainmail_helmet</td>
-		<td>= 5 * iron_bars<br /><img src="https://i.imgur.com/2OTxHiu.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> chainmail_chestplate</td>
-		<td>= 8 * iron_bars<br /><img src="https://i.imgur.com/6mv4G1y.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> chainmail_leggings</td>
-		<td>= 7 * iron_bars<br /><img src="https://i.imgur.com/3n9w0Z3.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> chainmail_boots</td>
-		<td>= 4 * iron_bars<br /><img src="https://i.imgur.com/6r3QoUh.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> totem_of_undying</td>
-		<td>= 2 * ender_crystal + 2 * gold_block + 3 * gold_ingot + 1 * soul_sand + 1 * dragon_breath<br /><img src="https://i.imgur.com/KxJcqsJ.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> brick [4]</td>
-		<td>= 1 * bricks<br /><img src="https://i.imgur.com/5caK7Zg.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> nether_brick [4]</td>
-		<td>= 1 * nether_bricks<br /><img src="https://i.imgur.com/tXXd7jF.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span>
-		<ul>
-		<li>cobblestone</li>
-		<li>bricks</li>
-		<li>stone_bricks</li>
-		<li>stone</li>
-		<li>nether_bricks</li>
-		<li>sandstone</li>
-		<li>quartz_block</li>
-		<li>red_sandstone</li>
-		<li>purpur_block</li>
-		<li>prismarine</li>
-		<li>prismarine_bricks</li>
-		<li>dark_prismarine</li>
-		</ul>
-		</td>
-		<td>= 2 * <em>#slab</em><br /><img src="https://i.imgur.com/jghLtDI.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/cezBo1m.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/vFJzFfE.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/AI8Qr9A.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/u8bcdJU.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/YZGaRSD.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/77HN4qP.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/3DFWxzt.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/OdN23zh.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/rxrYMMn.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/Dk4icEm.png" class="minecraft_craftingtable" /><img src="https://i.imgur.com/cZXVh3W.png" class="minecraft_craftingtable" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> dispenser</td>
-		<td>
-		<ul>
-		<li>= 1 * dropper + 1 * bow<br /><img src="https://i.imgur.com/zghOt8c.png" class="minecraft_craftingtable" /></li>
-		<li>= 1 * dropper + 3 * stick + 3 * string<br /><img src="https://i.imgur.com/XMBN1kN.png" class="minecraft_craftingtable" /></li>
-		</ul>
-		</td>
-		</tr>
+	### Recipe List (Added, Crafting)
+	<br />配方表（已增加，合成）
+	<table>
+		<tbody>
+			<tr align"center">
+				<td>
+					<b>Item ID<br />物品ID<br /></b>
+				</td>
+				<td>
+					<b>Recipe<br />配方<br /></b>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li>oak_stairs</li>
+						<li>spruce_stairs</li>
+						<li>birch_stairs</li>
+						<li>jungle_stairs</li>
+						<li>acacia_stairs</li>
+						<li>dark_oak_stairs</li>
+					</ul>
+					[32]
+				</td>
+				<td>
+					= 6 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/Xk052OQ.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/7bBuKXb.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/E4Ba3Qb.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/7po8y01.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/iHDhdvT.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/W5aoql1.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li>oak_slab</li>
+						<li>spruce_slab</li>
+						<li>birch_slab</li>
+						<li>jungle_slab</li>
+						<li>acacia_slab</li>
+						<li>dark_oak_slab</li>
+					</ul>
+					[24]
+				</td>
+				<td>
+					= 3 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/OqBag3T.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/BFI7nat.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/gdLNn1g.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/xwGtFYi.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/W9NSLBf.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/oblfxhz.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>chest [4]</td>
+				<td>
+					= 8 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/DqB5f1z.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>glowstone_dust [4]</td>
+				<td>
+					= 1 * glowstone [Shapeless]
+					<br />
+					<img src="https://i.imgur.com/LFro5pr.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>hopper</td>
+				<td>
+					= 5 * iron_ingot + 2 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/SdF2yCt.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>magma_cream [4]</td>
+				<td>
+					= 1 * magma_block [Shapeless]
+					<br />
+					<img src="https://i.imgur.com/KTP0rLY.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>clay_ball [4]</td>
+				<td>
+					= 1 * clay [Shapeless]
+					<br />
+					<img src="https://i.imgur.com/NdWFfjR.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>quartz [4]</td>
+				<td>
+					= 1 * quartz_block [Shapeless]
+					<br />
+					<img src="https://i.imgur.com/5d4bxPQ.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>redstone_lamp</td>
+				<td>
+					= 4 * glowstone_dust + 4 * redstone
+					<br />
+					<img src="https://i.imgur.com/pjsnysi.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/CcrRViV.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>shulker_box</td>
+				<td>
+					= 2 * shulker_shell + 2 * #logs
+					<br />
+					<img src="https://i.imgur.com/l3dMWkc.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li>white_shulker_box</li>
+						<li>orange_shulker_box</li>
+						<li>magenta_shulker_box</li>
+						<li>light_blue_shulker_box</li>
+						<li>yellow_shulker_box</li>
+						<li>lime_shulker_box</li>
+						<li>pink_shulker_box</li>
+						<li>gray_shulker_box</li>
+						<li>light_gray_shulker_box</li>
+						<li>cyan_shulker_box</li>
+						<li>purple_shulker_box</li>
+						<li>blue_shulker_box</li>
+						<li>brown_shulker_box</li>
+						<li>green_shulker_box</li>
+						<li>red_shulker_box</li>
+						<li>black_shulker_box</li>
+					</ul>
+				</td>
+				<td>
+					<ul>
+						<li>
+							= 2 * shulker_shell + 1 * chest + 1 * #dye
+							<br />
+							<img src="https://i.imgur.com/xmnvzPV.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/U3SVSJj.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/ADwlwRS.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/E1lNv3x.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/BlpTnZO.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/hiWMegc.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/sa2okUs.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/1dEYVdQ.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/s5AZUCE.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/16LM2Ht.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/2CxvCw8.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/QDde0iT.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/TMGiC1y.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/7JqMhag.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/YblCw1Z.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/ewVfzEk.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 2 * shulker_shell + 2 * #logs + 1 * #dye
+							<br />
+							<img src="https://imgur.com/iYZGryK.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/yOTKq80.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/6KsRELW.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/YgiV50s.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/2DZZdyt.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/z53MV5P.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/KeRWBnC.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/37k5m4r.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/FnlOBRw.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/whUbTK1.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/zYldW83.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/XeOSuM8.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/hymq5HC.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/qO2WkVV.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/44GeNj8.png" class="minecraft_craftingtable" />
+							<img src="https://imgur.com/p4LyLTb.png" class="minecraft_craftingtable" />
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>stick [16]</td>
+				<td>
+					= 2 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/s6Hdllc.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>iron_horse_armor</td>
+				<td>
+					= 2 * black_carpet + 1 * iron_helmet + 3 * iron_ingot + 2 * iron_leggings
+					<br />
+					<img src="https://i.imgur.com/ZomTC9M.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>golden_horse_armor</td>
+				<td>
+					= 2 * red_carpet + 1 * golden_helmet + 3 * gold_ingot + 2 * golden_leggings
+					<br />
+					<img src="https://i.imgur.com/yffSngO.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>diamond_horse_armor</td>
+				<td>
+					= 2 * yellow_carpet + 1 * diamond_helmet + 3 * diamond + 2 * diamond_leggings
+					<br />
+					<img src="https://i.imgur.com/ze3HrpH.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>saddle</td>
+				<td>
+					= 6 * leather + 1 * string + 2 * tripwire_hook
+					<br />
+					<img src="https://i.imgur.com/DHQs2dO.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>name_tag [2]</td>
+				<td>
+					= 3 * string + 1 * iron_ingot + 1 * sign
+					<br />
+					<img src="https://i.imgur.com/aFCK6cH.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>coarse_dirt</td>
+				<td>
+					<ul>
+						<li>
+							<span style="color: #0000ff;">[1.1.0 - 1.1.1]</span> = 1 * water + 1 * fermented_spider_eye + 1 * hay_block + 3 * wheat
+							<br />
+							<img src="https://i.imgur.com/YcVPRDr.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/PelXn2V.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							<span style="color: #0000ff;">[1.2.0+]</span> = 1 * water + 1 * fermented_spider_eye + 1 * hay_block + 4 * wheat
+							<br />
+							<img src="https://i.imgur.com/8RYhr1m.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/lfKB6ze.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * water + 1 * fermented_spider_eye + 7 * #fishes
+							<br />
+							<img src="https://i.imgur.com/KuT21ik.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/e9hwisK.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/6yBYVo3.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/ablzv14.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/GoIbLLI.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/octi4Gk.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							<span style="color: #0000ff;">[1.1.0 - 1.1.1]</span> = 4 * dried_kelp_block + 1 * fermented_spider_eye + 4 * kelp
+							<br />
+							<img src="https://i.imgur.com/NHYWVt9.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/n9X84zR.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							<span style="color: #0000ff;">[1.2.0+]</span> = 5 * dried_kelp_block + 3 * dried_kelp + 1 * fermented_spider_eye
+							<br />
+							<img src="https://i.imgur.com/fhsWeQq.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/sua1bwp.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * water + 1 * fermented_spider_eye + 5 * #meats
+							<br />
+							<img src="https://i.imgur.com/UI4pSva.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/lovbB6l.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/3pfOzqR.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/R0Q5yoz.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/AAUn1Va.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/ImshwMc.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/6LjiODj.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/4JWpzHd.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/HeNxctU.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/4mxe93p.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/kAdJcIY.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/eDy2p2W.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/cCfgwPF.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/kCONsau.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/ajnFdrJ.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/3mnFKiJ.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/5ZnmmHf.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/UY2YUsX.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/lBf7F2C.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/OR03qUj.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * water + 1 * fermented_spider_eye + 3 * melon
+							<br />
+							<img src="https://i.imgur.com/PItmlEt.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * water + 1 * fermented_spider_eye + 6 * pumpkin
+							<br />
+							<img src="https://i.imgur.com/x3wJ9JK.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * fermented_spider_eye + 8 * #saplings
+							<br />
+							<img src="https://i.imgur.com/U6sOIum.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/YiGANsr.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/wjqBNyZ.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/tNiYveE.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/pRWKNaK.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/4FLlDS2.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * fermented_spider_eye + 8 * #leaves
+							<br />
+							<img src="https://i.imgur.com/5aVws2z.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/bx8aIk6.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/g5LlDco.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/ayXgX1Z.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/UbUktAD.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/XPRz9mU.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * water + 1 * fermented_spider_eye + 1 * string + 6 * white_wool
+							<br />
+							<img src="https://i.imgur.com/ikcwyYJ.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * water + 6 * #mushroom_block
+							<br />
+							<img src="https://i.imgur.com/f8SuHPj.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/aV89StR.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/vgOg0mn.png" class="minecraft_craftingtable" />
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>soul_sand</td>
+				<td>
+					= 1 * #sand + 1 * fermented_spider_eye + 1 * water + 1 * nether_wart_block + 1 * nether_wart
+					<br />
+					<img src="https://i.imgur.com/Fy7YlhQ.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/LiR9WIZ.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li>oak_sapling</li>
+						<li>spruce_sapling</li>
+						<li>birch_sapling</li>
+						<li>jungle_sapling</li>
+						<li>acacia_sapling</li>
+						<li>dark_oak_sapling</li>
+					</ul>
+				</td>
+				<td>
+					= 1 * stick + 8 * #leaves
+					<br />
+					<img src="https://i.imgur.com/TaegBd5.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/xg305t4.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/YBUPGPU.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/OsYADwZ.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/B39wupK.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/QePp5va.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>string [4]</td>
+				<td>
+					= 1 * white_wool [Shapeless]
+					<br />
+					<img src="https://i.imgur.com/Som00Vk.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>string [9]</td>
+				<td>
+					= 1 * cobweb [Shapeless]
+					<br />
+					<img src="https://i.imgur.com/4HWdtxf.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>clock [9]</td>
+				<td>
+					= 4 * gold_block + 1 * redstone_block
+					<br />
+					<img src="https://i.imgur.com/gPlWOEp.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>compass [9]</td>
+				<td>
+					= 4 * iron_block + 1 * redstone_block
+					<br />
+					<img src="https://i.imgur.com/3NlvWHf.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<ul>
+						<li>oak_pressure_plate</li>
+						<li>spruce_pressure_plate</li>
+						<li>birch_pressure_plate</li>
+						<li>jungle_pressure_plate</li>
+						<li>acacia_pressure_plate</li>
+						<li>dark_oak_pressure_plate</li>
+					</ul>
+					[4]
+				</td>
+				<td>
+					= 2 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/LGx74v1.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/MggwHZI.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/zNlRn22.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/vtNKZ0o.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/Zez8JHF.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/bxizc8j.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>heavy_weighted_pressure_plate [9]</td>
+				<td>
+					= 2 * iron_block
+					<br />
+					<img src="https://i.imgur.com/X52zoK0.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>light_weighted_pressure_plate [9]</td>
+				<td>
+					= 2 * gold_block
+					<br />
+					<img src="https://i.imgur.com/6QcuerE.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>bowl [16]</td>
+				<td>
+					= 3 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/q3qosm9.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>bucket [9]</td>
+				<td>
+					= 3 * iron_block
+					<br />
+					<img src="https://i.imgur.com/PwfMZKx.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>cauldron [9]</td>
+				<td>
+					= 7 * iron_block
+					<br />
+					<img src="https://i.imgur.com/r5FA6sk.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>minecart [9]</td>
+				<td>
+					= 5 * iron_block
+					<br />
+					<img src="https://i.imgur.com/JDAiihl.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>chest_minecart</td>
+				<td>
+					<ul>
+						<li>
+							= 1 * chest + 5 * iron_ingot
+							<br />
+							<img src="https://i.imgur.com/CKHHj3y.png" class="minecraft_craftingtable" />
+							<img src="https://i.imgur.com/zRO1x0X.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 2 * #logs/#woods + 5 * iron_ingot
+							<br />
+							<img src="https://i.imgur.com/9UhkUgG.png" class="minecraft_craftingtable" />
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>furnace_minecart</td>
+				<td>
+					= 1 * furnace + 5 * iron_ingot
+					<br />
+					<img src="https://i.imgur.com/ak6TAti.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/VfuxbsK.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>hopper_minecart</td>
+				<td>
+					= 1 * hopper + 5 * iron_ingot
+					<br />
+					<img src="https://i.imgur.com/GIxwgXO.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/1ALoY6d.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>tnt_minecart</td>
+				<td>
+					= 1 * tnt + 5 * iron_ingot
+					<br />
+					<img src="https://i.imgur.com/LSUCyjD.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/DL1ABMq.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>repeater</td>
+				<td>
+					= 3 * redstone + 2 * stick + 3 * stone
+					<br />
+					<img src="https://i.imgur.com/3W1yPL4.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> anvil
+				</td>
+				<td>
+					<ul>
+						<li>
+							= 1 * chipped_anvil + 8 * iron_ingot
+							<br />
+							<img src="https://i.imgur.com/eITmyZH.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * damaged_anvil + 1 * iron_block + 7 * iron_ingot
+							<br />
+							<img src="https://i.imgur.com/6D0oiL2.png" class="minecraft_craftingtable" />
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> chipped_anvil
+				</td>
+				<td>
+					= 1 * damaged_anvil + 8 * iron_ingot
+					<br />
+					<img src="https://i.imgur.com/W0HYYAj.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> petrified_oak_slab [2]
+				</td>
+				<td>
+					= 2 * oak_slab + 2 * stone_slab
+					<br />
+					<img src="https://i.imgur.com/mtwXx5l.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<span style="color: #0000ff;">[1.2.0+]</span>
+					</p>
+					<ul>
+						<li>oak_door</li>
+						<li>spruce_door</li>
+						<li>birch_door</li>
+						<li>jungle_door</li>
+						<li>acacia_door</li>
+						<li>dark_oak_door</li>
+					</ul>
+					<p>[12]</p>
+				</td>
+				<td>
+					= 6 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/BfXNS6r.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/VI7eU2v.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/felkj2S.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/8MFkYIt.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/fqG0ao6.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/B5NblPl.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<span style="color: #0000ff;">[1.2.0+]</span>
+					</p>
+					<ul>
+						<li>oak_trapdoor</li>
+						<li>spruce_trapdoor</li>
+						<li>birch_trapdoor</li>
+						<li>jungle_trapdoor</li>
+						<li>acacia_trapdoor</li>
+						<li>dark_oak_trapdoor</li>
+					</ul>
+					<p>[8]</p>
+				</td>
+				<td>
+					= 6 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/ahWPX8z.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/r6odRgH.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/O9mNLCk.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/VpmT8Vn.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/RnjCc7v.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/gVS6ZMU.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> iron_door [27]
+				</td>
+				<td>
+					= 6 * iron_block
+					<br />
+					<img src="https://i.imgur.com/ruT4CBU.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> iron_trapdoor [9]
+				</td>
+				<td>
+					= 4 * iron_block
+					<br />
+					<img src="https://i.imgur.com/Bx1juMq.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> book
+				</td>
+				<td>
+					<ul>
+						<li>
+							= 1 * leather + 3 * sugar_cane
+							<br />
+							<img src="https://i.imgur.com/l2Vv5TZ.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 4 * rabbit_hide + 3 * paper
+							<br />
+							<img src="https://i.imgur.com/SUIp3rG.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 4 * rabbit_hide + 3 * sugar_cane
+							<br />
+							<img src="https://i.imgur.com/9Makuti.png" class="minecraft_craftingtable" />
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> writable_book
+				</td>
+				<td>
+					<ul>
+						<li>
+							= 1 * leather + 3 * paper + 1 * feather + 1 * ink_sac
+							<br />
+							<img src="https://i.imgur.com/Bt9u6Gg.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * leather + 3 * sugar_cane + 1 * feather + 1 * ink_sac
+							<br />
+							<img src="https://i.imgur.com/3mNdf2i.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 4 * rabbit_hide + 3 * paper + 1 * feather + 1 * ink_sac
+							<br />
+							<img src="https://i.imgur.com/dr9VfiV.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 4 * rabbit_hide + 3 * sugar_cane + 1 * feather + 1 * ink_sac
+							<br />
+							<img src="https://i.imgur.com/Te6HdDe.png" class="minecraft_craftingtable" />
+						</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> sponge
+				</td>
+				<td>
+					= 2 * yellow_wool + 2 * green_wool + 1 * slime_ball
+					<br />
+					<img src="https://i.imgur.com/wIT54M3.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/9P8feWF.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> tnt
+				</td>
+				<td>
+					= 4 * #sand + 5 * gunpowder
+					<br />
+					<img src="https://i.imgur.com/qbu1sLF.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> ladder [6]
+				</td>
+				<td>
+					= 7 * #planks
+					<br />
+					<img src="https://i.imgur.com/m6OZtHH.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> ladder [24]
+				</td>
+				<td>
+					= 7 * #logs/#woods
+					<br />
+					<img src="https://i.imgur.com/qGlTMQ0.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_quartz [2]
+				</td>
+				<td>
+					= 4 * quartz_slab
+					<br />
+					<img src="https://i.imgur.com/8jPF5h4.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_sandstone [2]
+				</td>
+				<td>
+					= 4 * sandstone_slab
+					<br />
+					<img src="https://i.imgur.com/qyN96h5.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_red_sandstone [2]
+				</td>
+				<td>
+					= 4 * red_sandstone_slab
+					<br />
+					<img src="https://i.imgur.com/Hi7ld8C.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_stone [2]
+				</td>
+				<td>
+					= 4 * stone_slab
+					<br />
+					<img src="https://i.imgur.com/1TFJlzO.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> chainmail_helmet
+				</td>
+				<td>
+					= 5 * iron_bars
+					<br />
+					<img src="https://i.imgur.com/2OTxHiu.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> chainmail_chestplate
+				</td>
+				<td>
+					= 8 * iron_bars
+					<br />
+					<img src="https://i.imgur.com/6mv4G1y.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> chainmail_leggings
+				</td>
+				<td>
+					= 7 * iron_bars
+					<br />
+					<img src="https://i.imgur.com/3n9w0Z3.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> chainmail_boots
+				</td>
+				<td>
+					= 4 * iron_bars
+					<br />
+					<img src="https://i.imgur.com/6r3QoUh.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> totem_of_undying
+				</td>
+				<td>
+					= 2 * ender_crystal + 2 * gold_block + 3 * gold_ingot + 1 * soul_sand + 1 * dragon_breath
+					<br />
+					<img src="https://i.imgur.com/KxJcqsJ.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> brick [4]
+				</td>
+				<td>
+					= 1 * bricks
+					<br />
+					<img src="https://i.imgur.com/5caK7Zg.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> nether_brick [4]
+				</td>
+				<td>
+					= 1 * nether_bricks
+					<br />
+					<img src="https://i.imgur.com/tXXd7jF.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span>
+					<ul>
+						<li>cobblestone</li>
+						<li>bricks</li>
+						<li>stone_bricks</li>
+						<li>stone</li>
+						<li>nether_bricks</li>
+						<li>sandstone</li>
+						<li>quartz_block</li>
+						<li>red_sandstone</li>
+						<li>purpur_block</li>
+						<li>prismarine</li>
+						<li>prismarine_bricks</li>
+						<li>dark_prismarine</li>
+					</ul>
+				</td>
+				<td>
+					= 2 *
+					<em>#slab</em>
+					<br />
+					<img src="https://i.imgur.com/jghLtDI.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/cezBo1m.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/vFJzFfE.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/AI8Qr9A.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/u8bcdJU.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/YZGaRSD.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/77HN4qP.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/3DFWxzt.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/OdN23zh.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/rxrYMMn.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/Dk4icEm.png" class="minecraft_craftingtable" />
+					<img src="https://i.imgur.com/cZXVh3W.png" class="minecraft_craftingtable" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> dispenser
+				</td>
+				<td>
+					<ul>
+						<li>
+							= 1 * dropper + 1 * bow
+							<br />
+							<img src="https://i.imgur.com/zghOt8c.png" class="minecraft_craftingtable" />
+						</li>
+						<li>
+							= 1 * dropper + 3 * stick + 3 * string
+							<br />
+							<img src="https://i.imgur.com/XMBN1kN.png" class="minecraft_craftingtable" />
+						</li>
+					</ul>
+				</td>
+			</tr>
 		</tbody>
-		</table>
+	</table>
 
-		### Recipe List (Added, Smelting)<br />配方表（已增加，冶煉）
-		<table><tbody>
-		<tr align"center">
-		<td><b>Item ID<br />物品ID<br /></b></td>
-		<td><b>Recipe<br />配方</b></td>
-		</tr>
-		<tr>
-		<td>quartz</td>
-		<td>= 1 * diorite [+400 Tick]<br /><img src="https://i.imgur.com/uEdbJ6Z.png" alt="" width="164" height="108" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> coal</td>
-		<td>= 1 * charcoal [+200 Tick]<br /><img src="https://i.imgur.com/DFre4Cq.png" width="164" height="108" /></td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.1+]</span> stone_slab</td>
-		<td>= 1 * cobblestone_slab [+100 Tick]<br /><img src="https://i.imgur.com/RABfgBf.png" width="164" height="108" /></td>
-		</tr>
+	### Recipe List (Added, Smelting)
+	<br />配方表（已增加，冶煉）
+	<table>
+		<tbody>
+			<tr align"center">
+				<td>
+					<b>Item ID<br />物品ID<br /></b>
+				</td>
+				<td>
+					<b>Recipe<br />配方</b>
+				</td>
+			</tr>
+			<tr>
+				<td>quartz</td>
+				<td>
+					= 1 * diorite [+400 Tick]
+					<br />
+					<img src="https://i.imgur.com/uEdbJ6Z.png" alt="" width="164" height="108" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> coal
+				</td>
+				<td>
+					= 1 * charcoal [+200 Tick]
+					<br />
+					<img src="https://i.imgur.com/DFre4Cq.png" width="164" height="108" />
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.1+]</span> stone_slab
+				</td>
+				<td>
+					= 1 * cobblestone_slab [+100 Tick]
+					<br />
+					<img src="https://i.imgur.com/RABfgBf.png" width="164" height="108" />
+				</td>
+			</tr>
 		</tbody>
-		</table>
+	</table>
 
-		### Recipe List (Added, Drop Item Crafting)<br />配方表（已增加，扔物品合成）
-		<p><b>Basic Structure: <br />基礎結構：</b></p>
-		<p>y: ~ = cauldron, <br />y: ~-1 = fire<br /><img src="https://i.imgur.com/YW87lQi.png" width="192" height="108" /></p>
-		<table>
+	### Recipe List (Added, Drop Item Crafting)
+	<br />配方表（已增加，扔物品合成）
+	<p>
+		<b>Basic Structure: <br />基礎結構：</b>
+	</p>
+	<p>
+		y: ~ = cauldron,
+		<br />y: ~-1 = fire
+		<br />
+		<img src="https://i.imgur.com/YW87lQi.png" width="192" height="108" />
+	</p>
+	<table>
 		<tbody>
-		<tr align"center">
-		<td><b>Item ID<br />物品ID<br /></b></td>
-		<td><b>Recipe (Step)<br />配方（步驟）</b></td>
-		</tr>
-		<tr>
-		<td>dirt</td>
-		<td>
-		<blockquote>
-		<p style="text-align: center;">= cauldron ( 1 * water + 1 * fermented_spider_eye + [A] )</p>
-		</blockquote>
-		<table>
+			<tr align"center">
+				<td>
+					<b>Item ID<br />物品ID<br /></b>
+				</td>
+				<td>
+					<b>Recipe (Step)<br />配方（步驟）</b>
+				</td>
+			</tr>
+			<tr>
+				<td>dirt</td>
+				<td>
+					<blockquote>
+						<p style="text-align: center;">= cauldron ( 1 * water + 1 * fermented_spider_eye + [A] )</p>
+					</blockquote>
+					<table>
+						<tbody>
+							<tr align"center">
+								<td>
+									<b>[A]</b>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<ul>
+										<li>
+											<span color="#0000ff">[1.2.0+]</span> 48 * kelp
+										</li>
+										<li>
+											<span style="color: #0000ff;">[1.2.0+]</span> 32 * seagrass
+										</li>
+										<li>
+											<span style="color: #0000ff;">[1.2.0+]</span> 26 * grass
+										</li>
+										<li>
+											<span style="color: #0000ff;">[1.2.0+]</span> 26 * fern
+										</li>
+										<li>25 * melon_slice</li>
+										<li>25 * string</li>
+										<li>13 * carrot</li>
+										<li>13 * egg</li>
+										<li>13 * potato</li>
+										<li>13 * baked_potato</li>
+										<li>13 * poisonous_potato</li>
+										<li>13 * spider_eye</li>
+										<li>13 * sugar_cane</li>
+										<li>13 * tall_grass</li>
+										<li>
+											<span style="color: #0000ff;">[1.2.0+]</span> 13 * large_fern
+										</li>
+										<li>13 * wheat</li>
+										<li>10 * apple</li>
+										<li>10 * cactus</li>
+										<li>10 * lily_pad</li>
+										<li>10 * brown_mushroom</li>
+										<li>10 * red_mushroom</li>
+										<li>10 * rotten_flesh</li>
+										<li>10 * vine</li>
+										<li>8 * oak_leaves</li>
+										<li>8 * spruce_leaves</li>
+										<li>8 * birch_leaves</li>
+										<li>8 * jungle_leaves</li>
+										<li>8 * acacia_leaves</li>
+										<li>8 * dark_oak_leaves</li>
+										<li>8 * oak_sapling</li>
+										<li>8 * spruce_sapling</li>
+										<li>8 * birch_sapling</li>
+										<li>8 * jungle_sapling</li>
+										<li>8 * acacia_sapling</li>
+										<li>8 * dark_oak_sapling</li>
+										<li>7 * cod</li>
+										<li>7 * cooked_cod</li>
+										<li>7 * salmon</li>
+										<li>7 * cooked_salmon</li>
+										<li>7 * tropical_fish</li>
+										<li>7 * pufferfish</li>
+										<li>7 * bread</li>
+										<li>7 * pumpkin_pie</li>
+										<li>6 * pumpkin</li>
+										<li>5 * porkchop</li>
+										<li>5 * cooked_porkchop</li>
+										<li>5 * beef</li>
+										<li>5 * cooked_beef</li>
+										<li>5 * chicken</li>
+										<li>5 * cooked_chicken</li>
+										<li>5 * rabbit</li>
+										<li>5 * cooked_rabbit</li>
+										<li>5 * mutton</li>
+										<li>5 * cooked_mutton</li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>soul_sand</td>
+				<td>
+					<blockquote>
+						<p style="text-align: center;">= cauldron ( 1 * water + [A] + 1 * fermented_spider_eye + 10 * nether_wart )</p>
+					</blockquote>
+					<table>
+						<tbody>
+							<tr>
+								<td style="text-align: center;">
+									<strong>[A]</strong>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<ul>
+										<li>1 * sand</li>
+										<li>1 * red_sand</li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> leather
+				</td>
+				<td style="text-align: center;">
+					<blockquote>= cauldron ( 1 * sugar + 4 * rotten_flesh )</blockquote>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<span style="color: #0000ff;">[1.2.0+]</span> clay
+				</td>
+				<td style="text-align: center;">
+					<blockquote>= cauldron ( 1 * water + 1 * dirt + 1 * light_blue_dye + 1 * bone_meal + 1 * slime_ball )</blockquote>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<hr />
+	<p>
+		<strong>Basic Structure:&nbsp;<br />基礎結構：</strong>
+	</p>
+	<p>
+		y: ~ = water,&nbsp;
+		<br />y: ~-1 = crafting_table
+	</p>
+	<p>
+		<span style="color: #ff0000;">Recommended using unlimited water source instead of using water bucket to fill</span>
+		<br />
+		<span style="color: #ff0000;">建議使用無限量的水源以代替使用水桶填充水</span>
+		<br />
+		<img src="https://i.imgur.com/tIz5E77.png" width="192" height="108" />
+	</p>
+	<table>
 		<tbody>
-		<tr align"center">
-		<td><b>[A]</b></td>
-		</tr>
-		<tr>
-		<td>
-		<ul>
-		<li><span color="#0000ff">[1.2.0+]</span> 48 * kelp</li>
-		<li><span style="color: #0000ff;">[1.2.0+]</span> 32 * seagrass</li>
-		<li><span style="color: #0000ff;">[1.2.0+]</span> 26 * grass</li>
-		<li><span style="color: #0000ff;">[1.2.0+]</span> 26 * fern</li>
-		<li>25 * melon_slice</li>
-		<li>25 * string</li>
-		<li>13 * carrot</li>
-		<li>13 * egg</li>
-		<li>13 * potato</li>
-		<li>13 * baked_potato</li>
-		<li>13 * poisonous_potato</li>
-		<li>13 * spider_eye</li>
-		<li>13 * sugar_cane</li>
-		<li>13 * tall_grass</li>
-		<li><span style="color: #0000ff;">[1.2.0+]</span> 13 * large_fern</li>
-		<li>13 * wheat</li>
-		<li>10 * apple</li>
-		<li>10 * cactus</li>
-		<li>10 * lily_pad</li>
-		<li>10 * brown_mushroom</li>
-		<li>10 * red_mushroom</li>
-		<li>10 * rotten_flesh</li>
-		<li>10 * vine</li>
-		<li>8 * oak_leaves</li>
-		<li>8 * spruce_leaves</li>
-		<li>8 * birch_leaves</li>
-		<li>8 * jungle_leaves</li>
-		<li>8 * acacia_leaves</li>
-		<li>8 * dark_oak_leaves</li>
-		<li>8 * oak_sapling</li>
-		<li>8 * spruce_sapling</li>
-		<li>8 * birch_sapling</li>
-		<li>8 * jungle_sapling</li>
-		<li>8 * acacia_sapling</li>
-		<li>8 * dark_oak_sapling</li>
-		<li>7 * cod</li>
-		<li>7 * cooked_cod</li>
-		<li>7 * salmon</li>
-		<li>7 * cooked_salmon</li>
-		<li>7 * tropical_fish</li>
-		<li>7 * pufferfish</li>
-		<li>7 * bread</li>
-		<li>7 * pumpkin_pie</li>
-		<li>6 * pumpkin</li>
-		<li>5 * porkchop</li>
-		<li>5 * cooked_porkchop</li>
-		<li>5 * beef</li>
-		<li>5 * cooked_beef</li>
-		<li>5 * chicken</li>
-		<li>5 * cooked_chicken</li>
-		<li>5 * rabbit</li>
-		<li>5 * cooked_rabbit</li>
-		<li>5 * mutton</li>
-		<li>5 * cooked_mutton</li>
-		</ul>
-		</td>
-		</tr>
+			<tr>
+				<td style="text-align: center;">
+					<strong>Item ID<br />物品ID<br /></strong>
+				</td>
+				<td style="text-align: center;">
+					<strong>Recipe (Step)<br />配方（步驟）</strong>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<span style="color: #0000ff;">[1.2.0+]</span>
+					</p>
+					<ul>
+						<li>white_concrete</li>
+						<li>orange_concrete</li>
+						<li>magenta_concrete</li>
+						<li>light_blue_concrete</li>
+						<li>yellow_concrete</li>
+						<li>lime_concrete</li>
+						<li>pink_concrete</li>
+						<li>gray_concrete</li>
+						<li>light_gray_concrete</li>
+						<li>cyan_concrete</li>
+						<li>purple_concrete</li>
+						<li>blue_concrete</li>
+						<li>brown_concrete</li>
+						<li>green_concrete</li>
+						<li>red_concrete</li>
+						<li>black_concrete</li>
+					</ul>
+				</td>
+				<td>
+					<blockquote>
+						<p style="text-align: center;">= water ( [A] )</p>
+					</blockquote>
+					<table>
+						<tbody>
+							<tr>
+								<td style="text-align: center;">
+									<strong>[A]</strong>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<ul>
+										<li>1 * white_concrete_powder</li>
+										<li>1 * orange_concrete_powder</li>
+										<li>1 * magenta_concrete_powder</li>
+										<li>1 * light_blue_concrete_powder</li>
+										<li>1 * yellow_concrete_powder</li>
+										<li>1 * lime_concrete_powder</li>
+										<li>1 * pink_concrete_powder</li>
+										<li>1 * gray_concrete_powder</li>
+										<li>1 * light_gray_concrete_powder</li>
+										<li>1 * cyan_concrete_powder</li>
+										<li>1 * purple_concrete_powder</li>
+										<li>1 * blue_concrete_powder</li>
+										<li>1 * brown_concrete_powder</li>
+										<li>1 * green_concrete_powder</li>
+										<li>1 * red_concrete_powder</li>
+										<li>1 * black_concrete_powder</li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
 		</tbody>
-		</table>
-		</td>
-		</tr>
-		<tr>
-		<td>soul_sand</td>
-		<td>
-		<blockquote>
-		<p style="text-align: center;">= cauldron ( 1 * water + [A] + 1 * fermented_spider_eye + 10 * nether_wart )</p>
-		</blockquote>
-		<table>
-		<tbody>
-		<tr>
-		<td style="text-align: center;"><strong>[A]</strong></td>
-		</tr>
-		<tr>
-		<td>
-		<ul>
-		<li>1 * sand</li>
-		<li>1 * red_sand</li>
-		</ul>
-		</td>
-		</tr>
-		</tbody>
-		</table>
-		</td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> leather</td>
-		<td style="text-align: center;">
-		<blockquote>= cauldron ( 1 * sugar + 4 * rotten_flesh )</blockquote>
-		</td>
-		</tr>
-		<tr>
-		<td><span style="color: #0000ff;">[1.2.0+]</span> clay</td>
-		<td style="text-align: center;">
-		<blockquote>= cauldron ( 1 * water + 1 * dirt + 1 * light_blue_dye + 1 * bone_meal + 1 * slime_ball )</blockquote>
-		</td>
-		</tr>
-		</tbody>
-		</table>
-		<hr />
-		<p><strong>Basic Structure:&nbsp;<br />基礎結構：</strong></p>
-		<p>y: ~ = water,&nbsp;<br />y: ~-1 = crafting_table</p>
-		<p><span style="color: #ff0000;">Recommended using unlimited water source instead of using water bucket to fill</span><br /><span style="color: #ff0000;">建議使用無限量的水源以代替使用水桶填充水</span><br /><img src="https://i.imgur.com/tIz5E77.png" width="192" height="108" /></p>
-		<table>
-		<tbody>
-		<tr>
-		<td style="text-align: center;"><strong>Item ID<br />物品ID<br /></strong></td>
-		<td style="text-align: center;"><strong>Recipe (Step)<br />配方（步驟）</strong></td>
-		</tr>
-		<tr>
-		<td>
-		<p><span style="color: #0000ff;">[1.2.0+]</span></p>
-		<ul>
-		<li>white_concrete</li>
-		<li>orange_concrete</li>
-		<li>magenta_concrete</li>
-		<li>light_blue_concrete</li>
-		<li>yellow_concrete</li>
-		<li>lime_concrete</li>
-		<li>pink_concrete</li>
-		<li>gray_concrete</li>
-		<li>light_gray_concrete</li>
-		<li>cyan_concrete</li>
-		<li>purple_concrete</li>
-		<li>blue_concrete</li>
-		<li>brown_concrete</li>
-		<li>green_concrete</li>
-		<li>red_concrete</li>
-		<li>black_concrete</li>
-		</ul>
-		</td>
-		<td>
-		<blockquote>
-		<p style="text-align: center;">= water ( [A] )</p>
-		</blockquote>
-		<table>
-		<tbody>
-		<tr>
-		<td style="text-align: center;"><strong>[A]</strong></td>
-		</tr>
-		<tr>
-		<td>
-		<ul>
-		<li>1 * white_concrete_powder</li>
-		<li>1 * orange_concrete_powder</li>
-		<li>1 * magenta_concrete_powder</li>
-		<li>1 * light_blue_concrete_powder</li>
-		<li>1 * yellow_concrete_powder</li>
-		<li>1 * lime_concrete_powder</li>
-		<li>1 * pink_concrete_powder</li>
-		<li>1 * gray_concrete_powder</li>
-		<li>1 * light_gray_concrete_powder</li>
-		<li>1 * cyan_concrete_powder</li>
-		<li>1 * purple_concrete_powder</li>
-		<li>1 * blue_concrete_powder</li>
-		<li>1 * brown_concrete_powder</li>
-		<li>1 * green_concrete_powder</li>
-		<li>1 * red_concrete_powder</li>
-		<li>1 * black_concrete_powder</li>
-		</ul>
-		</td>
-		</tr>
-		</tbody>
-		</table>
-		</td>
-		</tr>
-		</tbody>
-		</table>
+	</table>
 
-		### Recipe List (Added, Stackable)<br />配方表（已增加，堆疊式）
-		<table>
+	### Recipe List (Added, Stackable)
+	<br />配方表（已增加，堆疊式）
+	<table>
 		<tbody>
-		<tr>
-		<td style="text-align: center;"><strong>Item ID<br />物品ID<br /></strong></td>
-		</tr>
-		<tr>
-		<td>
-		<p><span style="color: #0000ff;">[1.2.0+]</span></p>
-		<ul>
-		<li>oak_boat</li>
-		<li>spruce_boat</li>
-		<li>birch_boat</li>
-		<li>jungle_boat</li>
-		<li>acacia_boat</li>
-		<li>dark_oak_boat</li>
-		<li>minecart</li>
-		<li>chest_minecart</li>
-		<li>furnace_minecart</li>
-		<li>hopper_minecart</li>
-		<li>tnt_minecart</li>
-		<li>white_bed</li>
-		<li>orange_bed</li>
-		<li>magenta_bed</li>
-		<li>light_blue_bed</li>
-		<li>yellow_bed</li>
-		<li>lime_bed</li>
-		<li>pink_bed</li>
-		<li>gray_bed</li>
-		<li>light_gray_bed</li>
-		<li>cyan_bed</li>
-		<li>purple_bed</li>
-		<li>blue_bed</li>
-		<li>brown_bed</li>
-		<li>green_bed</li>
-		<li>red_bed</li>
-		<li>black_bed</li>
-		</ul>
-		</td>
-		</tr>
+			<tr>
+				<td style="text-align: center;">
+					<strong>Item ID<br />物品ID<br /></strong>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<p>
+						<span style="color: #0000ff;">[1.2.0+]</span>
+					</p>
+					<ul>
+						<li>oak_boat</li>
+						<li>spruce_boat</li>
+						<li>birch_boat</li>
+						<li>jungle_boat</li>
+						<li>acacia_boat</li>
+						<li>dark_oak_boat</li>
+						<li>minecart</li>
+						<li>chest_minecart</li>
+						<li>furnace_minecart</li>
+						<li>hopper_minecart</li>
+						<li>tnt_minecart</li>
+						<li>white_bed</li>
+						<li>orange_bed</li>
+						<li>magenta_bed</li>
+						<li>light_blue_bed</li>
+						<li>yellow_bed</li>
+						<li>lime_bed</li>
+						<li>pink_bed</li>
+						<li>gray_bed</li>
+						<li>light_gray_bed</li>
+						<li>cyan_bed</li>
+						<li>purple_bed</li>
+						<li>blue_bed</li>
+						<li>brown_bed</li>
+						<li>green_bed</li>
+						<li>red_bed</li>
+						<li>black_bed</li>
+					</ul>
+				</td>
+			</tr>
 		</tbody>
-		</table>
+	</table>
 </div>
