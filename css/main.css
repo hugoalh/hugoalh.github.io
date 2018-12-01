@@ -90,15 +90,6 @@ hugoalh.github.io Website Style
 	outline: 0px;
 	padding: 0px;
 }
-.frameless {
-	display: block;
-	position: absolute;
-	box-sizing: border-box;
-	margin: 0px;
-	border: 0px;
-	outline: 0px;
-	padding: 0px;
-}
 #initialscreen {
 	z-index: 10;
 	display: block;
@@ -188,6 +179,9 @@ hugoalh.github.io Website Style
 }
 	#page > #content {
 		box-sizing: border-box;
+		margin: 0px;
+		border: 0px;
+		outline: 0px;
 		padding: 8px;
 		width: 100%;
 		height: 100%;
