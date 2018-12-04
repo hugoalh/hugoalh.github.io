@@ -61,25 +61,19 @@ window.onpopstate = function() {
 
 /*Load Navigation*/
 $(function() {
-		$("#navigation_top").load("/navigation/top.html-embed");
-		$("#navigation_left").load("/navigation/left.html-embed", function(response, status, xhr) {
-			if (status == "success") {
-				$.getJSON("/package.json", function(json_package) {
-					website_version = json_package.version;
-					document.getElementById("websiteversion").innerHTML = website_version;
-				});
-				website_urlpageparameter_get();
-				document.getElementById("blur").addEventListener("click", navigation_left_close);
-				$("#navigation_left #menu a").click(function(event) {
-					event.preventDefault()/*Prevent browser to execute default action*/;
-					var self_href = this.getAttribute("href");
-					history.pushState("", "hugoalh", self_href);
-					website_urlpageparameter_get();
-					navigation_left_close();
-				});
-				document.getElementById("initialscreen").style.display = "none";
-				$("#initialscreen").remove();
-			};
-		});
-	}
-);
+	$.getJSON("/package.json", function(json_package) {
+		website_version = json_package.version;
+		document.getElementById("websiteversion").innerHTML = website_version;
+	});
+	website_urlpageparameter_get();
+	document.getElementById("blur").addEventListener("click", navigation_left_close);
+	$("#navigation_left #menu a").click(function(event) {
+		event.preventDefault()/*Prevent browser to execute default action*/;
+		var self_href = this.getAttribute("href");
+		history.pushState("", "hugoalh", self_href);
+		website_urlpageparameter_get();
+		navigation_left_close();
+	});
+	document.getElementById("initialscreen").style.display = "none";
+	$("#initialscreen").remove();
+});
