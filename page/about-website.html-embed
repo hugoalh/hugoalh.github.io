@@ -69,7 +69,7 @@
 							Version
 							<br />版本
 						</td>
-						<td>1.29.0</td>
+						<td>1.30.0</td>
 					</tr>
 					<tr>
 						<td>
@@ -121,7 +121,7 @@
 							Version
 							<br />版本
 						</td>
-						<td>0.2.0</td>
+						<td>0.14.0</td>
 					</tr>
 					<tr>
 						<td>
@@ -257,9 +257,7 @@
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
 						</td>
-						<td>
-							<a href="https://www.AndrewTyler.net">Andrew Tyler</a>
-						</td>
+						<td>Andrew Tyler</td>
 					</tr>
 					<tr style="display: none;">
 						<td>
