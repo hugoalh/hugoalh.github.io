@@ -50,8 +50,8 @@ window.addEventListener("resize", function() {
 		$("#navigation_left #menu a").removeClass("navigation_currentpage");
 		$(urlpageparameter_encode).addClass("navigation_currentpage");
 		urlpageparameter = urlpageparameter.replace(/,/g, "/");
-		urlpageparameter = urlpageparameter.replace(/\2c /g, "/");
-		page_needload = "/page/" + urlpageparameter + ".html-embed";
+		urlpageparameter = urlpageparameter.replace(/\2c /g, "/");//lgtm[js/regex/unbound-back-reference]
+		var page_needload = "/page/" + urlpageparameter + ".html-embed";
 		$("#page").load(page_needload, function(response, status, xhr) {
 			if (status == "error" || status == "timeout" || status == "abort" || status == "parsererror") {
 				$("#page").load("/page/404.html-embed");

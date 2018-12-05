@@ -1,11 +1,12 @@
 {
 	"name": "hugoalh.github.io",
-	"description": "hugoalh.github.io",
-	"version": "18.1205.1",
+	"description": "hugoalh's Website",
+	"version": "18.1205.2",
 	"author": "hugoalh",
 	"keywords": [
 		"hugoalh",
-		"github"
+		"github",
+		"personal-website"
 	],
 	"license": "",
 	"repository": {
