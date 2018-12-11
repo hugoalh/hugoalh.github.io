@@ -1,11 +1,11 @@
-/*==================================================
+/*==========
 Cookie
 	Author
 		hugoalh
-	Program Language
+	Language
 		JavaScript/ECMAScript 6/7/8
 		Cookie
-==================================================*/
+==========*/
 /*Set Cookie*/
 function cookie_set(name, value, expiretime) {
 	var domain_set = location.hostname;

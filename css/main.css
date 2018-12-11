@@ -1,10 +1,10 @@
-/*==================================================
-hugoalh.github.io Website Style
+/*==========
+hugoalh.github.io Style Sheet
 	Author
 		hugoalh
-	Program Language
+	Language
 		CSS 3
-==================================================*/
+==========*/
 @charset "UTF-8"/*Prevent issue in GB2312 computer*/;
 
 /*Import*/
@@ -13,7 +13,7 @@ hugoalh.github.io Website Style
 	@import url("/font/gothic-a1.css");
 	@import url("/font/minecraftia.css");
 
-/*Standard*/
+/*Variable*/
 :root {
 	/*Dimension*/
 	--navigation_top_height: 48px;
