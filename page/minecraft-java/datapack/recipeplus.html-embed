@@ -113,18 +113,18 @@
 		Recipe List (Tweaked)
 		<br />配方表（已調整）
 	</h3>
-	<table class="type_top type_color zebra_horizontal">
+	<table class="zebra_horizontal">
 		<tbody>
 			<tr style="text-align: center;">
-				<td>
+				<th class="color">
 					Item ID
 					<br />物品ID
 					<br />
-				</td>
-				<td>
+				</th>
+				<th class="color">
 					New Recipe
 					<br />新配方
-				</td>
+				</th>
 			</tr>
 			<tr>
 				<td>
@@ -315,7 +315,7 @@
 					<span style="color: #0000ff;">[1.2.0+]</span> carrot_on_a_stick
 				</td>
 				<td>
-					1 * fishing_rod + 1 * carrot = 1 *&nbsp;carrot_on_a_stick
+					1 * fishing_rod + 1 * carrot = 1 * carrot_on_a_stick
 					<span style="color: #ff0000;">[Shapeless]</span>
 					<br />
 					<img src="https://i.imgur.com/hFu555e.png" class="minecraft_craftingtable" />
@@ -327,7 +327,7 @@
 				</td>
 				<td>
 					1 * spider_eye +
-					<span style="color: #ff0000;">1 * #mushroom</span> + 1 * sugar = 1 *&nbsp;fermented_spider_eye
+					<span style="color: #ff0000;">1 * #mushroom</span> + 1 * sugar = 1 * fermented_spider_eye
 					<br />
 					<img src="https://i.imgur.com/MYSQACA.png" class="minecraft_craftingtable" />
 					<img src="https://i.imgur.com/HPfx5Ia.png" class="minecraft_craftingtable" />
@@ -339,7 +339,7 @@
 				</td>
 				<td>
 					4 * bricks +
-					<span style="color: #ff0000;">2 * brick</span> = 6 *&nbsp;nether_brick_fence
+					<span style="color: #ff0000;">2 * brick</span> = 6 * nether_brick_fence
 					<br />
 					<img src="https://i.imgur.com/z4cMUiq.png" class="minecraft_craftingtable" />
 				</td>
@@ -349,25 +349,26 @@
 					<span style="color: #0000ff;">[1.2.0+]</span> dark_prismarine
 				</td>
 				<td>
-					<span style="color: #ff0000;">4 * prismarine_shard</span> + 1 * ink_sac&nbsp;= 1 *&nbsp;dark_prismarine
+					<span style="color: #ff0000;">4 * prismarine_shard</span> + 1 * ink_sac = 1 * dark_prismarine
 					<br />
 					<img src="https://i.imgur.com/K2GfRBn.png" class="minecraft_craftingtable" />
 				</td>
 			</tr>
 		</tbody>
 	</table>
-
-	### Recipe List (Added, Crafting)
-	<br />配方表（已增加，合成）
-	<table>
+	<h3>
+		Recipe List (Added, Crafting)
+		<br />配方表（已增加，合成）
+	</h3>
+	<table class="zebra_horizontal">
 		<tbody>
-			<tr align"center">
-				<td>
+			<tr style="text-align: center;">
+				<th class="color">
 					<b>Item ID<br />物品ID<br /></b>
-				</td>
-				<td>
+				</th>
+				<th class="color">
 					<b>Recipe<br />配方<br /></b>
-				</td>
+				</th>
 			</tr>
 			<tr>
 				<td>
@@ -1095,7 +1096,7 @@
 			</tr>
 			<tr>
 				<td>
-					<span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_quartz [2]
+					<span style="color: #0000ff;">[1.2.0+]</span> smooth_quartz [2]
 				</td>
 				<td>
 					= 4 * quartz_slab
@@ -1105,7 +1106,7 @@
 			</tr>
 			<tr>
 				<td>
-					<span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_sandstone [2]
+					<span style="color: #0000ff;">[1.2.0+]</span> smooth_sandstone [2]
 				</td>
 				<td>
 					= 4 * sandstone_slab
@@ -1115,7 +1116,7 @@
 			</tr>
 			<tr>
 				<td>
-					<span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_red_sandstone [2]
+					<span style="color: #0000ff;">[1.2.0+]</span> smooth_red_sandstone [2]
 				</td>
 				<td>
 					= 4 * red_sandstone_slab
@@ -1125,7 +1126,7 @@
 			</tr>
 			<tr>
 				<td>
-					<span style="color: #0000ff;">[1.2.0+]</span>&nbsp;smooth_stone [2]
+					<span style="color: #0000ff;">[1.2.0+]</span> smooth_stone [2]
 				</td>
 				<td>
 					= 4 * stone_slab
@@ -1260,18 +1261,19 @@
 			</tr>
 		</tbody>
 	</table>
-
-	### Recipe List (Added, Smelting)
-	<br />配方表（已增加，冶煉）
-	<table>
+	<h3>
+		Recipe List (Added, Smelting)
+		<br />配方表（已增加，冶煉）
+	</h3>
+	<table class="zebra_horizontal">
 		<tbody>
-			<tr align"center">
-				<td>
+			<tr style="text-align: center;">
+				<th class="color">
 					<b>Item ID<br />物品ID<br /></b>
-				</td>
-				<td>
+				</th>
+				<th class="color">
 					<b>Recipe<br />配方</b>
-				</td>
+				</th>
 			</tr>
 			<tr>
 				<td>quartz</td>
@@ -1457,10 +1459,10 @@
 	</table>
 	<hr />
 	<p>
-		<strong>Basic Structure:&nbsp;<br />基礎結構：</strong>
+		<strong>Basic Structure: <br />基礎結構：</strong>
 	</p>
 	<p>
-		y: ~ = water,&nbsp;
+		y: ~ = water, 
 		<br />y: ~-1 = crafting_table
 	</p>
 	<p>
@@ -1543,15 +1545,16 @@
 			</tr>
 		</tbody>
 	</table>
-
-	### Recipe List (Added, Stackable)
-	<br />配方表（已增加，堆疊式）
-	<table>
+	<h3>
+		Recipe List (Added, Stackable)
+		<br />配方表（已增加，堆疊式）
+	</h3>
+	<table class="zebra_horizontal">
 		<tbody>
-			<tr>
-				<td style="text-align: center;">
+			<tr style="text-align: center;">
+				<th class="color">
 					<strong>Item ID<br />物品ID<br /></strong>
-				</td>
+				</th>
 			</tr>
 			<tr>
 				<td>

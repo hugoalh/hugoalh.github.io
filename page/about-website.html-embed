@@ -3,30 +3,30 @@
 		About Website
 		<br />關於網站
 	</h1>
-	<table class="type_left">
+	<table>
 		<tbody>
 			<tr>
-				<td>
+				<th>
 					Version
 					<br />版本
-				</td>
+				</th>
 				<td>
 					<span id="websiteversion_2"></span>
 					<script>document.getElementById("websiteversion_2").innerHTML = website_version</script>
 				</td>
 			</tr>
 			<tr>
-				<td>
+				<th>
 					Owner / Author / Copyright
 					<br />擁有者／作者／版權擁有者
-				</td>
+				</th>
 				<td>hugoalh</td>
 			</tr>
 			<tr>
-				<td>
+				<th>
 					License
 					<br />許可證／授權
-				</td>
+				</th>
 				<td>
 					All Rights Reserved
 					<br />版權所有
@@ -44,13 +44,13 @@
 				Modern Interface
 				<br />摩登介面
 			</h3>
-			<table class="type_left">
+			<table>
 				<tbody>
 					<tr>
-						<td>
+						<th>
 							Type
 							<br />類別
-						</td>
+						</th>
 						<td>
 							<ul>
 								<li>
@@ -65,24 +65,24 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Version
 							<br />版本
-						</td>
+						</th>
 						<td>1.30.0</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
-						</td>
+						</th>
 						<td>hugoalh</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							License
 							<br />許可證／授權
-						</td>
+						</th>
 						<td>
 							All Rights Reserved
 							<br />版權所有
@@ -96,13 +96,13 @@
 				PHP Emulator
 				<br />PHP模擬器
 			</h3>
-			<table class="type_left">
+			<table>
 				<tbody>
 					<tr>
-						<td>
+						<th>
 							Type
 							<br />類別
-						</td>
+						</th>
 						<td>
 							<ul>
 								<li>
@@ -117,24 +117,24 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Version
 							<br />版本
-						</td>
+						</th>
 						<td>0.14.0</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
-						</td>
+						</th>
 						<td>hugoalh</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							License
 							<br />許可證／授權
-						</td>
+						</th>
 						<td>
 							All Rights Reserved
 							<br />版權所有
@@ -145,23 +145,23 @@
 		</li>
 		<li>
 			<h3>Noto Sans</h3>
-			<table class="type_left">
+			<table>
 				<tbody>
 					<tr>
-						<td>
+						<th>
 							Type
 							<br />類別
-						</td>
+						</th>
 						<td>
 							Font
 							<br />字體
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Version
 							<br />版本
-						</td>
+						</th>
 						<td>
 							<ul>
 								<li>English</li>
@@ -171,11 +171,11 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
 						</td>
-						<td>
+						<th>
 							<ul>
 								<li>Google</li>
 								<li>Monotype Imaging Inc</li>
@@ -184,10 +184,10 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							License
 							<br />許可證／授權
-						</td>
+						</th>
 						<td></td>
 					</tr>
 				</tbody>
@@ -195,37 +195,37 @@
 		</li>
 		<li>
 			<h3>Gothic A1</h3>
-			<table class="type_left">
+			<table>
 				<tbody>
 					<tr>
-						<td>
+						<th>
 							Type
 							<br />類別
-						</td>
+						</th>
 						<td>
 							Font
 							<br />字體
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Version
 							<br />版本
-						</td>
+						</th>
 						<td>한국어</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
-						</td>
+						</th>
 						<td>HanYang I&C Co Ltd</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							License
 							<br />許可證／授權
-						</td>
+						</th>
 						<td></td>
 					</tr>
 				</tbody>
@@ -233,37 +233,37 @@
 		</li>
 		<li>
 			<h3>Minecraftia</h3>
-			<table class="type_left">
+			<table>
 				<tbody>
 					<tr>
-						<td>
+						<th>
 							Type
 							<br />類別
-						</td>
+						</th>
 						<td>
 							Font
 							<br />字體
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Version
 							<br />版本
-						</td>
+						</th>
 						<td>English</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
-						</td>
+						</th>
 						<td>Andrew Tyler</td>
 					</tr>
 					<tr style="display: none;">
-						<td>
+						<th>
 							License
 							<br />許可證／授權
-						</td>
+						</th>
 						<td></td>
 					</tr>
 				</tbody>
@@ -271,30 +271,30 @@
 		</li>
 		<li>
 			<h3>jQuery</h3>
-			<table class="type_left">
+			<table>
 				<tbody>
 					<tr>
-						<td>
+						<th>
 							Type
 							<br />類別
-						</td>
+						</th>
 						<td>
 							Javascript Library
 							<br />Javascript指令資源庫
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Version
 							<br />版本
-						</td>
+						</th>
 						<td>3.3.1</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
-						</td>
+						</th>
 						<td>
 							<ul>
 								<li>JS Foundation</li>
@@ -303,10 +303,10 @@
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							License
 							<br />許可證／授權
-						</td>
+						</th>
 						<td>
 							<a href="https://jquery.org/license">MIT</a>
 						</td>
@@ -319,37 +319,37 @@
 				Google - Material Icon
 				<br />Google—材質圖示
 			</h3>
-			<table class="type_left">
+			<table>
 				<tbody>
 					<tr>
-						<td>
+						<th>
 							Type
 							<br />類別
-						</td>
+						</th>
 						<td>
 							Icon
 							<br />圖示
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Version
 							<br />版本
-						</td>
+						</th>
 						<td>1</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
-						</td>
+						</th>
 						<td>Google</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							License
 							<br />許可證／授權
-						</td>
+						</th>
 						<td>Apache License 2.0</td>
 					</tr>
 				</tbody>
@@ -357,37 +357,37 @@
 		</li>
 		<li>
 			<h3>Font Awesome</h3>
-			<table class="type_left">
+			<table>
 				<tbody>
 					<tr>
-						<td>
+						<th>
 							Type
 							<br />類別
-						</td>
+						</th>
 						<td>
 							Icon
 							<br />圖示
 						</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Version
 							<br />版本
-						</td>
+						</th>
 						<td>5</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
-						</td>
+						</th>
 						<td>Fonticons Inc</td>
 					</tr>
 					<tr>
-						<td>
+						<th>
 							License
 							<br />許可證／授權
-						</td>
+						</th>
 						<td>
 							<ul>
 								<li>
