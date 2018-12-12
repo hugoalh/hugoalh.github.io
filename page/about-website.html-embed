@@ -69,7 +69,7 @@
 							Version
 							<br />版本
 						</th>
-						<td>1.30.0</td>
+						<td>1.31.0</td>
 					</tr>
 					<tr>
 						<th>
@@ -121,7 +121,7 @@
 							Version
 							<br />版本
 						</th>
-						<td>0.14.0</td>
+						<td>0.17.0</td>
 					</tr>
 					<tr>
 						<th>
@@ -174,8 +174,8 @@
 						<th>
 							Owner / Author / Copyright
 							<br />擁有者／作者／版權擁有者
-						</td>
-						<th>
+						</th>
+						<td>
 							<ul>
 								<li>Google</li>
 								<li>Monotype Imaging Inc</li>

@@ -86,10 +86,10 @@
 					<table>
 						<tbody>
 							<tr>
-								<td align="center">
+								<td style="text-align: center;">
 									<b>Structure<br />結構</b>
 								</td>
-								<td align="center">
+								<td style="text-align: center;">
 									<img src="https://i.imgur.com/veiT7M0.png" width="192" height="108" />
 								</td>
 								<td>
@@ -105,34 +105,46 @@
 			<tr>
 				<td>
 					<table border="1px">
-						<tr align="center">
+						<tr style="text-align: center;">
 							<td>
 								<b>Formula<br />公式</b>
 							</td>
 							<td>[X2] * [X1] = enchanting_table ( 1 * writable_book + [A2] * [A1] + [B] ) + player ( [C] )</td>
 						</tr>
 					</table>
-					<table>
+					<table class="zebra_horizontal">
 						<tbody>
-							<tr align="center">
-								<td>
-									<b>[X1]<br />Enchantment ID<br />附魔ID</b>
-								</td>
-								<td>
-									<b>[X2]<br />Enchantment Tier<br />附魔階級</b>
-								</td>
-								<td>
-									<b>[C]<br />Require Experience Level<br />需要的經驗等級</b>
-								</td>
-								<td>
-									<b>[A1]<br />Require Item ID<br />需要的物品ID</b>
-								</td>
-								<td>
-									<b>[A2]<br />Require Item Amount<br />需要的物品數量</b>
-								</td>
-								<td>
-									<b>[B]<br />Require Lapis Lazuli Amount<br />需要的青金石數量</b>
-								</td>
+							<tr style="text-align: center;">
+								<th class="color">
+									[X1]
+									<br />Enchantment ID
+									<br />附魔ID
+								</th>
+								<th class="color">
+									[X2]
+									<br />Enchantment Tier
+									<br />附魔階級
+								</th>
+								<th class="color">
+									[C]
+									<br />Require Experience Level
+									<br />需要的經驗等級
+								</th>
+								<th class="color">
+									[A1]
+									<br />Require Item ID
+									<br />需要的物品ID
+								</th>
+								<th class="color">
+									[A2]
+									<br />Require Item Amount
+									<br />需要的物品數量
+								</th>
+								<th class="color">
+									[B]
+									<br />Require Lapis Lazuli Amount
+									<br />需要的青金石數量
+								</th>
 							</tr>
 							<tr>
 								<td>aqua_affinity</td>
@@ -939,10 +951,10 @@
 					<table>
 						<tbody>
 							<tr>
-								<td align="center">
+								<td style="text-align: center;">
 									<b>Structure<br />結構</b>
 								</td>
-								<td align="center">
+								<td style="text-align: center;">
 									<img src="https://i.imgur.com/4a2rMM3.png" width="192" height="108" />
 								</td>
 								<td>
@@ -959,19 +971,21 @@
 				<td>
 					<table>
 						<tbody>
-							<tr align="center">
-								<td>
-									<b>Item ID<br />物品ID<br /></b>
-								</td>
-								<td>
-									<b>Recipe (Step)<br />配方（步驟）</b>
-								</td>
+							<tr style="text-align: center;">
+								<th class="color">
+									Item ID
+									<br />物品ID
+								</th>
+								<th class="color">
+									Recipe (Step)
+									<br />配方（步驟）
+								</th>
 							</tr>
 							<tr>
 								<td>experience_bottle</td>
-								<td align="center">
+								<td style="text-align: center;">
 									<table border="1px">
-										<tr align="center">
+										<tr style="text-align: center;">
 											<td>
 												<b>Formula<br />公式</b>
 											</td>

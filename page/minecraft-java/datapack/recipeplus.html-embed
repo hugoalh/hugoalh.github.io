@@ -119,7 +119,6 @@
 				<th class="color">
 					Item ID
 					<br />物品ID
-					<br />
 				</th>
 				<th class="color">
 					New Recipe
@@ -364,10 +363,12 @@
 		<tbody>
 			<tr style="text-align: center;">
 				<th class="color">
-					<b>Item ID<br />物品ID<br /></b>
+					Item ID
+					<br />物品ID
 				</th>
 				<th class="color">
-					<b>Recipe<br />配方<br /></b>
+					Recipe
+					<br />配方
 				</th>
 			</tr>
 			<tr>
@@ -1269,10 +1270,12 @@
 		<tbody>
 			<tr style="text-align: center;">
 				<th class="color">
-					<b>Item ID<br />物品ID<br /></b>
+					Item ID
+					<br />物品ID
 				</th>
 				<th class="color">
-					<b>Recipe<br />配方</b>
+					Recipe
+					<br />配方
 				</th>
 			</tr>
 			<tr>
@@ -1305,9 +1308,10 @@
 			</tr>
 		</tbody>
 	</table>
-
-	### Recipe List (Added, Drop Item Crafting)
-	<br />配方表（已增加，扔物品合成）
+	<h3>
+		Recipe List (Added, Drop Item Crafting)
+		<br />配方表（已增加，扔物品合成）
+	</h3>
 	<p>
 		<b>Basic Structure: <br />基礎結構：</b>
 	</p>
@@ -1317,15 +1321,17 @@
 		<br />
 		<img src="https://i.imgur.com/YW87lQi.png" width="192" height="108" />
 	</p>
-	<table>
+	<table class="zebra_horizontal">
 		<tbody>
-			<tr align"center">
-				<td>
-					<b>Item ID<br />物品ID<br /></b>
-				</td>
-				<td>
-					<b>Recipe (Step)<br />配方（步驟）</b>
-				</td>
+			<tr style="text-align: center;">
+				<th class="color">
+					Item ID
+					<br />物品ID
+				</th>
+				<th class="color">
+					Recipe (Step)
+					<br />配方（步驟）
+				</th>
 			</tr>
 			<tr>
 				<td>dirt</td>
@@ -1335,10 +1341,10 @@
 					</blockquote>
 					<table>
 						<tbody>
-							<tr align"center">
-								<td>
+							<tr style="text-align: center;">
+								<th class="color">
 									<b>[A]</b>
-								</td>
+								</th>
 							</tr>
 							<tr>
 								<td>
@@ -1424,7 +1430,7 @@
 						<tbody>
 							<tr>
 								<td style="text-align: center;">
-									<strong>[A]</strong>
+									<b>[A]</b>
 								</td>
 							</tr>
 							<tr>
@@ -1459,7 +1465,7 @@
 	</table>
 	<hr />
 	<p>
-		<strong>Basic Structure: <br />基礎結構：</strong>
+		<b>Basic Structure: <br />基礎結構：</b>
 	</p>
 	<p>
 		y: ~ = water, 
@@ -1472,16 +1478,16 @@
 		<br />
 		<img src="https://i.imgur.com/tIz5E77.png" width="192" height="108" />
 	</p>
-	<table>
+	<table class="zebra_horizontal">
 		<tbody>
-			<tr>
-				<td style="text-align: center;">
-					<strong>Item ID<br />物品ID<br /></strong>
+			<tr style="text-align: center;">
+				<th class="color">
+					Item ID<br />物品ID
+				</th>
+				<th class="color">
+					Recipe (Step)<br />配方（步驟）
 				</td>
-				<td style="text-align: center;">
-					<strong>Recipe (Step)<br />配方（步驟）</strong>
-				</td>
-			</tr>
+			</th>
 			<tr>
 				<td>
 					<p>
@@ -1514,7 +1520,7 @@
 						<tbody>
 							<tr>
 								<td style="text-align: center;">
-									<strong>[A]</strong>
+									<b>[A]</b>
 								</td>
 							</tr>
 							<tr>
@@ -1553,7 +1559,7 @@
 		<tbody>
 			<tr style="text-align: center;">
 				<th class="color">
-					<strong>Item ID<br />物品ID<br /></strong>
+					Item ID<br />物品ID
 				</th>
 			</tr>
 			<tr>
