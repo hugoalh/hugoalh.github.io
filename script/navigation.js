@@ -77,7 +77,7 @@ $("#navigation_left #menu a").click(function(event) {
 	website_urlpageparameter_get();
 	navigation_left_close();
 });
-$(window).load(function() {
+$(document).load(function() {
 	document.getElementById("initialscreen").style.display = "none";
 	$("#initialscreen").remove();
 });
