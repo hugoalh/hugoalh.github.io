@@ -55,7 +55,7 @@ window.addEventListener("resize", function() {
 		$("#page").load(page_needload, function(response, status, xhr) {
 			if (status == "error" || status == "timeout" || status == "abort" || status == "parsererror") {
 				$("#page").load("/page/404.html-embed");
-			}
+			};
 		}).scrollTop(0);
 	};
 	/*Determine device URL change*/
@@ -77,7 +77,7 @@ $("#navigation_left #menu a").click(function(event) {
 	website_urlpageparameter_get();
 	navigation_left_close();
 });
-$(function() {
+$(window).load(function() {
 	document.getElementById("initialscreen").style.display = "none";
 	$("#initialscreen").remove();
 });

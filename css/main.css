@@ -405,7 +405,6 @@ hugoalh.github.io Style Sheet
 /*Table*/
 table th {
 	font-weight: bold;
-	text-align: justify;
 }
 	table th.color {
 		background-color: rgb(192,192,192);
