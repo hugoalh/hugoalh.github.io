@@ -26,7 +26,7 @@ var website_version;
 	};
 
 /*Determine device resize event*/
-window.addEventListener("resize", function() {
+$(window).resize(function() {
 	var device_resolution_width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
 	if (device_resolution_width >= 896 && navigation_left_visible == true) {
 		navigation_left_close();
@@ -77,7 +77,7 @@ $("#navigation_left #menu a").click(function(event) {
 	website_urlpageparameter_get();
 	navigation_left_close();
 });
-$(document).load(function() {
+$(document).ready(function() {
 	document.getElementById("initialscreen").style.display = "none";
 	$("#initialscreen").remove();
 });
