@@ -1,14 +1,12 @@
 <div id="content" style="font-family: &quot;Minecraftia&quot;, &quot;Noto Sans&quot;, &quot;Noto Sans ZH&quot;, &quot;Noto Sans ZHS&quot;, sans-serif;">
 	<h1 style="text-align: center;">
-		<img src="https://i.imgur.com/lGf7cPb.png" style="width: 64px; height: 64px;" />
-		<br />
-		Minecraft Java Data Pack: Enchant+ (Enchant Plus)
-		<br />
+		<img src="https://i.imgur.com/lGf7cPb.png" style="width: 64px; height: 64px;" /><br />
+		Minecraft Java Data Pack: Enchant+ (Enchant Plus)<br />
 		Minecraft Java資料包：附魔＋
 	</h1>
 	<h2>
-		Catalog
-		<br />目錄
+		Catalog<br />
+		目錄
 	</h2>
 	<ul>
 		<li>
@@ -19,15 +17,12 @@
 				</li>
 			</ul>
 		</li>
-		<li>
-			Wiki
-			<br />維基
-		</li>
+		<li>Wiki<br />維基</li>
 	</ul>
 	<hr />
 	<h2 id="catalog_description">
-		Description
-		<br />說明
+		Description<br />
+		說明
 	</h2>
 	<p>
 		A data pack edition which loyalty to Ender IO Enchanter, but tweak something.
@@ -116,34 +111,34 @@
 						<tbody>
 							<tr style="text-align: center;">
 								<th class="color">
-									[X1]
-									<br />Enchantment ID
-									<br />附魔ID
+									[X1]<br />
+									Enchantment ID<br />
+									附魔ID
 								</th>
 								<th class="color">
-									[X2]
-									<br />Enchantment Tier
-									<br />附魔階級
+									[X2]<br />
+									Enchantment Tier<br />
+									附魔階級
 								</th>
 								<th class="color">
-									[C]
-									<br />Require Experience Level
-									<br />需要的經驗等級
+									[C]<br />
+									Require Experience Level<br />
+									需要的經驗等級
 								</th>
 								<th class="color">
-									[A1]
-									<br />Require Item ID
-									<br />需要的物品ID
+									[A1]<br />
+									Require Item ID<br />
+									需要的物品ID
 								</th>
 								<th class="color">
-									[A2]
-									<br />Require Item Amount
-									<br />需要的物品數量
+									[A2]<br />
+									Require Item Amount<br />
+									需要的物品數量
 								</th>
 								<th class="color">
-									[B]
-									<br />Require Lapis Lazuli Amount
-									<br />需要的青金石數量
+									[B]<br />
+									Require Lapis Lazuli Amount<br />
+									需要的青金石數量
 								</th>
 							</tr>
 							<tr>
@@ -822,7 +817,7 @@
 								<td>silk_touch</td>
 								<td></td>
 								<td>13</td>
-								<td>slimeball</td>
+								<td>slime_ball</td>
 								<td>2</td>
 								<td>15</td>
 							</tr>
