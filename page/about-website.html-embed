@@ -68,7 +68,7 @@
 							Version<br />
 							版本
 						</th>
-						<td>1.34.0</td>
+						<td>1.34.1</td>
 					</tr>
 					<tr>
 						<th>
@@ -322,8 +322,8 @@
 							類別
 						</th>
 						<td>
-							Javascript Library<br />
-							Javascript指令資源庫
+							JavaScript Library<br />
+							JavaScript腳本資源庫
 						</td>
 					</tr>
 					<tr>
@@ -331,7 +331,7 @@
 							Version<br />
 							版本
 						</th>
-						<td>3.3.1</td>
+						<td>3.4.0</td>
 					</tr>
 					<tr>
 						<th>
@@ -359,8 +359,8 @@
 		</li>
 		<li>
 			<h3>
-				Google - Material Icon<br />
-				Google—材質圖示
+				Google Material Icon<br />
+				Google材質圖示
 			</h3>
 			<table>
 				<tbody>
