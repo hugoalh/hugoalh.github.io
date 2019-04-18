@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<browserconfig>
+	<msapplication>
+		<tile>
+			<square70x70logo src="/universalwebapplication/tile_70x70.png" />
+			<square150x150logo src="/universalwebapplication/tile_150x150.png" />
+			<wide310x150logo src="/universalwebapplication/tile_310x150.png" />
+			<square310x310logo src="/universalwebapplication/tile_310x310.png" />
+			<TileImage src="/universalwebapplication/tile_150x150.png" />
+			<TileColor>#0063B1</TileColor>
+		</tile>
+<!--	<badge>
+			<polling-uri src="/universalwebapplication/badge.xml" />
+			<frequency>30</frequency>
+		</badge>
+		<notification>
+			<polling-uri  src="/universalwebapplication/notification_1.xml" />
+			<polling-uri2 src="/universalwebapplication/notification_2.xml" />
+			<polling-uri3 src="/universalwebapplication/notification_3.xml" />
+			<polling-uri4 src="/universalwebapplication/notification_4.xml" />
+			<polling-uri5 src="/universalwebapplication/notification_5.xml" />
+			<frequency>60</frequency>
+			<cycle>1</cycle>
+		</notification>-->
+	</msapplication>
+</browserconfig>

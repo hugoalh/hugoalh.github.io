@@ -8,27 +8,27 @@ hugoalh.github.io Service Worker
 		https://www.pwabuilder.com/serviceworker
 		https://jakearchibald.com/2014/offline-cookbook
 ==========*/
-var cache_name = "webapplication_cache";
+var cache_name = "cache_asset";
 var cache_filelist = [
 	"/"
 ];
 
 /*Install stage sets up the cache-array to configure pre-cache content*/
 self.addEventListener("install", function(evt) {
-	console.log("[hugoalh.github.io Web Application - Service Worker] Service worker is installed.");
+	console.log("[hugoalh.github.io Service Worker] Service worker is installed.");
 	evt.waitUntil(precache().then(function() {
-		console.log("[hugoalh.github.io Web Application - Service Worker] Skip waiting on install.");
+		console.log("[hugoalh.github.io Service Worker] Skip waiting on install.");
 		return self.skipWaiting();
 	}));
 });
 
 /*Allow service worker to control of current page*/
 self.addEventListener("activate", function(event) {
-	console.log("[hugoalh.github.io Web Application - Service Worker] Claiming client for current page.");
+	console.log("[hugoalh.github.io Service Worker] Claiming client for current page.");
 	return self.clients.claim();
 });
 self.addEventListener("fetch", function(evt) {
-	console.log("[hugoalh.github.io Web Application - Service Worker] Service worker is serving the asset: "+ evt.request.url);
+	console.log("[hugoalh.github.io Service Worker] Service worker is serving the asset: "+ evt.request.url);
 	evt.respondWith(fromCache(evt.request).catch(fromServer(evt.request)));
 	evt.waitUntil(update(evt.request));
 });
