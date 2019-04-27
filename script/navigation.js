@@ -1,11 +1,11 @@
-/*==========
+/*========
 hugoalh.github.io Navigation
 	Author
 		hugoalh
 	Language
 		JavaScript/ECMAScript 6/7/8
-		jQuery 3(.3.1)
-==========*/
+		jQuery 3(.4.0)
+========*/
 var navigation_left_visible;
 var website_version;
 

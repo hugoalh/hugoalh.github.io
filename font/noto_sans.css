@@ -1,4 +1,4 @@
-/*==========
+/*========
 Font, Noto, Sans
 	Author
 		Google
@@ -8,7 +8,7 @@ Font, Noto, Sans
 		CSS 3
 	Source
 		https://www.google.com/get/noto/
-==========*/
+========*/
 @font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-Regular"), local("Noto Sans Regular"),
@@ -17,7 +17,7 @@ Font, Noto, Sans
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face {
+/*@font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-Bold"), local("Noto Sans Bold"),
 		url("/font/noto_sans_bold.ttf") format("truetype");
@@ -40,7 +40,7 @@ Font, Noto, Sans
 	font-stretch: normal;
 	font-style: italic;
 	font-weight: bold;
-}
+}*/
 @font-face {
 	font-family: "Noto Sans ZH";
 	src: local("NotoSansTC-Regular"), local("Noto Sans TC Regular"),
@@ -51,7 +51,7 @@ Font, Noto, Sans
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face {
+/*@font-face {
 	font-family: "Noto Sans ZH";
 	src: local("NotoSansTC-Bold"), local("Noto Sans TC Bold"),
 		url("/font/noto_sans_zh_bold.woff2") format("woff2"),
@@ -60,7 +60,7 @@ Font, Noto, Sans
 	font-stretch: normal;
 	font-style: normal;
 	font-weight: bold;
-}
+}*/
 @font-face {
 	font-family: "Noto Sans ZHS";
 	src: local("NotoSansSC-Regular"), local("Noto Sans SC Regular"),
@@ -71,7 +71,7 @@ Font, Noto, Sans
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face {
+/*@font-face {
 	font-family: "Noto Sans ZHS";
 	src: local("NotoSansSC-Bold"), local("Noto Sans SC Bold"),
 		url("/font/noto_sans_zhs_bold.woff2") format("woff2"),
@@ -80,7 +80,7 @@ Font, Noto, Sans
 	font-stretch: normal;
 	font-style: normal;
 	font-weight: bold;
-}
+}*/
 @font-face {
 	font-family: "Noto Sans JP";
 	src: local("NotoSansJP-Regular"), local("Noto Sans JP Regular"),
@@ -91,7 +91,7 @@ Font, Noto, Sans
 	font-style: normal;
 	font-weight: normal;
 }
-@font-face {
+/*@font-face {
 	font-family: "Noto Sans JP";
 	src: local("NotoSansJP-Bold"), local("Noto Sans JP Bold"),
 		url("/font/noto_sans_jp_bold.woff2") format("woff2"),
@@ -100,4 +100,4 @@ Font, Noto, Sans
 	font-stretch: normal;
 	font-style: normal;
 	font-weight: bold;
-}
+}*/

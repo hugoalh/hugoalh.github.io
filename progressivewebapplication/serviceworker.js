@@ -1,4 +1,4 @@
-/*==========
+/*========
 hugoalh.github.io Service Worker
 	Author
 		hugoalh
@@ -7,7 +7,7 @@ hugoalh.github.io Service Worker
 	Source
 		https://www.pwabuilder.com/serviceworker
 		https://jakearchibald.com/2014/offline-cookbook
-==========*/
+========*/
 var cache_name = "cache_asset";
 var cache_filelist = [
 	"/"

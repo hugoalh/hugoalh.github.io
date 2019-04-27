@@ -1,4 +1,4 @@
-/*==========
+/*========
 hugoalh.github.io Service Worker Register
 	Author
 		hugoalh
@@ -7,7 +7,7 @@ hugoalh.github.io Service Worker Register
 	Source
 		https://www.pwabuilder.com/serviceworker
 		https://jakearchibald.com/2014/offline-cookbook
-==========*/
+========*/
 if (navigator.serviceWorker.controller) {
 	console.log("[hugoalh.github.io Service Worker] Found actived service worker, skipped register process.");
 } else {
