@@ -445,6 +445,3 @@
 		</li>
 	</ul>
 </div>
-<script>
-	document.getElementById("websiteversion_2").innerHTML = website_version
-</script>
