@@ -11,7 +11,9 @@ var website_version;
 
 /*Handle navigation left*/
 	/*Blur*/
-		document.getElementById("blur").addEventListener("click", navigation_left_close);
+		$("#blur").click(function() {
+			navigation_left_close();
+		});
 	/*Open*/
 		function navigation_left_open() {
 			document.getElementById("navigation_left").style.left = "0px";
