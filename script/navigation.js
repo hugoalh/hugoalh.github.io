@@ -10,6 +10,8 @@ var navigation_left_visible;
 var website_version;
 
 /*Handle navigation left*/
+	/*Blur*/
+		document.getElementById("blur").addEventListener("click", navigation_left_close);
 	/*Open*/
 		function navigation_left_open() {
 			document.getElementById("navigation_left").style.left = "0px";
@@ -65,7 +67,6 @@ var website_version;
 
 /*Load navigation*/
 	website_urlpageparameter_get();
-	document.getElementById("blur").addEventListener("click", navigation_left_close);
 	$("#navigation_left #menu a").click(function(event) {
 		event.preventDefault();/*Prevent browser to execute default action*/
 		var self_href = this.getAttribute("href");
