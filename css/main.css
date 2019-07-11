@@ -20,8 +20,8 @@ hugoalh.github.io Style Sheet
 			--navigation_top_height: 48px;
 			--navigation_left_width: 256px;
 			--navigation_left_width_mirror: calc(0px - var(--navigation_left_width));
-		/*Background Color*/
-			--website_backgroundcolor: rgb(0,99,177);
+		/*Color*/
+			--website_color: rgb(0,99,177);
 	}
 
 /*Common*/
@@ -104,7 +104,7 @@ hugoalh.github.io Style Sheet
 		outline: 0px;
 		padding: 8px;
 		transition: display 0.4s;
-		background-color: var(--website_backgroundcolor);
+		background-color: var(--website_color);
 		background-image: url("/universalwebapplication/tile_150x150.png");
 		background-attachment: fixed;
 		background-clip: border-box;
@@ -124,7 +124,7 @@ hugoalh.github.io Style Sheet
 		color: rgb(255,255,255);
 		vertical-align: middle;
 		transition: width 0.4s;
-		background-color: var(--website_backgroundcolor);
+		background-color: var(--website_color);
 		background-image: none;
 		background-attachment: fixed;
 		background-clip: border-box;
@@ -142,7 +142,7 @@ hugoalh.github.io Style Sheet
 		overflow-x: hidden;
 		color: rgb(255,255,255);
 		transition: left 0.4s;
-		background-color: var(--website_backgroundcolor);
+		background-color: var(--website_color);
 		background-image: none;
 		background-attachment: fixed;
 		background-clip: border-box;
