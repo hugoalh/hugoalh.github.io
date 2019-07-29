@@ -7,17 +7,13 @@ Browser Client Storage
 ========*/
 var BrowserClientStorageMethod = {
 	"Local": false,
-	"Session": false,
 	"Cookie": false,
 };
 if (window.localStorage) {
-	BrowserClientStorageMethod.Local = true;
-};
-if (window.sessionStorage) {
-	BrowserClientStorageMethod.Session = true;
+	BrowserClientStorageMethod["Local"] = true;
 };
 if (document.cookie) {
-	BrowserClientStorageMethod.Cookie = true;
+	BrowserClientStorageMethod["Cookie"] = true;
 };
 var HostAddress = location.hostname;
 
@@ -38,23 +34,6 @@ var HostAddress = location.hostname;
 		/*Delete All*/
 			function LocalStorage_DeleteAll() {
 				window.localStorage.clear();
-			};
-	/*Session Storage*/
-		/*Set*/
-			function SessionStorage_Set(Name, Value) {
-				window.sessionStorage.setItem(Name, Value);
-			};
-		/*Get*/
-			function SessionStorage_Get(Name) {
-				window.sessionStorage.getItem(Name);
-			};
-		/*Delete*/
-			function SessionStorage_Delete(Name) {
-				window.sessionStorage.removeItem(Name);
-			};
-		/*Delete All*/
-			function SessionStorage_DeleteAll() {
-				window.sessionStorage.clear();
 			};
 	/*Cookie*/
 		/*Set*/
@@ -89,36 +68,30 @@ var HostAddress = location.hostname;
 
 /*Set*/
 	function BrowserClientStorage_Set(Name, Value) {
-		if (BrowserClientStorageMethod.Local == true) {
+		if (BrowserClientStorageMethod["Local"] == true) {
 			LocalStorage_Set(Name, Value);
-		} else if (BrowserClientStorageMethod.Session == true) {
-				SessionStorage_Set(Name, Value);
-			} else if (BrowserClientStorageMethod.Cookie == true) {
-					Cookie_Set(Name, Value);
+		} else if (BrowserClientStorageMethod["Cookie"] == true) {
+				Cookie_Set(Name, Value);
 		};
 	};
 /*Get*/
 	function BrowserClientStorage_Get(Name) {
-		if (BrowserClientStorageMethod.Local == true) {
+		if (BrowserClientStorageMethod["Local"] == true) {
 			LocalStorage_Get(Name);
-		} else if (BrowserClientStorageMethod.Session == true) {
-				SessionStorage_Get(Name);
-			} else if (BrowserClientStorageMethod.Cookie == true) {
-					Cookie_Get(Name);
+		} else if (BrowserClientStorageMethod["Cookie"] == true) {
+				Cookie_Get(Name);
 		};
 	};
 /*Delete*/
 	function BrowserClientStorage_Delete(Name) {
-		if (BrowserClientStorageMethod.Local == true) {
+		if (BrowserClientStorageMethod["Local"] == true) {
 			LocalStorage_Delete(Name);
-		} else if (BrowserClientStorageMethod.Session == true) {
-				SessionStorage_Delete(Name);
-			} else if (BrowserClientStorageMethod.Cookie == true) {
-					Cookie_Delete(Name);
+		} else if (BrowserClientStorageMethod["Cookie"] == true) {
+				Cookie_Delete(Name);
 		};
 	};
 /*Delete All*/
 	function BrowserClientStorage_DeleteAll(Name) {
-		if (BrowserClientStorageMethod.Local == true) {
+		if (BrowserClientStorageMethod["Local"] == true) {
 			LocalStorage_DeleteAll(Name);
 		};
