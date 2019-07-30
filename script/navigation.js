@@ -76,7 +76,7 @@ var website_version;
 		website_urlpageparameter_get();
 		navigation_left_close();
 	});
-	document.addEventListener("load", () => {
+	$(document).ready(function() {
 		document.getElementById("initialscreen").style.display = "none";
 		$("#initialscreen").remove();
   });
