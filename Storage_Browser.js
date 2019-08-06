@@ -1,5 +1,5 @@
 /*========
-Storage - Client Browser
+Storage - Browser
 	Author
 		hugoalh
 	Language
