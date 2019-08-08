@@ -105,7 +105,7 @@ hugoalh.github.io Style Sheet
 		padding: 8px;
 		transition: display 0.4s;
 		background-color: var(--website_color);
-		background-image: url("/universalwebapplication/tile_150x150.png");
+		background-image: url("/microsoftwebapplication/tile_150x150.png");
 		background-attachment: fixed;
 		background-clip: border-box;
 		background-origin: content-box;
