@@ -8,11 +8,11 @@
 		<meta name="keywords" content="hugoalh github" />
 		<meta name="robots" content="index, follow" />
 		<title>hugoalh</title>
-		<!--Compat Device-->
-			<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 		<!--CSS-->
 			<link rel="stylesheet" href="/css/main.css" />
-		<!--Favicon-->
+		<!--Webpage Responsive-->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<!--Website Icon-->
 			<link rel="shortcut icon" type="image/x-icon" href="/favicon/hugoalh.ico" />
 			<link rel="icon" type="image/png" sizes="16x16" href="/favicon/hugoalh_16x16.png" />
 			<link rel="icon" type="image/png" sizes="24x24" href="/favicon/hugoalh_24x24.png" />
@@ -38,28 +38,28 @@
 			<meta name="mobile-web-app-capable" content="yes" />
 			<meta name="theme-color" content="#0063B1" />
 			<!--<script src="/serviceworker-register.js" async></script>-->
-		<!--Microsoft Universal Application-->
+		<!--Microsoft Web Application-->
 			<meta name="msapplication-config" content="/webmanifest.xml" />
 			<meta name="msapplication-starturl" content="/" />
 			<meta name="msapplication-TileColor" content="#0063B1" />
-			<meta name="msapplication-TileImage" content="/universalwebapplication/tile_150x150.png" />
+			<meta name="msapplication-TileImage" content="/microsoftwebapplication/tile_150x150.png" />
 			<meta name="msapplication-navbutton-color" content="#0063B1" />
-		<!--Apple [apple-mobile-web-app-status-bar-style = default / black / black-translucent]-->
+		<!--Apple Web Application-->
 			<meta name="apple-mobile-web-app-title" content="hugoalh" />
 			<meta name="apple-mobile-web-app-capable" content="yes" />
 			<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 	</head>
 	<body>
 		<div id="initialscreen"></div>
-		<div class="framework" id="navigation_top">
+		<nav class="framework" id="navigation_top">
 			<div class="left">
 				<button id="navigation_left_button" onclick="javascript:navigation_left_open();"><svg viewBox="0 0 24 24"><use xlink:href="/icon/menu.svg#master"></use></svg></button>
 				<svg viewBox="0 0 280 64" class="logo_website_navigation" id="navigation_websitelogo"><use xlink:href="/logo/hugoalh.svg#master"></use></svg>
 			</div>
 			<div class="right">
 			</div>
-		</div>
-		<div class="framework" id="navigation_left">
+		</nav>
+		<nav class="framework" id="navigation_left">
 			<div id="menu">
 				<ul>
 					<li><a href="/?page=homepage"><svg viewBox="0 0 24 24"><use xlink:href="/icon/home.svg#master"></use></svg><span>Homepage<br />首頁</span></a></li>
@@ -91,7 +91,7 @@
 					19.8.6
 				</div>
 			</div>
-		</div>
+		</nav>
 		<div class="framework" id="page"></div>
 		<div id="blur"></div>
 		<!--Script-->
