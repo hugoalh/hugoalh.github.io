@@ -1,10 +1,10 @@
-/*========
-hugoalh.github.io Style Sheet
+/*
+hugoalh.github.io Cascading Style Sheet - Main
 	Author
 		hugoalh
 	Language
 		CSS 3
-========*/
+*/
 /*Prevent issue in non-unicode computer*/
 	@charset "UTF-8";
 
@@ -216,7 +216,7 @@ hugoalh.github.io Style Sheet
 		padding: 0px;
 		width: auto;
 		height: 100%;
-		float: left;
+		/*float: left;*/
 		vertical-align: middle;
 	}
 		#navigation_websitelogo {
@@ -236,7 +236,7 @@ hugoalh.github.io Style Sheet
 		padding: 0px;
 		width: auto;
 		height: 100%;
-		float: right;
+		/*float: right;*/
 		vertical-align: middle;
 	}
 	#navigation_left > #menu {
@@ -292,7 +292,7 @@ hugoalh.github.io Style Sheet
 				text-align: center;
 				vertical-align: middle;
 				text-decoration: none;
-				color: #0063B1;
+				color: #0063b1;
 				background-color: rgb(255,255,255);
 			}
 			#menu > ul > li > ul > li > ul > li > a, 

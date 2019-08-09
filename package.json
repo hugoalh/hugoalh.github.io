@@ -1,8 +1,8 @@
 {
 	"name": "hugoalh.github.io",
-	"description": "hugoalh Website",
-	"version": "19.8.6",
 	"author": "hugoalh",
+	"description": "hugoalh's Website",
+	"version": "19.8.9",
 	"keywords": [
 		"hugoalh",
 		"github",
@@ -18,10 +18,9 @@
 	},
 	"homepage": "https://hugoalh.github.io",
 	"devDependencies": {
-		"material-design-icons": "^3.0.1",
-		"Font-Awesome": "^5.5.0"
 	},
 	"dependencies": {
-		"jquery": "^3.4.1"
+		"jquery": "^3.4.1",
+		"Library.SVG": "^0.0.1"
 	}
 }
