@@ -1,13 +1,12 @@
-/*========
+/*
 hugoalh.github.io Navigation
 	Author
 		hugoalh
 	Language
-		JavaScript/ECMAScript 6/7/8
+		JavaScript/ECMAScript 6
 		jQuery 3(.4.1)
-========*/
+*/
 var navigation_left_visible;
-var website_version;
 
 /*Handle navigation left*/
 	/*Blur*/
@@ -76,7 +75,7 @@ var website_version;
 		website_urlpageparameter_get();
 		navigation_left_close();
 	});
-	$(document).ready(function() {
+	document.addEventListener('DOMContentLoaded', (event) => {
 		document.getElementById("initialscreen").style.display = "none";
 		$("#initialscreen").remove();
-  });
+	});

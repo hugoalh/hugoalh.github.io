@@ -5,15 +5,22 @@ Storage - Web
 	Language
 		JavaScript/ECMAScript 6
 */
-Storage_SupportStat = {
-	"LocalStorage": false
+var Storage_SupportStat = {
+	"LocalStorage": false,
+	"SessionStorage": false
 };
 if (window.localStorage) {
 	Storage_SupportStat["LocalStorage"] = true;
 };
+if (window.sessionStorage) {
+	Storage_SupportStat["SessionStorage"] = true;
+};
 console.table({
 	"LocalStorage": {
 		"Support Stat": Storage_SupportStat["LocalStorage"]
+	},
+	"SessionStorage": {
+		"Support Stat": Storage_SupportStat["SessionStorage"]
 	}
 });
 		
