@@ -7,7 +7,8 @@ Storage - Web
 */
 var Storage_SupportStat = {
 	"LocalStorage": false,
-	"SessionStorage": false
+	"SessionStorage": false,
+	"Cookie": false
 };
 if (window.localStorage) {
 	Storage_SupportStat["LocalStorage"] = true;
@@ -15,12 +16,18 @@ if (window.localStorage) {
 if (window.sessionStorage) {
 	Storage_SupportStat["SessionStorage"] = true;
 };
+if (window.navigator.cookieEnabled) {
+	Storage_SupportStat["Cookie"] = true;
+};
 console.table({
 	"LocalStorage": {
 		"Support Stat": Storage_SupportStat["LocalStorage"]
 	},
 	"SessionStorage": {
 		"Support Stat": Storage_SupportStat["SessionStorage"]
+	},
+	"Cookie": {
+		"Support Stat": Storage_SupportStat["Cookie"]
 	}
 });
 		

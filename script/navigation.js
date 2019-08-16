@@ -6,33 +6,40 @@ hugoalh.github.io Navigation
 		JavaScript/ECMAScript 6
 		jQuery 3(.4.1)
 */
-var navigation_left_visible;
+var Navigation_Left_Visible;
+var Device = {
+	"Language": (navigator.language || navigator.userLanguage || navigator.browserLanguage || navigator.systemLanguage).toLowerCase(),
+	"Resolution": {
+		"Width": (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth)
+	}
+};
+console.log(Device.Language);
 
 /*Handle navigation left*/
 	/*Blur*/
 		$("#blur").click(function() {
-			navigation_left_close();
+			Navigation_Left_Close();
 		});
 	/*Open*/
-		function navigation_left_open() {
+		function Navigation_Left_Open() {
 			document.getElementById("navigation_left").style.left = "0px";
 			document.getElementById("blur").style.display = "block";
-			document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_close();");
-			navigation_left_visible = true;
+			document.getElementById("navigation_left_button").setAttribute("onClick","javascript:Navigation_Left_Close();");
+			Navigation_Left_Visible = true;
 		};
 	/*Close*/
-		function navigation_left_close() {
+		function Navigation_Left_Close() {
 			document.getElementById("navigation_left").style.left = "";
 			document.getElementById("blur").style.display = "";
-			document.getElementById("navigation_left_button").setAttribute("onClick","javascript:navigation_left_open();");
-			navigation_left_visible = false;
+			document.getElementById("navigation_left_button").setAttribute("onClick","javascript:Navigation_Left_Open();");
+			Navigation_Left_Visible = false;
 		};
 
 /*Event to determine device resize*/
 	$(window).resize(function() {
-		var device_resolution_width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
-		if (device_resolution_width >= 896 && navigation_left_visible == true) {
-			navigation_left_close();
+		Device.Resolution.Width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
+		if (Device.Resolution.Width >= 896 && Navigation_Left_Visible == true) {
+			Navigation_Left_Close();
 		};
 	});
 
@@ -73,7 +80,7 @@ var navigation_left_visible;
 		var self_href = this.getAttribute("href");
 		history.pushState("", "hugoalh", self_href);
 		website_urlpageparameter_get();
-		navigation_left_close();
+		Navigation_Left_Close();
 	});
 	document.addEventListener('DOMContentLoaded', (event) => {
 		document.getElementById("initialscreen").style.display = "none";
