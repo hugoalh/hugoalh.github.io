@@ -7,13 +7,13 @@ hugoalh.github.io Navigation
 		jQuery 3(.4.1)
 */
 var Navigation_Left_Visible;
-var Device = {
+var Browser = {
 	"Language": (navigator.language || navigator.userLanguage || navigator.browserLanguage || navigator.systemLanguage).toLowerCase(),
 	"Resolution": {
 		"Width": (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth)
 	}
 };
-console.log(Device.Language);
+console.log(Browser.Language);
 
 /*Handle navigation left*/
 	/*Blur*/
@@ -37,8 +37,8 @@ console.log(Device.Language);
 
 /*Event to determine device resize*/
 	$(window).resize(function() {
-		Device.Resolution.Width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
-		if (Device.Resolution.Width >= 896 && Navigation_Left_Visible == true) {
+		Browser.Resolution.Width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
+		if (Browser.Resolution.Width >= 896 && Navigation_Left_Visible == true) {
 			Navigation_Left_Close();
 		};
 	});
