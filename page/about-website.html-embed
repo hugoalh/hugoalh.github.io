@@ -235,45 +235,7 @@
 			</table>
 		</li>
 		<li>
-			<h3>Gothic A1</h3>
-			<table>
-				<tbody>
-					<tr>
-						<th>
-							Type<br />
-							類別
-						</th>
-						<td>
-							Font<br />
-							字體
-						</td>
-					</tr>
-					<tr>
-						<th>
-							Version<br />
-							版本
-						</th>
-						<td>한국어</td>
-					</tr>
-					<tr>
-						<th>
-							Owner / Author<br />
-							擁有者／作者
-						</th>
-						<td>HanYang I&C Co Ltd</td>
-					</tr>
-					<tr>
-						<th>
-							License<br />
-							許可證／授權
-						</th>
-						<td></td>
-					</tr>
-				</tbody>
-			</table>
-		</li>
-		<li>
-			<h3>Minecraftia</h3>
+			<h3>Minecraft</h3>
 			<table>
 				<tbody>
 					<tr>
@@ -298,7 +260,7 @@
 							Owner / Author<br />
 							擁有者／作者
 						</th>
-						<td>Andrew Tyler</td>
+						<td>Mojang</td>
 					</tr>
 					<tr style="display: none;">
 						<th>
