@@ -11,8 +11,7 @@ hugoalh.github.io Cascading Style Sheet - Main
 /*Import*/
 	/*Font*/
 		@import url("/font/noto_sans.css");
-		@import url("/font/gothic-a1.css");
-		@import url("/font/minecraftia.css");
+		@import url("/font/minecraft.css");
 
 /*Variable*/
 	:root {
