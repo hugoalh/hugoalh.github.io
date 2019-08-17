@@ -6,14 +6,43 @@ hugoalh.github.io Navigation
 		JavaScript/ECMAScript 6
 		jQuery 3(.4.1)
 */
-var Navigation_Left_Visible;
-var Browser = {
+var BrowserInformation = {
+	"Name": "",
+	"Agent": navigator.userAgent,
 	"Language": (navigator.language || navigator.userLanguage || navigator.browserLanguage || navigator.systemLanguage).toLowerCase(),
-	"Resolution": {
-		"Width": (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth)
+	"Screen": {
+		"Width": (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth),
+		"Height": (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight),
+		"Direction": ""
 	}
 };
-console.log(Browser.Language);
+/*Determine browser name*/
+if (BrowserInformation.Agent.indexOf("Firefox") > -1) {
+	BrowserInformation.Name = "Mozilla Firefox";
+} else if (BrowserInformation.Agent.indexOf("Opera") > -1 || BrowserInformation.Agent.indexOf("OPR") > -1) {
+	BrowserInformation.Name = "Opera";
+} else if (BrowserInformation.Agent.indexOf("Trident") > -1) {
+	BrowserInformation.Name = "Microsoft Internet Explorer";
+} else if (BrowserInformation.Agent.indexOf("Edge") > -1) {
+	BrowserInformation.Name = "Microsoft Edge";
+} else if (BrowserInformation.Agent.indexOf("Chrome") > -1) {
+	BrowserInformation.Name = "Google Chrome";
+} else if (BrowserInformation.Agent.indexOf("Safari") > -1) {
+	BrowserInformation.Name = "Apple Safari";
+} else {
+	BrowserInformation.Name = "Unknown";
+}
+
+/*Determine browser screen direction*/
+if (BrowserInformation.Screen.Width > BrowserInformation.Screen.Height) {
+	BrowserInformation.Screen.Direction = "Landscape";
+} else if (BrowserInformation.Screen.Width < BrowserInformation.Screen.Height) {
+	BrowserInformation.Screen.Direction = "Portrait";
+} else {
+	BrowserInformation.Screen.Direction = "Square";
+}
+
+var Navigation_Left_Visible;
 
 /*Handle navigation left*/
 	/*Blur*/
@@ -37,8 +66,8 @@ console.log(Browser.Language);
 
 /*Event to determine device resize*/
 	$(window).resize(function() {
-		Browser.Resolution.Width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
-		if (Browser.Resolution.Width >= 896 && Navigation_Left_Visible == true) {
+		BrowserInformation.Screen.Width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
+		if (BrowserInformation.Screen.Width >= 896 && Navigation_Left_Visible == true) {
 			Navigation_Left_Close();
 		};
 	});
