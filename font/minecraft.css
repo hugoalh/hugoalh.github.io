@@ -1,0 +1,15 @@
+/*
+Font Face - Minecraft
+	Author
+		Mojang
+	Language
+		CSS 3
+*/
+@font-face {
+	font-family: "Minecraft";
+	src: local("Minecraft"),
+		url("/font/minecraft.woff") format("woff");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: normal;
+}

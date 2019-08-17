@@ -1,5 +1,5 @@
-/*========
-Font, Noto, Sans
+/*
+Font Face - Noto Sans
 	Author
 		Google
 		Monotype Imaging Inc
@@ -8,7 +8,7 @@ Font, Noto, Sans
 		CSS 3
 	Source
 		https://www.google.com/get/noto/
-========*/
+*/
 @font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-Regular"), local("Noto Sans Regular"),
@@ -17,7 +17,7 @@ Font, Noto, Sans
 	font-style: normal;
 	font-weight: normal;
 }
-/*@font-face {
+@font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-Bold"), local("Noto Sans Bold"),
 		url("/font/noto_sans_bold.ttf") format("truetype");
@@ -26,24 +26,8 @@ Font, Noto, Sans
 	font-weight: bold;
 }
 @font-face {
-	font-family: "Noto Sans";
-	src: local("NotoSans-Italic"), local("Noto Sans Italic"),
-		url("/font/noto_sans_italic.ttf") format("truetype");
-	font-stretch: normal;
-	font-style: italic;
-	font-weight: normal;
-}
-@font-face {
-	font-family: "Noto Sans";
-	src: local("NotoSans-BoldItalic"), local("Noto Sans Bold Italic"),
-		url("/font/noto_sans_bold-italic.ttf") format("truetype");
-	font-stretch: normal;
-	font-style: italic;
-	font-weight: bold;
-}*/
-@font-face {
 	font-family: "Noto Sans ZH";
-	src: local("NotoSansTC-Regular"), local("Noto Sans TC Regular"),
+	src: local("NotoSansTC-Regular"), local("Noto Sans TC Regular"), local("Noto Sans CJK TC Regular"),
 		url("/font/noto_sans_zh_regular.woff2") format("woff2"),
 		url("/font/noto_sans_zh_regular.woff") format("woff"),
 		url("/font/noto_sans_zh_regular.otf") format("opentype");
@@ -51,39 +35,19 @@ Font, Noto, Sans
 	font-style: normal;
 	font-weight: normal;
 }
-/*@font-face {
+@font-face {
 	font-family: "Noto Sans ZH";
-	src: local("NotoSansTC-Bold"), local("Noto Sans TC Bold"),
+	src: local("NotoSansTC-Bold"), local("Noto Sans TC Bold"), local("Noto Sans CJK TC Bold"),
 		url("/font/noto_sans_zh_bold.woff2") format("woff2"),
 		url("/font/noto_sans_zh_bold.woff") format("woff"),
 		url("/font/noto_sans_zh_bold.otf") format("opentype");
 	font-stretch: normal;
 	font-style: normal;
 	font-weight: bold;
-}*/
-@font-face {
-	font-family: "Noto Sans ZHS";
-	src: local("NotoSansSC-Regular"), local("Noto Sans SC Regular"),
-		url("/font/noto_sans_zhs_regular.woff2") format("woff2"),
-		url("/font/noto_sans_zhs_regular.woff") format("woff"),
-		url("/font/noto_sans_zhs_regular.otf") format("opentype");
-	font-stretch: normal;
-	font-style: normal;
-	font-weight: normal;
 }
-/*@font-face {
-	font-family: "Noto Sans ZHS";
-	src: local("NotoSansSC-Bold"), local("Noto Sans SC Bold"),
-		url("/font/noto_sans_zhs_bold.woff2") format("woff2"),
-		url("/font/noto_sans_zhs_bold.woff") format("woff"),
-		url("/font/noto_sans_zhs_bold.otf") format("opentype");
-	font-stretch: normal;
-	font-style: normal;
-	font-weight: bold;
-}*/
 @font-face {
 	font-family: "Noto Sans JP";
-	src: local("NotoSansJP-Regular"), local("Noto Sans JP Regular"),
+	src: local("NotoSansJP-Regular"), local("Noto Sans JP Regular"), local("Noto Sans CJK JP Regular"),
 		url("/font/noto_sans_jp_regular.woff2") format("woff2"),
 		url("/font/noto_sans_jp_regular.woff") format("woff"),
 		url("/font/noto_sans_jp_regular.otf") format("opentype");
@@ -91,13 +55,29 @@ Font, Noto, Sans
 	font-style: normal;
 	font-weight: normal;
 }
-/*@font-face {
+@font-face {
 	font-family: "Noto Sans JP";
-	src: local("NotoSansJP-Bold"), local("Noto Sans JP Bold"),
+	src: local("NotoSansJP-Bold"), local("Noto Sans JP Bold"), local("Noto Sans CJK JP Bold"),
 		url("/font/noto_sans_jp_bold.woff2") format("woff2"),
 		url("/font/noto_sans_jp_bold.woff") format("woff"),
 		url("/font/noto_sans_jp_bold.otf") format("opentype");
 	font-stretch: normal;
 	font-style: normal;
 	font-weight: bold;
-}*/
+}
+@font-face {
+	font-family: "Noto Sans KR";
+	src: local("NotoSansKR-Regular"), local("Noto Sans KR Regular"), local("Noto Sans CJK KR Regular"),
+		url("/font/noto_sans_kr_regular.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Noto Sans KR";
+	src: local("NotoSansKR-Bold"), local("Noto Sans KR Bold"), local("Noto Sans CJK KR Bold"),
+		url("/font/noto_sans_kr_bold.otf") format("opentype");
+	font-stretch: normal;
+	font-style: normal;
+	font-weight: bold;
+}
