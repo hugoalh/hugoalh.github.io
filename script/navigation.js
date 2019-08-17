@@ -65,7 +65,7 @@ var Navigation_Left_Visible;
 		};
 
 /*Event to determine device resize*/
-	$(window).resize(function() {
+	window.addEventListener("resize", function() {
 		BrowserInformation.Screen.Width = (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth);
 		if (BrowserInformation.Screen.Width >= 896 && Navigation_Left_Visible == true) {
 			Navigation_Left_Close();
