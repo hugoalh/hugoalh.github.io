@@ -20,7 +20,7 @@ hugoalh.github.io Cascading Style Sheet - Main
 			--navigation_left_width: 256px;
 			--navigation_left_width_mirror: calc(0px - var(--navigation_left_width));
 		/*Color*/
-			--website_color: rgb(0,99,177);
+			--website_color: #0063b1;
 	}
 
 /*Common*/

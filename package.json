@@ -21,6 +21,7 @@
 	},
 	"dependencies": {
 		"jquery": "^3.4.1",
-		"Library.SVG": "^0.0.1"
+		"Library.SVG": "^0.0.1",
+		"SimplifyScript.Browser": "^0.0.1"
 	}
 }

@@ -1,5 +1,5 @@
 /*
-Storage - Web
+Simplify Script - Browser - Storage
 	Author
 		hugoalh
 	Language

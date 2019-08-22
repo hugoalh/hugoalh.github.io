@@ -1,0 +1,33 @@
+/*
+Cascading Style Sheet - Modern
+    Author
+        hugoalh
+    Language
+        CSS 3
+*/
+/*Prevent issue in non-unicode computer*/
+    @charset "UTF-8";
+
+/*Variable*/
+    :root {
+        /*Colour Theme*/
+            --ColourTheme_Main_Light: #0063b1;
+            --ColourTheme_Main_Dark: ;
+            --ColourTheme_Vice_Light: ;
+            --ColourTheme_Vice_Dark: ;
+            --ColourTheme_Information: ;
+            --ColourTheme_Warning: ;
+            --ColourTheme_Error: ;
+        /*Dimension*/
+            --Navigation_TopBar_Height: 48px;
+            --Navigation_SideBar_Width: 256px;
+            --Navigation_SideBar_Width_Mirror: calc(0px - var(--Navigation_SideBar_Width));
+    }
+
+button,
+button:focus {
+    outline: 0px !important;
+}
+iframe {
+    border: 0px;
+}
