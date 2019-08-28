@@ -5,7 +5,9 @@ Simplify Script - JavaScript - Browser Information
 	Language
 		JavaScript/ECMAScript 6
 */
-const BrowserInformation = {};
+/* Define Module Index */
+	const BrowserInformation = {};
+
 let Agent = navigator.userAgent;
 let BrandName;
 let Language = (navigator.language || navigator.userLanguage || navigator.browserLanguage || navigator.systemLanguage).toLowerCase();
@@ -19,50 +21,52 @@ let DataList = {
 		"https://",
 		".com",
 		".net",
-		"google web preview",
-		"google page speed insight",
-		"bingpreview",
-		"crawler"
+		"preview",
+		"crawler",
+		"google page speed insight"
 	]
 };
 
-/* Determine browser brand name */
-if (Agent.indexOf("Firefox") != -1) {
-	BrandName = "Mozilla Firefox";
-} else if (Agent.indexOf("Opera") != -1 || Agent.indexOf("OPR") != -1) {
-	BrandName = "Opera";
-} else if (Agent.indexOf("MSIE") != -1 || Agent.indexOf("Trident") != -1) {
-	BrandName = "Microsoft Internet Explorer";
-} else if (Agent.indexOf("Edge") != -1) {
-	BrandName = "Microsoft Edge";
-} else if (Agent.indexOf("Chrome") != -1) {
-	BrandName = "Google Chrome";
-} else if (Agent.indexOf("Safari") != -1) {
-	BrandName = "Apple Safari";
-} else {
-	BrandName = "Unknown";
-}
+/* Determine Browser Brand Name */
+	if (Agent.indexOf("Firefox") != -1) {
+		BrandName = "Mozilla Firefox";
+	} else if (Agent.indexOf("Opera") != -1 || Agent.indexOf("OPR") != -1) {
+		BrandName = "Opera";
+	} else if (Agent.indexOf("MSIE") != -1 || Agent.indexOf("Trident") != -1) {
+		BrandName = "Microsoft Internet Explorer";
+	} else if (Agent.indexOf("Edge") != -1) {
+		BrandName = "Microsoft Edge";
+	} else if (Agent.indexOf("Chrome") != -1) {
+		BrandName = "Google Chrome";
+	} else if (Agent.indexOf("Safari") != -1) {
+		BrandName = "Apple Safari";
+	} else {
+		BrandName = "Unknown";
+	}
 
-/* Determine bot */
-for (let index = 0; index < DataList.Bot.length; index++) {
-	if (Agent.toLowerCase().search(DataList.Bot[index]) != -1) {
-		Device = "Bot";
+/* Determine Bot */
+	for (index = 0; index < DataList["Bot"].length; index++) {
+		if (Agent.toLowerCase().search(DataList["Bot"][index]) != -1) {
+			Device = "Bot";
+		};
 	};
-};
 
-BrowserInformation.Agent = function(index = null) {
-	if (index == null) {
+BrowserInformation.Agent = function(Query = null) {
+	if (Query == null) {
 		return Agent;
 	};
 };
-BrowserInformation.Device = function(index = null) {
-	if (index == null) {
+BrowserInformation.Device = function(Query = null) {
+	if (Query == null) {
 		return Device;
-	} else if (Device.search(index) != -1) {
+	} else if (Device.search(Query) != -1) {
 		return true;
 	} else {
 		return false;
 	};
 };
 
-export { BrowserInformation };
+/* Package Module */
+export {
+	BrowserInformation
+};

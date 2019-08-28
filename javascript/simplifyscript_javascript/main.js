@@ -5,14 +5,17 @@ Simplify Script - JavaScript - Main
 	Language
 		JavaScript/ECMAScript 6
 */
-/* Define library index */
+/* Define Library Index */
 	const SimplifyScript_JavaScript = {};
 
-/* Library core */
+/* Library Core */
 	/* Version */
 	let LibraryVersion = "0.0.1";
 	SimplifyScript_JavaScript["Version"] = function(VersionSyntax = -1) {
 		let loot = LibraryVersion.split(".");
+		if (Number.isInteger(VersionSyntax) != true) {
+			VersionSyntax = -1;
+		};
 		if (VersionSyntax < -1 || VersionSyntax > 4) {
 			VersionSyntax = -1;
 		};
@@ -38,11 +41,13 @@ Simplify Script - JavaScript - Main
 		};
 	};
 
-/* Library module */
+/* Library Browser Module */
 	SimplifyScript_JavaScript["BrowserStorage"] = import("./module/browserstorage.js");
 	SimplifyScript_JavaScript["Math"] = import("./module/math.js");
 
-/* Package library as one module */
+/* Library NodeJS Module */
+
+/* Package Library As One Module */
 	const $SSJS = SimplifyScript_JavaScript
 	export {
 		SimplifyScript_JavaScript,
