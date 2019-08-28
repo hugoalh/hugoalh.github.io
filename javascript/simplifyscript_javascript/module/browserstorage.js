@@ -1,5 +1,5 @@
 /*
-Simplify Script - Browser - Storage
+Simplify Script - JavaScript - Browser Storage
 	Author
 		hugoalh
 	Language
@@ -30,29 +30,32 @@ console.table({
 		"Support Stat": Storage_SupportStat["Cookie"]
 	}
 });
-		
-/*Set*/
+
+/* Set */
 	function Storage_Set(Key, Value) {
 		if (Storage_SupportStat["LocalStorage"] == true) {
 			try {
 				window.localStorage.setItem(Key, Value);
-			} catch(error) {
+			} catch (error) {
 				console.error(error);
 			};
 		};
 	};
+
 /*Get*/
 	function Storage_Get(Key) {
 		if (Storage_SupportStat["LocalStorage"] == true) {
 			window.localStorage.getItem(Key);
 		};
 	};
+
 /*Delete*/
 	function Storage_Delete(Key) {
 		if (Storage_SupportStat["LocalStorage"] == true) {
 			window.localStorage.removeItem(Key);
 		};
 	};
+
 /*Delete All*/
 	function Storage_DeleteAll() {
 		if (Storage_SupportStat["LocalStorage"] == true) {

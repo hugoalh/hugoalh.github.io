@@ -1,12 +1,13 @@
 /*
-Cascading Style Sheet - Modern
+Modernize
     Author
         hugoalh
     Language
         CSS 3
 */
-/*Prevent issue in non-unicode computer*/
-    @charset "UTF-8";
+/*Prevent issue in old/different device (Do not modify!)*/
+    /*Unicode*/
+        @charset "UTF-8";
 
 /*Variable*/
     :root {
@@ -24,7 +25,15 @@ Cascading Style Sheet - Modern
             --Navigation_SideBar_Width_Mirror: calc(0px - var(--Navigation_SideBar_Width));
     }
 
-button,
+html, 
+body {
+    margin: 0px;
+    outline: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+button, 
 button:focus {
     outline: 0px !important;
 }
