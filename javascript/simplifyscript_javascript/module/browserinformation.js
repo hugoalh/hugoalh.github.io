@@ -8,46 +8,55 @@ Simplify Script - JavaScript - Browser Information
 /* Define Module Index */
 	const BrowserInformation = {};
 
-let Agent = navigator.userAgent;
-let BrandName;
-let Language = (navigator.language || navigator.userLanguage || navigator.browserLanguage || navigator.systemLanguage).toLowerCase();
-let Device;
-let OperatingSystem;
-let DataList = {
-	"Bot": [
+/* Data */
+	let Agent = navigator.userAgent;
+	let Device;
+	let OperatingSystem;
+	let BrandName;
+	let Language = (navigator.language || navigator.userLanguage || navigator.browserLanguage || navigator.systemLanguage).toLowerCase();
+	let QueryList_BotAgent = [
 		"bot",
 		"generator",
 		"http://",
 		"https://",
 		".com",
 		".net",
+		".io",
 		"preview",
 		"crawler",
 		"google page speed insight"
-	]
-};
+	];
+
+/* Determine Device */
+	for (index = 0; index < QueryList_BotAgent.length; index++) {
+		if (Agent.toLowerCase().search(QueryList_BotAgent[index]) != -1) {
+			Device = "Bot";
+		};
+	};
+	if (Device != "Bot") {
+		if (Agent.search("TV") != -1) {
+			Device = "Television";
+		};
+	};
 
 /* Determine Browser Brand Name */
-	if (Agent.indexOf("Firefox") != -1) {
-		BrandName = "Mozilla Firefox";
-	} else if (Agent.indexOf("Opera") != -1 || Agent.indexOf("OPR") != -1) {
-		BrandName = "Opera";
-	} else if (Agent.indexOf("MSIE") != -1 || Agent.indexOf("Trident") != -1) {
-		BrandName = "Microsoft Internet Explorer";
-	} else if (Agent.indexOf("Edge") != -1) {
-		BrandName = "Microsoft Edge";
-	} else if (Agent.indexOf("Chrome") != -1) {
-		BrandName = "Google Chrome";
-	} else if (Agent.indexOf("Safari") != -1) {
-		BrandName = "Apple Safari";
+	if (Device == "Bot") {
+		BrandName = "Bot";
 	} else {
-		BrandName = "Unknown";
-	}
-
-/* Determine Bot */
-	for (index = 0; index < DataList["Bot"].length; index++) {
-		if (Agent.toLowerCase().search(DataList["Bot"][index]) != -1) {
-			Device = "Bot";
+		if (Agent.indexOf("Firefox") != -1) {
+			BrandName = "Mozilla Firefox";
+		} else if (Agent.indexOf("Opera") != -1 || Agent.indexOf("OPR") != -1) {
+			BrandName = "Opera";
+		} else if (Agent.indexOf("MSIE") != -1 || Agent.indexOf("Trident") != -1) {
+			BrandName = "Microsoft Internet Explorer";
+		} else if (Agent.indexOf("Edge") != -1) {
+			BrandName = "Microsoft Edge";
+		} else if (Agent.indexOf("Chrome") != -1) {
+			BrandName = "Google Chrome";
+		} else if (Agent.indexOf("Safari") != -1) {
+			BrandName = "Apple Safari";
+		} else {
+			BrandName = "Unknown";
 		};
 	};
 
