@@ -6,10 +6,6 @@ hugoalh.github.io Navigation
 		JavaScript/ECMAScript 6
 		jQuery 3(.4.1)
 */
-try {
-	import SSJS from "./simplifyscript_javascript/main.js";
-} catch(Error) {};
-
 var BrowserInformation = {
 	"Name": "",
 	"Agent": navigator.userAgent,
