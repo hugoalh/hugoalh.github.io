@@ -48,8 +48,4 @@ Simplify Script - JavaScript - Main
 /* Library NodeJS Module */
 
 /* Package Library As One Module */
-	const SSJS = SimplifyScript_JavaScript
-	export {
-		SimplifyScript_JavaScript,
-		SSJS
-	};
+	export default SimplifyScript_JavaScript;
