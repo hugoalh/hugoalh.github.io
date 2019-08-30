@@ -6,7 +6,7 @@ hugoalh.github.io Navigation
 		JavaScript/ECMAScript 6
 		jQuery 3(.4.1)
 */
-import SSJS from "/javascript/simplifyscript_javascript/main.js";
+const SSJS = require("/javascript/simplifyscript_javascript/main.js");
 
 var BrowserInformation = {
 	"Name": "",
