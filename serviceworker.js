@@ -3,7 +3,7 @@ Service Worker
 	Author
 		hugoalh
 	Language
-		JavaScript/ECMAScript 6
+		JavaScript/ECMAScript 5
 */
 var Cache_Name = "cache_asset";
 var Cache_FileList = [

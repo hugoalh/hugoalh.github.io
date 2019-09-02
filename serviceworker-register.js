@@ -3,7 +3,7 @@ Service Worker - Register
 	Author
 		hugoalh
 	Language
-		JavaScript/ECMAScript 6
+		JavaScript/ECMAScript 5
 */
 if (navigator.serviceWorker.controller) {
 	console.info("%c[Service Worker] ", "font-weight: bold", "Already actived, skipped register process.");

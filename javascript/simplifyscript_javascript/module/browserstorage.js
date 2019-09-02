@@ -3,7 +3,7 @@ Simplify Script - JavaScript - Browser Storage
 	Author
 		hugoalh
 	Language
-		JavaScript/ECMAScript 6
+		JavaScript/ECMAScript 5
 */
 var Storage_SupportStat = {
 	"LocalStorage": false,

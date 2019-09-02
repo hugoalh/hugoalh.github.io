@@ -3,7 +3,7 @@ Simplify Script - JavaScript - Browser Information
 	Author
 		hugoalh
 	Language
-		JavaScript/ECMAScript 6
+		JavaScript/ECMAScript 5
 */
 /* Define Module Index */
 	const BrowserInformation = {};

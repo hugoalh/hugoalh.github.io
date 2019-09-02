@@ -3,7 +3,7 @@ hugoalh.github.io Navigation
 	Author
 		hugoalh
 	Language
-		JavaScript/ECMAScript 6
+		JavaScript/ECMAScript 5
 		jQuery 3(.4.1)
 */
 var BrowserInformation = {

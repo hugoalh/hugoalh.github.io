@@ -6,7 +6,7 @@ jQuery
 		JS Foundation
 		The jQuery Foundation
 	Language
-		JavaScript/ECMAScript 6
+		JavaScript/ECMAScript 5
 	License
 		MIT (jquery.org/license)
 */
