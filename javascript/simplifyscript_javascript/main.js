@@ -4,42 +4,40 @@ Simplify Script - JavaScript - Main
 		hugoalh
 	Language
 		JavaScript/ECMAScript 6
+		JavaScript Module Pattern
 */
-/* Define Library Index */
+/* Create Library Index */
 	const SimplifyScript_JavaScript = {};
-
+	
 /* Library Core */
 	/* Version */
-	let LibraryVersion = "0.0.1";
-	SimplifyScript_JavaScript["Version"] = function(VersionSyntax = -1) {
-		let loot = LibraryVersion.split(".");
-		if (Number.isInteger(VersionSyntax) != true) {
-			VersionSyntax = -1;
+		let LibraryVersion = "0.0.1";
+		SimplifyScript_JavaScript["Version"] = function(VersionSyntax = -1) {
+			let loot = LibraryVersion.split(".");
+			if (Number.isInteger(VersionSyntax) != true || VersionSyntax < -1 || VersionSyntax > 4) {
+				VersionSyntax = -1;
+			};
+			switch (VersionSyntax) {
+				case -1:
+					return LibraryVersion;
+					break;
+				case 0:
+					return loot[0];
+					break;
+				case 1:
+					return loot[1];
+					break;
+				case 2:
+					return loot[2];
+					break;
+				case 3:
+					return loot[0] + "." + loot[1];
+					break;
+				case 4:
+					return loot[1] + "." + loot[2];
+					break;
+			};
 		};
-		if (VersionSyntax < -1 || VersionSyntax > 4) {
-			VersionSyntax = -1;
-		};
-		switch (VersionSyntax) {
-			case -1:
-				return LibraryVersion;
-				break;
-			case 0:
-				return loot[0];
-				break;
-			case 1:
-				return loot[1];
-				break;
-			case 2:
-				return loot[2];
-				break;
-			case 3:
-				return loot[0] + "." + loot[1];
-				break;
-			case 4:
-				return loot[1] + "." + loot[2];
-				break;
-		};
-	};
 
 /* Library Browser Module */
 	SimplifyScript_JavaScript["BrowserStorage"] = import("./module/browserstorage.js");
@@ -47,9 +45,9 @@ Simplify Script - JavaScript - Main
 
 /* Library NodeJS Module */
 
-/* Package Library As One Module */
+/* Package Library As Standalone */
 	const SSJS = SimplifyScript_JavaScript;
-	export {
+	export default {
 		SimplifyScript_JavaScript,
 		SSJS
 	};
