@@ -41,7 +41,7 @@ Simplify Script - JavaScript - Main
 
 /* Library Browser Module */
 	SimplifyScript_JavaScript["BrowserStorage"] = import("./module/browserstorage.js");
-	SimplifyScript_JavaScript["Math"] = import("./module/math.js");
+//	SimplifyScript_JavaScript["Math"] = import("./module/math.js");
 
 /* Library NodeJS Module */
 
