@@ -1,0 +1,20 @@
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-avatar
+  - jemoji
+  - jekyll-mentions
+  - jekyll-include-cache
+
+title: hugoalh
+
+description: hugoalh.github.io
+
+author: hugoalh
+
+twitter:
+  username: hugoalhofficial
+  card: summary
+
+logo: /favicon/hugoalh.ico
