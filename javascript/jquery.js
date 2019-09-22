@@ -1,10 +1,10 @@
 /*
 jQuery
-	Version
-		3.4.1
 	Author
 		JS Foundation
 		The jQuery Foundation
+	Version
+		3.4.1
 	Language
 		JavaScript/ECMAScript 5
 	License

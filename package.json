@@ -2,7 +2,7 @@
 	"name": "hugoalh.github.io",
 	"author": "hugoalh",
 	"description": "hugoalh's Website",
-	"version": "19.8.16",
+	"version": "19.9.22",
 	"keywords": [
 		"hugoalh",
 		"github",
@@ -22,6 +22,6 @@
 	"dependencies": {
 		"jquery": "^3.4.1",
 		"Library.SVG": "^0.0.1",
-		"SimplifyScript.Browser": "^0.0.1"
+		"SimplifyJavaScript": "^0.0.110"
 	}
 }
