@@ -41,7 +41,7 @@ hugoalh.github.io Cascading Style Sheet - Main
 			border: 0px;
 			outline: 0px;
 			padding: 0px;
-			font-family: "Segoe UI Emoji", "Apple Color Emoji", sans-serif, "Noto Sans", "Noto Sans ZH", "Noto Sans JP", "Noto Sans KR";
+			font-family: sans-serif, "Segoe UI Emoji", "Apple Color Emoji", "Noto Sans", "Noto Sans ZH", "Noto Sans JP", "Noto Sans KR";
 			font-size: 10pt;
 		}
 	/*Scrollbar*/
