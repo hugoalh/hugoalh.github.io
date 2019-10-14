@@ -1,3 +1,8 @@
+# ================
+# hugoalh.github.io - 404 Configuration
+# 	Last Update
+# 		2019-10-14
+# ================
 layout: default
 
-permalink: index.html
+permalink: ./404.html

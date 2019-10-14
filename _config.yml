@@ -1,18 +1,41 @@
-plugins:
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-avatar
-  - jemoji
-  - jekyll-mentions
-  - jekyll-include-cache
+# ================
+# hugoalh.github.io - Jekyll Configuration
+# 	Last Update
+# 		2019-10-14
+# ================
+encoding: utf-8
 
 title: hugoalh
 
 author: hugoalh
 
-twitter:
-  username: hugoalhofficial
-  card: summary
+description: hugoalh.github.io
 
-logo: /favicon/hugoalh.ico
+timezone: Etc/UTC
+
+logo: ./favicon/hugoalh.ico
+
+plugins:
+  - jekyll-avatar
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-include-cache
+  - jekyll-mentions
+  - jekyll-optional-front-matter
+  - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-redirect-from
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-titles-from-headings
+  - jemoji
+
+defaults:
+  -
+    scope:
+      path: 
+    values:
+      layout: default

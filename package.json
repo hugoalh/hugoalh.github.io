@@ -17,11 +17,11 @@
 		"url": "https://github.com/hugoalh/hugoalh.github.io/issues"
 	},
 	"homepage": "https://hugoalh.github.io",
-	"devDependencies": {
-	},
+	"devDependencies": {},
 	"dependencies": {
-		"jquery": "^3.4.1",
+		"JavaScriptMacro": "^0.2.0",
+		"Library.RepositoryResource": "^0.0.1",
 		"Library.SVG": "^0.0.1",
-		"JavaScriptMacro": "^0.2.0"
+		"jquery": "^3.4.1"
 	}
 }

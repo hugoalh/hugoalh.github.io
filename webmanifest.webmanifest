@@ -1,8 +1,8 @@
 {
 	"name": "hugoalh",
 	"short_name": "hugoalh",
-	"description": "",
 	"author": "hugoalh",
+	"description": "hugoalh.github.io",
 	"display": "standalone",
 	"dir": "auto",
 	"orientation": "portrait-primary",

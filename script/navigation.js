@@ -1,11 +1,11 @@
-/*
+/*================
 hugoalh.github.io Navigation
 	Author
 		hugoalh
 	Language
 		JavaScript/ECMAScript 5
 		jQuery 3(.4.1)
-*/
+================*/
 var BrowserInformation = {
 	"Name": "",
 	"Agent": navigator.userAgent,

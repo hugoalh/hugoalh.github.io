@@ -1,4 +1,4 @@
-/*
+/*================
 Font Face - Noto Sans
 	Author
 		Google
@@ -8,7 +8,7 @@ Font Face - Noto Sans
 		CSS 3
 	Source
 		https://www.google.com/get/noto/
-*/
+================*/
 @font-face {
 	font-family: "Noto Sans";
 	src: local("NotoSans-Regular"), local("Noto Sans Regular"),
