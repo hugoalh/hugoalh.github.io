@@ -36,6 +36,6 @@ plugins:
 defaults:
   -
     scope:
-      path: 
+      path: ""
     values:
       layout: default
