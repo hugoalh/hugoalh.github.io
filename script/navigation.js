@@ -52,9 +52,9 @@ window.addEventListener("resize", function () {
 		var urlpageparameter_encode = "#navigation #menu a[href=\"" + urlpageparameter + "\"]";
 		$("#navigation #menu a").removeClass("navigation_currentpage");
 		$(urlpageparameter_encode).addClass("navigation_currentpage");
-		$("#page").load(urlpageparameter + " #page", function (response, status, xhr) {
+		$("#page").load(urlpageparameter + " #content", function (response, status, xhr) {
 			if (status == "error" || status == "timeout" || status == "abort" || status == "parsererror") {
-				$("#page").load("/404 #page");
+				$("#page").load("/404 #content");
 			};
 		}).scrollTop(0);
 	};
