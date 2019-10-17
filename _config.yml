@@ -36,6 +36,16 @@ plugins:
 defaults:
   -
     scope:
-      path: ""
+      path: ./index.html
+    values:
+      layout: default
+  -
+    scope:
+      path: ./404.html
+    values:
+      layout: default
+  -
+    scope:
+      path: ./page/
     values:
       layout: default

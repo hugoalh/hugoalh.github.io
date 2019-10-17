@@ -16,9 +16,9 @@ hugoalh.github.io - Cascading Style Sheet - Main
 /* Variable */
 :root {
 	/* Dimension */
-	--navigation_top_height: 48px;
-	--navigation_left_width: 256px;
-	--navigation_left_width_mirror: calc(0px - var(--navigation_left_width));
+	--heroheader_height: 48px;
+	--navigation_width: 256px;
+	--navigation_width_mirror: calc(0px - var(--navigation_width));
 	/* Color */
 	--website_color: #0063b1;
 }
@@ -112,12 +112,12 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	background-repeat: no-repeat;
 	background-size: auto;
 }
-#navigation_top {
+#heroheader {
 	z-index: 2;
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: var(--navigation_top_height);
+	height: var(--heroheader_height);
 	overflow: hidden;
 	font-size: 0pt;
 	color: rgb(255,255,255);
@@ -132,12 +132,12 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#navigation_left {
+#navigation {
 	z-index: 2;
-	top: var(--navigation_top_height);
+	top: var(--heroheader_height);
 	bottom: 0px;
-	left: var(--navigation_left_width_mirror);
-	width: var(--navigation_left_width);
+	left: var(--navigation_width_mirror);
+	width: var(--navigation_width);
 	overflow-x: hidden;
 	color: rgb(255,255,255);
 	transition: left 0.4s;
@@ -150,8 +150,8 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-#navigation_top *, 
-#navigation_left * {
+#heroheader *, 
+#navigation * {
 	text-decoration: none !important;
 	cursor: default !important;
 	-ms-user-select: none !important;
@@ -160,7 +160,7 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	user-select: none !important;
 }
 #page {
-	top: var(--navigation_top_height);
+	top: var(--heroheader_height);
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
@@ -207,7 +207,7 @@ hugoalh.github.io - Cascading Style Sheet - Main
 }
 
 /* Navigation */
-#navigation_top > .left {
+#heroheader > .left {
 	display: inline-block;
 	box-sizing: border-box;
 	margin: 0px;
@@ -227,7 +227,7 @@ hugoalh.github.io - Cascading Style Sheet - Main
 		height: 32px;
 		vertical-align: middle;
 	}
-#navigation_top > .right {
+#heroheader > .right {
 	display: inline-block;
 	box-sizing: border-box;
 	margin: 0px;
@@ -238,7 +238,7 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	/* float: right; */
 	vertical-align: middle;
 }
-#navigation_left > #menu {
+#navigation > #menu {
 	display: block;
 	position: absolute;
 	box-sizing: border-box;
@@ -345,7 +345,7 @@ hugoalh.github.io - Cascading Style Sheet - Main
 		#menu > ul > li > ul > li > ul > li > a.navigation_currentpage {
 			padding-left: 44px;
 		}
-#navigation_left > #copyright {
+#navigation > #copyright {
 	display: table;
 	position: absolute;
 	box-sizing: border-box;
@@ -374,8 +374,8 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	}
 
 /* Button */
-#navigation_top button, 
-#navigation_top a {
+#heroheader button, 
+#heroheader a {
 	display: inline-block;
 	box-sizing: border-box;
 	margin: 0px;
@@ -387,28 +387,28 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	vertical-align: middle;
 	text-decoration: none;
 }
-#navigation_top button, 
-#navigation_top a, 
-#navigation_left #menu a, 
-#navigation_left #menu > ul > li > div {
+#heroheader button, 
+#heroheader a, 
+#navigation #menu a, 
+#navigation #menu > ul > li > div {
 	background-color: rgba(255,255,255,0);
 }
-#navigation_top button:hover, 
-#navigation_top a:hover, 
-#navigation_left #menu a:hover, 
-#navigation_left #menu > ul > li > div:hover {
+#heroheader button:hover, 
+#heroheader a:hover, 
+#navigation #menu a:hover, 
+#navigation #menu > ul > li > div:hover {
 	background-color: rgba(255,255,255,0.125);
 }
-#navigation_top button:active, 
-#navigation_top a:active, 
-#navigation_left #menu a:active, 
-#navigation_left #menu > ul > li > div:active {
+#heroheader button:active, 
+#heroheader a:active, 
+#navigation #menu a:active, 
+#navigation #menu > ul > li > div:active {
 	background-color: rgba(255,255,255,0.25);
 }
 
 /* Icon */
-#navigation_top button svg, 
-#navigation_top a svg {
+#heroheader button svg, 
+#heroheader a svg {
 	display: inline-block;
 	margin: 0px;
 	border: 0px;
@@ -435,18 +435,18 @@ table.zebra_vertical tr td:nth-child(odd) {
 /* Responsive */
 @media screen and (min-width: 896px) {
 	/* Website Structure */
-		#navigation_top {
-			width: var(--navigation_left_width);
+		#heroheader {
+			width: var(--navigation_width);
 		}
-		#navigation_left {
+		#navigation {
 			left: 0px;
 		}
 		#page {
 			top: 0px;
-			left: var(--navigation_left_width);
+			left: var(--navigation_width);
 		}
 	/* Button */
-		#navigation_left_button {
+		#navigation_button {
 			display: none !important;
 		}
 	/* Page Content */
