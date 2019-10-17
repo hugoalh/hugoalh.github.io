@@ -47,15 +47,14 @@ window.addEventListener("resize", function () {
 	/* Handle page */
 	function website_urlpageparameter_load(urlpageparameter) {
 		if (urlpageparameter === null || urlpageparameter == "homepage" || urlpageparameter == "/") {
-			urlpageparameter = "homepage";
 			history.replaceState("", "hugoalh", "/");
 		};
 		var urlpageparameter_encode = "#navigation #menu a[href=\"" + urlpageparameter + "\"]";
 		$("#navigation #menu a").removeClass("navigation_currentpage");
 		$(urlpageparameter_encode).addClass("navigation_currentpage");
-		$("#page").load(urlpageparameter + ".html div#content", function (response, status, xhr) {
+		$("#page").load(urlpageparameter + " #content", function (response, status, xhr) {
 			if (status == "error" || status == "timeout" || status == "abort" || status == "parsererror") {
-				$("#page").load("/404.html");
+				$("#page").load("/404 #content");
 			};
 		}).scrollTop(0);
 	};
