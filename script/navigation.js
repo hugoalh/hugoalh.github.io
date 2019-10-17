@@ -44,11 +44,6 @@ window.addEventListener("resize", function () {
 });
 
 /* Handle device URL parameter */
-	/* Parse URL parameter */
-	function website_urlpageparameter_get() {
-		var urlpageparameter_get = location.pathname;
-		website_urlpageparameter_load(urlpageparameter_get);
-	};
 	/* Handle page */
 	function website_urlpageparameter_load(urlpageparameter) {
 		if (urlpageparameter === null || urlpageparameter == "homepage" || urlpageparameter == "/") {
@@ -66,16 +61,16 @@ window.addEventListener("resize", function () {
 	};
 	/* Event to determine device URL change */
 	window.onpopstate = function () {
-		website_urlpageparameter_get();
+		website_urlpageparameter_load(location.pathname);
 	};
 
 /* Load navigation */
-website_urlpageparameter_get();
+website_urlpageparameter_load(location.pathname);
 $("#navigation #menu a").click(function (event) {
 	event.preventDefault();// Prevent browser to execute default action
 	var self_href = this.getAttribute("href");
 	history.pushState("", "hugoalh", self_href);
-	website_urlpageparameter_get();
+	website_urlpageparameter_load(location.pathname);
 	Navigation_Close();
 });
 document.addEventListener('DOMContentLoaded', (event) => {
