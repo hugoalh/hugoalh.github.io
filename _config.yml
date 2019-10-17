@@ -3,49 +3,49 @@
 # 	Last Update
 # 		2019-10-14
 # ================
-encoding: utf-8
+encoding: "utf-8"
 
-title: hugoalh
+title: "hugoalh"
 
-author: hugoalh
+author: "hugoalh"
 
-description: hugoalh.github.io
+description: "hugoalh.github.io"
 
-timezone: Etc/UTC
+timezone: "Etc/UTC"
 
-logo: ./favicon/hugoalh.ico
+logo: "./favicon/hugoalh.ico"
 
 plugins:
-  - jekyll-avatar
-  - jekyll-coffeescript
-  - jekyll-default-layout
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-include-cache
-  - jekyll-mentions
-  - jekyll-optional-front-matter
-  - jekyll-paginate
-  - jekyll-readme-index
-  - jekyll-redirect-from
-  - jekyll-relative-links
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-titles-from-headings
-  - jemoji
+  - "jekyll-avatar"
+  - "jekyll-coffeescript"
+  - "jekyll-default-layout"
+  - "jekyll-gist"
+  - "jekyll-github-metadata"
+  - "jekyll-include-cache"
+  - "jekyll-mentions"
+  - "jekyll-optional-front-matter"
+  - "jekyll-paginate"
+  - "jekyll-readme-index"
+  - "jekyll-redirect-from"
+  - "jekyll-relative-links"
+  - "jekyll-seo-tag"
+  - "jekyll-sitemap"
+  - "jekyll-titles-from-headings"
+  - "jemoji"
 
 defaults:
   -
     scope:
-      path: ./index.html
+      path: "index.html"
     values:
-      layout: default
+      layout: "default"
   -
     scope:
-      path: ./404.html
+      path: "404.html"
     values:
-      layout: default
+      layout: "default"
   -
     scope:
-      path: ./page/
+      path: "/page/"
     values:
-      layout: default
+      layout: "default"
