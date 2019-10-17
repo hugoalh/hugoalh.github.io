@@ -1,3 +1,6 @@
+---
+layout: "default"
+---
 <div id="content">
 	<h1>Welcome<br />歡迎</h1>
 	<p>

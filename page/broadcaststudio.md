@@ -1,3 +1,6 @@
+---
+layout: "default"
+---
 <div id="content">
 	<h2>YouTube</h2>
 	<iframe width="640" height="360" src="https://www.youtube.com/embed/W--fMlgfSL8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,3 +1,6 @@
+---
+layout: "default"
+---
 <div id="content">
 	<h1>
 		About Website<br />
