@@ -1,10 +1,10 @@
-/*================
+/*==============================================================================
 hugoalh.github.io - Service Worker
-	Author
+	Author:
 		hugoalh
-	Language
+	Language:
 		JavaScript 5
-================*/
+==============================================================================*/
 var Cache_Name = "cache_asset";
 var Cache_FileList = [
 	"/"
@@ -36,21 +36,21 @@ function precache() {
 };
 function fromCache(request) {
 	/* Pull files from the cache first thing to show them fast */
-		return caches.open(Cache_Name).then(function (cache) {
-			return cache.match(request).then(function (matching) {
-				return matching || Promise.reject("no-match");
-			});
+	return caches.open(Cache_Name).then(function (cache) {
+		return cache.match(request).then(function (matching) {
+			return matching || Promise.reject("no-match");
 		});
+	});
 };
 function update(request) {
 	/* Call the server to get the newest version of the file to use the next time of show view */
-		return caches.open(Cache_Name).then(function (cache) {
-			return fetch(request).then(function (response) {
-				return cache.put(request, response);
-			});
+	return caches.open(Cache_Name).then(function (cache) {
+		return fetch(request).then(function (response) {
+			return cache.put(request, response);
 		});
+	});
 };
 function fromServer(request) {
 	/* Fallback if it is not in the cahche to go to the server and get it */
-		return fetch(request).then(function(response){return response});
+	return fetch(request).then(function(response){return response});
 };

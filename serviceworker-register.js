@@ -1,10 +1,10 @@
-/*================
+/*==============================================================================
 hugoalh.github.io - Service Worker - Register
-	Author
+	Author:
 		hugoalh
-	Language
+	Language:
 		JavaScript 5
-================*/
+==============================================================================*/
 if (navigator.serviceWorker.controller) {
 	console.info("%c[Service Worker] ", "font-weight: bold", "Already actived, skipped register process.");
 } else {

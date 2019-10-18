@@ -1,11 +1,10 @@
-/*================
-hugoalh.github.io Navigation
-	Author
+/*==============================================================================
+hugoalh.github.io - Script - Navigation
+	Author:
 		hugoalh
-	Language
-		JavaScript/ECMAScript 5
-		jQuery 3(.4.1)
-================*/
+	Language:
+		JavaScript 5; jQuery 3(.4.1)
+==============================================================================*/
 var BrowserInformation = {
 	"Screen": {
 		"Width": (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth),
