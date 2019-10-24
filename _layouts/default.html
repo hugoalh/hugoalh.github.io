@@ -1,15 +1,22 @@
 <!DOCTYPE html>
+<!--============================================================================
+hugoalh.github.io - Layout - Default
+	Author
+		hugoalh
+	Language
+		HTML 5, Jekyll
+============================================================================--->
 <html>
 	<head>
 		{% include MetaData.html %}
 		<title>hugoalh</title>
 	</head>
 	<body>
-		{% include initialscreen.html %}
-		{% include heroheader.html %}
-		{% include navigation.html %}
+		{% include InitialScreen.html %}
+		{% include HeroHeader.html %}
+		{% include Navigation.html %}
 		<div class="framework" id="page">{{ content }}</div>
-		{% include noscript.html %}
+		{% include NoScript.html %}
 		<script src="/script/jquery.js"></script>
 		<script src="/script/navigation.js" defer></script>
 		<script src="/script/jsm.js" async></script>

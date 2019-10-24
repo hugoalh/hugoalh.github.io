@@ -3,13 +3,24 @@
 	"short_name": "hugoalh",
 	"author": "hugoalh",
 	"description": "hugoalh.github.io",
+	"categories": [
+		"books",
+		"education",
+		"entertainment",
+		"games",
+		"music",
+		"navigation",
+		"personalization",
+		"productivity",
+		"security",
+		"social",
+		"utilities"
+	],
 	"display": "standalone",
-	"dir": "auto",
 	"orientation": "portrait-primary",
+	"dir": "auto",
 	"scope": "/",
 	"start_url": "/",
-	"theme_color": "#0063B1",
-	"background_color": "#0063B1",
 	"icons": [
 		{
 			"src": "/favicon/hugoalh.ico",
