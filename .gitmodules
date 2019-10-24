@@ -1,0 +1,13 @@
+# ==============================================================================
+# hugoalh's Repository Resource - Git Ignore
+#   Author:
+#     hugoalh
+#   Language:
+#     Git-Configuration
+#   Last Update:
+#     2019-10-24
+# ==============================================================================
+[submodule "Library.SVG"]
+  active = true
+  path = Library/SVG
+  url = https://github.com/hugoalh/Library.SVG.git
