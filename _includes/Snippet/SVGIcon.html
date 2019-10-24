@@ -3,8 +3,8 @@ hugoalh.github.io - Snippet - SVG Icon
 	Author:
 		hugoalh
 	Language:
-		HTML 5, Jekyll
+		HTML 5, Jekyll, SVG
 ============================================================================--->
-<svg viewBox="0 0 24 24">
+<svg viewBox="0 0 24 24" id="{{- include.ID -}}" class="{{- include.Class -}}">
 	<use xlink:href="{{ include.Name | default: _Template | prepend: '/icon/' | append: '.svg#master'}}"></use>
 </svg>
