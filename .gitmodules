@@ -7,7 +7,7 @@
 #   Last Update:
 #     2019-10-24
 # ==============================================================================
-[submodule "Library.SVG"]
+[submodule "library-svg-icon"]
   active = true
   path = Library/SVG
   url = https://github.com/hugoalh/Library.SVG.git
