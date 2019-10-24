@@ -8,12 +8,8 @@ hugoalh.github.io - Template - Navigation
 <nav class="framework" id="navigation">
 	<div id="menu">
 		<ul>
-			<li><a href="/"><svg viewBox="0 0 24 24">
-						<use xlink:href="/icon/Home.svg#master"></use>
-					</svg><span>Homepage<br />首頁</span></a></li>
-			<li><a href="/page/about-hugoalh"><svg viewBox="0 0 24 24">
-						<use xlink:href="/icon/Face.svg#master"></use>
-					</svg><span>About hugoalh<br />關於hugoalh</span></a></li>
+			<li><a href="/">{% include Snippet/SVGIcon.html Name="Home" %}<span>Homepage<br />首頁</span></a></li>
+			<li><a href="/page/about-hugoalh">{% include Snippet/SVGIcon.html Name="Face" %}<span>About hugoalh<br />關於hugoalh</span></a></li>
 			<li><a href="/page/broadcaststudio"><svg viewBox="0 0 24 24">
 						<use xlink:href="/icon/BroadcastTower.svg#master"></use>
 					</svg><span>Broadcast Studio<br />廣播室</span></a></li>
