@@ -45,12 +45,11 @@ window.addEventListener("resize", function () {
 /* Handle device URL parameter */
 	/* Handle page */
 	function website_urlpageparameter_load(urlpageparameter) {
-		if (urlpageparameter === null || urlpageparameter == "homepage" || urlpageparameter == "/") {
+		if (urlpageparameter === null || urlpageparameter == "homepage" || urlpageparameter == "home" || urlpageparameter == "/") {
 			history.replaceState("", "hugoalh", "/");
 		};
-		var urlpageparameter_encode = "#navigation #menu a[href=\"" + urlpageparameter + "\"]";
 		$("#navigation #menu a").removeClass("navigation_currentpage");
-		$(urlpageparameter_encode).addClass("navigation_currentpage");
+		$("#navigation #menu a[href=\"" + urlpageparameter + "\"]").addClass("navigation_currentpage");
 		$("#page").load(urlpageparameter + " #content", function (response, status, xhr) {
 			if (status == "error" || status == "timeout" || status == "abort" || status == "parsererror") {
 				$("#page").load("/404 #content");
@@ -63,6 +62,7 @@ window.addEventListener("resize", function () {
 	//	};
 
 /* Load navigation */
+$("#navigation #menu a[href=\"" + location.pathname + "\"]").addClass("navigation_currentpage");
 $("#navigation #menu a").click(function (event) {
 	event.preventDefault();// Prevent browser to execute default action
 	var self_href = this.getAttribute("href");
