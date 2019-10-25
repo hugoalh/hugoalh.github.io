@@ -23,5 +23,8 @@
 		"Library.RepositoryResource": "^0.0.1",
 		"Library.SVG.Icon": "^0.0.1",
 		"jquery": "^3.4.1"
+	},
+	"scripts": {
+		"submodule-update": "git submodule update --remote --merge"
 	}
 }
