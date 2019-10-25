@@ -21,7 +21,7 @@
 	"dependencies": {
 		"JavaScriptMacro": "^0.2.0",
 		"Library.RepositoryResource": "^0.0.1",
-		"Library.SVG": "^0.0.1",
+		"Library.SVG.Icon": "^0.0.1",
 		"jquery": "^3.4.1"
 	}
 }
