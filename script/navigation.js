@@ -58,12 +58,11 @@ window.addEventListener("resize", function () {
 		}).scrollTop(0);
 	};
 	/* Event to determine device URL change */
-	window.onpopstate = function () {
-		website_urlpageparameter_load(location.pathname);
-	};
+	//	window.onpopstate = function () {
+	//		website_urlpageparameter_load(location.pathname);
+	//	};
 
 /* Load navigation */
-website_urlpageparameter_load(location.pathname);
 $("#navigation #menu a").click(function (event) {
 	event.preventDefault();// Prevent browser to execute default action
 	var self_href = this.getAttribute("href");
