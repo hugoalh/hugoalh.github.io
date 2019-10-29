@@ -17,7 +17,6 @@
 		"utilities"
 	],
 	"display": "standalone",
-	"orientation": "portrait-primary",
 	"dir": "auto",
 	"scope": "/",
 	"start_url": "/",

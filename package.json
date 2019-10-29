@@ -8,7 +8,8 @@
 		"github",
 		"personal-website"
 	],
-	"license": "",
+	"license": "UNLICENSED",
+	"private": true,
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/hugoalh/hugoalh.github.io.git"
@@ -20,9 +21,9 @@
 	"devDependencies": {},
 	"dependencies": {
 		"JavaScriptMacro": "^0.2.0",
+		"jquery": "^3.4.1",
 		"Library.RepositoryResource": "^0.0.1",
-		"Library.SVG.Icon": "^0.0.1",
-		"jquery": "^3.4.1"
+		"Library.SVG.Icon": "^0.0.1"
 	},
 	"scripts": {
 		"submodule-update": "git submodule update --remote --merge"
