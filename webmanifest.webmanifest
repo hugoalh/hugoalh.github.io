@@ -17,9 +17,7 @@
 		"utilities"
 	],
 	"display": "standalone",
-	"orientation" : "natural",
 	"dir": "auto",
-	"background_color" : "none",
 	"scope": "/",
 	"start_url": "/",
 	"icons": [

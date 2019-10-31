@@ -7,7 +7,7 @@ hugoalh.github.io - Service Worker - Register
 ==============================================================================*/
 if ("serviceWorker" in navigator) {
 	if (navigator.serviceWorker.controller) {
-		console.log("%cService Worker", "font-weight: bold", "\n" + "Active service worker found, no need to register.");
+		console.log("[hugoalh.github.io - Service Worker - Register] Active service worker found, no need to register.");
 	} else {
 		/* Register */
 		navigator.serviceWorker
@@ -15,7 +15,7 @@ if ("serviceWorker" in navigator) {
 				scope: "./"
 			})
 			.then(function (reg) {
-				console.log("%cService Worker", "font-weight: bold", "\n" + "Service worker has been registered for scope " + reg.scope + ".");
+				console.log("[hugoalh.github.io - Service Worker - Register] Service worker has been registered for scope " + reg.scope + ".");
 			});
 	};
 };

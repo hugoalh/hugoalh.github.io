@@ -36,11 +36,11 @@ function ComparePath(requestUrl, pathsArray) {
 };
 
 self.addEventListener("install", function (event) {
-	console.log("%cService Worker", "font-weight: bold", "\n" + "Install event processing. Skip waiting on install.");
+	console.log("[hugoalh.github.io - Service Worker] Install event processing. Skip waiting on install.");
 	self.skipWaiting();
 	event.waitUntil(
 		caches.open(CacheBaseName).then(function (cache) {
-			console.log("%cService Worker", "font-weight: bold", "\n" + "Caching pages during install.");
+			console.log("[hugoalh.github.io - Service Worker] Caching pages during install.");
 			return cache.addAll(PreCacheFile).then(function () {
 				return cache.add(OfflineFallbackPage);
 			});
@@ -50,7 +50,7 @@ self.addEventListener("install", function (event) {
 
 /* Allow service worker to control of current page */
 self.addEventListener("activate", function (event) {
-	console.log("%cService Worker", "font-weight: bold", "\n" + "Claiming client for current page.");
+	console.log("[hugoalh.github.io - Service Worker] Claiming client for current page.");
 	event.waitUntil(self.clients.claim());
 });
 
@@ -91,7 +91,7 @@ function CacheFirstFetch(event) {
 						if (event.request.destination !== "document" || event.request.mode !== "navigate") {
 							return;
 						};
-						console.log("%cService Worker", "font-weight: bold", "\n" + "Network request failed and no cache.", error);
+						console.log("[hugoalh.github.io - Service Worker] Network request failed and no cache.", error);
 						/* Use the precached offline page as fallback */
 						return caches.open(CacheBaseName).then(function (cache) {
 							cache.match(OfflineFallbackPage);
@@ -111,7 +111,7 @@ function NetworkFirstFetch(event) {
 				return response;
 			})
 			.catch(function (error) {
-				console.log("%cService Worker", "font-weight: bold", "\n" + "Network request failed. Serving content from cache: " + error);
+				console.log("[hugoalh.github.io - Service Worker] Network request failed. Serving content from cache: " + error);
 				return FromCache(event.request);
 			})
 	);
