@@ -16,11 +16,45 @@ hugoalh.github.io - Cascading Style Sheet - Main
 /* Variable */
 :root {
 	/* Dimension */
-	--heroheader_height: 48px;
-	--navigation_width: 256px;
-	--navigation_width_mirror: calc(0px - var(--navigation_width));
-	/* Color */
-	--website_color: #0063b1;
+	--HeroHeader_Height: 48px;
+	--Navigation_Width: 256px;
+	--Navigation_Width_Mirror: calc(0px - var(--Navigation_Width));
+	/* Theme */
+		/* hugoalh Colour */
+		--Theme_hugoalhColour_Main_BackgroundColour: #0063b1;
+		--Theme_hugoalhColour_Main_Text: #ffffff;
+		--Theme_hugoalhColour_Light_BackgroundColour: #5590e3;
+		--Theme_hugoalhColour_Light_Text: #000000;
+		--Theme_hugoalhColour_Dark_BackgroundColour: #003a81;
+		--Theme_hugoalhColour_Dark_Text: #ffffff;
+		/* Bright */
+		--Theme_Bright_Main_BackgroundColour: #f0f0f0;
+		--Theme_Bright_Main_Text: #000000;
+		--Theme_Bright_Light_BackgroundColour: #ffffff;
+		--Theme_Bright_Light_Text: #000000;
+		--Theme_Bright_Dark_BackgroundColour: #bebebe;
+		--Theme_Bright_Dark_Text: #000000;
+		/* Dark */
+		--Theme_Dark_Main_BackgroundColour: #101010;
+		--Theme_Dark_Main_Text: #ffffff;
+		--Theme_Dark_Light_BackgroundColour: #363636;
+		--Theme_Dark_Light_Text: #ffffff;
+		--Theme_Dark_Dark_BackgroundColour: #000000;
+		--Theme_Dark_Dark_Text: #ffffff;
+		/* Halloween */
+		--Theme_Halloween_Main_BackgroundColour: #ff8000;
+		--Theme_Halloween_Main_Text: #000000;
+		--Theme_Halloween_Light_BackgroundColour: #ffb143;
+		--Theme_Halloween_Light_Text: #000000;
+		--Theme_Halloween_Dark_BackgroundColour: #c55100;
+		--Theme_Halloween_Dark_Text: #ffffff;
+		/* Christmas */
+		--Theme_Christmas_Main_BackgroundColour: #d32f2f;
+		--Theme_Christmas_Main_Text: #ffffff;
+		--Theme_Christmas_Light_BackgroundColour: #ff6659;
+		--Theme_Christmas_Light_Text: #000000;
+		--Theme_Christmas_Dark_BackgroundColour: #9a0007;
+		--Theme_Christmas_Dark_Text: #ffffff;
 }
 
 /* Common */
@@ -103,7 +137,7 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	outline: 0px;
 	padding: 8px;
 	transition: display 0.4s;
-	background-color: var(--website_color);
+	background-color: var(--Theme_hugoalhColour_Main_BackgroundColour);
 	background-image: url("/microsoftwebapplication/tile_150x150.png");
 	background-attachment: fixed;
 	background-clip: border-box;
@@ -117,13 +151,13 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: var(--heroheader_height);
+	height: var(--HeroHeader_Height);
 	overflow: hidden;
 	font-size: 0pt;
 	color: rgb(255,255,255);
 	vertical-align: middle;
 	transition: width 0.4s;
-	background-color: var(--website_color);
+	background-color: var(--Theme_hugoalhColour_Main_BackgroundColour);
 	background-image: none;
 	background-attachment: fixed;
 	background-clip: border-box;
@@ -134,14 +168,14 @@ hugoalh.github.io - Cascading Style Sheet - Main
 }
 #navigation {
 	z-index: 2;
-	top: var(--heroheader_height);
+	top: var(--HeroHeader_Height);
 	bottom: 0px;
-	left: var(--navigation_width_mirror);
-	width: var(--navigation_width);
+	left: var(--Navigation_Width_Mirror);
+	width: var(--Navigation_Width);
 	overflow-x: hidden;
 	color: rgb(255,255,255);
 	transition: left 0.4s;
-	background-color: var(--website_color);
+	background-color: var(--Theme_hugoalhColour_Main_BackgroundColour);
 	background-image: none;
 	background-attachment: fixed;
 	background-clip: border-box;
@@ -160,7 +194,7 @@ hugoalh.github.io - Cascading Style Sheet - Main
 	user-select: none !important;
 }
 #page {
-	top: var(--heroheader_height);
+	top: var(--HeroHeader_Height);
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
@@ -436,14 +470,14 @@ table.zebra_vertical tr td:nth-child(odd) {
 @media screen and (min-width: 896px) {
 	/* Website Structure */
 		#heroheader {
-			width: var(--navigation_width);
+			width: var(--Navigation_Width);
 		}
 		#navigation {
 			left: 0px;
 		}
 		#page {
 			top: 0px;
-			left: var(--navigation_width);
+			left: var(--Navigation_Width);
 		}
 	/* Button */
 		#navigation_button {

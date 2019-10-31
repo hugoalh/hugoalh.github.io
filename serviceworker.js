@@ -5,52 +5,135 @@ hugoalh.github.io - Service Worker
 	Language:
 		JavaScript 5
 ==============================================================================*/
-var Cache_Name = "cache_asset";
-var Cache_FileList = [
-	"/"
+const CacheBaseName = "ServiceWorkerCache";
+const PreCacheFile = [
+	/* Array of files to precache */
+];
+const OfflineFallbackPage = "./offline.html";
+const NetworkFirstPath = [
+	/* Array of regex of paths that should go network first */
+	// Example: /\/api\/.*/
+	"/\./*/"
+];
+const AvoidCachePath = [
+	/* Array of regex of paths that should not be cached */
+	// Example: /\/api\/.*/
 ];
 
-/* Install stage sets up the cache-array to configure pre-cache content */
-self.addEventListener("install", function(evt) {
-	console.log("[Service Worker] Service worker is installed.");
-	evt.waitUntil(precache().then(function() {
-		console.log("[Service Worker] Skip waiting on install.");
-		return self.skipWaiting();
-	}));
+function PathComparer(requestUrl, pathRegEx) {
+	return requestUrl.match(new RegExp(pathRegEx));
+};
+
+function ComparePath(requestUrl, pathsArray) {
+	if (requestUrl) {
+		for (let index = 0; index < pathsArray.length; index++) {
+			if (PathComparer(requestUrl, pathsArray[index])) {
+				return true;
+			};
+		};
+	};
+	return false;
+};
+
+self.addEventListener("install", function (event) {
+	console.log("%cService Worker", "font-weight: bold", "\n" + "Install event processing. Skip waiting on install.");
+	self.skipWaiting();
+	event.waitUntil(
+		caches.open(CacheBaseName).then(function (cache) {
+			console.log("%cService Worker", "font-weight: bold", "\n" + "Caching pages during install.");
+			return cache.addAll(PreCacheFile).then(function () {
+				return cache.add(OfflineFallbackPage);
+			});
+		})
+	);
 });
 
 /* Allow service worker to control of current page */
-self.addEventListener("activate", function(event) {
-	console.log("[Service Worker] Claiming client for current page.");
-	return self.clients.claim();
+self.addEventListener("activate", function (event) {
+	console.log("%cService Worker", "font-weight: bold", "\n" + "Claiming client for current page.");
+	event.waitUntil(self.clients.claim());
 });
-self.addEventListener("fetch", function(evt) {
-	console.log("[Service Worker] Service worker is serving the asset: "+ evt.request.url);
-	evt.respondWith(fromCache(evt.request).catch(fromServer(evt.request)));
-	evt.waitUntil(update(evt.request));
+
+/* If any fetch fails, it will look for the request in the cache and serve it from there first */
+self.addEventListener("fetch", function (event) {
+	if (event.request.method !== "GET") {
+		return;
+	};
+	if (ComparePath(event.request.url, NetworkFirstPath)) {
+		NetworkFirstFetch(event);
+	} else {
+		CacheFirstFetch(event);
+	};
 });
-function precache() {
-	return caches.open(Cache_Name).then(function (cache) {
-		return cache.addAll(Cache_FileList);
-	});
+
+function CacheFirstFetch(event) {
+	event.respondWith(
+		FromCache(event.request).then(
+			function (response) {
+				/* The response was found in the cache so we responde with it and update the entry; This is where we call the server to get the newest version of the file to use the next time we show view */
+				event.waitUntil(
+					fetch(event.request).then(function (response) {
+						return UpdateCache(event.request, response);
+					})
+				);
+				return response;
+			},
+			function () {
+				/* The response was not found in the cache so we look for it on the server */
+				return fetch(event.request)
+					.then(function (response) {
+						/* If request was success, add or update it in the cache */
+						event.waitUntil(UpdateCache(event.request, response.clone()));
+						return response;
+					})
+					.catch(function (error) {
+						/* The following validates that the request was for a navigation to a new document */
+						if (event.request.destination !== "document" || event.request.mode !== "navigate") {
+							return;
+						};
+						console.log("%cService Worker", "font-weight: bold", "\n" + "Network request failed and no cache.", error);
+						/* Use the precached offline page as fallback */
+						return caches.open(CacheBaseName).then(function (cache) {
+							cache.match(OfflineFallbackPage);
+						});
+					});
+			}
+		)
+	);
 };
-function fromCache(request) {
-	/* Pull files from the cache first thing to show them fast */
-	return caches.open(Cache_Name).then(function (cache) {
+
+function NetworkFirstFetch(event) {
+	event.respondWith(
+		fetch(event.request)
+			.then(function (response) {
+				/* If request was success, add or update it in the cache */
+				event.waitUntil(UpdateCache(event.request, response.clone()));
+				return response;
+			})
+			.catch(function (error) {
+				console.log("%cService Worker", "font-weight: bold", "\n" + "Network request failed. Serving content from cache: " + error);
+				return FromCache(event.request);
+			})
+	);
+};
+
+function FromCache(request) {
+	/* Check to see if you have it in the cache, return response; If not in the cache, then return error page */
+	return caches.open(CacheBaseName).then(function (cache) {
 		return cache.match(request).then(function (matching) {
-			return matching || Promise.reject("no-match");
+			if (!matching || matching.status === 404) {
+				return Promise.reject("no-match");
+			};
+			return matching;
 		});
 	});
 };
-function update(request) {
-	/* Call the server to get the newest version of the file to use the next time of show view */
-	return caches.open(Cache_Name).then(function (cache) {
-		return fetch(request).then(function (response) {
+
+function UpdateCache(request, response) {
+	if (!ComparePath(request.url, AvoidCachePath)) {
+		return caches.open(CacheBaseName).then(function (cache) {
 			return cache.put(request, response);
 		});
-	});
-};
-function fromServer(request) {
-	/* Fallback if it is not in the cahche to go to the server and get it */
-	return fetch(request).then(function(response){return response});
+	};
+	return Promise.resolve();
 };

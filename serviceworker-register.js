@@ -5,11 +5,17 @@ hugoalh.github.io - Service Worker - Register
 	Language:
 		JavaScript 5
 ==============================================================================*/
-if (navigator.serviceWorker.controller) {
-	console.info("%c[Service Worker] ", "font-weight: bold", "Already actived, skipped register process.");
-} else {
-	/* Register */
-	navigator.serviceWorker.register("/serviceworker.js", {scope: "/"}).then(function(reg) {
-		console.info("%c[Service Worker] ", "font-weight: bold", "Registered for scope: "+ reg.scope);
-	});
+if ("serviceWorker" in navigator) {
+	if (navigator.serviceWorker.controller) {
+		console.log("%cService Worker", "font-weight: bold", "\n" + "Active service worker found, no need to register.");
+	} else {
+		/* Register */
+		navigator.serviceWorker
+			.register("/serviceworker.js", {
+				scope: "./"
+			})
+			.then(function (reg) {
+				console.log("%cService Worker", "font-weight: bold", "\n" + "Service worker has been registered for scope " + reg.scope + ".");
+			});
+	};
 };
