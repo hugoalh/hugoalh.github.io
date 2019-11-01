@@ -10,7 +10,6 @@ hugoalh.github.io - Cascading Style Sheet - Main
 
 /* Import */
 	/* Font */
-	@import url("/font/noto_sans.css");
 	@import url("/font/minecraft.css");
 
 /* Variable */
@@ -75,7 +74,7 @@ hugoalh.github.io - Cascading Style Sheet - Main
 		border: 0px;
 		outline: 0px;
 		padding: 0px;
-		font-family: "Noto Sans", "Noto Sans ZH", "Noto Sans JP", "Noto Sans KR", sans-serif;
+		font-family: sans-serif;
 		font-size: 10pt;
 	}
 	/* Scrollbar */
