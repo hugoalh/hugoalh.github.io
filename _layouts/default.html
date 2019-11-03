@@ -10,6 +10,9 @@ hugoalh.github.io - Layout - Default
 	<head>
 		{%- include MetaData.html -%}
 		<title>hugoalh</title>
+		<script src="/script/jquery.js" async></script>
+		<script src="/script/jsm.js" async></script>
+		<script src="/script/navigation.js" async defer></script>
 	</head>
 	<body>
 		{%- include InitialScreen.html -%}
@@ -17,8 +20,6 @@ hugoalh.github.io - Layout - Default
 		{%- include Navigation.html -%}
 		<div class="framework" id="page">{{- content -}}</div>
 		{%- include NoScript.html -%}
-		<script src="/script/jquery.js"></script>
-		<script src="/script/navigation.js" defer="true"></script>
-		<script src="/script/jsm.js"></script>
+
 	</body>
 </html>
