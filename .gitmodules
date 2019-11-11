@@ -1,12 +1,15 @@
 # ==============================================================================
-# hugoalh's Repository Resource - Git Ignore
+# hugoalh's Repository Resource - Git Module
 #   Author:
 #     hugoalh
 #   Language:
 #     Git-Configuration
 #   Last Update:
-#     2019-10-24
+#     2019-11-11
 # ==============================================================================
 [submodule "icon"]
 	path = icon
 	url = https://github.com/hugoalh/Library.SVG.Icon.git
+[submodule "script/javascriptmacro"]
+	path = script/javascriptmacro
+	url = https://github.com/hugoalh/JavaScriptMacro.git
