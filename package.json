@@ -1,8 +1,8 @@
 {
-	"name": "hugoalh",
+	"name": "hugoalh.github.io",
 	"author": "hugoalh",
 	"description": "hugoalh.github.io",
-	"version": "19.10.17",
+	"version": "2020.04.29",
 	"keywords": [
 		"hugoalh",
 		"github",
@@ -18,7 +18,6 @@
 		"url": "https://github.com/hugoalh/hugoalh.github.io/issues"
 	},
 	"homepage": "https://hugoalh.github.io",
-	"devDependencies": {},
 	"dependencies": {
 		"JavaScriptMacro": "^0.2.0",
 		"jquery": "^3.4.1",

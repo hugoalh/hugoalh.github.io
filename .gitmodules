@@ -1,4 +1,4 @@
-# ==============================================================================
+# ==================
 # hugoalh's Repository Resource - Git Module
 #   Author:
 #     hugoalh
@@ -6,7 +6,7 @@
 #     Git-Configuration
 #   Last Update:
 #     2019-11-11
-# ==============================================================================
+# ==================
 [submodule "icon"]
 	path = icon
 	url = https://github.com/hugoalh/Library.SVG.Icon.git

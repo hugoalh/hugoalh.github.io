@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<!--============================================================================
+<!--================
 hugoalh.github.io - Layout - Default
 	Author:
 		hugoalh
 	Language:
 		HTML 5, Jekyll
-============================================================================--->
+================--->
 <html>
 	<head>
 		{%- include MetaData.html -%}
@@ -13,7 +13,7 @@ hugoalh.github.io - Layout - Default
 		<script src="/script/pace.js" async></script>
 		<script src="/script/jquery.js"></script>
 		<script src="/script/navigation.js" defer></script>
-		<script type="module" src="/script/jsmtest.mjs"></script>
+		<!--<script type="module" src="/script/jsmtest.mjs"></script>--->
 	</head>
 	<body>
 		{%- include InitialScreen.html -%}
@@ -21,6 +21,5 @@ hugoalh.github.io - Layout - Default
 		{%- include Navigation.html -%}
 		<div class="framework" id="page">{{- content -}}</div>
 		{%- include NoScript.html -%}
-
 	</body>
 </html>

@@ -1,22 +1,16 @@
-# ==============================================================================
+# ==================
 # hugoalh.github.io - Jekyll Configuration
 #   Author:
 #     hugoalh
 #   Language:
 #     Jekyll, YAML
-# ==============================================================================
+# ==================
 encoding: "utf-8"
-
 title: "hugoalh"
-
 author: "hugoalh"
-
 description: "hugoalh.github.io"
-
 timezone: "Etc/UTC"
-
 logo: "./favicon/hugoalh.ico"
-
 plugins:
   - "jekyll-avatar"
   - "jekyll-coffeescript"
