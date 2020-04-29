@@ -14,7 +14,7 @@ if ("serviceWorker" in navigator) {
 			{
 				scope: "/"
 			}
-		).then(function (reg) {
+		).then((reg) => {
 			console.log(`[hugoalh.github.io - Service Worker - Register] Service worker has been registered for scope ${reg.scope}.`);
 		});
 	};
