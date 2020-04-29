@@ -24,6 +24,9 @@
 		"Library.RepositoryResource": "^0.0.1",
 		"Library.SVG.Icon": "^0.0.1"
 	},
+	"devDependencies": {
+		"eslint": "^6.8.0"
+	},
 	"scripts": {
 		"submodule-update": "git submodule update --remote --merge"
 	}
