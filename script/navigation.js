@@ -1,7 +1,5 @@
 /*==================
 hugoalh.github.io - Script - Navigation
-	Author:
-		hugoalh
 	Language:
 		JavaScript 5
 		jQuery 3(.5)

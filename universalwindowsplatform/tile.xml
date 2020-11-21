@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tile>
+	<visual branding="nameAndLogo" displayName="org.vefans.app.electron">
+		<binding template="TileSmall" branding="logo">
+		</binding>
+		<binding template="TileMedium TileWide TileLarge">
+			<group>
+				<subgroup>
+					<image src="??" hint-removeMargin="true" hint-crop="none" placement="peek" />
+					<text hint-style="subtitle" hint-align="left" hint-wrap="true">Jennifer Parker</text>
+					<text hint-style="captionSubtle" hint-align="left" hint-wrap="true">Photos from our trip</text>
+				</subgroup>
+			</group>
+			<text />
+			<group>
+				<subgroup>
+					<image src="??" hint-removeMargin="true" hint-crop="none" placement="peek" />
+					<text hint-style="subtitle" hint-align="left" hint-wrap="true">Steve Bosniak</text>
+					<text hint-style="captionSubtle" hint-align="left" hint-wrap="true">Build 2015 Dinner</text>
+				</subgroup>
+			</group>
+		</binding>
+	</visual>
+</tile>

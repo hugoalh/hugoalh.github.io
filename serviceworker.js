@@ -1,7 +1,5 @@
 /*==================
 hugoalh.github.io - Service Worker
-	Author:
-		hugoalh
 	Language:
 		JavaScript 5
 ==================*/

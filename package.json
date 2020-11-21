@@ -1,33 +1,30 @@
 {
 	"name": "hugoalh.github.io",
-	"author": "hugoalh",
-	"description": "hugoalh.github.io",
-	"version": "2020.04.29",
+	"version": "2020.11.21",
+	"description": "hugoalh's website.",
 	"keywords": [
 		"hugoalh",
 		"github",
 		"personal-website"
 	],
-	"license": "UNLICENSED",
-	"private": true,
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/hugoalh/hugoalh.github.io.git"
-	},
+	"homepage": "https://hugoalh.github.io",
 	"bugs": {
 		"url": "https://github.com/hugoalh/hugoalh.github.io/issues"
 	},
-	"homepage": "https://hugoalh.github.io",
+	"license": "UNLICENSED",
+	"author": "hugoalh",
+	"browser": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hugoalh/hugoalh.github.io.gitgit"
+	},
 	"dependencies": {
-		"JavaScriptMacro": "^0.2.0",
-		"jquery": "^3.4.1",
-		"Library.RepositoryResource": "^0.0.1",
+		"jquery": "^3.5.1",
 		"Library.SVG.Icon": "^0.0.1"
 	},
-	"devDependencies": {
-		"eslint": "^6.8.0"
+	"engines": {
+		"node": ">= 12.13.0",
+		"npm": ">= 6.12.0"
 	},
-	"scripts": {
-		"submodule-update": "git submodule update --remote --merge"
-	}
+	"private": true
 }

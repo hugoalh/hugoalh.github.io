@@ -1,0 +1,41 @@
+{
+	"vefans": {
+		"name": "模載聯合支援站",
+		"name_full": "模擬載運遊戲聯合支援站",
+		"name_short": "模載聯合"
+	},
+	"account": {
+		"signup": "註冊",
+		"signin": "登入",
+		"signout": "登出",
+		"username": "帳戶名稱",
+		"identificationnumber": "帳戶識別號碼",
+		"password": "密碼",
+		"securityquestion-step": "安全提問",
+		"securityquestion-question": "選擇問題",
+		"securityquestion-answer": "回答問題",
+		"manage": "帳戶管理",
+		"setting": "帳戶設定"
+	},
+	"loading": "正在載入",
+	"homepage": "首頁",
+	"forum": "論壇",
+	"announcement": "公告",
+	"statistic": "統計",
+	"status": "狀態",
+	"search": "搜尋",
+	"bank": "銀行",
+	"stock": "股票市場",
+	"shortmessage": "短消息",
+	"trend": {
+		"newestphoto": "最新圖片",
+		"newestpost": "最新帖文",
+		"newestcomment": "最新回覆",
+		"monthhotestpost": "本月熱門帖文",
+		"greatestpost": "精華帖文"
+	},
+	"setting": "設定",
+	"language": "語言",
+	"advertisement": "廣告",
+	"about": "關於"
+}

@@ -1,0 +1,10 @@
+{
+	"Minimize": "最小化",
+	"Normalize": "一般視窗",
+	"Maximize": "最大化視窗",
+	"Fullscreen": {
+		"Enter": "進入全螢幕模式",
+		"Exit": "退出全螢幕模式"
+	},
+	"Close": "關閉"
+}
