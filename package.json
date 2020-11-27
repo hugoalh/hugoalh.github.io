@@ -1,6 +1,6 @@
 {
 	"name": "hugoalh.github.io",
-	"version": "2020.11.21",
+	"version": "2020.11.27",
 	"description": "hugoalh's website.",
 	"keywords": [
 		"hugoalh",
@@ -16,10 +16,9 @@
 	"browser": true,
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/hugoalh/hugoalh.github.io.gitgit"
+		"url": "git+https://github.com/hugoalh/hugoalh.github.io.git"
 	},
 	"dependencies": {
-		"jquery": "^3.5.1",
 		"Library.SVG.Icon": "^0.0.1"
 	},
 	"engines": {

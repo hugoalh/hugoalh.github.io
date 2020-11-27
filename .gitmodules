@@ -8,6 +8,3 @@
 [submodule "icon"]
 	path = icon
 	url = https://github.com/hugoalh/Library.SVG.Icon.git
-[submodule "script/javascriptmacro"]
-	path = script/javascriptmacro
-	url = https://github.com/hugoalh/JavaScriptMacro.git
